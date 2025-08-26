@@ -98,9 +98,15 @@ async function combineDataFrames(
 
     let combinedDf: DataFrame = new DataFrame([]);
     for (let i = 0; i < websideInventoriesFilePaths.length; i++) {
+        try {
         console.log(`Loading ${websideInventoriesFilePaths[i]}`);
-        const currentDf = await DataFrame.fromCSV(websideInventoriesFilePaths[i]);
-        combinedDf = combinedDf.union(currentDf.select("Website", "Agency", "Bureau", "Office"));
+        const currentDf = await DataFrame.fromCSV(websideInventoriesFilePaths[i], true);
+        const cleanCols = currentDf.renameAll(currentDf.listColumns().map(c => c.trim()));
+        const strippedDf = cleanCols.select("Website", "Agency", "Bureau", "Office");
+        combinedDf = combinedDf.union(strippedDf);
+        } catch (error) {
+            console.warn(`Skipping ${websideInventoriesFilePaths[i]} save due to errors: ${error}`);
+        }
     }
     combinedDf.toCSV(true, outputCsvPath);
     console.log(`Combined CSV saved to ${outputCsvPath}`);
