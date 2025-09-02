@@ -30,11 +30,15 @@ async function downloadAllCsvFiles(inventoryPath: string, snapshotPath: string) 
 
                         const response = await axios.get(inventory.website_inventory, {
                             withCredentials: true,
+                            headers: {
+                                'User-Agent': 'Mozilla/5.0',
+                                'Accept': 'text/csv,text/plain',
+                            },
                             responseType: 'text',
                             maxRedirects: 5,
                         });
                         if (!response.status || response.status !== 200) {
-                            console.warn(`There was an issue loading the CSV from ${inventory.agency}: ${inventory.website_inventory} (HTTP ${response.status}). Skipping...`);
+                            console.warn(`There was an issue downloading the CSV from ${inventory.agency}: ${inventory.website_inventory} (HTTP ${response.status}). Skipping...`);
                             return null;
                         }
 
@@ -47,7 +51,7 @@ async function downloadAllCsvFiles(inventoryPath: string, snapshotPath: string) 
                                 .on('data', (r) => currentCsvRows.push(r))
                                 .on('end', () => res())
                                 .on('error', (error) => {
-                                    console.warn(`Skipping ${inventory.agency} due to parse error: ${error.message}`);
+                                    console.warn(`Skipping download from ${inventory.agency} due to parse error: ${error.message}`);
                                     res();
                                 });
                         });
@@ -59,7 +63,7 @@ async function downloadAllCsvFiles(inventoryPath: string, snapshotPath: string) 
                         selectedInventories = currentData.select("Website", "Agency", "Bureau", "Office");
                         selectedInventories.toCSV(true, savePath);
                     } catch (error: any) {
-                        console.warn(`Skipping ${inventory.agency} due to errors: ${error?.message ?? error}`);
+                        console.warn(`Skipping download from ${inventory.agency} due to errors: ${error?.message ?? error}`);
                         resolve();
                     }
                 });
@@ -105,7 +109,7 @@ async function combineDataFrames(
         const strippedDf = cleanCols.select("Website", "Agency", "Bureau", "Office");
         combinedDf = combinedDf.union(strippedDf);
         } catch (error) {
-            console.warn(`Skipping ${websideInventoriesFilePaths[i]} save due to errors: ${error}`);
+            console.warn(`Cannot aggregate ${websideInventoriesFilePaths[i]} due to errors: ${error}`);
         }
     }
     combinedDf.toCSV(true, outputCsvPath);
