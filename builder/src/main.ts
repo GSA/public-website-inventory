@@ -37,12 +37,12 @@ async function downloadAllCsvFiles(inventoryPath: string, snapshotPath: string) 
                             responseType: 'text',
                             maxRedirects: 5,
                         });
+                        console.log('Response status: ' + response.status + "\n");
+                        console.log('Response headers: ' + response.headers + "\n");
+                        console.log('Response data: ' + response.data + "\n");
+                        console.log('Response request: ' + response.request + "\n");
                         if (!response.status || response.status !== 200) {
                             console.warn(`There was an issue downloading the CSV from ${inventory.agency}: ${inventory.website_inventory} (HTTP ${response.status}). Skipping...`);
-                            console.log('Response status: ' + response.status + "\n");
-                            console.log('Response headers: ' + response.headers + "\n");
-                            console.log('Response data: ' + response.data + "\n");
-                            console.log('Response request: ' + response.request + "\n");
                             return null;
                         }
 
