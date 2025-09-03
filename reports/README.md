@@ -40,3 +40,8 @@ This folder contains automatically generated reports that flag websites that age
 
 For more details, see the [Site Scanning data dictionary](https://github.com/GSA/site-scanning-documentation/blob/main/data/Site_Scanning_Data_Dictionary.csv).  
 
+
+## [Inventory Stats Report](https://github.com/GSA/public-website-inventory/blob/main/reports/inventory_stats.csv)
+
+...
+
