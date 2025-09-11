@@ -32,10 +32,12 @@ async function downloadAllCsvFiles(inventoryPath: string, snapshotPath: string) 
                             withCredentials: true,
                             headers: {
                                 'User-Agent': 'Mozilla/5.0',
-                                'Accept': 'text/csv,text/plain',
+                                'Accept': 'text/csv,text/plain,*/**',
                             },
                             responseType: 'text',
                             maxRedirects: 5,
+                        }).catch(error => {
+                            return error.response
                         });
 
                         if (!response.status || response.status !== 200) {
@@ -43,7 +45,15 @@ async function downloadAllCsvFiles(inventoryPath: string, snapshotPath: string) 
                             return null;
                         }
 
-                        const currentCsvText = await response.data;
+                        let currentCsvText;
+                        if (response.headers['content-type'] && response.headers['content-type'].includes('text/html')) {
+                            const metaRefreshRegex = /url=(https?:\/\/[^"]+)/i;
+                            const refreshUrlMatches = response.data.match(metaRefreshRegex);
+                            currentCsvText = handleHtmlMetaRefresh(refreshUrlMatches[0]);
+                        } else {
+                            currentCsvText = await response.data;
+                        }
+
                         const currentCsvRows: any[] = [];
 
                         await new Promise<void>((res) => {
@@ -65,9 +75,6 @@ async function downloadAllCsvFiles(inventoryPath: string, snapshotPath: string) 
                         selectedInventories.toCSV(true, savePath);
                     } catch (error: any) {
                         console.warn(`Skipping download from ${inventory.agency} due to errors: ${error?.message ?? error}`);
-                        console.warn("Error Status: " + error.response?.statusText + "\n");
-                        console.warn("Error message: " + error.response?.message + "\n");
-                        console.warn("Error headers: " + error.response?.headers + "\n");
                         resolve();
                     }
                 });
@@ -93,6 +100,19 @@ function retrieveDomainFromUrl(url: string): string {
     const match = url.match(/^https?:\/\/(?:www\.)?([^.\/]+)/i)
     // @ts-ignore
     return match ? match[1] : "empty";
+}
+
+function handleHtmlMetaRefresh(redirectedUrl: string): any {
+    const response = axios.get(redirectedUrl, {
+        withCredentials: true,
+        headers: {
+            'User-Agent': 'Mozilla/5.0',
+            'Accept': 'text/csv,text/plain,*/**',
+        },
+        responseType: 'text'
+    })
+
+    response.then(response => {return response.data})
 }
 
 async function combineDataFrames(
