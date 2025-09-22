@@ -159,7 +159,7 @@ async function main() {
         await downloadAllCsvFiles(inventoryFilePath, snapshotFilePath);
         await combineDataFrames(
             getCsvFiles(snapshotFilePath),
-            'us-gov-public-website-inventory.csv'
+            '../us-gov-public-website-inventory.csv'
         );
         console.log('Download and storage complete.');
     } catch (error) {
