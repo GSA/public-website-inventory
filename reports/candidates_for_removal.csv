@@ -1,4 +1,5 @@
 agency,bureau,initial_domain,reason
+Department of Commerce,Bureau of Economic Analysis,apps.bea.gov,Redirect
 Department of Commerce,Census Bureau,access.census.gov,Filter
 Department of Commerce,Census Bureau,api.census.gov,Redirect
 Department of Commerce,Census Bureau,www2.census.gov,Filter
@@ -6,35 +7,38 @@ Department of Commerce,Department of Commerce,mbda.data.commerce.gov,Redirect
 Department of Commerce,Department of Commerce,mbda.data.commerce.gov,Status Code
 Department of Commerce,Economic Development Administration,eda.gov,Status Code
 Department of Commerce,International Trade Administration,access.trade.gov,Filter
-Department of Commerce,International Trade Administration,beta.trade.gov,Redirect
 Department of Commerce,International Trade Administration,enforcement.trade.gov,Redirect
 Department of Commerce,Minority Business Development Agency,mbda.gov,Status Code
+Department of Commerce,National Institute of Standards and Technology,abacus.nist.gov,Status Code
 Department of Commerce,National Institute of Standards and Technology,acvts.nist.gov,Status Code
 Department of Commerce,National Institute of Standards and Technology,ammd.nist.gov,Status Code
+Department of Commerce,National Institute of Standards and Technology,circular.nist.gov,Status Code
 Department of Commerce,National Institute of Standards and Technology,concrete.nist.gov,Redirect
 Department of Commerce,National Institute of Standards and Technology,cstl.nist.gov,Status Code
-Department of Commerce,National Institute of Standards and Technology,firedoc.nist.gov,Status Code
+Department of Commerce,National Institute of Standards and Technology,ghgr.nist.gov,Status Code
 Department of Commerce,National Institute of Standards and Technology,hit-dev.nist.gov,Filter
 Department of Commerce,National Institute of Standards and Technology,maldi.nist.gov,Status Code
-Department of Commerce,National Institute of Standards and Technology,smstestbed.nist.gov,Redirect
+Department of Commerce,National Institute of Standards and Technology,materials.registry.nist.gov,Status Code
+Department of Commerce,National Institute of Standards and Technology,nccoe.nist.gov,Status Code
 Department of Commerce,National Institute of Standards and Technology,survey.nist.gov,Redirect
 Department of Commerce,National Institute of Standards and Technology,www-nlpir.nist.gov,Filter
 Department of Commerce,National Oceanic and Atmospheric Administration,alaskafisheries.noaa.gov,Redirect
 Department of Commerce,National Oceanic and Atmospheric Administration,alpha.ngs.noaa.gov,Filter
 Department of Commerce,National Oceanic and Atmospheric Administration,apps-pifsc.fisheries.noaa.gov,Redirect
 Department of Commerce,National Oceanic and Atmospheric Administration,apps-sefsc.fisheries.noaa.gov,Redirect
+Department of Commerce,National Oceanic and Atmospheric Administration,archive.fisheries.noaa.gov,Status Code
 Department of Commerce,National Oceanic and Atmospheric Administration,california-mdc.diver.orr.noaa.gov,Redirect
 Department of Commerce,National Oceanic and Atmospheric Administration,carbontracker.noaa.gov,Redirect
-Department of Commerce,National Oceanic and Atmospheric Administration,celebrating200years.noaa.gov,Redirect
+Department of Commerce,National Oceanic and Atmospheric Administration,data.pmel.noaa.gov,Redirect
 Department of Commerce,National Oceanic and Atmospheric Administration,eeo.oar.noaa.gov,Redirect
 Department of Commerce,National Oceanic and Atmospheric Administration,extranet.gfdl.noaa.gov,Filter
+Department of Commerce,National Oceanic and Atmospheric Administration,fisheries.noaa.gov,Status Code
 Department of Commerce,National Oceanic and Atmospheric Administration,foss.nmfs.noaa.gov,Redirect
-Department of Commerce,National Oceanic and Atmospheric Administration,foss.nmfs.noaa.gov,Status Code
 Department of Commerce,National Oceanic and Atmospheric Administration,gisc-washington.ncep.noaa.gov,Status Code
 Department of Commerce,National Oceanic and Atmospheric Administration,graphical.mdl.nws.noaa.gov,Redirect
 Department of Commerce,National Oceanic and Atmospheric Administration,greatlakes-mdc.diver.orr.noaa.gov,Redirect
+Department of Commerce,National Oceanic and Atmospheric Administration,icoads.noaa.gov,Redirect
 Department of Commerce,National Oceanic and Atmospheric Administration,inport.nmfs.noaa.gov,Redirect
-Department of Commerce,National Oceanic and Atmospheric Administration,maps.coast.noaa.gov,Redirect
 Department of Commerce,National Oceanic and Atmospheric Administration,maps.water.noaa.gov,Status Code
 Department of Commerce,National Oceanic and Atmospheric Administration,maritimeboundaries.noaa.gov,Redirect
 Department of Commerce,National Oceanic and Atmospheric Administration,nws.weather.gov,Redirect
@@ -42,62 +46,89 @@ Department of Commerce,National Oceanic and Atmospheric Administration,om.cmdl.n
 Department of Commerce,National Oceanic and Atmospheric Administration,osmc.noaa.gov,Status Code
 Department of Commerce,National Oceanic and Atmospheric Administration,portal.diver.orr.noaa.gov,Redirect
 Department of Commerce,National Oceanic and Atmospheric Administration,sift.pmel.noaa.gov,Redirect
+Department of Commerce,National Oceanic and Atmospheric Administration,sites.gsl.noaa.gov,Redirect
 Department of Commerce,National Oceanic and Atmospheric Administration,ssd.noaa.gov,Redirect
 Department of Commerce,National Oceanic and Atmospheric Administration,stormscdn.ngs.noaa.gov,Filter
+Department of Commerce,National Oceanic and Atmospheric Administration,viz.pmel.noaa.gov,Redirect
 Department of Commerce,National Oceanic and Atmospheric Administration,webeast.ngs.noaa.gov,Status Code
+Department of Commerce,National Technical Information Service,ntis.gov,Status Code
 Department of Commerce,National Telecommunications and Information Administration,www2.ntia.gov,Filter
 Department of Commerce,NOAA Coastal Services Center,marinecadastre.gov,Redirect
 Department of Commerce,NWS/OPS33,climate.gov,Redirect
-Department of Commerce,USPTO,assignment.uspto.gov,Status Code
+Department of Commerce,Office of the Chief Information Officer,cldp.doc.gov,Status Code
+Department of Commerce,Office of the Chief Information Officer,tac.bis.doc.gov,Redirect
+Department of Commerce,USPTO,assignment.uspto.gov,Redirect
 Department of Commerce,USPTO,ppubs.uspto.gov,Status Code
 Department of Commerce,USPTO,www-search.uspto.gov,Filter
+Department of Homeland Security,"Department of Homeland Security, Office of the Chief Information Officer",niem.gov,Redirect
+Department of Homeland Security,"Department of Homeland Security, Office of the Chief Information Officer",niem.gov,Status Code
+Department of Homeland Security,U.S. Immigration and Customs Enforcement,join.ice.gov,Redirect
 Department of Homeland Security,USCIS,egov.uscis.gov,Status Code
 Department of Housing and Urban Development,Government National Mortgage Association,access.ginniemae.gov,Filter
 Department of Housing and Urban Development,Government National Mortgage Association,access.ginniemae.gov,Redirect
-Department of Housing and Urban Development,Web Master  Pulic Affair,apps.hud.gov,Redirect
 Department of Housing and Urban Development,Web Master  Pulic Affair,egis.hud.gov,Redirect
 Department of Housing and Urban Development,Web Master  Pulic Affair,hudapps.hud.gov,Status Code
 Department of Housing and Urban Development,Web Master  Pulic Affair,hudapps2.hud.gov,Status Code
-Department of Justice,U.S Immigration and Customs Enforcement,iprcenter.gov,Status Code
+National Aeronautics and Space Administration,Jet Propulsion Lab Communications and Education Directorate,scijinks.gov,Redirect
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,access.earthdata.nasa.gov,Filter
-National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,acd-pub.gsfc.nasa.gov,Redirect
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,aero.larc.nasa.gov,Redirect
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,akama.arc.nasa.gov,Redirect
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,apps.nasa.gov,Redirect
-National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,artcontest.larc.nasa.gov,Redirect
-National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,atrain.nasa.gov,Redirect
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,aura.gsfc.nasa.gov,Redirect
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,aviationsystems.arc.nasa.gov,Redirect
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,cce-signin.gsfc.nasa.gov,Redirect
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,climate.nasa.gov,Redirect
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,climatekids.nasa.gov,Redirect
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,deepspace.jpl.nasa.gov,Redirect
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,download.jpl.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,edrn.jpl.nasa.gov,Redirect
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,exoplanets.nasa.gov,Redirect
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,explore.jpl.nasa.gov,Redirect
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,extapps.ksc.nasa.gov,Status Code
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,external.jsc.nasa.gov,Redirect
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,eyes.nasa.gov,Redirect
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,frc-grants.arc.nasa.gov,Redirect
-National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,ftsdb.grc.nasa.gov,Status Code
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,hamradio.arc.nasa.gov,Redirect
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,hiliftpw.larc.nasa.gov,Redirect
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,historycollection.jsc.nasa.gov,Redirect
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,impact.earthdata.nasa.gov,Redirect
-National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,informal.jpl.nasa.gov,Redirect
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,informal.jpl.nasa.gov,Status Code
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,iono.jpl.nasa.gov,Redirect
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,ipda.jpl.nasa.gov,Redirect
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,iswa.ccmc.gsfc.nasa.gov,Redirect
-National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,maps.disasters.nasa.gov,Redirect
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,jpl.nasa.gov,Status Code
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,jplwater.nasa.gov,Status Code
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,lageos.gsfc.nasa.gov,Redirect
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,landsat.visibleearth.nasa.gov,Redirect
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,lws.larc.nasa.gov,Redirect
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,mars.nasa.gov,Redirect
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,matb.larc.nasa.gov,Redirect
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,mesa.jpl.nasa.gov,Status Code
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,modis-images.gsfc.nasa.gov,Redirect
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,moon.nasa.gov,Redirect
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,msqs.gsfc.nasa.gov,Status Code
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,narwhal.arc.nasa.gov,Redirect
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,nodis3.gsfc.nasa.gov,Status Code
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,oiir.hq.nasa.gov,Redirect
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,osdr.nasa.gov,Redirect
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,photojournal.jpl.nasa.gov,Redirect
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,power.smce.nasa.gov,Status Code
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,prism.jpl.nasa.gov,Redirect
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,satern.nasa.gov,Status Code
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,science.larc.nasa.gov,Redirect
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,sites.wff.nasa.gov,Redirect
-National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,sma.gsfc.nasa.gov,Status Code
-National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,socialforms.nasa.gov,Status Code
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,solarsystem.nasa.gov,Redirect
-National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,ssed.gsfc.nasa.gov,Redirect
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,spacescience.msfc.nasa.gov,Redirect
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,sunclimate.gsfc.nasa.gov,Redirect
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,taskbook.nasa.gov,Status Code
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,technology-api.ndc.nasa.gov,Filter
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,technology-api.ndc.nasa.gov,Redirect
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,ti.arc.nasa.gov,Redirect
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,voyager.jpl.nasa.gov,Redirect
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,vso.nascom.nasa.gov,Redirect
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,webb.nasa.gov,Redirect
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,webtools.ccmc.gsfc.nasa.gov,Redirect
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,wfc3.gsfc.nasa.gov,Redirect
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,www-air.larc.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,www-calipso.larc.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,www-gte.larc.nasa.gov,Filter
