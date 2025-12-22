@@ -1,8 +1,9 @@
 import csvParser from 'csv-parser';
 import {DataFrame} from 'dataframe-js';
+import fs from "node:fs/promises";
 import axios from "axios";
 import {Readable} from "node:stream";
-import type {SiteScannerData} from "./types/site-scanner-data";
+import type {SiteScannerData} from "./types/site-scanner-data.js";
 
 async function fetchSiteScannerData() {
     console.log("Fetching site scanner data...");
@@ -42,18 +43,24 @@ async function generateAdditions(siteScannerData: SiteScannerData[] | null) {
     if (!siteScannerData) return;
     let filteredScannerData =  siteScannerData.filter(row =>
         !row.source_list?.includes('omb_idea') &&
-        row.branch === 'executive' &&
-        !row.filter &&
+        row.branch === 'Executive' &&
+        row.filter === 'false' &&
         row.status_code !== undefined &&
         Number(row.status_code) >= 200 && Number(row.status_code) < 400 &&
-        row.dap &&
-        !row.redirect
+        row.dap === 'true' &&
+        row.redirect === 'false'
     );
 
     console.log(`Filtered ${filteredScannerData.length} candidates for addition.`);
-    let filteredScannerDataDf = new DataFrame(filteredScannerData);
-    filteredScannerDataDf.select("agency", "bureau", "initial_domain");
-    filteredScannerDataDf.toCSV(true, "../../reports/test_candidates_for_addition.csv");
+    try {
+        let filteredScannerDataDf = new DataFrame(filteredScannerData);
+        filteredScannerDataDf = filteredScannerDataDf.select("agency", "bureau", "initial_domain");
+        let orderedFilteredScannerDataDf = filteredScannerDataDf.sortBy(['agency', 'bureau', 'initial_domain'])
+        const writeCsv = orderedFilteredScannerDataDf.toCSV();
+        await fs.writeFile("../reports/test_candidates_for_addition.csv", writeCsv);
+    } catch (error) {
+        console.error(error);
+    }
     console.log("Candidate for addition report has been generated.");
 }
 
