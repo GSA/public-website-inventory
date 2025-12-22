@@ -9,6 +9,9 @@
   },
   "author": "Samuel Aquino",
   "license": "ISC",
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "devDependencies": {
     "@types/dataframe-js": "^1.4.3",
     "@types/node": "^24.2.1",
