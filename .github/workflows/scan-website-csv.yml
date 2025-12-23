@@ -23,11 +23,12 @@ jobs:
         run: |
           cd builder
           npm ci
+          npm run build
 
       - name: Run Site Scanner
         run: |
           cd builder
-          npx ts-node src/main.ts
+          npm run generate-inventory
 
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
