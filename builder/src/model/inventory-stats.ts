@@ -103,13 +103,14 @@ export class InventoryStats {
         return {
             agency: this._agency,
             website_inventory: this._website_inventory,
-            last_updated_date: this._last_updated_date,
-            website_count: this._website_count,
-            bureau_count: this._bureau_count,
-            office_count: this._office_count,
-            entries_without_bureau: this._entries_without_bureau,
-            entries_without_office: this._entries_without_office,
-            duplicate_websites: this._duplicate_websites,
+            last_updated: this._last_updated_date,
+            count_websites: this._website_count,
+            count_bureaus: this._bureau_count,
+            count_offices: this._office_count,
+            count_websites_without_bureau: this._entries_without_bureau,
+            count_websites_without_office: this._entries_without_office,
+            count_duplicate_websites: this._duplicate_websites,
+            count_unacceptable_urls: this._unacceptable_urls
         }
     }
 }

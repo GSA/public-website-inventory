@@ -38,7 +38,10 @@ async function generateWebsiteInventoryMap(): Promise<Map<string, string>> {
  *    - URL Validation: Identify unacceptable formats (contains '\', ':', '?', or 'www.').
  */
 async function generateInventoryStats(inventoryMap: Map<string, string>) {
-    let reportMap = new Map<string, InventoryStats>()
+    let reportMap = new Map<string, InventoryStats>;
+    let websiteCountMap = new Map<string, number>();
+    // to check duplicates across all agencies, I should build a map of websites -> number of them found
+    // then iterate over the unique websites list of each agency and add return the sum of all the counts for that agency's websites
     const publicWebsiteInventoryStream =
         fs.createReadStream('../us-gov-public-website-inventory.csv', { encoding: 'utf8' });
     const parser = csvParser({
@@ -47,8 +50,8 @@ async function generateInventoryStats(inventoryMap: Map<string, string>) {
     try {
         publicWebsiteInventoryStream.pipe(parser);
         for await (const row of parser) {
-            const publicInventoryRow = row as PublicWebsiteInventory;
-            const currentAgency = publicInventoryRow.agency;
+            const currentPublicInventoryRow = row as PublicWebsiteInventory;
+            const currentAgency = currentPublicInventoryRow.agency;
             let currentInventoryStat = reportMap.get(currentAgency);
 
             if (!currentInventoryStat) {
@@ -57,27 +60,31 @@ async function generateInventoryStats(inventoryMap: Map<string, string>) {
             }
             currentInventoryStat._agency = currentAgency;
 
-            if (publicInventoryRow.website) {
+            if (currentPublicInventoryRow.website?.trim()) {
                 currentInventoryStat._website_count = currentInventoryStat._website_count + 1;
-                const currentWebsite = publicInventoryRow.website;
+                const currentWebsite = currentPublicInventoryRow.website;
+                let currentWebsiteCount = websiteCountMap.get(currentWebsite);
+                if (!currentWebsiteCount) {
+                    currentWebsiteCount = 0;
+                }
+                websiteCountMap.set(currentWebsite, currentWebsiteCount + 1);
                 if(!currentInventoryStat._unique_websites.has(currentWebsite)) {
                     currentInventoryStat._unique_websites.add(currentWebsite);
-                } else {
-                    currentInventoryStat._duplicate_websites = currentInventoryStat._duplicate_websites + 1;
                 }
+
                 const re = /(\\|:|\?|www\.)/;
                 if (re.test(currentWebsite)) {
                     currentInventoryStat._unacceptable_urls = currentInventoryStat._unacceptable_urls + 1;
                 }
             }
 
-            if (publicInventoryRow.bureau) {
+            if (currentPublicInventoryRow.bureau?.trim()) {
                 currentInventoryStat._bureau_count = currentInventoryStat._bureau_count + 1;
             } else {
                 currentInventoryStat._entries_without_bureau = currentInventoryStat._entries_without_bureau + 1;
             }
 
-            if (publicInventoryRow.office) {
+            if (currentPublicInventoryRow.office?.trim()) {
                 currentInventoryStat._office_count = currentInventoryStat._office_count + 1;
             } else {
                 currentInventoryStat._entries_without_office = currentInventoryStat._entries_without_office + 1;
@@ -98,7 +105,16 @@ async function generateInventoryStats(inventoryMap: Map<string, string>) {
             if (currentInventoryStat) {
                 const domain = retrieveDomainFromUrl(currentInventory);
                 const latestCommitDate = getLastCommitDate(`../snapshots/${domain}.csv`);
+                let currentWebsiteDuplicationCount = 0;
+                for ( const uniqueWebsite of currentInventoryStat._unique_websites) {
+                    let currentWebsiteCount = websiteCountMap.get(uniqueWebsite);
+                    if (!currentWebsiteCount) continue;
+                    if (currentWebsiteCount > 1) {
+                        currentWebsiteDuplicationCount = currentWebsiteDuplicationCount + currentWebsiteCount;
+                    }
+                }
 
+                currentInventoryStat._duplicate_websites = currentWebsiteDuplicationCount;
                 currentInventoryStat.website_inventory = currentInventory;
                 currentInventoryStat.last_updated_date = latestCommitDate;
                 inventoryStats.push(currentInventoryStat.toCsvRow());
