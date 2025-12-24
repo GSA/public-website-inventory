@@ -8,7 +8,8 @@
     "build": "tsc -p tsconfig.json",
     "test": "echo \"Error: no test specified\" && exit 1",
     "generate-inventory": "node dist/main.js",
-    "generate-reports": "node dist/run-generate-reports.js"
+    "generate-reports": "node dist/run-generate-reports.js",
+    "run-all-analysis": "node dist/run-all-analysis.js"
   },
   "author": "Samuel Aquino",
   "license": "ISC",
