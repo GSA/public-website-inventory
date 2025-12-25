@@ -5,6 +5,7 @@ import axios from "axios";
 import {Readable} from "node:stream";
 import type {SiteScannerData} from "./types/site-scanner-data.js";
 import {RemovalData} from "./model/removal-data.js";
+import {ScanErrors} from "./model/scan-errors.js";
 
 async function fetchSiteScannerData() {
     console.log("Fetching site scanner data...");
@@ -98,10 +99,72 @@ async function generateRemovals(siteScannerData: SiteScannerData[] | null) {
     }
 }
 
+async function generateScannerErrorsReport(siteScannerData: SiteScannerData[] | null) {
+    if (!siteScannerData) {
+        console.warn("No site scanner data found.");
+        return;
+    }
+
+    let scanErrors = [];
+    for (const siteScannerDataRow of siteScannerData) {
+        const suspectedMetaRedirect = siteScannerDataRow.redirect === 'true';
+
+        const sslSet: Set<string> = new Set(['invalid_ssl_cert', 'ssl_protocol_error', 'ssl_version_cipher_mismatch']);
+        const primaryScanStatus = siteScannerDataRow.primary_scan_status ?? "";
+        const ssl = sslSet.has(primaryScanStatus);
+
+        const sameDomainAndBase = siteScannerDataRow.initial_domain === siteScannerDataRow.base_domain;
+        const statusCode = Number(siteScannerDataRow.status_code);
+        const wwwStatusCode = Number(siteScannerDataRow.www_status_code);
+        const onlyWwwStatusCodeIsValid = (statusCode >= 400 && statusCode < 600) && (wwwStatusCode >= 200 && wwwStatusCode < 300);
+
+        const wwwRequired = !sameDomainAndBase && onlyWwwStatusCodeIsValid;
+        const wwwForbidden = sameDomainAndBase && onlyWwwStatusCodeIsValid;
+
+        // if there is no scan error, skip this row
+        if (!suspectedMetaRedirect && !ssl && !wwwRequired && !wwwForbidden) {
+            continue;
+        }
+
+        let scanError: ScanErrors = new ScanErrors(
+            siteScannerDataRow.agency ?? "",
+            siteScannerDataRow.bureau ?? "",
+            siteScannerDataRow.initial_url ?? "",
+            siteScannerDataRow.initial_domain ?? "",
+            siteScannerDataRow.url ?? "",
+            siteScannerDataRow.domain ?? ""
+        );
+
+        if (suspectedMetaRedirect) {
+            scanError._issue = "Suspected Meta Redirect";
+        } else if (ssl) {
+            scanError._issue = "ssl";
+        } else if (wwwRequired) {
+            scanError._issue = "www-required";
+        } else {
+            scanError._issue = "www-forbidden";
+        }
+        scanErrors.push(scanError.toCsvRow());
+    }
+
+    if (scanErrors.length > 0) {
+        console.log(`Writing ${scanErrors.length} scan errors to scan-errors.csv...`);
+        try {
+            let scanErrorsDf = new DataFrame(scanErrors);
+            scanErrorsDf = scanErrorsDf.sortBy(['agency', 'bureau'])
+            const writeCsv = scanErrorsDf.toCSV();
+            await fs.writeFile("../reports/scan_errors.csv", writeCsv);
+        } catch (error) {
+            console.error(error);
+        }
+    }
+}
+
 export async function generateReports() {
     console.log("Running report generation...");
     const scannerApiData = await fetchSiteScannerData()
     await generateAdditions(scannerApiData);
     await generateRemovals(scannerApiData);
+    await generateScannerErrorsReport(scannerApiData);
     console.log("Report generation complete.");
 }
