@@ -1,20 +1,12 @@
-import * as domain from "node:domain";
-
 export class ScanErrors {
-    _agency: string = ""; // site scanner column
-    _bureau: string = ""; // site scanner column
-    _initial_url: string = ""; // site scanner column
-    _initial_domain: string = ""; // site scanner column
-    _url: string = ""; // site scanner column
-    _domain: string = ""; // site scanner column
+    _agency: string = "";
+    _bureau: string = "";
+    _initial_url: string = "";
+    _initial_domain: string = "";
+    _url: string = "";
+    _domain: string = "";
     _issue: string = "";
-    /**
-     * _issue
-     *  - redirect = true === "suspected meta redirect"
-     *  - primary_scan_status = "invalid_ssl_cert" | "ssl_protocol_error" | "ssl_version_cipher_mismatch" === SSL
-     *  - www_status_code = 2xx && status_code = 4xx to 5xx === "www-required"
-     *  - initial_domain === initial_base && (www_status_code = 2xx && status_code = 4xx to 5xx)
-     */
+
     constructor(agency: string, bureau: string, initial_url: string, initial_domain: string, url: string, domain: string) {
         this._agency = agency;
         this._bureau = bureau;
