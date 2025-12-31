@@ -44,7 +44,7 @@ async function generateAdditions(siteScannerData: SiteScannerData[] | null) {
     if (!siteScannerData) return;
     console.log("Filtering candidates for addition...");
     let filteredScannerData =  siteScannerData.filter(row =>
-        !row.source_list?.includes('omb_idea') &&
+        !row.source_list?.includes('public_inventory') &&
         row.branch === 'Executive' &&
         row.filter === 'false' &&
         row.status_code !== undefined &&
@@ -71,7 +71,7 @@ async function generateRemovals(siteScannerData: SiteScannerData[] | null) {
     console.log("Filtering candidates for removal...");
     const filteredScannerData: RemovalData[] = [];
     for (const siteScannerDataRow of siteScannerData) {
-        if (!siteScannerDataRow.source_list?.includes('omb_idea') &&
+        if (!siteScannerDataRow.source_list?.includes('public_inventory') &&
             siteScannerDataRow.branch === 'Executive') {
             let reason: string[] = [];
             if (siteScannerDataRow.filter === 'false') reason.push('Filter');
