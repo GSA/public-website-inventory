@@ -1,0 +1,39 @@
+name: Run Reports and Analysis
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 8 * * *'
+
+jobs:
+  report-generation:
+    name: Checkout, Build and Run
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '23.9.0'
+          cache: 'npm'
+
+      - name: Install Dependencies
+        working-directory: builder
+        run: |
+          npm ci
+          npm run build
+
+      - name: Run Report Generation
+        working-directory: builder
+        run: |
+          npm run generate-reports
+
+      - name: Run Analysis
+        working-directory: builder
+        run: |
+          npm run run-all-analysis
+
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Site scanned reports generated for US Government Website Directories
