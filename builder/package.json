@@ -5,10 +5,17 @@
   "main": "src/main.ts",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc -p tsconfig.json",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate-inventory": "node dist/main.js",
+    "generate-reports": "node dist/run-generate-reports.js",
+    "run-all-analysis": "node dist/run-all-analysis.js"
   },
   "author": "Samuel Aquino",
   "license": "ISC",
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "devDependencies": {
     "@types/dataframe-js": "^1.4.3",
     "@types/node": "^24.2.1",

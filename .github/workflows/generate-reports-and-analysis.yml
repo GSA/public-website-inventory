@@ -1,12 +1,11 @@
-name: Build and Scan Websites
-
+name: Run Reports and Analysis
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 6 * * *'
+    - cron: '0 8 * * *'
 
 jobs:
-  scanning:
+  report-generation:
     name: Checkout, Build and Run
     runs-on: ubuntu-latest
     steps:
@@ -20,16 +19,21 @@ jobs:
           cache: 'npm'
 
       - name: Install Dependencies
+        working-directory: builder
         run: |
-          cd builder
           npm ci
           npm run build
 
-      - name: Run Site Scanner
+      - name: Run Report Generation
+        working-directory: builder
         run: |
-          cd builder
-          npm run generate-inventory
+          npm run generate-reports
+
+      - name: Run Analysis
+        working-directory: builder
+        run: |
+          npm run run-all-analysis
 
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: Site scanned US Government Website Directories
+          commit_message: Site scanned reports generated for US Government Website Directories

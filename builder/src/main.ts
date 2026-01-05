@@ -4,11 +4,9 @@ import * as fs from 'fs';
 import axios from 'axios';
 import {Readable} from "node:stream";
 import * as path from 'path';
+import type {WebsiteInventory} from "./types/website-inventory-data.js";
+import {retrieveDomainFromUrl} from "./utils.js";
 
-interface WebsiteInventory {
-    agency: string;
-    website_inventory: string;
-}
 
 async function downloadAllCsvFiles(inventoryPath: string, snapshotPath: string) {
     return new Promise<void>((resolve) => {
@@ -94,12 +92,6 @@ async function downloadAllCsvFiles(inventoryPath: string, snapshotPath: string) 
                 resolve(); // do not reject; finish gracefully
             });
     });
-}
-
-function retrieveDomainFromUrl(url: string): string {
-    const match = url.match(/^https?:\/\/(?:www\.)?([^.\/]+)/i)
-    // @ts-ignore
-    return match ? match[1] : "empty";
 }
 
 function handleHtmlMetaRefresh(redirectedUrl: string): any {

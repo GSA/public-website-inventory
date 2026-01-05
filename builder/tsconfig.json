@@ -6,8 +6,8 @@
      "outDir": "./dist",
 
     // Environment Settings
-    "module": "ESNext",
-    "moduleResolution": "node",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
     "target": "ES2020",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
@@ -30,6 +30,9 @@
     "noUncheckedSideEffectImports": true,
     "moduleDetection": "force",
     "skipLibCheck": true,
+  },
+  "ts-node": {
+    "esm": true
   },
   "include": ["src/**/*.ts", "config/**/*.ts", "utils/**/*.ts"],
   "exclude": ["node_modules"]
