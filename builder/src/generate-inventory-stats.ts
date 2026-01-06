@@ -175,14 +175,16 @@ async function getInventoryAnalytics(row: PublicWebsiteInventory,
 
     for (const federalFileRow of federalFileData) {
         const currentFedRow = federalFileRow as FederalFileData;
-        currentInventoryAnalysis._domain_agency_in_registry = currentFedRow.agency
-        currentInventoryAnalysis._domain_bureau_in_registry = currentFedRow.organization_name;
-        currentInventoryAnalysis._agency_matches = currentFedRow.agency === currentAgency;
-        currentInventoryAnalysis._bureau_matches = currentFedRow.organization_name === currentBureau;
-        currentInventoryAnalysis._website_agency_name_in_registry = currentInventoryAnalysis._agency_matches || uniqueAgencyList.has(currentAgency);
-        currentInventoryAnalysis._website_bureau_name_in_registry = currentInventoryAnalysis._bureau_matches || uniqueBureauList.has(currentBureau);
-        inventoryAnalysis.push(currentInventoryAnalysis.toCsvRow());
+        if (currentWebsite === currentFedRow.domain_name) {
+            currentInventoryAnalysis._domain_agency_in_registry = currentFedRow.agency
+            currentInventoryAnalysis._domain_bureau_in_registry = currentFedRow.organization_name;
+            currentInventoryAnalysis._agency_matches = currentFedRow.agency === currentAgency;
+            currentInventoryAnalysis._bureau_matches = currentFedRow.organization_name === currentBureau;
+            currentInventoryAnalysis._website_agency_name_in_registry = currentInventoryAnalysis._agency_matches || uniqueAgencyList.has(currentAgency);
+            currentInventoryAnalysis._website_bureau_name_in_registry = currentInventoryAnalysis._bureau_matches || uniqueBureauList.has(currentBureau);
+        }
     }
+    inventoryAnalysis.push(currentInventoryAnalysis.toCsvRow());
 }
 
 async function fetchFederalFileData() {
