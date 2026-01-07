@@ -4,7 +4,7 @@ import csvParser from 'csv-parser';
 import {DataFrame} from "dataframe-js";
 import {InventoryAnalysis} from "./model/inventory-analysis.js";
 import {InventoryStats} from "./model/inventory-stats.js";
-import {retrieveDomainFromUrl} from "./utils.js";
+import {retrieveDomainFromUrl, retrieveBaseDomainFromUrl} from "./utils.js";
 import type {FederalFileData} from "./types/federal-file-data.js";
 import type {PublicWebsiteInventory} from "./types/public-website-inventory-data.js";
 import type {WebsiteInventory} from "./types/website-inventory-data.js";
@@ -172,16 +172,20 @@ async function getInventoryAnalytics(row: PublicWebsiteInventory,
     const currentBureau = currentPublicInventoryRow.bureau;
     const currentOffice = currentPublicInventoryRow.office;
     let currentInventoryAnalysis = new InventoryAnalysis(currentWebsite, currentAgency, currentBureau, currentOffice);
+    const baseDomain = retrieveBaseDomainFromUrl(currentWebsite);
+    console.log(`Processing base domain: ${baseDomain}`)
 
     for (const federalFileRow of federalFileData) {
         const currentFedRow = federalFileRow as FederalFileData;
-        if (currentWebsite === currentFedRow.domain_name) {
+        if (baseDomain === currentFedRow.domain_name) {
+            console.log(`Found matching domain ${baseDomain} in federal file data.`);
             currentInventoryAnalysis._domain_agency_in_registry = currentFedRow.agency
             currentInventoryAnalysis._domain_bureau_in_registry = currentFedRow.organization_name;
             currentInventoryAnalysis._agency_matches = currentFedRow.agency === currentAgency;
             currentInventoryAnalysis._bureau_matches = currentFedRow.organization_name === currentBureau;
             currentInventoryAnalysis._website_agency_name_in_registry = currentInventoryAnalysis._agency_matches || uniqueAgencyList.has(currentAgency);
             currentInventoryAnalysis._website_bureau_name_in_registry = currentInventoryAnalysis._bureau_matches || uniqueBureauList.has(currentBureau);
+            break;
         }
     }
     inventoryAnalysis.push(currentInventoryAnalysis.toCsvRow());
