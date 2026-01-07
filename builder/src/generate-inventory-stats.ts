@@ -173,6 +173,7 @@ async function getInventoryAnalytics(row: PublicWebsiteInventory,
     const currentOffice = currentPublicInventoryRow.office;
     let currentInventoryAnalysis = new InventoryAnalysis(currentWebsite, currentAgency, currentBureau, currentOffice);
     const baseDomain = retrieveBaseDomainFromUrl(currentWebsite);
+    console.log(`Processing ${baseDomain}...`);
 
     for (const federalFileRow of federalFileData) {
         const currentFedRow = federalFileRow as FederalFileData;
