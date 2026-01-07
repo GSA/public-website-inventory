@@ -173,12 +173,10 @@ async function getInventoryAnalytics(row: PublicWebsiteInventory,
     const currentOffice = currentPublicInventoryRow.office;
     let currentInventoryAnalysis = new InventoryAnalysis(currentWebsite, currentAgency, currentBureau, currentOffice);
     const baseDomain = retrieveBaseDomainFromUrl(currentWebsite);
-    console.log(`Processing base domain: ${baseDomain}`)
 
     for (const federalFileRow of federalFileData) {
         const currentFedRow = federalFileRow as FederalFileData;
         if (baseDomain === currentFedRow.domain_name) {
-            console.log(`Found matching domain ${baseDomain} in federal file data.`);
             currentInventoryAnalysis._domain_agency_in_registry = currentFedRow.agency
             currentInventoryAnalysis._domain_bureau_in_registry = currentFedRow.organization_name;
             currentInventoryAnalysis._agency_matches = currentFedRow.agency === currentAgency;
