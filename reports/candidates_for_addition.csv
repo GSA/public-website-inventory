@@ -1,4 +1,5 @@
 agency,bureau,initial_domain
+,American Battle Monuments Commission,abmc.gov
 ,American Battle Monuments Commission,wwiiregistry.abmc.gov
 ,Appraisal Subcommittee of the Federal Financial Institutions Examination Council,asc.gov
 ,Appraisal Subcommittee of the Federal Financial Institutions Examination Council,refermyappraisalcomplaint.asc.gov
@@ -45,7 +46,6 @@ agency,bureau,initial_domain
 ,Department of Commerce,globaldossier-ui.uspto.gov
 ,Department of Commerce,gmd-int.cmdl.noaa.gov
 ,Department of Commerce,incidenthistory.noaa.gov
-,Department of Commerce,internal-trademarkcenter-passive.uspto.gov
 ,Department of Commerce,lehdtest.did.census.gov
 ,Department of Commerce,lehdtest1.did.census.gov
 ,Department of Commerce,lehdtest6.did.census.gov
@@ -73,9 +73,9 @@ agency,bureau,initial_domain
 ,Department of Commerce,sdat.noaa.gov
 ,Department of Commerce,ssis.nist.gov
 ,Department of Commerce,steel.trade.gov
-,Department of Commerce,strbase-b.nist.gov
 ,Department of Commerce,swpc-drupal.woc.noaa.gov
 ,Department of Commerce,taskforce.coralreef.noaa.gov
+,Department of Commerce,testbed-cp.aviationweather.gov
 ,Department of Commerce,timegov.nist.gov
 ,Department of Commerce,tmog.uspto.gov
 ,Department of Commerce,tmp.fisheries.noaa.gov
@@ -104,10 +104,12 @@ agency,bureau,initial_domain
 ,Department of Defense,jamrs.defense.gov
 ,Department of Defense,jifco.defense.gov
 ,Department of Defense,jsc.defense.gov
+,Department of Defense,la.defense.gov
 ,Department of Defense,nrd.gov
 ,Department of Defense,nsa.gov
 ,Department of Defense,oig.nsa.gov
 ,Department of Defense,open.defense.gov
+,Department of Defense,ousdi.defense.gov
 ,Department of Defense,policy.war.gov
 ,Department of Defense,prhome.war.gov
 ,Department of Defense,valor.defense.gov
@@ -162,6 +164,7 @@ agency,bureau,initial_domain
 ,Department of Energy,aeroportal.nrel.gov
 ,Department of Energy,afdc.energy.gov
 ,Department of Energy,aim.nrel.gov
+,Department of Energy,anywhere.sandia.gov
 ,Department of Energy,aphysics2.lanl.gov
 ,Department of Energy,apqry.llnl.gov
 ,Department of Energy,arm.gov
@@ -171,9 +174,7 @@ agency,bureau,initial_domain
 ,Department of Energy,asc.llnl.gov
 ,Department of Energy,aser.llnl.gov
 ,Department of Energy,asi.inl.gov
-,Department of Energy,asr.arm.gov
 ,Department of Energy,asr.science.energy.gov
-,Department of Energy,asrprod.ornl.gov
 ,Department of Energy,atb-archive.nrel.gov
 ,Department of Energy,atb.nrel.gov
 ,Department of Energy,ats.doe.gov
@@ -192,7 +193,6 @@ agency,bureau,initial_domain
 ,Department of Energy,cable-bigidea.anl.gov
 ,Department of Energy,careers.pnnl.gov
 ,Department of Energy,careerstest.pnnl.gov
-,Department of Energy,casa.sandia.gov
 ,Department of Energy,cdfc.nrel.gov
 ,Department of Energy,ceq.doe.gov
 ,Department of Energy,chainreaction.anl.gov
@@ -201,6 +201,7 @@ agency,bureau,initial_domain
 ,Department of Energy,clean-air.sandia.gov
 ,Department of Energy,cleancities-forum.nrel.gov
 ,Department of Energy,cleancities.energy.gov
+,Department of Energy,climate.nrel.gov
 ,Department of Energy,cmec.llnl.gov
 ,Department of Energy,cmip-publications.llnl.gov
 ,Department of Energy,cmor.llnl.gov
@@ -212,28 +213,30 @@ agency,bureau,initial_domain
 ,Department of Energy,combustiontools.llnl.gov
 ,Department of Energy,common-ext.llnl.gov
 ,Department of Energy,computing.llnl.gov
-,Department of Energy,contenthub.llnl.gov
 ,Department of Energy,controlbanding.llnl.gov
 ,Department of Energy,cov.lanl.gov
 ,Department of Energy,crf.sandia.gov
+,Department of Energy,cross-sim.sandia.gov
 ,Department of Energy,csdet.inl.gov
 ,Department of Energy,csi.pnl.gov
 ,Department of Energy,csi.pnnl.gov
-,Department of Energy,csl.llnl.gov
+,Department of Energy,cubit.sandia.gov
 ,Department of Energy,cyber-internship.llnl.gov
 ,Department of Energy,cybersecurity.llnl.gov
 ,Department of Energy,cyote.inl.gov
 ,Department of Energy,cytrics.inl.gov
 ,Department of Energy,cz-auth.llnl.gov
 ,Department of Energy,czpages.llnl.gov
-,Department of Energy,dakota.sandia.gov
+,Department of Energy,dante.sandia.gov
 ,Department of Energy,data-science.llnl.gov
 ,Department of Energy,data.nrel.gov
 ,Department of Energy,daymet.ornl.gov
 ,Department of Energy,dercf.nrel.gov
 ,Department of Energy,developer.nrel.gov
 ,Department of Energy,dice.inl.gov
+,Department of Energy,discovery-ui.svcs.arm.gov
 ,Department of Energy,doe417.pnnl.gov
+,Department of Energy,doepeerreview.sandia.gov
 ,Department of Energy,dq-explorer-ui.svcs.arm.gov
 ,Department of Energy,dq-plotbrowser-ui.svcs.arm.gov
 ,Department of Energy,dq-zoom-ui.svcs.arm.gov
@@ -244,6 +247,7 @@ agency,bureau,initial_domain
 ,Department of Energy,earthandenergy.pnnl.gov
 ,Department of Energy,ebg.llnl.gov
 ,Department of Energy,ebit.llnl.gov
+,Department of Energy,ecn.sandia.gov
 ,Department of Energy,eere-exchange.energy.gov
 ,Department of Energy,eic.ports.pppo.gov
 ,Department of Energy,electric-school-bus-forum.nrel.gov
@@ -264,6 +268,7 @@ agency,bureau,initial_domain
 ,Department of Energy,eprr.lanl.gov
 ,Department of Energy,erd.llnl.gov
 ,Department of Energy,evchart.driveelectric.gov
+,Department of Energy,far-qc.sandia.gov
 ,Department of Energy,fcoi.llnl.gov
 ,Department of Energy,federalfleets.energy.gov
 ,Department of Energy,fempcentral.energy.gov
@@ -296,7 +301,6 @@ agency,bureau,initial_domain
 ,Department of Energy,hpc.netl.doe.gov
 ,Department of Energy,hpc.sandia.gov
 ,Department of Energy,hpxml.nrel.gov
-,Department of Energy,hr.sandia.gov
 ,Department of Energy,hvacresourcemap.nrel.gov
 ,Department of Energy,hydrogen.energy.gov
 ,Department of Energy,ie-exchange.energy.gov
@@ -309,7 +313,6 @@ agency,bureau,initial_domain
 ,Department of Energy,ipo.llnl.gov
 ,Department of Energy,irrigationviz-inl.pnnl.gov
 ,Department of Energy,irrigationviz.pnnl.gov
-,Department of Energy,ixp-beta.llnl.gov
 ,Department of Energy,ixp.llnl.gov
 ,Department of Energy,jastoolbox.sandia.gov
 ,Department of Energy,kcnsc.doe.gov
@@ -335,6 +338,7 @@ agency,bureau,initial_domain
 ,Department of Energy,mims.doe.gov
 ,Department of Energy,ml.nrel.gov
 ,Department of Energy,modis.ornl.gov
+,Department of Energy,modsimtools.sandia.gov
 ,Department of Energy,monitor.sns.gov
 ,Department of Energy,mooseframework.inl.gov
 ,Department of Energy,mpg3.dmz.ornl.gov
@@ -348,7 +352,6 @@ agency,bureau,initial_domain
 ,Department of Energy,nci.llnl.gov
 ,Department of Energy,neams.inl.gov
 ,Department of Energy,netl-exchange.energy.gov
-,Department of Energy,netl.doe.gov
 ,Department of Energy,neup.inl.gov
 ,Department of Energy,neutrons.ornl.gov
 ,Department of Energy,ngms.llnl.gov
@@ -384,12 +387,15 @@ agency,bureau,initial_domain
 ,Department of Energy,pnnl.gov
 ,Department of Energy,polyid.nrel.gov
 ,Department of Energy,powerapi.sandia.gov
+,Department of Energy,prastandards.sandia.gov
 ,Department of Energy,programmatic-events.pnnl.gov
 ,Department of Energy,proof.sandia.gov
 ,Department of Energy,psaap.llnl.gov
+,Department of Energy,pvpact.sandia.gov
 ,Department of Energy,pvpmc.sandia.gov
 ,Department of Energy,pvrw.nrel.gov
 ,Department of Energy,pvwatts.nrel.gov
+,Department of Energy,qpl.sandia.gov
 ,Department of Energy,quality-install-tool.pnnl.gov
 ,Department of Energy,regionalbiomassresourcehub.inl.gov
 ,Department of Energy,regulations.doe.gov
@@ -398,9 +404,7 @@ agency,bureau,initial_domain
 ,Department of Energy,responder.llnl.gov
 ,Department of Energy,retuning.pnnl.gov
 ,Department of Energy,returntowork.llnl.gov
-,Department of Energy,rol.sandia.gov
 ,Department of Energy,rotc.llnl.gov
-,Department of Energy,rsec.sandia.gov
 ,Department of Energy,rtc.sandia.gov
 ,Department of Energy,s3c.sandia.gov
 ,Department of Energy,sai.inl.gov
@@ -430,6 +434,7 @@ agency,bureau,initial_domain
 ,Department of Energy,trip.llnl.gov
 ,Department of Energy,ttr.sandia.gov
 ,Department of Energy,urban.llnl.gov
+,Department of Energy,vanguard.sandia.gov
 ,Department of Energy,vass.y12.doe.gov
 ,Department of Energy,vendor.llnl.gov
 ,Department of Energy,vipir.llnl.gov
@@ -445,7 +450,6 @@ agency,bureau,initial_domain
 ,Department of Energy,windvalt.pnnl.gov
 ,Department of Energy,wrdb.nrel.gov
 ,Department of Energy,wvphaseonestudies.emcbc.doe.gov
-,Department of Energy,xyce.sandia.gov
 ,Department of Energy,ysi.ml.nrel.gov
 ,Department of Health and Human Services,3d.nih.gov
 ,Department of Health and Human Services,4innovation-impl2.cms.gov
@@ -488,7 +492,6 @@ agency,bureau,initial_domain
 ,Department of Health and Human Services,arpa-h.gov
 ,Department of Health and Human Services,arpah.gov
 ,Department of Health and Human Services,artreporting.cdc.gov
-,Department of Health and Human Services,asa24.nci.nih.gov
 ,Department of Health and Human Services,asa24.nih.gov
 ,Department of Health and Human Services,aspe.hhs.gov
 ,Department of Health and Human Services,aspr.hhs.gov
@@ -589,11 +592,12 @@ agency,bureau,initial_domain
 ,Department of Health and Human Services,commonfund.nih.gov
 ,Department of Health and Human Services,commuter.ors.od.nih.gov
 ,Department of Health and Human Services,companyprofiles.healthcare.gov
+,Department of Health and Human Services,computational.cancer.gov
 ,Department of Health and Human Services,confocal.ccr.cancer.gov
 ,Department of Health and Human Services,connector.hrsa.gov
 ,Department of Health and Human Services,contact.cdc.gov
+,Department of Health and Human Services,correlogo.cancer.gov
 ,Department of Health and Human Services,cprosite.ccr.cancer.gov
-,Department of Health and Human Services,cqr.cms.gov
 ,Department of Health and Human Services,crtp.ccr.cancer.gov
 ,Department of Health and Human Services,csms-int.nci.nih.gov
 ,Department of Health and Human Services,csms.nci.nih.gov
@@ -646,7 +650,6 @@ agency,bureau,initial_domain
 ,Department of Health and Human Services,dev4.simplereport.gov
 ,Department of Health and Human Services,dev5.simplereport.gov
 ,Department of Health and Human Services,dev6.simplereport.gov
-,Department of Health and Human Services,developer.cms.gov
 ,Department of Health and Human Services,dhds.cdc.gov
 ,Department of Health and Human Services,diabetespath2prevention.cdc.gov
 ,Department of Health and Human Services,digirepo.nlm.nih.gov
@@ -676,16 +679,15 @@ agency,bureau,initial_domain
 ,Department of Health and Human Services,dpcpsi.nih.gov
 ,Department of Health and Human Services,dprp.cdc.gov
 ,Department of Health and Human Services,dprpdataportal.cdc.gov
-,Department of Health and Human Services,dpt2.samhsa.gov
 ,Department of Health and Human Services,drive.hhs.gov
 ,Department of Health and Human Services,drpseq.cancer.gov
 ,Department of Health and Human Services,drupaluat.nichd.nih.gov
 ,Department of Health and Human Services,dsmes-program-locator.cdc.gov
 ,Department of Health and Human Services,e-bidboard.nih.gov
 ,Department of Health and Human Services,ebccp.cancercontrol.cancer.gov
+,Department of Health and Human Services,ebms.nci.nih.gov
 ,Department of Health and Human Services,ecps.nih.gov
 ,Department of Health and Human Services,effectivehealthcare.ahrq.gov
-,Department of Health and Human Services,elmo.portal.cms.gov
 ,Department of Health and Human Services,elmo.portaldev.cms.gov
 ,Department of Health and Human Services,elmo.portalval.cms.gov
 ,Department of Health and Human Services,emblem.cancer.gov
@@ -694,7 +696,6 @@ agency,bureau,initial_domain
 ,Department of Health and Human Services,epi.grants.cancer.gov
 ,Department of Health and Human Services,epublication.fda.gov
 ,Department of Health and Human Services,eqrs.cms.gov
-,Department of Health and Human Services,era.nih.gov
 ,Department of Health and Human Services,erds.niaid.nih.gov
 ,Department of Health and Human Services,eresources.nlm.nih.gov
 ,Department of Health and Human Services,eresources.wip.nlm.nih.gov
@@ -747,7 +748,6 @@ agency,bureau,initial_domain
 ,Department of Health and Human Services,gettested.cdc.gov
 ,Department of Health and Human Services,gis.cancer.gov
 ,Department of Health and Human Services,gis.hhs.gov
-,Department of Health and Human Services,glioma-biodp.nci.nih.gov
 ,Department of Health and Human Services,gmvs.fda.gov
 ,Department of Health and Human Services,grants.gov
 ,Department of Health and Human Services,grants.hrsa.gov
@@ -775,6 +775,7 @@ agency,bureau,initial_domain
 ,Department of Health and Human Services,help.hrsa.gov
 ,Department of Health and Human Services,hfp-onlinesubmissions.fda.gov
 ,Department of Health and Human Services,hhs.gov
+,Department of Health and Human Services,hints.cancer.gov
 ,Department of Health and Human Services,hivinfo.nih.gov
 ,Department of Health and Human Services,hivrisk.cdc.gov
 ,Department of Health and Human Services,hmddirectory.nlm.nih.gov
@@ -847,9 +848,11 @@ agency,bureau,initial_domain
 ,Department of Health and Human Services,manticore.niehs.nih.gov
 ,Department of Health and Human Services,maps.cancer.gov
 ,Department of Health and Human Services,marrowfailure.cancer.gov
+,Department of Health and Human Services,mc-review-val.onemac.cms.gov
 ,Department of Health and Human Services,mchb.hrsa.gov
 ,Department of Health and Human Services,mchb.tvisdata.hrsa.gov
 ,Department of Health and Human Services,mdctcartsdev.cms.gov
+,Department of Health and Human Services,mdctcartsval.cms.gov
 ,Department of Health and Human Services,mdctmcrval.cms.gov
 ,Department of Health and Human Services,mdctmfpval.cms.gov
 ,Department of Health and Human Services,mdctqmrval.cms.gov
@@ -866,7 +869,6 @@ agency,bureau,initial_domain
 ,Department of Health and Human Services,meshb-prev.nlm.nih.gov
 ,Department of Health and Human Services,meshb.nlm.nih.gov
 ,Department of Health and Human Services,meshb.wip.nlm.nih.gov
-,Department of Health and Human Services,meshondemand.nlm.nih.gov
 ,Department of Health and Human Services,metabolomics-sig.nih.gov
 ,Department of Health and Human Services,methylscape.ccr.cancer.gov
 ,Department of Health and Human Services,mets.cdc.gov
@@ -874,6 +876,7 @@ agency,bureau,initial_domain
 ,Department of Health and Human Services,minorityhealth.hhs.gov
 ,Department of Health and Human Services,mipav-prod.cit.nih.gov
 ,Department of Health and Human Services,mipav.cit.nih.gov
+,Department of Health and Human Services,modac.cancer.gov
 ,Department of Health and Human Services,moleculartargets.ccdi.cancer.gov
 ,Department of Health and Human Services,moles-melanoma-tool.cancer.gov
 ,Department of Health and Human Services,mrisktool.cancer.gov
@@ -896,7 +899,6 @@ agency,bureau,initial_domain
 ,Department of Health and Human Services,ncorp.cancer.gov
 ,Department of Health and Human Services,ncrms.niaid.nih.gov
 ,Department of Health and Human Services,ncsacw.acf.gov
-,Department of Health and Human Services,nctn-data-archive.nci.nih.gov
 ,Department of Health and Human Services,nctnbanks.cancer.gov
 ,Department of Health and Human Services,ndc.services.cdc.gov
 ,Department of Health and Human Services,ndpp-ops-center.cdc.gov
@@ -926,6 +928,7 @@ agency,bureau,initial_domain
 ,Department of Health and Human Services,nihrecord.nih.gov
 ,Department of Health and Human Services,nimh.nih.gov
 ,Department of Health and Human Services,nimhjamfdmz.nimh.nih.gov
+,Department of Health and Human Services,ninds.nih.gov
 ,Department of Health and Human Services,nitaac.nih.gov
 ,Department of Health and Human Services,nlm.nih.gov
 ,Department of Health and Human Services,nlmdirector.nlm.nih.gov
@@ -969,17 +972,18 @@ agency,bureau,initial_domain
 ,Department of Health and Human Services,outreachpro.nia.nih.gov
 ,Department of Health and Human Services,pave-gt.ncats.nih.gov
 ,Department of Health and Human Services,pave.niaid.nih.gov
+,Department of Health and Human Services,pcl-proteomics.cancer.gov
 ,Department of Health and Human Services,pdbp.ninds.nih.gov
 ,Department of Health and Human Services,pdc.cancer.gov
 ,Department of Health and Human Services,pebblescout.ncbi.nlm.nih.gov
 ,Department of Health and Human Services,pecat.cdc.gov
-,Department of Health and Human Services,pecosai.portal.cms.gov
 ,Department of Health and Human Services,peerta.acf.hhs.gov
 ,Department of Health and Human Services,pentest.simplereport.gov
 ,Department of Health and Human Services,phgkb.glb.cdc.gov
 ,Department of Health and Human Services,phil.cdc.gov
 ,Department of Health and Human Services,phinvads.cdc.gov
 ,Department of Health and Human Services,phlip.cdc.gov
+,Department of Health and Human Services,phlipstage.cdc.gov
 ,Department of Health and Human Services,pivauthdev.ha.nih.gov
 ,Department of Health and Human Services,pivauthdev.nih.gov
 ,Department of Health and Human Services,pivauthtest.ha.nih.gov
@@ -993,7 +997,6 @@ agency,bureau,initial_domain
 ,Department of Health and Human Services,portal.gdc.cancer.gov
 ,Department of Health and Human Services,portal.imaging.datacommons.cancer.gov
 ,Department of Health and Human Services,portaldev.cms.gov
-,Department of Health and Human Services,portalval.cms.gov
 ,Department of Health and Human Services,powerapps.nhlbi.nih.gov
 ,Department of Health and Human Services,ppb.cancer.gov
 ,Department of Health and Human Services,prd-home.grantsolutions.gov
@@ -1013,7 +1016,6 @@ agency,bureau,initial_domain
 ,Department of Health and Human Services,prstest.clinicaltrials.gov
 ,Department of Health and Human Services,prstest.ncbi.nlm.nih.gov
 ,Department of Health and Human Services,psd.cancer.gov
-,Department of Health and Human Services,psnet.ahrq.gov
 ,Department of Health and Human Services,pso.ahrq.gov
 ,Department of Health and Human Services,ptfcehs.niehs.nih.gov
 ,Department of Health and Human Services,pubchem.ncbi.nlm.nih.gov
@@ -1023,7 +1025,7 @@ agency,bureau,initial_domain
 ,Department of Health and Human Services,pubmed.ncbi.nlm.nih.gov
 ,Department of Health and Human Services,pubweb-prod.niaid.nih.gov
 ,Department of Health and Human Services,purplebooksearch.fda.gov
-,Department of Health and Human Services,qpp.cms.gov
+,Department of Health and Human Services,qtso.cms.gov
 ,Department of Health and Human Services,qualityindicators.ahrq.gov
 ,Department of Health and Human Services,rarediseases.info.nih.gov
 ,Department of Health and Human Services,raresource.nih.gov
@@ -1078,8 +1080,6 @@ agency,bureau,initial_domain
 ,Department of Health and Human Services,sisterstudy.niehs.nih.gov
 ,Department of Health and Human Services,sites.nlm.nih.gov
 ,Department of Health and Human Services,sites.wip.nlm.nih.gov
-,Department of Health and Human Services,sl-biodp.nci.nih.gov
-,Department of Health and Human Services,sl.nci.nih.gov
 ,Department of Health and Human Services,smartfindvaccinebotdev.cdc.gov
 ,Department of Health and Human Services,smokefree.gov
 ,Department of Health and Human Services,smokefree.nci.nih.gov
@@ -1087,6 +1087,7 @@ agency,bureau,initial_domain
 ,Department of Health and Human Services,snengs.nichd.nih.gov
 ,Department of Health and Human Services,snpfisher.nichd.nih.gov
 ,Department of Health and Human Services,snpinfo.niehs.nih.gov
+,Department of Health and Human Services,soccer.nci.nih.gov
 ,Department of Health and Human Services,sopsdatabase.ahrq.gov
 ,Department of Health and Human Services,specimens.cancer.gov
 ,Department of Health and Human Services,spitr.ccr.cancer.gov
@@ -1151,6 +1152,7 @@ agency,bureau,initial_domain
 ,Department of Health and Human Services,videocast-b.nih.gov
 ,Department of Health and Human Services,videocast.nih.gov
 ,Department of Health and Human Services,virulence.fda.gov
+,Department of Health and Human Services,visuals-prod-cf10.ha.nci.nih.gov
 ,Department of Health and Human Services,vsaccollab.nlm.nih.gov
 ,Department of Health and Human Services,vsaccollab.wip.nlm.nih.gov
 ,Department of Health and Human Services,weaad.acl.gov
@@ -1168,7 +1170,6 @@ agency,bureau,initial_domain
 ,Department of Health and Human Services,wtracker.ors.od.nih.gov
 ,Department of Health and Human Services,wwwapps2.nimh.nih.gov
 ,Department of Health and Human Services,xform.irp.nia.nih.gov
-,Department of Health and Human Services,xn--espaol-zwa.smokefree.gov
 ,Department of Health and Human Services,yourdiabetescompass.cdc.gov
 ,Department of Health and Human Services,youth.gov
 ,Department of Health and Human Services,yrbs-explorer.services.cdc.gov
@@ -1186,6 +1187,7 @@ agency,bureau,initial_domain
 ,Department of Homeland Security,citizenshipgrants.uscis.gov
 ,Department of Homeland Security,dac3.tsa.dhs.gov
 ,Department of Homeland Security,developer.uscis.gov
+,Department of Homeland Security,devpki.dimc.dhs.gov
 ,Department of Homeland Security,eapis.cbp.dhs.gov
 ,Department of Homeland Security,eisavpn.cbp.gov
 ,Department of Homeland Security,emilms.fema.gov
@@ -1206,8 +1208,6 @@ agency,bureau,initial_domain
 ,Department of Homeland Security,nccad.dhs.gov
 ,Department of Homeland Security,nfirs.fema.gov
 ,Department of Homeland Security,pagrants.fema.gov
-,Department of Homeland Security,pfdps.tsa.dhs.gov
-,Department of Homeland Security,pivot-beta.fema.gov
 ,Department of Homeland Security,pivot.fema.gov
 ,Department of Homeland Security,pki.dimc.dhs.gov
 ,Department of Homeland Security,prd-msc.msc.fema.gov
@@ -1273,7 +1273,6 @@ agency,bureau,initial_domain
 ,Department of Justice,deadiversion.usdoj.gov
 ,Department of Justice,diversiontest.usdoj.gov
 ,Department of Justice,dnation.nsopw.gov
-,Department of Justice,dsac.gov
 ,Department of Justice,efile.fara.gov
 ,Department of Justice,efileqa.fara.gov
 ,Department of Justice,elwha.nsopw.gov
@@ -1281,6 +1280,7 @@ agency,bureau,initial_domain
 ,Department of Justice,ereg.eoir.justice.gov
 ,Department of Justice,estoo.nsopw.gov
 ,Department of Justice,facjj.ojp.gov
+,Department of Justice,fbijobs.gov
 ,Department of Justice,foia.gov
 ,Department of Justice,fortpecktribes.nsopw.gov
 ,Department of Justice,fsst.nsopw.gov
@@ -1295,9 +1295,11 @@ agency,bureau,initial_domain
 ,Department of Justice,ic3.gov
 ,Department of Justice,iowanation.nsopw.gov
 ,Department of Justice,iowatribe.nsopw.gov
+,Department of Justice,iprcenter.gov
 ,Department of Justice,isleta.nsopw.gov
 ,Department of Justice,jemez.nsopw.gov
 ,Department of Justice,jicarilla.nsopw.gov
+,Department of Justice,justice.gov
 ,Department of Justice,justicegrants.usdoj.gov
 ,Department of Justice,justthinktwice.gov
 ,Department of Justice,juvenilecouncil.ojp.gov
@@ -1361,8 +1363,8 @@ agency,bureau,initial_domain
 ,Department of Justice,puyallup-tribe.nsopw.gov
 ,Department of Justice,quapaw.nsopw.gov
 ,Department of Justice,quinault.nsopw.gov
+,Department of Justice,rcfl.gov
 ,Department of Justice,redlake.nsopw.gov
-,Department of Justice,regulations.atf.gov
 ,Department of Justice,rosebud.nsopw.gov
 ,Department of Justice,rp.bjatta.bja.ojp.gov
 ,Department of Justice,rsic.nsopw.gov
@@ -1387,7 +1389,6 @@ agency,bureau,initial_domain
 ,Department of Justice,srst.nsopw.gov
 ,Department of Justice,swinomish.nsopw.gov
 ,Department of Justice,swo.nsopw.gov
-,Department of Justice,t4c.nicic.gov
 ,Department of Justice,ta.nicic.gov
 ,Department of Justice,taos.nsopw.gov
 ,Department of Justice,temoaktribe.nsopw.gov
@@ -1422,7 +1423,6 @@ agency,bureau,initial_domain
 ,Department of Labor,atterbury.jobcorps.gov
 ,Department of Labor,benjaminlhooks.jobcorps.gov
 ,Department of Labor,beta.dol.gov
-,Department of Labor,blackwell.jobcorps.gov
 ,Department of Labor,blog.dol.gov
 ,Department of Labor,bls.gov
 ,Department of Labor,blscompdata.bls.gov
@@ -1431,8 +1431,12 @@ agency,bureau,initial_domain
 ,Department of Labor,blueridge.jobcorps.gov
 ,Department of Labor,brooklyn.jobcorps.gov
 ,Department of Labor,btcomp.dol.gov
+,Department of Labor,carville.jobcorps.gov
+,Department of Labor,cascades.jobcorps.gov
+,Department of Labor,cassadaga.jobcorps.gov
 ,Department of Labor,cesdata.bls.gov
 ,Department of Labor,cesdatat.bls.gov
+,Department of Labor,charleston.jobcorps.gov
 ,Department of Labor,cincinnati.jobcorps.gov
 ,Department of Labor,clearfield.jobcorps.gov
 ,Department of Labor,coalmine.dol.gov
@@ -1442,9 +1446,11 @@ agency,bureau,initial_domain
 ,Department of Labor,dayton.jobcorps.gov
 ,Department of Labor,dcmwc.dol.gov
 ,Department of Labor,deeoic.dol.gov
+,Department of Labor,denison.jobcorps.gov
 ,Department of Labor,dlhwc.dol.gov
 ,Department of Labor,dmp.dol.gov
 ,Department of Labor,dol.gov
+,Department of Labor,earlecclements.jobcorps.gov
 ,Department of Labor,eclaimant.dol.gov
 ,Department of Labor,ecomp.dol.gov
 ,Department of Labor,edit-ita.osha.gov
@@ -1452,10 +1458,18 @@ agency,bureau,initial_domain
 ,Department of Labor,employer.gov
 ,Department of Labor,enforcedata.dol.gov
 ,Department of Labor,enfxfr.dol.gov
+,Department of Labor,finchhenry.jobcorps.gov
 ,Department of Labor,flag.dol.gov
+,Department of Labor,flatwoods.jobcorps.gov
 ,Department of Labor,flinthills.jobcorps.gov
+,Department of Labor,frenchburg.jobcorps.gov
 ,Department of Labor,glenmont.jobcorps.gov
+,Department of Labor,greatonyx.jobcorps.gov
+,Department of Labor,harpersferry.jobcorps.gov
+,Department of Labor,hartford.jobcorps.gov
+,Department of Labor,hawaii.jobcorps.gov
 ,Department of Labor,hirevets.gov
+,Department of Labor,huberthhumphrey.jobcorps.gov
 ,Department of Labor,idcf.bls.gov
 ,Department of Labor,idcfars.bls.gov
 ,Department of Labor,idcfbbs.bls.gov
@@ -1469,14 +1483,11 @@ agency,bureau,initial_domain
 ,Department of Labor,joliet.jobcorps.gov
 ,Department of Labor,joltsdata.bls.gov
 ,Department of Labor,joltsdatat.bls.gov
-,Department of Labor,longbeach.jobcorps.gov
-,Department of Labor,loring.jobcorps.gov
-,Department of Labor,maui.jobcorps.gov
-,Department of Labor,montgomery.jobcorps.gov
+,Department of Labor,kittrell.jobcorps.gov
+,Department of Labor,miami.jobcorps.gov
 ,Department of Labor,msha.gov
 ,Department of Labor,muhlenberg.jobcorps.gov
 ,Department of Labor,newhampshire.jobcorps.gov
-,Department of Labor,newhaven.jobcorps.gov
 ,Department of Labor,oig.dol.gov
 ,Department of Labor,olddominion.jobcorps.gov
 ,Department of Labor,oneonta.jobcorps.gov
@@ -1492,7 +1503,8 @@ agency,bureau,initial_domain
 ,Department of Labor,potomac.jobcorps.gov
 ,Department of Labor,respondents.bls.gov
 ,Department of Labor,respondentst.bls.gov
-,Department of Labor,roswell.jobcorps.gov
+,Department of Labor,sacramento.jobcorps.gov
+,Department of Labor,sandiego.jobcorps.gov
 ,Department of Labor,savingmatters.dol.gov
 ,Department of Labor,schenck.jobcorps.gov
 ,Department of Labor,seaportal.dol.gov
@@ -1500,9 +1512,9 @@ agency,bureau,initial_domain
 ,Department of Labor,seasonaljobs.dol.gov
 ,Department of Labor,section14c.dol.gov
 ,Department of Labor,sem.dol.gov
+,Department of Labor,sierranevada.jobcorps.gov
 ,Department of Labor,stlouis.jobcorps.gov
 ,Department of Labor,supportservices.jobcorps.gov
-,Department of Labor,training.bls.gov
 ,Department of Labor,training.dcmwc.dol.gov
 ,Department of Labor,training.deeoic.dol.gov
 ,Department of Labor,training.dlhwc.dol.gov
@@ -1511,13 +1523,13 @@ agency,bureau,initial_domain
 ,Department of Labor,training.owcp.industrypartners.dol.gov
 ,Department of Labor,trainingproviderresults.gov
 ,Department of Labor,trainingt.bls.gov
+,Department of Labor,turner.jobcorps.gov
 ,Department of Labor,vets4212.dol.gov
 ,Department of Labor,weberbasin.jobcorps.gov
 ,Department of Labor,whistleblowers.gov
 ,Department of Labor,whitneymyoung.jobcorps.gov
-,Department of Labor,wilmington.jobcorps.gov
+,Department of Labor,windriver.jobcorps.gov
 ,Department of Labor,wioaplans.dol.gov
-,Department of Labor,woodland.jobcorps.gov
 ,Department of Labor,workcenter.gov
 ,Department of Labor,worker.gov
 ,Department of State,1997-2001.state.gov
@@ -1669,7 +1681,6 @@ agency,bureau,initial_domain
 ,Department of State,mw.usembassy.gov
 ,Department of State,mx.usembassy.gov
 ,Department of State,my.usembassy.gov
-,Department of State,mytravel.state.gov
 ,Department of State,mz.usembassy.gov
 ,Department of State,na.usembassy.gov
 ,Department of State,nato.usmission.gov
@@ -1778,7 +1789,6 @@ agency,bureau,initial_domain
 ,Department of Transportation,ntl.bts.gov
 ,Department of Transportation,ops.fhwa.dot.gov
 ,Department of Transportation,phmsa.dot.gov
-,Department of Transportation,portal.nhtsa.gov
 ,Department of Transportation,primis-meetings.phmsa.dot.gov
 ,Department of Transportation,railroads.dot.gov
 ,Department of Transportation,railroads.fra.dot.gov
@@ -1884,6 +1894,7 @@ agency,bureau,initial_domain
 ,Department of the Interior,amlis.osmre.gov
 ,Department of the Interior,answers.usgs.gov
 ,Department of the Interior,api.waterdata.usgs.gov
+,Department of the Interior,apps.conservation.gov
 ,Department of the Interior,apps.fws.gov
 ,Department of the Interior,apps.usgs.gov
 ,Department of the Interior,armi.usgs.gov
@@ -1970,8 +1981,6 @@ agency,bureau,initial_domain
 ,Department of the Interior,natwebvaas01.er.usgs.gov
 ,Department of the Interior,natwebvaww01.er.usgs.gov
 ,Department of the Interior,natwebvaww02.er.usgs.gov
-,Department of the Interior,navigator.nps.gov
-,Department of the Interior,nemi.gov
 ,Department of the Interior,nflss.blm.gov
 ,Department of the Interior,ngmdb.usgs.gov
 ,Department of the Interior,nifc.gov
@@ -1998,11 +2007,9 @@ agency,bureau,initial_domain
 ,Department of the Interior,qsb.usgs.gov
 ,Department of the Interior,registry.fgdc.gov
 ,Department of the Interior,reports.blm.gov
-,Department of the Interior,revenuedata.doi.gov
 ,Department of the Interior,rivers.gov
 ,Department of the Interior,rockyweb.usgs.gov
 ,Department of the Interior,safecom.gov
-,Department of the Interior,sciencebase.gov
 ,Department of the Interior,sdms.ak.blm.gov
 ,Department of the Interior,sflthredds.er.usgs.gov
 ,Department of the Interior,sicarius.wr.usgs.gov
@@ -2026,7 +2033,6 @@ agency,bureau,initial_domain
 ,Department of the Interior,waterwatch.usgs.gov
 ,Department of the Interior,whbstewardship.blm.gov
 ,Department of the Interior,whispers.usgs.gov
-,Department of the Interior,wildhorsesonline.blm.gov
 ,Department of the Interior,wlci.gov
 ,Department of the Interior,yvo-valve.wr.usgs.gov
 ,Department of the Treasury,appointment.treasury.gov
@@ -2038,7 +2044,6 @@ agency,bureau,initial_domain
 ,Department of the Treasury,bankcustomerassistance.gov
 ,Department of the Treasury,bankhelp.gov
 ,Department of the Treasury,bep.gov
-,Department of the Treasury,boiefiling.fincen.gov
 ,Department of the Treasury,careers.occ.gov
 ,Department of the Treasury,careers2.occ.gov
 ,Department of the Treasury,ccac.gov
@@ -2047,7 +2052,6 @@ agency,bureau,initial_domain
 ,Department of the Treasury,devpki.treas.gov
 ,Department of the Treasury,devpki.treasury.gov
 ,Department of the Treasury,es.taxpayeradvocate.irs.gov
-,Department of the Treasury,federalinvestments.gov
 ,Department of the Treasury,ffb.gov
 ,Department of the Treasury,ffb.treasury.gov
 ,Department of the Treasury,financialresearch.gov
@@ -2160,8 +2164,6 @@ agency,bureau,initial_domain
 ,Environmental Protection Agency,gpdashboard.epa.gov
 ,Environmental Protection Agency,guideme.epa.gov
 ,Environmental Protection Agency,hawc.epa.gov
-,Environmental Protection Agency,hero.epa.gov
-,Environmental Protection Agency,heronetnext.epa.gov
 ,Environmental Protection Agency,iaspub.epa.gov
 ,Environmental Protection Agency,iwaste.epa.gov
 ,Environmental Protection Agency,java.epa.gov
@@ -2183,6 +2185,7 @@ agency,bureau,initial_domain
 ,Environmental Protection Agency,ofmpub.epa.gov
 ,Environmental Protection Agency,opendata.epa.gov
 ,Environmental Protection Agency,pasteur.epa.gov
+,Environmental Protection Agency,permitsearch.epa.gov
 ,Environmental Protection Agency,pfastt.epa.gov
 ,Environmental Protection Agency,portal.epa.gov
 ,Environmental Protection Agency,radar.epa.gov
@@ -2193,6 +2196,7 @@ agency,bureau,initial_domain
 ,Environmental Protection Agency,scribenet.response.epa.gov
 ,Environmental Protection Agency,search.epa.gov
 ,Environmental Protection Agency,seatool.epa.gov
+,Environmental Protection Agency,semspub.epa.gov
 ,Environmental Protection Agency,seqapass.epa.gov
 ,Environmental Protection Agency,sgita.epa.gov
 ,Environmental Protection Agency,sor-scc-api.epa.gov
@@ -2224,10 +2228,10 @@ agency,bureau,initial_domain
 ,Federal Deposit Insurance Corporation,banks-d.data.fdic.gov
 ,Federal Deposit Insurance Corporation,banks-q.data.fdic.gov
 ,Federal Deposit Insurance Corporation,cra-d.fdic.gov
+,Federal Deposit Insurance Corporation,cra-q.fdic.gov
+,Federal Deposit Insurance Corporation,cra-s.fdic.gov
 ,Federal Deposit Insurance Corporation,cra.fdic.gov
-,Federal Deposit Insurance Corporation,crapes-d.fdic.gov
 ,Federal Deposit Insurance Corporation,crapes.fdic.gov
-,Federal Deposit Insurance Corporation,edie-q.fdic.gov
 ,Federal Deposit Insurance Corporation,edie.fdic.gov
 ,Federal Deposit Insurance Corporation,fdic.gov
 ,Federal Deposit Insurance Corporation,household-survey-d.fdic.gov
@@ -2266,7 +2270,6 @@ agency,bureau,initial_domain
 ,Federal Trade Commission,consumidor.ftc.gov
 ,Federal Trade Commission,consumidor.gov
 ,Federal Trade Commission,donotcall.gov
-,Federal Trade Commission,econsumer.gov
 ,Federal Trade Commission,ftc.gov
 ,Federal Trade Commission,identitytheft.gov
 ,Federal Trade Commission,militaryconsumer.gov
@@ -2390,6 +2393,7 @@ agency,bureau,initial_domain
 ,General Services Administration,presidentialinnovationfellows.gov
 ,General Services Administration,preview-onrr-frontend.app.cloud.gov
 ,General Services Administration,prod-onrr-frontend.app.cloud.gov
+,General Services Administration,property.reporting.gov
 ,General Services Administration,public-sans.digital.gov
 ,General Services Administration,realestatesales.gov
 ,General Services Administration,realpropertyprofile.gov
@@ -2397,6 +2401,7 @@ agency,bureau,initial_domain
 ,General Services Administration,regulations.gov
 ,General Services Administration,resources.data.gov
 ,General Services Administration,ret.gsa.gov
+,General Services Administration,rocis.gov
 ,General Services Administration,sat.reginfo.gov
 ,General Services Administration,sat2.reginfo.gov
 ,General Services Administration,section508.gov
@@ -2476,6 +2481,7 @@ agency,bureau,initial_domain
 ,National Aeronautics and Space Administration,f64.ndc.nasa.gov
 ,National Aeronautics and Space Administration,firms2.modaps.eosdis.nasa.gov
 ,National Aeronautics and Space Administration,fprime.jpl.nasa.gov
+,National Aeronautics and Space Administration,fusionftp.gsfc.nasa.gov
 ,National Aeronautics and Space Administration,gammaray.msfc.nasa.gov
 ,National Aeronautics and Space Administration,gcmdservices.gcmd.eosdis.nasa.gov
 ,National Aeronautics and Space Administration,gimms.gsfc.nasa.gov
@@ -2485,6 +2491,7 @@ agency,bureau,initial_domain
 ,National Aeronautics and Space Administration,gpl.gsfc.nasa.gov
 ,National Aeronautics and Space Administration,gs6101-gmao.gsfc.nasa.gov
 ,National Aeronautics and Space Administration,gs618-glam1.gsfc.nasa.gov
+,National Aeronautics and Space Administration,gs618-glihtl1.ndc.nasa.gov
 ,National Aeronautics and Space Administration,gs66-vdclambda.ndc.nasa.gov
 ,National Aeronautics and Space Administration,gs671-umbra.nascom.nasa.gov
 ,National Aeronautics and Space Administration,gs674-ccmcftp.ccmc.gsfc.nasa.gov
@@ -2926,8 +2933,10 @@ agency,bureau,initial_domain
 ,U.S. Department of Agriculture,farmtoschoolcensus.fns.usda.gov
 ,U.S. Department of Agriculture,fas.usda.gov
 ,U.S. Department of Agriculture,fdc.nal.usda.gov
+,U.S. Department of Agriculture,fems.fs2c.usda.gov
 ,U.S. Department of Agriculture,fns.usda.gov
 ,U.S. Department of Agriculture,forestsandrangelands.gov
+,U.S. Department of Agriculture,fs.usda.gov
 ,U.S. Department of Agriculture,fsa.usda.gov
 ,U.S. Department of Agriculture,fungi.ars.usda.gov
 ,U.S. Department of Agriculture,geodata-prod.nal.usda.gov
@@ -3048,6 +3057,7 @@ Department of Defense,,goodfellow.tricare.mil
 Department of Defense,,grandforks.tricare.mil
 Department of Defense,,guam.tricare.mil
 Department of Defense,,guantanamo.tricare.mil
+Department of Defense,,gulflink.health.mil
 Department of Defense,,guthrie.tricare.mil
 Department of Defense,,hanscom.tricare.mil
 Department of Defense,,health.mil
@@ -3097,6 +3107,7 @@ Department of Defense,,millifelearning.pre.militaryonesource.mil
 Department of Defense,,minationalguard.dodlive.mil
 Department of Defense,,minot.tricare.mil
 Department of Defense,,misawa.tricare.mil
+Department of Defense,,mobile.health.mil
 Department of Defense,,moncrief.tricare.mil
 Department of Defense,,moody.tricare.mil
 Department of Defense,,mountainhome.tricare.mil
@@ -3127,7 +3138,6 @@ Department of Defense,,paxriver.tricare.mil
 Department of Defense,,pearlharborhickam.tricare.mil
 Department of Defense,,pensacola.tricare.mil
 Department of Defense,,peterson.tricare.mil
-Department of Defense,,ph.health.mil
 Department of Defense,,phceast.health.mil
 Department of Defense,,phcp.health.mil
 Department of Defense,,planmymove.militaryonesource.mil
@@ -3209,6 +3219,7 @@ Department of Defense,Army,aec.army.mil
 Department of Defense,Army,ahrpo.army.mil
 Department of Defense,Army,armypubs.army.mil
 Department of Defense,Army,asafm.army.mil
+Department of Defense,Army,asb.army.mil
 Department of Defense,Army,cape.osd.mil
 Department of Defense,Army,ctcodin.tradoc.army.mil
 Department of Defense,Army,cyber.army.mil
@@ -3223,7 +3234,6 @@ Department of Defense,Army,foia.army.mil
 Department of Defense,Army,gomo.army.mil
 Department of Defense,Army,gulflink.fhpr.osd.mil
 Department of Defense,Army,gulflink.osd.mil
-Department of Defense,Army,h2f.army.mil
 Department of Defense,Army,history.army.mil
 Department of Defense,Army,home.army.mil
 Department of Defense,Army,ig.army.mil
@@ -3285,7 +3295,6 @@ Department of Defense,Navy,cnrh.cnic.navy.mil
 Department of Defense,Navy,cnrj.cnic.navy.mil
 Department of Defense,Navy,cnrma.cnic.navy.mil
 Department of Defense,Navy,cnrnw.cnic.navy.mil
-Department of Defense,Navy,cnrse.cnic.navy.mil
 Department of Defense,Navy,cnrsw.cnic.navy.mil
 Department of Defense,Navy,donfmworkforce.dc3n.navy.mil
 Department of Defense,Navy,exwc.navfac.navy.mil
