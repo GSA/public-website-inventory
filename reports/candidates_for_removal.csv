@@ -771,7 +771,6 @@ agency,bureau,initial_domain,reason
 ,Department of Commerce,mysql.ctc.nwave.noaa.gov,"Filter,Redirect"
 ,Department of Commerce,natice.noaa.gov,Filter
 ,Department of Commerce,nccoe-devsecops-b73ab9.ipages.nist.gov,Filter
-,Department of Commerce,nccoe-mdl-project-fce54a.ipages.nist.gov,Filter
 ,Department of Commerce,ncdc.noaa.gov,"Filter,Redirect"
 ,Department of Commerce,ncddc.noaa.gov,Filter
 ,Department of Commerce,ncep-vpn-2001-subnet-ncep.boulder.noaa.gov,Filter
@@ -1772,7 +1771,7 @@ agency,bureau,initial_domain,reason
 ,Department of Education,nlecatalog.ed.gov,Filter
 ,Department of Education,npd-review.naep.ed.gov,"Filter,Redirect"
 ,Department of Education,nrs.ed.gov,Filter
-,Department of Education,nslds.ed.gov,Filter
+,Department of Education,nslds.ed.gov,"Filter,Status Code"
 ,Department of Education,nsldsfap.ed.gov,Filter
 ,Department of Education,nsldstraining.ed.gov,Filter
 ,Department of Education,ocrcas.ed.gov,Filter
@@ -2199,7 +2198,7 @@ agency,bureau,initial_domain,reason
 ,Department of Energy,benefits.pnl.gov,"Filter,Redirect"
 ,Department of Energy,benefits.pnnl.gov,"Filter,Redirect"
 ,Department of Energy,beopt.nrel.gov,Filter
-,Department of Energy,beowulf.pppl.gov,"Filter,Redirect"
+,Department of Energy,beowulf.pppl.gov,Filter
 ,Department of Energy,bep.lanl.gov,Filter
 ,Department of Energy,berkeleyearth.lbl.gov,Filter
 ,Department of Energy,berkeleylabexperts.lbl.gov,Filter
@@ -2626,6 +2625,7 @@ agency,bureau,initial_domain,reason
 ,Department of Energy,confluence.ccs.ornl.gov,Filter
 ,Department of Energy,confluence.spin.ornl.gov,Filter
 ,Department of Energy,congressional.energy.gov,"Filter,Redirect"
+,Department of Energy,connect.sandia.gov,Redirect
 ,Department of Energy,connect1.doe.gov,Filter
 ,Department of Energy,connect2.doe.gov,Filter
 ,Department of Energy,connect3.doe.gov,Filter
@@ -2883,7 +2883,7 @@ agency,bureau,initial_domain,reason
 ,Department of Energy,dicomputing.pnl.gov,Filter
 ,Department of Energy,dicomputing.pnnl.gov,"Filter,Redirect"
 ,Department of Energy,didc.lbl.gov,Filter
-,Department of Energy,digitalops.sandia.gov,"Filter,Redirect"
+,Department of Energy,digitalops.sandia.gov,Filter
 ,Department of Energy,digs.sandia.gov,"Filter,Redirect"
 ,Department of Energy,dima.lbl.gov,"Filter,Status Code"
 ,Department of Energy,diode-yellow.lanl.gov,"Filter,Redirect"
@@ -3277,7 +3277,7 @@ agency,bureau,initial_domain,reason
 ,Department of Energy,engineering.llnl.gov,Filter
 ,Department of Energy,englic.lbl.gov,Filter
 ,Department of Energy,engstandards.lanl.gov,Filter
-,Department of Energy,enhancer.lbl.gov,"Filter,Status Code"
+,Department of Energy,enhancer.lbl.gov,Filter
 ,Department of Energy,enigma.lbl.gov,"Filter,Status Code"
 ,Department of Energy,ensrv1.fnal.gov,"Filter,Redirect"
 ,Department of Energy,enterpriseregistration.bnl.gov,"Filter,Status Code"
@@ -3354,7 +3354,7 @@ agency,bureau,initial_domain,reason
 ,Department of Energy,esh-int.fnal.gov,"Filter,Redirect"
 ,Department of Energy,esh.fnal.gov,"Filter,Redirect"
 ,Department of Energy,esh.sandia.gov,"Filter,Redirect"
-,Department of Energy,eshdashboard.sandia.gov,"Filter,Redirect"
+,Department of Energy,eshdashboard.sandia.gov,Filter
 ,Department of Energy,eshdbsrv.fnal.gov,"Filter,Redirect"
 ,Department of Energy,eshq.fnal.gov,Filter
 ,Department of Energy,eshtraining.anl.gov,Filter
@@ -4509,7 +4509,7 @@ agency,bureau,initial_domain,reason
 ,Department of Energy,mmd-2-f5.lanl.gov,Filter
 ,Department of Energy,mmd-f5.lanl.gov,Filter
 ,Department of Energy,mml2010.lbl.gov,Filter
-,Department of Energy,mmr.sandia.gov,"Filter,Redirect"
+,Department of Energy,mmr.sandia.gov,Filter
 ,Department of Energy,mnspruce.ornl.gov,Filter
 ,Department of Energy,mnv.lbl.gov,Filter
 ,Department of Energy,mnvevd1.fnal.gov,Filter
@@ -4861,7 +4861,7 @@ agency,bureau,initial_domain,reason
 ,Department of Energy,oadr.ioc.anl.gov,Filter
 ,Department of Energy,oakridgereservationhunts.ornl.gov,"Filter,Status Code"
 ,Department of Energy,obc.lbl.gov,"Filter,Status Code"
-,Department of Energy,occurrence.sandia.gov,Filter
+,Department of Energy,occurrence.sandia.gov,"Filter,Redirect"
 ,Department of Energy,oce.cfl.lanl.gov,"Filter,Redirect"
 ,Department of Energy,oceanbots.lbl.gov,Filter
 ,Department of Energy,oceans11-insider-f5.lanl.gov,Filter
@@ -5093,7 +5093,7 @@ agency,bureau,initial_domain,reason
 ,Department of Energy,phy.ornl.gov,Filter
 ,Department of Energy,phyppro1.phy.bnl.gov,Filter
 ,Department of Energy,physicalsciences.lbl.gov,Filter
-,Department of Energy,physics.lbl.gov,Filter
+,Department of Energy,physics.lbl.gov,"Filter,Status Code"
 ,Department of Energy,phytools.ornl.gov,Filter
 ,Department of Energy,phytozome-next.jgi.doe.gov,Filter
 ,Department of Energy,phytozome.jgi.doe.gov,"Filter,Redirect"
@@ -5781,7 +5781,7 @@ agency,bureau,initial_domain,reason
 ,Department of Energy,spot.lbl.gov,Filter
 ,Department of Energy,spot.nersc.gov,Filter
 ,Department of Energy,spotlight.llnl.gov,Filter
-,Department of Energy,spparks.sandia.gov,"Filter,Redirect"
+,Department of Energy,spparks.sandia.gov,Filter
 ,Department of Energy,spr.doe.gov,Filter
 ,Department of Energy,sprdp.spr.doe.gov,"Filter,Status Code"
 ,Department of Energy,sprucedata.extranet.ornl.gov,"Filter,Status Code"
@@ -5798,7 +5798,7 @@ agency,bureau,initial_domain,reason
 ,Department of Energy,srdocuments.bpa.gov,Filter
 ,Department of Energy,sri2010-d.aps.anl.gov,Filter
 ,Department of Energy,sri2010.aps.anl.gov,Filter
-,Department of Energy,srnl.doe.gov,"Filter,Redirect"
+,Department of Energy,srnl.doe.gov,Filter
 ,Department of Energy,srnl.gov,Filter
 ,Department of Energy,srnljobs.srs.gov,Filter
 ,Department of Energy,srnweb.srs.gov,Filter
@@ -7463,7 +7463,7 @@ agency,bureau,initial_domain,reason
 ,Department of Health and Human Services,csms-int.nci.nih.gov,Filter
 ,Department of Health and Human Services,csms.nci.nih.gov,Filter
 ,Department of Health and Human Services,csosmember.nhlbi.nih.gov,Filter
-,Department of Health and Human Services,cspdc.samhsa.gov,"Filter,Status Code"
+,Department of Health and Human Services,cspdc.samhsa.gov,Filter
 ,Department of Health and Human Services,csr.nih.gov,Filter
 ,Department of Health and Human Services,css.ncifcrf.gov,Filter
 ,Department of Health and Human Services,cssi-dcc.nci.nih.gov,Filter
@@ -7877,7 +7877,7 @@ agency,bureau,initial_domain,reason
 ,Department of Health and Human Services,e-protocol.od.nih.gov,Filter
 ,Department of Health and Human Services,eacms.cms.gov,Filter
 ,Department of Health and Human Services,eagle.cancer.gov,"Filter,Redirect"
-,Department of Health and Human Services,eai.nlm.nih.gov,"Filter,Status Code"
+,Department of Health and Human Services,eai.nlm.nih.gov,Filter
 ,Department of Health and Human Services,eapinterprd.nimh.nih.gov,Filter
 ,Department of Health and Human Services,earlyeducatorcentral.acf.hhs.gov,Filter
 ,Department of Health and Human Services,easauth-piv.cdc.gov,Filter
@@ -8127,7 +8127,6 @@ agency,bureau,initial_domain,reason
 ,Department of Health and Human Services,fda.gov.ezproxy.nihlibrary.nih.gov,"Filter,Redirect"
 ,Department of Health and Human Services,fda.gov.ezproxyhhs.nihlibrary.nih.gov,"Filter,Redirect"
 ,Department of Health and Human Services,fdagateway.fda.gov,"Filter,Status Code"
-,Department of Health and Human Services,fdanj.awsprod.nlm.nih.gov,"Filter,Status Code"
 ,Department of Health and Human Services,fdanj.awsqa.nlm.nih.gov,Filter
 ,Department of Health and Human Services,fdanj.nlm.nih.gov,"Filter,Status Code"
 ,Department of Health and Human Services,fdateam.betobaccofree.hhs.gov,"Filter,Status Code"
@@ -8435,7 +8434,6 @@ agency,bureau,initial_domain,reason
 ,Department of Health and Human Services,help.cancer.gov,"Filter,Redirect"
 ,Department of Health and Human Services,help.hrsa.gov,Filter
 ,Department of Health and Human Services,help.lobos.nih.gov,Filter
-,Department of Health and Human Services,help.stg2.hrsa.gov,Filter
 ,Department of Health and Human Services,helpdesk.scms.psc.gov,"Filter,Status Code"
 ,Department of Health and Human Services,heo.nih.gov,Filter
 ,Department of Health and Human Services,hescregapp.od.nih.gov,Filter
@@ -8761,7 +8759,7 @@ agency,bureau,initial_domain,reason
 ,Department of Health and Human Services,internet-prod.nhlbi.nih.gov,Filter
 ,Department of Health and Human Services,internet.csr.nih.gov,"Filter,Redirect"
 ,Department of Health and Human Services,intrahr.od.nih.gov,"Filter,Status Code"
-,Department of Health and Human Services,intramural.nih.gov,"Filter,Status Code"
+,Department of Health and Human Services,intramural.nih.gov,Filter
 ,Department of Health and Human Services,intramural.nimh.nih.gov,"Filter,Redirect"
 ,Department of Health and Human Services,intranet.dceg.cancer.gov,Redirect
 ,Department of Health and Human Services,intranet.hhs.gov,Status Code
@@ -9645,7 +9643,7 @@ agency,bureau,initial_domain,reason
 ,Department of Health and Human Services,oldcvns.grantsolutions.gov,Filter
 ,Department of Health and Human Services,olderindians.acl.gov,Filter
 ,Department of Health and Human Services,oldwiki.grantsolutions.gov,"Filter,Status Code"
-,Department of Health and Human Services,om.od.nih.gov,Filter
+,Department of Health and Human Services,om.od.nih.gov,"Filter,Status Code"
 ,Department of Health and Human Services,oma.cancer.gov,"Filter,Redirect"
 ,Department of Health and Human Services,oma.od.nih.gov,Filter
 ,Department of Health and Human Services,oma1.od.nih.gov,"Filter,Redirect"
@@ -9894,7 +9892,6 @@ agency,bureau,initial_domain,reason
 ,Department of Health and Human Services,portaldev-beta.cms.gov,"Filter,Status Code"
 ,Department of Health and Human Services,portaldev.cms.gov,Filter
 ,Department of Health and Human Services,portals.dceg.cancer.gov,"Filter,Redirect"
-,Department of Health and Human Services,portalstage.niehs.nih.gov,Filter
 ,Department of Health and Human Services,portalval-beta.cms.gov,"Filter,Status Code"
 ,Department of Health and Human Services,portalval.cms.gov,Filter
 ,Department of Health and Human Services,portfolioexpert.nci.nih.gov,"Filter,Redirect"
@@ -9952,7 +9949,6 @@ agency,bureau,initial_domain,reason
 ,Department of Health and Human Services,prodprime.cuidadodesalud.gov,"Filter,Status Code"
 ,Department of Health and Human Services,prodprime.healthcare.gov,"Filter,Status Code"
 ,Department of Health and Human Services,productordering.cms.hhs.gov,Filter
-,Department of Health and Human Services,profiles-us-east-1.awsprod.nlm.nih.gov,Filter
 ,Department of Health and Human Services,profiles.awsprod.nlm.nih.gov,Filter
 ,Department of Health and Human Services,profiles.nlm.nih.gov,Filter
 ,Department of Health and Human Services,programportal.hrsa.gov,Filter
@@ -10231,7 +10227,7 @@ agency,bureau,initial_domain,reason
 ,Department of Health and Human Services,saliva.nidcr.nih.gov,Filter
 ,Department of Health and Human Services,salud.nih.gov,Filter
 ,Department of Health and Human Services,salud.ors.od.nih.gov,Filter
-,Department of Health and Human Services,samhsa.gov,"Filter,Status Code"
+,Department of Health and Human Services,samhsa.gov,Filter
 ,Department of Health and Human Services,saml.cdc.gov,Filter
 ,Department of Health and Human Services,samples.moonshotbiobank.cancer.gov,Filter
 ,Department of Health and Human Services,sams-stg.cdc.gov,Redirect
@@ -10483,7 +10479,7 @@ agency,bureau,initial_domain,reason
 ,Department of Health and Human Services,spars-csap.samhsa.gov,"Filter,Redirect"
 ,Department of Health and Human Services,spars-csat.samhsa.gov,"Filter,Redirect"
 ,Department of Health and Human Services,spars-lc.samhsa.gov,"Filter,Redirect"
-,Department of Health and Human Services,spars-rpt.samhsa.gov,"Filter,Status Code"
+,Department of Health and Human Services,spars-rpt.samhsa.gov,"Filter,Redirect"
 ,Department of Health and Human Services,spars-signin.samhsa.gov,Filter
 ,Department of Health and Human Services,spars-sts.samhsa.gov,"Filter,Status Code"
 ,Department of Health and Human Services,spars-ta.samhsa.gov,"Filter,Status Code"
@@ -10610,7 +10606,7 @@ agency,bureau,initial_domain,reason
 ,Department of Health and Human Services,stopalcoholabuse.gov,"Filter,Redirect"
 ,Department of Health and Human Services,stopbullying.gov,Filter
 ,Department of Health and Human Services,stopfer.nichd.nih.gov,"Filter,Redirect"
-,Department of Health and Human Services,store.samhsa.gov,"Filter,Status Code"
+,Department of Health and Human Services,store.samhsa.gov,"Filter,Redirect"
 ,Department of Health and Human Services,storz.nichd.nih.gov,"Filter,Redirect"
 ,Department of Health and Human Services,strap-prod-sg.ha.nci.nih.gov,"Filter,Redirect"
 ,Department of Health and Human Services,strap.nci.nih.gov,Filter
@@ -11464,7 +11460,7 @@ agency,bureau,initial_domain,reason
 ,Department of Homeland Security,ffx-rtc-app.msc.fema.gov,Filter
 ,Department of Homeland Security,filetrail.msc.fema.gov,"Filter,Redirect"
 ,Department of Homeland Security,fincen105.sat.mesh.cbp.dhs.gov,Filter
-,Department of Homeland Security,first.uscis.gov,Filter
+,Department of Homeland Security,first.uscis.gov,"Filter,Redirect"
 ,Department of Homeland Security,foiarequest.dhs.gov,Filter
 ,Department of Homeland Security,forms.fema.gov,Filter
 ,Department of Homeland Security,forms.us-cert.gov,"Filter,Redirect"
@@ -12072,7 +12068,7 @@ agency,bureau,initial_domain,reason
 ,Department of Justice,elderjustice.gov,"Filter,Redirect"
 ,Department of Justice,elm-ext.cesnoe.cjis.gov,Filter
 ,Department of Justice,elm.ces.cjis.gov,"Filter,Redirect"
-,Department of Justice,elpaso.dea.gov,Filter
+,Department of Justice,elpaso.dea.gov,"Filter,Redirect"
 ,Department of Justice,elpaso.fbi.gov,"Filter,Redirect,Status Code"
 ,Department of Justice,elwha.nsopw.gov,Filter
 ,Department of Justice,elyshoshonetribe.nsopw.gov,Filter
@@ -12189,7 +12185,7 @@ agency,bureau,initial_domain,reason
 ,Department of Justice,learnatf.gov,Filter
 ,Department of Justice,learndoj.gov,"Filter,Redirect"
 ,Department of Justice,leb.fbi.gov,"Filter,Status Code"
-,Department of Justice,leep-ndcac.fbi.gov,Filter
+,Department of Justice,leep-ndcac.fbi.gov,"Filter,Redirect"
 ,Department of Justice,leo.cjis.gov,Filter
 ,Department of Justice,leo.gov,Filter
 ,Department of Justice,leoka.ucr.cjis.gov,"Filter,Status Code"
@@ -12424,7 +12420,7 @@ agency,bureau,initial_domain,reason
 ,Department of Justice,search.nij.gov,"Filter,Status Code"
 ,Department of Justice,search.usmarshals.gov,"Filter,Status Code"
 ,Department of Justice,search.vcf.gov,Filter
-,Department of Justice,seattle.dea.gov,"Filter,Redirect"
+,Department of Justice,seattle.dea.gov,Filter
 ,Department of Justice,seattle.fbi.gov,"Filter,Redirect,Status Code"
 ,Department of Justice,sec8k.ic3.gov,Filter
 ,Department of Justice,secureemail.usdoj.gov,"Filter,Status Code"
@@ -12463,7 +12459,7 @@ agency,bureau,initial_domain,reason
 ,Department of Justice,stgsearch.forfeiture.gov,"Filter,Status Code"
 ,Department of Justice,stgsystems.forfeiture.gov,"Filter,Status Code"
 ,Department of Justice,stgwww.forfeiture.gov,Status Code
-,Department of Justice,stlouis.dea.gov,"Filter,Redirect"
+,Department of Justice,stlouis.dea.gov,Filter
 ,Department of Justice,stlouis.fbi.gov,"Filter,Redirect,Status Code"
 ,Department of Justice,stopelderfraud.ovc.ojp.gov,Filter
 ,Department of Justice,stories.fbi.gov,"Filter,Status Code"
@@ -12483,7 +12479,7 @@ agency,bureau,initial_domain,reason
 ,Department of Justice,testapplypp.fbijobs.gov,"Filter,Status Code"
 ,Department of Justice,testhrportalpp.fbijobs.gov,"Filter,Status Code"
 ,Department of Justice,testpp-analytics.fbijobs.gov,"Filter,Status Code"
-,Department of Justice,testpp.fbijobs.gov,Filter
+,Department of Justice,testpp.fbijobs.gov,"Filter,Status Code"
 ,Department of Justice,tfrgs.ustp.usdoj.gov,Filter
 ,Department of Justice,tims.ovcttac.gov,"Filter,Status Code"
 ,Department of Justice,tips.fbi.gov,"Filter,Status Code"
@@ -12523,7 +12519,6 @@ agency,bureau,initial_domain,reason
 ,Department of Justice,uat.ojjdp.ojp.gov,Status Code
 ,Department of Justice,uat.ojp.gov,Status Code
 ,Department of Justice,uat.ovc.ojp.gov,Status Code
-,Department of Justice,uat.smart.ojp.gov,Status Code
 ,Department of Justice,uat.vehiclehistory.bja.ojp.gov,Status Code
 ,Department of Justice,ucr.fbi.gov,"Filter,Status Code"
 ,Department of Justice,unicor.gov,Filter
@@ -12590,8 +12585,8 @@ agency,bureau,initial_domain,reason
 ,Department of Labor,arecibo.jobcorps.gov,"Filter,Status Code"
 ,Department of Labor,arlweb.msha.gov,"Filter,Redirect"
 ,Department of Labor,askebsa.dol.gov,"Filter,Redirect"
-,Department of Labor,atlanta.jobcorps.gov,"Filter,Redirect"
-,Department of Labor,atterbury.jobcorps.gov,Filter
+,Department of Labor,atlanta.jobcorps.gov,"Filter,Status Code"
+,Department of Labor,atterbury.jobcorps.gov,"Filter,Status Code"
 ,Department of Labor,bamberg.jobcorps.gov,"Filter,Status Code"
 ,Department of Labor,barranquitas.jobcorps.gov,"Filter,Status Code"
 ,Department of Labor,benjaminlhooks.jobcorps.gov,Filter
@@ -12633,7 +12628,7 @@ agency,bureau,initial_domain,reason
 ,Department of Labor,cmptst2.dol.gov,"Filter,Status Code"
 ,Department of Labor,coalmine.dol.gov,Filter
 ,Department of Labor,collbran.jobcorps.gov,"Filter,Status Code"
-,Department of Labor,columbiabasin.jobcorps.gov,Filter
+,Department of Labor,columbiabasin.jobcorps.gov,"Filter,Status Code"
 ,Department of Labor,contractorportal.dol.gov,Filter
 ,Department of Labor,curlew.jobcorps.gov,"Filter,Status Code"
 ,Department of Labor,cxsearch.dol.gov,"Filter,Status Code"
@@ -12699,7 +12694,7 @@ agency,bureau,initial_domain,reason
 ,Department of Labor,flintgenesee.jobcorps.gov,"Filter,Status Code"
 ,Department of Labor,flinthills.jobcorps.gov,Filter
 ,Department of Labor,foreignlaborcert.doleta.gov,Filter
-,Department of Labor,fortsimcoe.jobcorps.gov,"Filter,Status Code"
+,Department of Labor,fortsimcoe.jobcorps.gov,Filter
 ,Department of Labor,fredgacosta.jobcorps.gov,"Filter,Status Code"
 ,Department of Labor,frenchburg.jobcorps.gov,Filter
 ,Department of Labor,gadsden.jobcorps.gov,"Filter,Status Code"
@@ -12735,13 +12730,13 @@ agency,bureau,initial_domain,reason
 ,Department of Labor,indypendence.jobcorps.gov,"Filter,Status Code"
 ,Department of Labor,inlandempire.jobcorps.gov,"Filter,Status Code"
 ,Department of Labor,iroquois.jobcorps.gov,Filter
-,Department of Labor,jacksonville.jobcorps.gov,"Filter,Status Code"
+,Department of Labor,jacksonville.jobcorps.gov,Filter
 ,Department of Labor,jacobscreek.jobcorps.gov,"Filter,Status Code"
 ,Department of Labor,jobcorps.doleta.gov,"Filter,Redirect"
 ,Department of Labor,jobcorps.gov,Filter
 ,Department of Labor,jobs.dol.gov,Filter
 ,Department of Labor,join.video.dol.gov,Filter
-,Department of Labor,joliet.jobcorps.gov,Filter
+,Department of Labor,joliet.jobcorps.gov,"Filter,Status Code"
 ,Department of Labor,joltsdata.bls.gov,Filter
 ,Department of Labor,joltsdatad.bls.gov,Filter
 ,Department of Labor,joltsdataorigin1.bls.gov,"Filter,Redirect"
@@ -12793,7 +12788,7 @@ agency,bureau,initial_domain,reason
 ,Department of Labor,olddominion.jobcorps.gov,Filter
 ,Department of Labor,olms.dol.gov,Filter
 ,Department of Labor,olmsapps.dol.gov,"Filter,Redirect"
-,Department of Labor,oneonta.jobcorps.gov,Filter
+,Department of Labor,oneonta.jobcorps.gov,"Filter,Status Code"
 ,Department of Labor,oprs.dol.gov,Filter
 ,Department of Labor,osha-ita.staging.pace.dol.gov,Status Code
 ,Department of Labor,osha.gov,Filter
@@ -12815,7 +12810,7 @@ agency,bureau,initial_domain,reason
 ,Department of Labor,pinellascounty.jobcorps.gov,"Filter,Status Code"
 ,Department of Labor,pineridge.jobcorps.gov,"Filter,Status Code"
 ,Department of Labor,pittsburgh.jobcorps.gov,"Filter,Status Code"
-,Department of Labor,pivot.jobcorps.gov,Filter
+,Department of Labor,pivot.jobcorps.gov,"Filter,Status Code"
 ,Department of Labor,plc.doleta.gov,Filter
 ,Department of Labor,portal.osha.gov,Filter
 ,Department of Labor,potomac.jobcorps.gov,Filter
@@ -12836,7 +12831,7 @@ agency,bureau,initial_domain,reason
 ,Department of Labor,sanjose.jobcorps.gov,"Filter,Status Code"
 ,Department of Labor,saversummit.dol.gov,"Filter,Redirect"
 ,Department of Labor,savingmatters.dol.gov,Filter
-,Department of Labor,schenck.jobcorps.gov,Filter
+,Department of Labor,schenck.jobcorps.gov,"Filter,Status Code"
 ,Department of Labor,seaportal.dol.gov,Filter
 ,Department of Labor,search.dol.gov,Filter
 ,Department of Labor,search.osha.gov,Filter
@@ -12917,7 +12912,7 @@ agency,bureau,initial_domain,reason
 ,Department of Labor,wagehour.dol.gov,"Filter,Redirect"
 ,Department of Labor,wdr.doleta.gov,Filter
 ,Department of Labor,webapps.dol.gov,Filter
-,Department of Labor,weberbasin.jobcorps.gov,Filter
+,Department of Labor,weberbasin.jobcorps.gov,"Filter,Status Code"
 ,Department of Labor,westover.jobcorps.gov,"Filter,Status Code"
 ,Department of Labor,whistleblowers.gov,Filter
 ,Department of Labor,whitneymyoung.jobcorps.gov,Filter
@@ -13174,7 +13169,7 @@ agency,bureau,initial_domain,reason
 ,Department of State,ewgo.state.gov,Filter
 ,Department of State,ewgopiv.state.gov,Filter
 ,Department of State,ewgopivogr.state.gov,"Filter,Status Code"
-,Department of State,exchanges.state.gov,"Filter,Status Code"
+,Department of State,exchanges.state.gov,Filter
 ,Department of State,fam.state.gov,Filter
 ,Department of State,fan.gov,Filter
 ,Department of State,feds.iawg.gov,Filter
@@ -14978,7 +14973,7 @@ agency,bureau,initial_domain,reason
 ,Department of the Interior,3dparks.wr.usgs.gov,"Filter,Status Code"
 ,Department of the Interior,abp.cr.usgs.gov,Filter
 ,Department of the Interior,acebasin.fws.gov,"Filter,Redirect"
-,Department of the Interior,acwi.gov,"Filter,Redirect,Status Code"
+,Department of the Interior,acwi.gov,"Filter,Redirect"
 ,Department of the Interior,aesics.cr.usgs.gov,Filter
 ,Department of the Interior,afghanistan.cr.usgs.gov,Filter
 ,Department of the Interior,afmss.blm.gov,Filter
@@ -15317,7 +15312,7 @@ agency,bureau,initial_domain,reason
 ,Department of the Interior,erg.usgs.gov,"Filter,Status Code"
 ,Department of the Interior,erie.fws.gov,"Filter,Redirect"
 ,Department of the Interior,eros-itsupport.usgs.gov,Filter
-,Department of the Interior,eros.usgs.gov,"Filter,Redirect"
+,Department of the Interior,eros.usgs.gov,"Filter,Redirect,Status Code"
 ,Department of the Interior,ers.cr.usgs.gov,Filter
 ,Department of the Interior,escweb.wr.usgs.gov,Filter
 ,Department of the Interior,esoa.onrr.gov,"Filter,Redirect"
@@ -15383,7 +15378,7 @@ agency,bureau,initial_domain,reason
 ,Department of the Interior,fws.gov,Filter
 ,Department of the Interior,fwsprimary.wim.usgs.gov,"Filter,Redirect"
 ,Department of the Interior,fwsvideo.fws.gov,Filter
-,Department of the Interior,ga.water.usgs.gov,"Filter,Redirect,Status Code"
+,Department of the Interior,ga.water.usgs.gov,"Filter,Redirect"
 ,Department of the Interior,ga.waterdata.usgs.gov,"Filter,Status Code"
 ,Department of the Interior,gacc.nifc.gov,Filter
 ,Department of the Interior,gapanalysis.usgs.gov,"Filter,Redirect,Status Code"
@@ -15494,7 +15489,7 @@ agency,bureau,initial_domain,reason
 ,Department of the Interior,icaci-mapprojections.usgs.gov,Filter
 ,Department of the Interior,id.water.usgs.gov,"Filter,Status Code"
 ,Department of the Interior,id.waterdata.usgs.gov,"Filter,Status Code"
-,Department of the Interior,ida.water.usgs.gov,Filter
+,Department of the Interior,ida.water.usgs.gov,"Filter,Redirect"
 ,Department of the Interior,ida.wr.usgs.gov,Filter
 ,Department of the Interior,idaho.usgs.gov,"Filter,Status Code"
 ,Department of the Interior,idaho.wr.usgs.gov,"Filter,Status Code"
@@ -15535,14 +15530,14 @@ agency,bureau,initial_domain,reason
 ,Department of the Interior,inside.nps.gov,"Filter,Redirect"
 ,Department of the Interior,interior.gov,"Filter,Redirect"
 ,Department of the Interior,international.fws.gov,"Filter,Redirect"
-,Department of the Interior,international.usgs.gov,"Filter,Redirect"
+,Department of the Interior,international.usgs.gov,"Filter,Redirect,Status Code"
 ,Department of the Interior,invasives.fws.gov,"Filter,Redirect"
 ,Department of the Interior,invasivespecies.gov,"Filter,Redirect"
 ,Department of the Interior,iowa.usgs.gov,"Filter,Status Code"
 ,Department of the Interior,ipac.ecosphere.fws.gov,Filter
 ,Department of the Interior,ipacb.ecosphere.fws.gov,"Filter,Status Code"
 ,Department of the Interior,iqmis.ibc.doi.gov,"Filter,Status Code"
-,Department of the Interior,iqmisuat.ibc.doi.gov,"Filter,Status Code"
+,Department of the Interior,iqmisuat.ibc.doi.gov,Filter
 ,Department of the Interior,iraq.cr.usgs.gov,"Filter,Status Code"
 ,Department of the Interior,irm.fws.gov,"Filter,Redirect,Status Code"
 ,Department of the Interior,irma.nps.gov,Filter
@@ -15585,7 +15580,7 @@ agency,bureau,initial_domain,reason
 ,Department of the Interior,ks.water.usgs.gov,"Filter,Redirect,Status Code"
 ,Department of the Interior,ks.waterdata.usgs.gov,"Filter,Status Code"
 ,Department of the Interior,kulmwetlands.fws.gov,"Filter,Redirect,Status Code"
-,Department of the Interior,ky.water.usgs.gov,"Filter,Redirect,Status Code"
+,Department of the Interior,ky.water.usgs.gov,"Filter,Redirect"
 ,Department of the Interior,ky.waterdata.usgs.gov,"Filter,Status Code"
 ,Department of the Interior,la.water.usgs.gov,Filter
 ,Department of the Interior,la.waterdata.usgs.gov,"Filter,Status Code"
@@ -15631,7 +15626,7 @@ agency,bureau,initial_domain,reason
 ,Department of the Interior,library.doi.gov,Filter
 ,Department of the Interior,library.fws.gov,"Filter,Redirect,Status Code"
 ,Department of the Interior,library.nps.gov,"Filter,Redirect"
-,Department of the Interior,library.usgs.gov,"Filter,Redirect,Status Code"
+,Department of the Interior,library.usgs.gov,"Filter,Redirect"
 ,Department of the Interior,libraryguides.usgs.gov,Filter
 ,Department of the Interior,libraryphoto.cr.usgs.gov,"Filter,Status Code"
 ,Department of the Interior,lightningapi.nifc.gov,Filter
@@ -15678,7 +15673,7 @@ agency,bureau,initial_domain,reason
 ,Department of the Interior,mapservices.nps.gov,Filter
 ,Department of the Interior,maraisdescygnes.fws.gov,"Filter,Redirect"
 ,Department of the Interior,marine.er.usgs.gov,"Filter,Redirect,Status Code"
-,Department of the Interior,marine.usgs.gov,"Filter,Redirect"
+,Department of the Interior,marine.usgs.gov,"Filter,Redirect,Status Code"
 ,Department of the Interior,marketplace.geoplatform.gov,Filter
 ,Department of the Interior,marktrail.fws.gov,"Filter,Redirect,Status Code"
 ,Department of the Interior,marylandfisheries.fws.gov,"Filter,Redirect"
@@ -15692,7 +15687,7 @@ agency,bureau,initial_domain,reason
 ,Department of the Interior,mbdcapps.fws.gov,"Filter,Redirect"
 ,Department of the Interior,mbr-pwrc.usgs.gov,Filter
 ,Department of the Interior,mcmcweb.er.usgs.gov,"Filter,Status Code"
-,Department of the Interior,md.water.usgs.gov,"Filter,Redirect,Status Code"
+,Department of the Interior,md.water.usgs.gov,"Filter,Redirect"
 ,Department of the Interior,md.waterdata.usgs.gov,"Filter,Status Code"
 ,Department of the Interior,me.water.usgs.gov,"Filter,Redirect"
 ,Department of the Interior,me.waterdata.usgs.gov,"Filter,Status Code"
@@ -15702,7 +15697,7 @@ agency,bureau,initial_domain,reason
 ,Department of the Interior,merrittisland.fws.gov,"Filter,Redirect"
 ,Department of the Interior,metadata.boem.gov,"Filter,Status Code"
 ,Department of the Interior,mexicanwolf.fws.gov,"Filter,Redirect,Status Code"
-,Department of the Interior,mi.water.usgs.gov,"Filter,Redirect,Status Code"
+,Department of the Interior,mi.water.usgs.gov,"Filter,Redirect"
 ,Department of the Interior,mi.waterdata.usgs.gov,"Filter,Status Code"
 ,Department of the Interior,mids.er.usgs.gov,Filter
 ,Department of the Interior,midway.fws.gov,"Filter,Redirect"
@@ -15712,7 +15707,7 @@ agency,bureau,initial_domain,reason
 ,Department of the Interior,minerals.cr.usgs.gov,"Filter,Status Code"
 ,Department of the Interior,minerals.er.usgs.gov,"Filter,Status Code"
 ,Department of the Interior,minerals.usgs.gov,"Filter,Redirect,Status Code"
-,Department of the Interior,mipsweb.er.usgs.gov,"Filter,Status Code"
+,Department of the Interior,mipsweb.er.usgs.gov,Filter
 ,Department of the Interior,missisquoi.fws.gov,"Filter,Redirect,Status Code"
 ,Department of the Interior,mississippisandhillcrane.fws.gov,"Filter,Redirect"
 ,Department of the Interior,missouri.usgs.gov,"Filter,Status Code"
@@ -15797,7 +15792,7 @@ agency,bureau,initial_domain,reason
 ,Department of the Interior,nctc.fws.gov,"Filter,Redirect"
 ,Department of the Interior,nd.water.usgs.gov,"Filter,Status Code"
 ,Department of the Interior,ne.water.usgs.gov,"Filter,Redirect,Status Code"
-,Department of the Interior,ne.waterdata.usgs.gov,"Filter,Status Code"
+,Department of the Interior,ne.waterdata.usgs.gov,Filter
 ,Department of the Interior,nebraskapartners.fws.gov,"Filter,Redirect,Status Code"
 ,Department of the Interior,nemi.gov,Filter
 ,Department of the Interior,nerslweb.cr.usgs.gov,"Filter,Status Code"
@@ -15823,7 +15818,7 @@ agency,bureau,initial_domain,reason
 ,Department of the Interior,nj.waterdata.usgs.gov,Filter
 ,Department of the Interior,njfieldoffice.fws.gov,"Filter,Redirect"
 ,Department of the Interior,nm.blm.gov,Filter
-,Department of the Interior,nm.water.usgs.gov,"Filter,Redirect"
+,Department of the Interior,nm.water.usgs.gov,"Filter,Redirect,Status Code"
 ,Department of the Interior,nm.waterdata.usgs.gov,"Filter,Status Code"
 ,Department of the Interior,nmesfo.fws.gov,"Filter,Redirect,Status Code"
 ,Department of the Interior,nomanslandisland.fws.gov,"Filter,Redirect,Status Code"
@@ -15861,7 +15856,7 @@ agency,bureau,initial_domain,reason
 ,Department of the Interior,nwrcmap1.cr.usgs.gov,"Filter,Status Code"
 ,Department of the Interior,nwrcmap2.cr.usgs.gov,"Filter,Status Code"
 ,Department of the Interior,nwrcmap3.cr.usgs.gov,"Filter,Status Code"
-,Department of the Interior,nwrcwebapps.cr.usgs.gov,"Filter,Redirect"
+,Department of the Interior,nwrcwebapps.cr.usgs.gov,"Filter,Redirect,Status Code"
 ,Department of the Interior,nwrcwebapps2.cr.usgs.gov,"Filter,Redirect,Status Code"
 ,Department of the Interior,ny.usgs.gov,"Filter,Status Code"
 ,Department of the Interior,ny.water.usgs.gov,"Filter,Redirect,Status Code"
@@ -15872,7 +15867,7 @@ agency,bureau,initial_domain,reason
 ,Department of the Interior,ocris.blm.gov,Filter
 ,Department of the Interior,odocs.osmre.gov,Filter
 ,Department of the Interior,offices.fws.gov,"Filter,Redirect"
-,Department of the Interior,oh.water.usgs.gov,"Filter,Redirect,Status Code"
+,Department of the Interior,oh.water.usgs.gov,"Filter,Redirect"
 ,Department of the Interior,oh.waterdata.usgs.gov,"Filter,Status Code"
 ,Department of the Interior,oha.doi.gov,Filter
 ,Department of the Interior,ohioriverislands.fws.gov,"Filter,Redirect,Status Code"
@@ -16013,7 +16008,7 @@ agency,bureau,initial_domain,reason
 ,Department of the Interior,rt.waterdata.usgs.gov,"Filter,Status Code"
 ,Department of the Interior,rtpapp.blm.gov,Filter
 ,Department of the Interior,rubylake.fws.gov,"Filter,Redirect,Status Code"
-,Department of the Interior,sabdata.cr.usgs.gov,Filter
+,Department of the Interior,sabdata.cr.usgs.gov,"Filter,Status Code"
 ,Department of the Interior,sabine.fws.gov,"Filter,Redirect,Status Code"
 ,Department of the Interior,sachuestpoint.fws.gov,"Filter,Redirect,Status Code"
 ,Department of the Interior,sacramento.fws.gov,"Filter,Redirect"
@@ -16042,7 +16037,7 @@ agency,bureau,initial_domain,reason
 ,Department of the Interior,savannah.fws.gov,"Filter,Redirect,Status Code"
 ,Department of the Interior,sbsc.wr.usgs.gov,"Filter,Redirect,Status Code"
 ,Department of the Interior,sc.water.usgs.gov,"Filter,Redirect,Status Code"
-,Department of the Interior,sc.waterdata.usgs.gov,"Filter,Status Code"
+,Department of the Interior,sc.waterdata.usgs.gov,Filter
 ,Department of the Interior,science.fws.gov,"Filter,Redirect"
 ,Department of the Interior,sciencebase.gov,"Filter,Status Code"
 ,Department of the Interior,sciencebase.usgs.gov,Filter
@@ -16089,7 +16084,7 @@ agency,bureau,initial_domain,reason
 ,Department of the Interior,solids.onrr.gov,"Filter,Redirect"
 ,Department of the Interior,solves.cr.usgs.gov,"Filter,Redirect,Status Code"
 ,Department of the Interior,sophia.er.usgs.gov,"Filter,Status Code"
-,Department of the Interior,soundwaves.er.usgs.gov,"Filter,Redirect,Status Code"
+,Department of the Interior,soundwaves.er.usgs.gov,Filter
 ,Department of the Interior,soundwaves.usgs.gov,"Filter,Redirect,Status Code"
 ,Department of the Interior,southdakotafieldoffice.fws.gov,"Filter,Redirect,Status Code"
 ,Department of the Interior,southdakotapartners.fws.gov,"Filter,Redirect,Status Code"
@@ -16211,7 +16206,7 @@ agency,bureau,initial_domain,reason
 ,Department of the Interior,volcano.gov,"Filter,Redirect"
 ,Department of the Interior,volcano.wr.usgs.gov,"Filter,Redirect,Status Code"
 ,Department of the Interior,volcanoes.resolve-esas.usgs.gov,"Filter,Status Code"
-,Department of the Interior,volcanoes.usgs.gov,"Filter,Redirect,Status Code"
+,Department of the Interior,volcanoes.usgs.gov,"Filter,Redirect"
 ,Department of the Interior,volcview.wr.usgs.gov,Filter
 ,Department of the Interior,volunteer.gov,Filter
 ,Department of the Interior,volunteers.fws.gov,"Filter,Redirect"
@@ -16224,10 +16219,10 @@ agency,bureau,initial_domain,reason
 ,Department of the Interior,wa.water.usgs.gov,"Filter,Redirect"
 ,Department of the Interior,wa.waterdata.usgs.gov,"Filter,Status Code"
 ,Department of the Interior,waccamaw.fws.gov,"Filter,Redirect"
-,Department of the Interior,waftest.usgs.gov,"Filter,Status Code"
+,Department of the Interior,waftest.usgs.gov,Filter
 ,Department of the Interior,walkamile.fws.gov,"Filter,Redirect,Status Code"
 ,Department of the Interior,wallkillriver.fws.gov,"Filter,Redirect,Status Code"
-,Department of the Interior,walrus.wr.usgs.gov,"Filter,Redirect,Status Code"
+,Department of the Interior,walrus.wr.usgs.gov,Filter
 ,Department of the Interior,warcapps.usgs.gov,Filter
 ,Department of the Interior,warcdata.usgs.gov,"Filter,Status Code"
 ,Department of the Interior,warcgeo.usgs.gov,Filter
@@ -16294,7 +16289,7 @@ agency,bureau,initial_domain,reason
 ,Department of the Interior,wrg.wr.usgs.gov,"Filter,Status Code"
 ,Department of the Interior,wsfrprograms.fws.gov,"Filter,Redirect"
 ,Department of the Interior,wsfrtraining.fws.gov,Filter
-,Department of the Interior,wv.usgs.gov,"Filter,Redirect,Status Code"
+,Department of the Interior,wv.usgs.gov,"Filter,Redirect"
 ,Department of the Interior,wv.water.usgs.gov,"Filter,Status Code"
 ,Department of the Interior,wv.waterdata.usgs.gov,"Filter,Status Code"
 ,Department of the Interior,www-oh.er.usgs.gov,Status Code
@@ -16306,7 +16301,7 @@ agency,bureau,initial_domain,reason
 ,Department of the Interior,wwwnc.usgs.gov,Status Code
 ,Department of the Interior,wwwnj.er.usgs.gov,Status Code
 ,Department of the Interior,wwworegon.wr.usgs.gov,Status Code
-,Department of the Interior,wwwpaztcn.wr.usgs.gov,"Redirect,Status Code"
+,Department of the Interior,wwwpaztcn.wr.usgs.gov,Redirect
 ,Department of the Interior,wwwrcamnl.wr.usgs.gov,"Redirect,Status Code"
 ,Department of the Interior,wwwrvares.er.usgs.gov,Status Code
 ,Department of the Interior,wy-mt.water.usgs.gov,"Filter,Redirect,Status Code"
@@ -16372,7 +16367,7 @@ agency,bureau,initial_domain,reason
 ,Department of the Treasury,caia.treasury.gov,"Filter,Status Code"
 ,Department of the Treasury,careers.occ.gov,Filter
 ,Department of the Treasury,careers2.occ.gov,Filter
-,Department of the Treasury,catalog.usmint.gov,"Filter,Redirect"
+,Department of the Treasury,catalog.usmint.gov,"Filter,Redirect,Status Code"
 ,Department of the Treasury,cats.occ.treas.gov,"Filter,Redirect"
 ,Department of the Treasury,cc1-isam-pressreleaseprod.treasuryauction.gov,Filter
 ,Department of the Treasury,cc1-isam-pressreleaseqa.treasuryauction.gov,Filter
@@ -16395,7 +16390,7 @@ agency,bureau,initial_domain,reason
 ,Department of the Treasury,clone.bfem.gov,Filter
 ,Department of the Treasury,cloudapps.perf.irs.gov,"Filter,Status Code"
 ,Department of the Treasury,cmias.fiscal.treasury.gov,Filter
-,Department of the Treasury,competition.usmint.gov,Filter
+,Department of the Treasury,competition.usmint.gov,"Filter,Status Code"
 ,Department of the Treasury,complaintreferralexpress.gov,Filter
 ,Department of the Treasury,comptrollerofthecurrency.gov,Filter
 ,Department of the Treasury,concur.treasury.gov,"Filter,Redirect"
@@ -16540,6 +16535,7 @@ agency,bureau,initial_domain,reason
 ,Department of the Treasury,iiq.fiscal.treasury.gov,"Filter,Redirect"
 ,Department of the Treasury,image.email.usmint.gov,"Filter,Status Code"
 ,Department of the Treasury,images.eftps.gov,"Filter,Status Code"
+,Department of the Treasury,inactive.fiscaldata.treasury.gov,Filter
 ,Department of the Treasury,info.eftps.gov,"Filter,Status Code"
 ,Department of the Treasury,int.ttbonline.gov,Filter
 ,Department of the Treasury,ipp.gov,Filter
@@ -16719,6 +16715,7 @@ agency,bureau,initial_domain,reason
 ,Department of the Treasury,sps.fiscal.treasury.gov,Filter
 ,Department of the Treasury,sps.fms.treas.gov,Filter
 ,Department of the Treasury,ssologin-pp.fms.treas.gov,Filter
+,Department of the Treasury,staging.usmint.gov,Status Code
 ,Department of the Treasury,stayexempt.irs.gov,"Filter,Redirect"
 ,Department of the Treasury,stg.tei.treasury.gov,Status Code
 ,Department of the Treasury,stg.treasury.gov,Status Code
@@ -16962,7 +16959,7 @@ agency,bureau,initial_domain,reason
 ,Environmental Protection Agency,cleanpowerplanmaps.epa.gov,Filter
 ,Environmental Protection Agency,clearinghouse.epa.gov,Filter
 ,Environmental Protection Agency,click.mail.energystar.gov,"Filter,Status Code"
-,Environmental Protection Agency,climateadaptation.epa.gov,Filter
+,Environmental Protection Agency,climateadaptation.epa.gov,"Filter,Status Code"
 ,Environmental Protection Agency,clmapper.epa.gov,Filter
 ,Environmental Protection Agency,cloud.mail.energystar.gov,"Filter,Status Code"
 ,Environmental Protection Agency,cmdp.epa.gov,Filter
@@ -17411,7 +17408,7 @@ agency,bureau,initial_domain,reason
 ,Farm Credit Administration,mclvpn.fca.gov,Filter
 ,Farm Credit Administration,meeting.fca.gov,Filter
 ,Farm Credit Administration,owa13.fca.gov,Filter
-,Farm Credit Administration,reports.fca.gov,Filter
+,Farm Credit Administration,reports.fca.gov,"Filter,Redirect,Status Code"
 ,Farm Credit Administration,ss.fca.gov,Filter
 ,Farm Credit Administration,sso2.fca.gov,Filter
 ,Farm Credit Administration,surveys.fca.gov,Filter
@@ -17599,7 +17596,7 @@ agency,bureau,initial_domain,reason
 ,Federal Deposit Insurance Corporation,vpcp-gw-dfw.fdic.gov,"Filter,Status Code"
 ,Federal Deposit Insurance Corporation,vpcp-gw-vas.fdic.gov,"Filter,Status Code"
 ,Federal Deposit Insurance Corporation,vpcp-rem-dfw.fdic.gov,"Filter,Status Code"
-,Federal Deposit Insurance Corporation,vpcp-rem-gw-dfw.fdic.gov,Filter
+,Federal Deposit Insurance Corporation,vpcp-rem-gw-dfw.fdic.gov,"Filter,Status Code"
 ,Federal Deposit Insurance Corporation,vpcp-rem-gw-vas.fdic.gov,"Filter,Status Code"
 ,Federal Deposit Insurance Corporation,vpcp-rem-vas.fdic.gov,"Filter,Status Code"
 ,Federal Deposit Insurance Corporation,vpcp-vas.fdic.gov,"Filter,Status Code"
@@ -18279,6 +18276,7 @@ agency,bureau,initial_domain,reason
 ,General Services Administration,idmanagement.gov,Filter
 ,General Services Administration,idp.bleachbyte.identitysandbox.gov,Status Code
 ,General Services Administration,idp.jjg.identitysandbox.gov,Status Code
+,General Services Administration,idp.joy.identitysandbox.gov,Status Code
 ,General Services Administration,idp.solipet.identitysandbox.gov,Status Code
 ,General Services Administration,idp.tspencer.identitysandbox.gov,Status Code
 ,General Services Administration,iextportal.pbs.gsa.gov,Filter
@@ -20180,7 +20178,7 @@ agency,bureau,initial_domain,reason
 ,National Aeronautics and Space Administration,sesi.gsfc.nasa.gov,Filter
 ,National Aeronautics and Space Administration,sewp-avi-lb-pz.sewp.nasa.gov,"Filter,Status Code"
 ,National Aeronautics and Space Administration,sewp1-1-pz.sewp.nasa.gov,Filter
-,National Aeronautics and Space Administration,sewp1-2-pz.sewp.nasa.gov,Filter
+,National Aeronautics and Space Administration,sewp1-2-pz.sewp.nasa.gov,"Filter,Status Code"
 ,National Aeronautics and Space Administration,sfa.ird.appdat.jsc.nasa.gov,Filter
 ,National Aeronautics and Space Administration,sfa.nasa.gov,"Filter,Redirect"
 ,National Aeronautics and Space Administration,sgp.gsfc.nasa.gov,Filter
@@ -20402,7 +20400,6 @@ agency,bureau,initial_domain,reason
 ,National Aeronautics and Space Administration,visitor.nasa.gov,"Filter,Redirect"
 ,National Aeronautics and Space Administration,visitorcenterevents.gsfc.nasa.gov,"Filter,Redirect"
 ,National Aeronautics and Space Administration,visstaging.globe.gov,Filter
-,National Aeronautics and Space Administration,visstagingnew.globe.gov,Filter
 ,National Aeronautics and Space Administration,visual.gsfc.nasa.gov,Filter
 ,National Aeronautics and Space Administration,vjsc.russia.nasa.gov,"Filter,Status Code"
 ,National Aeronautics and Space Administration,vmsfc-m.russia.nasa.gov,"Filter,Status Code"
@@ -21414,7 +21411,6 @@ agency,bureau,initial_domain,reason
 ,Office of Personnel Management,va.usajobs.gov,Filter
 ,Office of Personnel Management,vbaoak.usajobs.gov,Filter
 ,Office of Personnel Management,vbasea.usajobs.gov,Filter
-,Office of Personnel Management,veterinaryjobs.usajobs.gov,Filter
 ,Office of Personnel Management,view.usajobs.gov,"Filter,Status Code"
 ,Office of Personnel Management,w.usajobs.gov,"Filter,Status Code"
 ,Office of Personnel Management,webadmin.pebblebeach.usajobs.gov,Status Code
@@ -21538,7 +21534,7 @@ agency,bureau,initial_domain,reason
 ,Securities and Exchange Commission,edgarfiling-bravo.edgarfiling.sec.gov,Filter
 ,Securities and Exchange Commission,edgarfiling.sec.gov,Filter
 ,Securities and Exchange Commission,efap.sec.gov,Filter
-,Securities and Exchange Commission,efoia-pal.sec.gov,Filter
+,Securities and Exchange Commission,efoia-pal.sec.gov,"Filter,Status Code"
 ,Securities and Exchange Commission,enterpriseregistration.sec.gov,"Filter,Status Code"
 ,Securities and Exchange Commission,filermanagement.edgarfiling.sec.gov,Filter
 ,Securities and Exchange Commission,files.adviserinfo.sec.gov,Redirect
@@ -21859,7 +21855,7 @@ agency,bureau,initial_domain,reason
 ,U.S. Department of Agriculture,apollo.nal.usda.gov,"Filter,Redirect"
 ,U.S. Department of Agriculture,apps.ams.usda.gov,Filter
 ,U.S. Department of Agriculture,apps.fas.usda.gov,"Filter,Redirect"
-,U.S. Department of Agriculture,apps.fs.usda.gov,"Filter,Redirect"
+,U.S. Department of Agriculture,apps.fs.usda.gov,Filter
 ,U.S. Department of Agriculture,apps.fsa.usda.gov,Filter
 ,U.S. Department of Agriculture,apps.sc.egov.usda.gov,Filter
 ,U.S. Department of Agriculture,apps.tucson.ars.ag.gov,Filter
@@ -21934,7 +21930,7 @@ agency,bureau,initial_domain,reason
 ,U.S. Department of Agriculture,da.usda.gov,"Filter,Redirect"
 ,U.S. Department of Agriculture,dam-fns.usda.gov,Filter
 ,U.S. Department of Agriculture,data.ers.usda.gov,"Filter,Redirect"
-,U.S. Department of Agriculture,data.fs.usda.gov,Filter
+,U.S. Department of Agriculture,data.fs.usda.gov,"Filter,Redirect"
 ,U.S. Department of Agriculture,data.nal.usda.gov,"Filter,Redirect"
 ,U.S. Department of Agriculture,data.nass.usda.gov,Filter
 ,U.S. Department of Agriculture,datagateway.nrcs.usda.gov,Filter
@@ -22647,7 +22643,7 @@ agency,bureau,initial_domain,reason
 ,United States International Trade Commission,ids.usitc.gov,Filter
 ,United States International Trade Commission,itcvpn.usitc.gov,Filter
 ,United States International Trade Commission,mtbps.usitc.gov,"Filter,Redirect"
-,United States International Trade Commission,pubapps.usitc.gov,Filter
+,United States International Trade Commission,pubapps.usitc.gov,"Filter,Redirect"
 ,United States International Trade Commission,pubapps2.usitc.gov,Filter
 ,United States International Trade Commission,sts.usitc.gov,Status Code
 ,United States International Trade Commission,usitc.gov,Filter
@@ -22684,7 +22680,7 @@ agency,bureau,initial_domain,reason
 ,United States Postal Service,dbservicesea.usps.gov,"Filter,Status Code"
 ,United States Postal Service,dbservicessm.usps.gov,"Filter,Status Code"
 ,United States Postal Service,eaganras.usps.gov,"Filter,Redirect"
-,United States Postal Service,ehome.uspis.gov,Filter
+,United States Postal Service,ehome.uspis.gov,"Filter,Status Code"
 ,United States Postal Service,elra-ext.usps.gov,Filter
 ,United States Postal Service,enterpriseregistration.uspsoig.gov,"Filter,Status Code"
 ,United States Postal Service,eopf.usps.gov,"Filter,Redirect"
@@ -22724,14 +22720,14 @@ agency,bureau,initial_domain,reason
 ,United States Postal Service,mobility.usps.gov,Filter
 ,United States Postal Service,mtel.usps.gov,Filter
 ,United States Postal Service,ns-cat-elsah.uspis.gov,Filter
-,United States Postal Service,ns-incidentssurvey.uspis.gov,"Filter,Status Code"
-,United States Postal Service,ns-iras.uspis.gov,Filter
+,United States Postal Service,ns-incidentssurvey.uspis.gov,Filter
+,United States Postal Service,ns-iras.uspis.gov,"Filter,Status Code"
 ,United States Postal Service,ns-tst-dcmsv2.uspis.gov,"Filter,Status Code"
 ,United States Postal Service,ns-tst-incidentssurvey.uspis.gov,"Filter,Status Code"
-,United States Postal Service,ns-tst-iras.uspis.gov,Filter
+,United States Postal Service,ns-tst-iras.uspis.gov,"Filter,Status Code"
 ,United States Postal Service,ns-tst-postalinspectors.uspis.gov,Filter
 ,United States Postal Service,ns-tstehome.uspis.gov,"Filter,Status Code"
-,United States Postal Service,ns-tstm.uspis.gov,Filter
+,United States Postal Service,ns-tstm.uspis.gov,"Filter,Status Code"
 ,United States Postal Service,pe.usps.gov,"Filter,Redirect"
 ,United States Postal Service,postalinspectors.uspis.gov,"Filter,Redirect"
 ,United States Postal Service,postcalc.usps.gov,"Filter,Redirect"
@@ -22754,7 +22750,7 @@ agency,bureau,initial_domain,reason
 ,United States Postal Service,uspsoig.gov,Filter
 ,United States Postal Service,vpnclient.usps.gov,Filter
 ,United States Postal Service,vtrs-cat.usps.gov,Filter
-,United States Postal Service,wc0-ext.usps.gov,"Filter,Status Code"
+,United States Postal Service,wc0-ext.usps.gov,Filter
 ,United States Postal Service,wd0-ext.usps.gov,"Filter,Status Code"
 ,United States Postal Service,webpmt.usps.gov,"Filter,Redirect"
 ,United States Postal Service,webvdi.usps.gov,Filter
@@ -22934,7 +22930,6 @@ Department of Defense,,cvnxx.mil,Filter
 Department of Defense,,cw-environment.erdc.dren.mil,"Filter,Status Code"
 Department of Defense,,cyber.mil,Filter
 Department of Defense,,cybercom.mil,Filter
-Department of Defense,,cyberworkforce.dow.afpims.mil,"Filter,Status Code"
 Department of Defense,,daac.hpc.mil,Filter
 Department of Defense,,dacipad.whs.mil,Filter
 Department of Defense,,dadmstest.dod.mil,Filter
@@ -24170,7 +24165,7 @@ Department of Defense,Army,avmc.army.mil,Filter
 Department of Defense,Army,awg.army.mil,Filter
 Department of Defense,Army,awm.army.mil,Filter
 Department of Defense,Army,awm.lee.army.mil,Filter
-Department of Defense,Army,bahc.nrmc.amedd.army.mil,Filter
+Department of Defense,Army,bahc.nrmc.amedd.army.mil,"Filter,Redirect"
 Department of Defense,Army,band.eur.army.mil,Filter
 Department of Defense,Army,blanchfield.amedd.army.mil,"Filter,Redirect"
 Department of Defense,Army,c5isrcenter.devcom.army.mil,Filter
@@ -24427,7 +24422,7 @@ Department of Defense,Army,sas.usace.army.mil,Filter
 Department of Defense,Army,saw.usace.army.mil,Filter
 Department of Defense,Army,scra.dmdc.osd.mil,Filter
 Department of Defense,Army,sddc.army.mil,Filter
-Department of Defense,Army,sierra.army.mil,"Filter,Status Code"
+Department of Defense,Army,sierra.army.mil,Filter
 Department of Defense,Army,sill-www.army.mil,Filter
 Department of Defense,Army,skillbridge.osd.mil,Filter
 Department of Defense,Army,skysoldiers.army.mil,Filter
