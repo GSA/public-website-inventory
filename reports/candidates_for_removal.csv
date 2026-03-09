@@ -239,6 +239,11 @@ agency,bureau,initial_domain,reason
 .gov Administration,Infrastructure Commission,nic.gov,Filter
 "AMTRAK, Office of the Inspector General",,amtrakoig.gov,Filter
 "AMTRAK, Office of the Inspector General",,mail.amtrakoig.gov,Redirect
+Access Board,,access-board.gov,Filter
+Access Board,,beta.access-board.gov,Filter
+Access Board,,ictbaseline.access-board.gov,Filter
+Access Board,,sts.access-board.gov,Status Code
+Access Board,,usabvpn.access-board.gov,"Filter,Status Code"
 Administrative Conference of the United States,,acus.gov,Filter
 Administrative Conference of the United States,,eaja.acus.gov,Filter
 Administrative Conference of the United States,,sourcebook.acus.gov,Filter
@@ -1881,7 +1886,6 @@ Department of Commerce,National Oceanic and Atmospheric Administration,madisqa-c
 Department of Commerce,National Oceanic and Atmospheric Administration,madisqa.ncep.noaa.gov,Filter
 Department of Commerce,National Oceanic and Atmospheric Administration,mag.nssl.noaa.gov,Filter
 Department of Commerce,National Oceanic and Atmospheric Administration,magpara.ncep.noaa.gov,Filter
-Department of Commerce,National Oceanic and Atmospheric Administration,manati-a.star.nesdis.noaa.gov,Filter
 Department of Commerce,National Oceanic and Atmospheric Administration,maps.chs.coast.noaa.gov,Filter
 Department of Commerce,National Oceanic and Atmospheric Administration,maps.fisheries.noaa.gov,Filter
 Department of Commerce,National Oceanic and Atmospheric Administration,maps.ngdc.noaa.gov,Filter
@@ -2264,7 +2268,6 @@ Department of Commerce,National Oceanic and Atmospheric Administration,www-prod-
 Department of Commerce,National Oceanic and Atmospheric Administration,www-prod-02.oceanexplorer.woc.noaa.gov,Filter
 Department of Commerce,National Oceanic and Atmospheric Administration,www-prod.goesr.woc.noaa.gov,Filter
 Department of Commerce,National Oceanic and Atmospheric Administration,www1.ncdc.noaa.gov,Redirect
-Department of Commerce,National Technical Information Service,nessadmin.ntis.gov,Filter
 Department of Commerce,National Technical Information Service,ra.ntis.gov,Filter
 Department of Commerce,National Technical Information Service,search.taxmap.ntis.gov,"Filter,Status Code"
 Department of Commerce,National Telecommunications and Information Administration,5gchallenge.ntia.gov,"Filter,Redirect"
@@ -6484,7 +6487,6 @@ Department of Energy,Fermi National Accelerator Laboratory,web4503.fnal.gov,Filt
 Department of Energy,Fermi National Accelerator Laboratory,web4504.fnal.gov,Filter
 Department of Energy,Fermi National Accelerator Laboratory,web4601-lb.fnal.gov,Filter
 Department of Energy,Fermi National Accelerator Laboratory,web9001.fnal.gov,Filter
-Department of Energy,Fermi National Accelerator Laboratory,webui-icarus-rucio.fnal.gov,Filter
 Department of Energy,Fermi National Accelerator Laboratory,webui-mu2e-rucio.fnal.gov,Filter
 Department of Energy,Fermi National Accelerator Laboratory,wi.fnal.gov,Filter
 Department of Energy,Fermi National Accelerator Laboratory,wilsonweb.fnal.gov,"Filter,Redirect"
@@ -12886,7 +12888,6 @@ Department of Health and Human Services,National Institutes of Health,dev.niaaa.
 Department of Health and Human Services,National Institutes of Health,dev.nihms.nih.gov,Status Code
 Department of Health and Human Services,National Institutes of Health,developmentalbiology.nih.gov,Filter
 Department of Health and Human Services,National Institutes of Health,deverlab.nichd.nih.gov,Filter
-Department of Health and Human Services,National Institutes of Health,devfss.nichd.nih.gov,Filter
 Department of Health and Human Services,National Institutes of Health,devgateway.niehs.nih.gov,Filter
 Department of Health and Human Services,National Institutes of Health,devtestdomain.nih.gov,Filter
 Department of Health and Human Services,National Institutes of Health,devtestdomain2.nih.gov,Filter
@@ -14292,7 +14293,6 @@ Department of Health and Human Services,National Institutes of Health,wwwappasr.
 Department of Health and Human Services,National Institutes of Health,wwwapprmr.nimh.nih.gov,Filter
 Department of Health and Human Services,National Institutes of Health,wwwapps.nimh.nih.gov,Filter
 Department of Health and Human Services,National Institutes of Health,wwwapps2.nimh.nih.gov,Filter
-Department of Health and Human Services,National Institutes of Health,wwwappstage.nimh.nih.gov,Filter
 Department of Health and Human Services,National Institutes of Health,wwwicic.nci.nih.gov,Redirect
 Department of Health and Human Services,National Institutes of Health,wwwils.nlm.nih.gov,Redirect
 Department of Health and Human Services,National Institutes of Health,wwwnc.cdc.gov.ezproxy.nihlibrary.nih.gov,Redirect
@@ -18143,7 +18143,6 @@ Department of Transportation,U.S. Department of Transportation Office of the Chi
 Department of Veterans Affairs,Department of Veterans Affairs - PREVENTS,reach.gov,Filter
 Department of Veterans Affairs,Inspector General,vaoig.gov,Filter
 Department of Veterans Affairs,"Office of Information and Technology, IT Operations and Services (ITOPS)",1010ez.med.va.gov,Filter
-Department of Veterans Affairs,"Office of Information and Technology, IT Operations and Services (ITOPS)",7b1cd380a8dd46dee678e87bfdfe9926.vfs.va.gov,Filter
 Department of Veterans Affairs,"Office of Information and Technology, IT Operations and Services (ITOPS)",access.va.gov,"Filter,Redirect"
 Department of Veterans Affairs,"Office of Information and Technology, IT Operations and Services (ITOPS)",accesstocare.va.gov,Filter
 Department of Veterans Affairs,"Office of Information and Technology, IT Operations and Services (ITOPS)",accesstopwt.va.gov,Filter
@@ -19091,7 +19090,6 @@ Department of the Interior,National Park Service,npssearch.nps.gov,Filter
 Department of the Interior,National Park Service,ntrip.nps.gov,Filter
 Department of the Interior,National Park Service,parkplanning.nps.gov,Filter
 Department of the Interior,National Park Service,pepc.nps.gov,Filter
-Department of the Interior,National Park Service,pepcwb02.nps.gov,Filter
 Department of the Interior,National Park Service,planning.nps.gov,Filter
 Department of the Interior,National Park Service,ptats.nps.gov,"Filter,Status Code"
 Department of the Interior,National Park Service,pubs.nps.gov,Filter
@@ -21032,7 +21030,6 @@ Environmental Protection Agency,,sustainability.gov,Filter
 Environmental Protection Agency,,swcweb.epa.gov,Filter
 Environmental Protection Agency,,tarpcredits.epa.gov,"Filter,Redirect"
 Environmental Protection Agency,,tcots.epa.gov,Filter
-Environmental Protection Agency,,tcotsadminstg.epa.gov,Filter
 Environmental Protection Agency,,tdb.epa.gov,Filter
 Environmental Protection Agency,,termlookup.epa.gov,Filter
 Environmental Protection Agency,,tlc.response.epa.gov,Filter
@@ -24188,7 +24185,6 @@ National Aeronautics and Space Administration,NASA Office of the Chief Informati
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,swiftsc.gsfc.nasa.gov,"Filter,Redirect"
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,swl.gsfc.nasa.gov,"Filter,Redirect"
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,swot-cms.jpl.nasa.gov,Filter
-National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,sys690.gsfc.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,tads1.gesdisc.eosdis.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,tads2.gesdisc.eosdis.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,taskteams.mas.nasa.gov,Filter
@@ -25701,6 +25697,8 @@ Tennessee Valley Authority,,insightcmaccp.tva.gov,"Filter,Redirect"
 Tennessee Valley Authority,,insightcmsqn.tva.gov,"Filter,Redirect"
 Tennessee Valley Authority,,iot.tva.gov,"Filter,Redirect"
 Tennessee Valley Authority,,itstandards.tva.gov,"Filter,Redirect"
+Tennessee Valley Authority,,join.tvaoig.gov,Filter
+Tennessee Valley Authority,,keys.tvaoig.gov,Filter
 Tennessee Valley Authority,,lakeinfo.tva.gov,"Filter,Redirect,Status Code"
 Tennessee Valley Authority,,lms.tva.gov,"Filter,Redirect"
 Tennessee Valley Authority,,lt.tva.gov,Filter
@@ -25761,6 +25759,9 @@ Tennessee Valley Authority,,today.tva.gov,"Filter,Redirect"
 Tennessee Valley Authority,,todaya.tva.gov,"Filter,Redirect"
 Tennessee Valley Authority,,training.tva.gov,"Filter,Redirect"
 Tennessee Valley Authority,,tva.gov,"Filter,Redirect,Status Code"
+Tennessee Valley Authority,,tvaoig.gov,Filter
+Tennessee Valley Authority,,tvaoigmfst1.tvaoig.gov,Filter
+Tennessee Valley Authority,,tvaoigvcse.tvaoig.gov,Filter
 Tennessee Valley Authority,,tvaregulatory.tva.gov,Filter
 Tennessee Valley Authority,,uaaa.tva.gov,Filter
 Tennessee Valley Authority,,unavailable.tva.gov,Filter
@@ -25771,11 +25772,6 @@ Tennessee Valley Authority,,webex.tva.gov,"Filter,Redirect"
 Tennessee Valley Authority,,webextraining.tva.gov,"Filter,Redirect"
 Tennessee Valley Authority,,work.tva.gov,"Filter,Redirect"
 Tennessee Valley Authority,,wvcorp.tva.gov,"Filter,Redirect,Status Code"
-Tennessee Valley Authority,Tennessee Valley Authority Office of Inspector General,join.tvaoig.gov,Filter
-Tennessee Valley Authority,Tennessee Valley Authority Office of Inspector General,keys.tvaoig.gov,Filter
-Tennessee Valley Authority,Tennessee Valley Authority Office of Inspector General,tvaoig.gov,Filter
-Tennessee Valley Authority,Tennessee Valley Authority Office of Inspector General,tvaoigmfst1.tvaoig.gov,Filter
-Tennessee Valley Authority,Tennessee Valley Authority Office of Inspector General,tvaoigvcse.tvaoig.gov,Filter
 U.S. Commission for the Preservation of Americas Heritage Abroad,USCPAHA,heritageabroad.gov,Filter
 U.S. Commission for the Preservation of Americas Heritage Abroad,USCPAHA,mail.heritageabroad.gov,Redirect
 U.S. Commission of Fine Arts,U.S. Commission of Fine Arts,cfa.gov,Filter
@@ -25799,11 +25795,6 @@ United States AbilityOne Commission,Committee for Purchase From People Who Are B
 United States AbilityOne Commission,Committee for Purchase From People Who Are Blind or Severely Disabled,plimsvote.abilityone.gov,Filter
 United States AbilityOne Commission,Committee for Purchase From People Who Are Blind or Severely Disabled,plimsws.abilityone.gov,"Filter,Status Code"
 United States AbilityOne Commission,Committee for Purchase From People Who Are Blind or Severely Disabled,plimswsdev.abilityone.gov,"Filter,Redirect"
-United States Access Board,,access-board.gov,Filter
-United States Access Board,,beta.access-board.gov,Filter
-United States Access Board,,ictbaseline.access-board.gov,Filter
-United States Access Board,,sts.access-board.gov,Status Code
-United States Access Board,,usabvpn.access-board.gov,"Filter,Status Code"
 United States African Development Foundation,African Development Foundation,adf.gov,Filter
 United States African Development Foundation,African Development Foundation,autodiscover.usadf.gov,Status Code
 United States African Development Foundation,African Development Foundation,grants.usadf.gov,Filter
