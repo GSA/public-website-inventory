@@ -763,7 +763,7 @@ Department of Agriculture,,leadpaint.cert.sc.egov.usda.gov,Filter
 Department of Agriculture,,leadpaint.sc.egov.usda.gov,Filter
 Department of Agriculture,,legacy.rma.usda.gov,"Filter,Status Code"
 Department of Agriculture,,lessons.fs2c.usda.gov,Filter
-Department of Agriculture,,lincpass.usda.gov,"Filter,Redirect"
+Department of Agriculture,,lincpass.usda.gov,Filter
 Department of Agriculture,,lod.nal.usda.gov,Filter
 Department of Agriculture,,lrftool.sc.egov.usda.gov,Filter
 Department of Agriculture,,lsas.fsis.usda.gov,"Filter,Redirect"
@@ -4228,7 +4228,7 @@ Department of Defense,Army,repi.osd.mil,Filter
 Department of Defense,Army,research.ari.army.mil,Filter
 Department of Defense,Army,resreg.spl.usace.army.mil,Filter
 Department of Defense,Army,ria-jmtc.army.mil,Filter
-Department of Defense,Army,rivergages.mvr.usace.army.mil,"Filter,Redirect"
+Department of Defense,Army,rivergages.mvr.usace.army.mil,"Filter,Redirect,Status Code"
 Department of Defense,Army,rma.army.mil,Filter
 Department of Defense,Army,rmc.usace.army.mil,Filter
 Department of Defense,Army,rmda.army.mil,Filter
@@ -9645,7 +9645,7 @@ Department of Energy,Pacific Northwest National Laboratory,irrigationviz.pnnl.go
 Department of Energy,Pacific Northwest National Laboratory,isela.pnnl.gov,Filter
 Department of Energy,Pacific Northwest National Laboratory,jobs.pnl.gov,Filter
 Department of Energy,Pacific Northwest National Laboratory,jobs.pnnl.gov,"Filter,Redirect"
-Department of Energy,Pacific Northwest National Laboratory,jobsearch.pnnl.gov,"Filter,Redirect"
+Department of Energy,Pacific Northwest National Laboratory,jobsearch.pnnl.gov,Filter
 Department of Energy,Pacific Northwest National Laboratory,jointappointments.pnnl.gov,"Filter,Redirect"
 Department of Energy,Pacific Northwest National Laboratory,jsats.pnl.gov,Filter
 Department of Energy,Pacific Northwest National Laboratory,jsats.pnnl.gov,"Filter,Redirect"
@@ -11876,7 +11876,7 @@ Department of Health and Human Services,Health Resources and Services Administra
 Department of Health and Human Services,Health Resources and Services Administration,injurycompensation.hrsa.gov,"Filter,Redirect"
 Department of Health and Human Services,Health Resources and Services Administration,iqrs.npdb.hrsa.gov,Filter
 Department of Health and Human Services,Health Resources and Services Administration,jira.npdb.hrsa.gov,"Filter,Status Code"
-Department of Health and Human Services,Health Resources and Services Administration,jobfair.hrsa.gov,"Filter,Redirect"
+Department of Health and Human Services,Health Resources and Services Administration,jobfair.hrsa.gov,"Filter,Status Code"
 Department of Health and Human Services,Health Resources and Services Administration,landeskgw.hrsa.gov,Filter
 Department of Health and Human Services,Health Resources and Services Administration,mchb.hrsa.gov,Filter
 Department of Health and Human Services,Health Resources and Services Administration,mchb.tvisdata.hrsa.gov,Filter
@@ -12668,7 +12668,7 @@ Department of Health and Human Services,National Institutes of Health,casebrowse
 Department of Health and Human Services,National Institutes of Health,catalog.nhlbi.nih.gov,Filter
 Department of Health and Human Services,National Institutes of Health,catalog.niams.nih.gov,Filter
 Department of Health and Human Services,National Institutes of Health,catalog.nidcr.nih.gov,Filter
-Department of Health and Human Services,National Institutes of Health,catalog.ninds.nih.gov,"Filter,Redirect"
+Department of Health and Human Services,National Institutes of Health,catalog.ninds.nih.gov,Filter
 Department of Health and Human Services,National Institutes of Health,catalog.nlm.nih.gov,Filter
 Department of Health and Human Services,National Institutes of Health,cbiit-download.nci.nih.gov,Filter
 Department of Health and Human Services,National Institutes of Health,cc-vpn.cc.nih.gov,Filter
@@ -16868,7 +16868,6 @@ Department of State,,usaidlibraryguides.usaid.gov,"Filter,Status Code"
 Department of State,,utrams-sso.usaid.gov,Filter
 Department of State,,utrams.usaid.gov,Filter
 Department of State,,vdi.usaid.gov,Redirect
-Department of State,,vdieast.usaid.gov,Filter
 Department of State,,vdipiv.usaid.gov,Filter
 Department of State,,vpn.usaid.gov,Status Code
 Department of State,,workwithusaid.gov,Filter
@@ -22022,7 +22021,7 @@ General Services Administration,Federal Acquisition Service,madeinamerica.gov,Fi
 General Services Administration,Federal Acquisition Service,main-p.ecpic.gov,Filter
 General Services Administration,Federal Acquisition Service,main-s.ecpic.gov,Filter
 General Services Administration,Federal Acquisition Service,main.ecpic.gov,Filter
-General Services Administration,Federal Acquisition Service,marketplace.fedramp.gov,Filter
+General Services Administration,Federal Acquisition Service,marketplace.fedramp.gov,"Filter,Redirect"
 General Services Administration,Federal Acquisition Service,methane.app.cloud.gov,Filter
 General Services Administration,Federal Acquisition Service,methods.18f.gov,Filter
 General Services Administration,Federal Acquisition Service,mia-django-develop.app.cloud.gov,Filter
@@ -22511,7 +22510,7 @@ General Services Administration,Office of Inspector General,support.gsaig.gov,Fi
 Gulf Coast Ecosystem Restoration Council,,raams-stage.restorethegulf.gov,Status Code
 Gulf Coast Ecosystem Restoration Council,,raams.restorethegulf.gov,Filter
 Gulf Coast Ecosystem Restoration Council,,restorethegulf.gov,Filter
-Harry S. Truman Scholarship Foundation,,truman.gov,Filter
+Harry S Truman Scholarship Foundation,,truman.gov,Filter
 Institute of Museum and Library Services,,grants.imls.gov,"Filter,Redirect"
 Institute of Museum and Library Services,,imls-spr.imls.gov,Filter
 Institute of Museum and Library Services,,imls-testspr.imls.gov,Filter
@@ -22526,10 +22525,26 @@ Inter-American Foundation,,grants.iaf.gov,Filter
 Inter-American Foundation,,iaf.gov,Filter
 Inter-American Foundation,,search.iaf.gov,Filter
 Inter-American Foundation,,testgrants.iaf.gov,Filter
+International Trade Commission,,certauth.sts.usitc.gov,"Filter,Status Code"
+International Trade Commission,,dataweb.usitc.gov,Filter
+International Trade Commission,,dropbox.usitc.gov,"Filter,Redirect,Status Code"
+International Trade Commission,,edis.usitc.gov,Filter
+International Trade Commission,,enterpriseregistration.usitc.gov,"Filter,Status Code"
+International Trade Commission,,hqvpn.usitc.gov,Filter
+International Trade Commission,,hts.usitc.gov,Filter
+International Trade Commission,,ids.usitc.gov,Filter
+International Trade Commission,,itcvpn.usitc.gov,Filter
+International Trade Commission,,mtbps.usitc.gov,"Filter,Redirect"
+International Trade Commission,,pubapps.usitc.gov,"Filter,Redirect"
+International Trade Commission,,pubapps2.usitc.gov,Filter
+International Trade Commission,,s1p-extdrup8-00.uxpax.usitc.gov,Filter
+International Trade Commission,,s1p-extdrup8-01.uxpax.usitc.gov,Filter
+International Trade Commission,,sts.usitc.gov,Status Code
+International Trade Commission,,usitc.gov,Filter
 James Madison Memorial Fellowship Foundation,,jamesmadison.gov,Filter
-Japan-U.S. Friendship Commission,,culcon.jusfc.gov,Filter
-Japan-U.S. Friendship Commission,,jusfc.gov,Filter
-Japan-U.S. Friendship Commission,,studyabroad.jusfc.gov,"Filter,Status Code"
+Japan-United States Friendship Commission,,culcon.jusfc.gov,Filter
+Japan-United States Friendship Commission,,jusfc.gov,Filter
+Japan-United States Friendship Commission,,studyabroad.jusfc.gov,"Filter,Status Code"
 Legal Services Corporation,,civilcourtdata.lsc.gov,Filter
 Legal Services Corporation,,justicegap.lsc.gov,Filter
 Legal Services Corporation,,lsc.gov,Filter
@@ -24601,7 +24616,7 @@ National Gallery of Art,,heald.nga.gov,"Filter,Status Code"
 National Gallery of Art,,images.nga.gov,"Filter,Redirect"
 National Gallery of Art,,learningresources.nga.gov,"Filter,Status Code"
 National Gallery of Art,,libauth.nga.gov,"Filter,Redirect"
-National Gallery of Art,,library.nga.gov,Filter
+National Gallery of Art,,library.nga.gov,"Filter,Status Code"
 National Gallery of Art,,libraryimage.nga.gov,Filter
 National Gallery of Art,,librarymedia.nga.gov,"Filter,Status Code"
 National Gallery of Art,,login.libauth.nga.gov,Filter
@@ -25355,6 +25370,9 @@ Office of Personnel Management,,ww.usajobs.gov,"Filter,Status Code"
 Office of Personnel Management,,www2.usajobs.gov,Status Code
 Office of Personnel Management,,wwww.usajobs.gov,Status Code
 Office of Personnel Management,,xyq.usajobs.gov,"Filter,Status Code"
+Office of Special Counsel,,efoia.osc.gov,Filter
+Office of Special Counsel,,listserv.osc.gov,Filter
+Office of Special Counsel,,osc.gov,Filter
 Office of the Director of National Intelligence,,6a27b28f-0bf6-4ab3-8ff5-631b75bd531f.review.ucms.intel.gov,"Filter,Status Code"
 Office of the Director of National Intelligence,,analytics.aj.intelink.gov,Filter
 Office of the Director of National Intelligence,,blogs.aj.intelink.gov,Filter
@@ -25785,6 +25803,7 @@ Tennessee Valley Authority,,webex.tva.gov,"Filter,Redirect"
 Tennessee Valley Authority,,webextraining.tva.gov,"Filter,Redirect"
 Tennessee Valley Authority,,work.tva.gov,"Filter,Redirect"
 Tennessee Valley Authority,,wvcorp.tva.gov,"Filter,Redirect,Status Code"
+Trade And Development Agency,,ustda.gov,Filter
 U.S. Commission for the Preservation of Americas Heritage Abroad,USCPAHA,heritageabroad.gov,Filter
 U.S. Commission for the Preservation of Americas Heritage Abroad,USCPAHA,mail.heritageabroad.gov,Redirect
 U.S. Commission of Fine Arts,U.S. Commission of Fine Arts,cfa.gov,Filter
@@ -25798,10 +25817,6 @@ U.S. Interagency Council on Homelessness,United States Interagency Council on Ho
 U.S. Interagency Council on Homelessness,United States Interagency Council on Homelessness,ich.gov,"Filter,Status Code"
 U.S. Interagency Council on Homelessness,United States Interagency Council on Homelessness,usich.gov,Filter
 U.S. Nuclear Waste Technical Review Board,Nuclear Waste Technical Review Board,nwtrb.gov,Filter
-U.S. Office of Special Counsel,,efoia.osc.gov,Filter
-U.S. Office of Special Counsel,,listserv.osc.gov,Filter
-U.S. Office of Special Counsel,,osc.gov,Filter
-U.S. Trade and Development Agency,,ustda.gov,Filter
 United States AbilityOne Commission,Committee for Purchase From People Who Are Blind or Severely Disabled,abilityone.gov,Filter
 United States AbilityOne Commission,Committee for Purchase From People Who Are Blind or Severely Disabled,jwod.gov,Filter
 United States AbilityOne Commission,Committee for Purchase From People Who Are Blind or Severely Disabled,pl.abilityone.gov,"Filter,Redirect"
@@ -25865,22 +25880,6 @@ United States International Development Finance Corporation,US International Dev
 United States International Development Finance Corporation,US International Development Finance Corporation,idfc.gov,"Filter,Redirect"
 United States International Development Finance Corporation,US International Development Finance Corporation,usdfc.gov,"Filter,Redirect"
 United States International Development Finance Corporation,US International Development Finance Corporation,usidfc.gov,"Filter,Redirect"
-United States International Trade Commission,,certauth.sts.usitc.gov,"Filter,Status Code"
-United States International Trade Commission,,dataweb.usitc.gov,Filter
-United States International Trade Commission,,dropbox.usitc.gov,"Filter,Redirect,Status Code"
-United States International Trade Commission,,edis.usitc.gov,Filter
-United States International Trade Commission,,enterpriseregistration.usitc.gov,"Filter,Status Code"
-United States International Trade Commission,,hqvpn.usitc.gov,Filter
-United States International Trade Commission,,hts.usitc.gov,Filter
-United States International Trade Commission,,ids.usitc.gov,Filter
-United States International Trade Commission,,itcvpn.usitc.gov,Filter
-United States International Trade Commission,,mtbps.usitc.gov,"Filter,Redirect"
-United States International Trade Commission,,pubapps.usitc.gov,"Filter,Redirect"
-United States International Trade Commission,,pubapps2.usitc.gov,Filter
-United States International Trade Commission,,s1p-extdrup8-00.uxpax.usitc.gov,Filter
-United States International Trade Commission,,s1p-extdrup8-01.uxpax.usitc.gov,Filter
-United States International Trade Commission,,sts.usitc.gov,Status Code
-United States International Trade Commission,,usitc.gov,Filter
 United States Postal Service,,amps.usps.gov,Filter
 United States Postal Service,,blueearth.usps.gov,"Filter,Redirect"
 United States Postal Service,,bpvpn.usps.gov,Filter
