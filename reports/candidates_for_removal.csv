@@ -8513,7 +8513,7 @@ Department of Energy,Oak Ridge National Laboratory,conferencerooms.ornl.gov,"Fil
 Department of Energy,Oak Ridge National Laboratory,confluence.ccs.ornl.gov,Filter
 Department of Energy,Oak Ridge National Laboratory,confluence.spin.ornl.gov,Filter
 Department of Energy,Oak Ridge National Laboratory,console-openshift-console.apps.granite.ccs.ornl.gov,"Filter,Status Code"
-Department of Energy,Oak Ridge National Laboratory,console-openshift-console.apps.marble.ccs.ornl.gov,Filter
+Department of Energy,Oak Ridge National Laboratory,console-openshift-console.apps.marble.ccs.ornl.gov,"Filter,Redirect"
 Department of Energy,Oak Ridge National Laboratory,console-openshift-console.apps.onyx.ccs.ornl.gov,Filter
 Department of Energy,Oak Ridge National Laboratory,contracts.ornl.gov,"Filter,Status Code"
 Department of Energy,Oak Ridge National Laboratory,crl.ornl.gov,Filter
@@ -11555,7 +11555,7 @@ Department of Health and Human Services,Centers for Medicare and Medicaid Servic
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,stage.dpc.cms.gov,Status Code
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,stage0.medicaid.gov,Status Code
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,staging.medicaid.gov,Status Code
-Department of Health and Human Services,Centers for Medicare and Medicaid Services,status.cloud.cms.gov,"Filter,Redirect"
+Department of Health and Human Services,Centers for Medicare and Medicaid Services,status.cloud.cms.gov,Filter
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,status.healthcare.gov,"Filter,Status Code"
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,status.tools.oc.cms.gov,"Filter,Status Code"
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,stg-reg.mccm.cms.gov,Filter
@@ -12742,7 +12742,7 @@ Department of Health and Human Services,National Institutes of Health,catalog.ni
 Department of Health and Human Services,National Institutes of Health,catalog.nlm.nih.gov,Filter
 Department of Health and Human Services,National Institutes of Health,cbiit-download.nci.nih.gov,Filter
 Department of Health and Human Services,National Institutes of Health,cc-vpn.cc.nih.gov,Filter
-Department of Health and Human Services,National Institutes of Health,cc.nih.gov,Filter
+Department of Health and Human Services,National Institutes of Health,cc.nih.gov,"Filter,Status Code"
 Department of Health and Human Services,National Institutes of Health,cc0pzjamfdp.cc.nih.gov,Filter
 Department of Health and Human Services,National Institutes of Health,cccasper.cc.nih.gov,"Filter,Redirect"
 Department of Health and Human Services,National Institutes of Health,cccitrixaccess.cc.nih.gov,Filter
@@ -16040,7 +16040,7 @@ Department of Justice,Federal Bureau of Investigation,cjis.gov,Filter
 Department of Justice,Federal Bureau of Investigation,cleveland.fbi.gov,"Filter,Redirect,Status Code"
 Department of Justice,Federal Bureau of Investigation,codis.fbi.gov,"Filter,Redirect"
 Department of Justice,Federal Bureau of Investigation,colect.ucr.cjis.gov,"Filter,Status Code"
-Department of Justice,Federal Bureau of Investigation,columbia.fbi.gov,"Filter,Redirect,Status Code"
+Department of Justice,Federal Bureau of Investigation,columbia.fbi.gov,"Filter,Redirect"
 Department of Justice,Federal Bureau of Investigation,csdb-ndcac.fbi.gov,"Filter,Redirect"
 Department of Justice,Federal Bureau of Investigation,cve.fbi.gov,"Filter,Status Code"
 Department of Justice,Federal Bureau of Investigation,dallas.fbi.gov,"Filter,Redirect,Status Code"
@@ -16949,7 +16949,6 @@ Department of State,,usaidlibraryguides.usaid.gov,"Filter,Status Code"
 Department of State,,utrams-sso.usaid.gov,Filter
 Department of State,,utrams.usaid.gov,Filter
 Department of State,,vdi.usaid.gov,Redirect
-Department of State,,vdieast.usaid.gov,"Filter,Redirect"
 Department of State,,vdipiv.usaid.gov,Filter
 Department of State,,vpn.usaid.gov,Status Code
 Department of State,,workwithusaid.gov,Filter
@@ -21066,7 +21065,6 @@ Environmental Protection Agency,,pexip-dc-dmz2.video.epa.gov,Filter
 Environmental Protection Agency,,pexip-rtp-dmz1.video.epa.gov,Filter
 Environmental Protection Agency,,pexip-rtp-dmz2.video.epa.gov,Filter
 Environmental Protection Agency,,pfastt.epa.gov,Filter
-Environmental Protection Agency,,pintra51.epa.gov,Filter
 Environmental Protection Agency,,pki.epa.gov,Filter
 Environmental Protection Agency,,pm-origin.energystar.gov,"Filter,Redirect"
 Environmental Protection Agency,,pm-origin.test.es.epa.gov,Redirect
@@ -23332,7 +23330,6 @@ National Aeronautics and Space Administration,NASA Office of the Chief Informati
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,gs671-umbra.nascom.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,gs671-vso.nascom.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,gs671-vso1.nascom.nasa.gov,Filter
-National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,gs672-hpde.sci.gsfc.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,gs674-ccmcftp.ccmc.gsfc.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,gs674-iswaweb1.ccmc.gsfc.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,gs674-ono.ndc.nasa.gov,Filter
@@ -24334,7 +24331,6 @@ National Aeronautics and Space Administration,NASA Office of the Chief Informati
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,vmsfc-m.russia.nasa.gov,"Filter,Status Code"
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,vmsfc.russia.nasa.gov,"Filter,Status Code"
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,volga.arc.nasa.gov,Filter
-National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,voyager-tmp.sci.gsfc.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,voyager.jpl.nasa.gov,"Filter,Redirect"
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,vpn-gw1b.jpl.nasa.gov,"Filter,Redirect"
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,vpn.m20.jpl.nasa.gov,Redirect
@@ -24701,7 +24697,6 @@ National Science Foundation,,honorary-awards.nsf.gov,Filter
 National Science Foundation,,identity.research.gov,Filter
 National Science Foundation,,iucrc.nsf.gov,Filter
 National Science Foundation,,learnnsf.nsf.gov,"Filter,Redirect"
-National Science Foundation,,legacyarchive.nsf.gov,Filter
 National Science Foundation,,listserv.usap.gov,Filter
 National Science Foundation,,meetings.nsf.gov,"Filter,Redirect"
 National Science Foundation,,myusap.usap.gov,Filter
@@ -25554,42 +25549,42 @@ Privacy and Civil Liberties Oversight Board,,pclob.gov,Filter
 Public Buildings Reform Board,,pbrb.gov,Filter
 Railroad Retirement Board,,rrb.gov,Filter
 Railroad Retirement Board,,secure.rrb.gov,Status Code
+Securities and Exchange Commission,,acadia.sec.gov,Filter
+Securities and Exchange Commission,,acadiastg.sec.gov,Filter
+Securities and Exchange Commission,,adviserinfo.sec.gov,Filter
+Securities and Exchange Commission,,awmag.sec.gov,Filter
+Securities and Exchange Commission,,awseg.sec.gov,Filter
+Securities and Exchange Commission,,edgarcompany.sec.gov,Filter
+Securities and Exchange Commission,,edgarfiling-bravo.edgarfiling.sec.gov,Filter
+Securities and Exchange Commission,,edgarfiling.sec.gov,Filter
+Securities and Exchange Commission,,efap.sec.gov,Filter
+Securities and Exchange Commission,,efoia-pal.sec.gov,"Filter,Status Code"
+Securities and Exchange Commission,,enterpriseregistration.sec.gov,"Filter,Status Code"
+Securities and Exchange Commission,,filermanagement.edgarfiling.sec.gov,Filter
+Securities and Exchange Commission,,files.adviserinfo.sec.gov,Redirect
+Securities and Exchange Commission,,go.sec.gov,Filter
+Securities and Exchange Commission,,gopiv.sec.gov,Filter
 Securities and Exchange Commission,,investor.gov,Filter
-Securities and Exchange Commission,Network Operations Branch,acadia.sec.gov,Filter
-Securities and Exchange Commission,Network Operations Branch,acadiastg.sec.gov,Filter
-Securities and Exchange Commission,Network Operations Branch,adviserinfo.sec.gov,Filter
-Securities and Exchange Commission,Network Operations Branch,awmag.sec.gov,Filter
-Securities and Exchange Commission,Network Operations Branch,awseg.sec.gov,Filter
-Securities and Exchange Commission,Network Operations Branch,edgarcompany.sec.gov,Filter
-Securities and Exchange Commission,Network Operations Branch,edgarfiling-bravo.edgarfiling.sec.gov,Filter
-Securities and Exchange Commission,Network Operations Branch,edgarfiling.sec.gov,Filter
-Securities and Exchange Commission,Network Operations Branch,efap.sec.gov,Filter
-Securities and Exchange Commission,Network Operations Branch,efoia-pal.sec.gov,"Filter,Status Code"
-Securities and Exchange Commission,Network Operations Branch,enterpriseregistration.sec.gov,"Filter,Status Code"
-Securities and Exchange Commission,Network Operations Branch,filermanagement.edgarfiling.sec.gov,Filter
-Securities and Exchange Commission,Network Operations Branch,files.adviserinfo.sec.gov,Redirect
-Securities and Exchange Commission,Network Operations Branch,go.sec.gov,Filter
-Securities and Exchange Commission,Network Operations Branch,gopiv.sec.gov,Filter
-Securities and Exchange Commission,Network Operations Branch,omms.sec.gov,Filter
-Securities and Exchange Commission,Network Operations Branch,onlineforms-bravo.edgarfiling.sec.gov,Filter
-Securities and Exchange Commission,Network Operations Branch,onlineforms.edgarfiling.sec.gov,Filter
-Securities and Exchange Commission,Network Operations Branch,penny.edgarcompany.sec.gov,"Filter,Redirect"
-Securities and Exchange Commission,Network Operations Branch,portal.edgarfiling.sec.gov,Filter
-Securities and Exchange Commission,Network Operations Branch,reports.adviserinfo.sec.gov,"Filter,Status Code"
-Securities and Exchange Commission,Network Operations Branch,rule19d1.sec.gov,Filter
-Securities and Exchange Commission,Network Operations Branch,rule19d1stg.sec.gov,"Filter,Redirect"
-Securities and Exchange Commission,Network Operations Branch,sec.gov,Filter
-Securities and Exchange Commission,Network Operations Branch,secsearch.sec.gov,Filter
-Securities and Exchange Commission,Network Operations Branch,stage.edgarfiling.sec.gov,Redirect
-Securities and Exchange Commission,Network Operations Branch,stage.filermanagement.edgarfiling.sec.gov,Redirect
-Securities and Exchange Commission,Network Operations Branch,stage.onlineforms.edgarfiling.sec.gov,Redirect
-Securities and Exchange Commission,Network Operations Branch,stage.portal.edgarfiling.sec.gov,Redirect
-Securities and Exchange Commission,Network Operations Branch,tcr.sec.gov,"Filter,Redirect"
-Securities and Exchange Commission,Network Operations Branch,tts.sec.gov,Filter
-Securities and Exchange Commission,Network Operations Branch,tts2.sec.gov,"Filter,Redirect"
-Securities and Exchange Commission,Network Operations Branch,wft.sec.gov,Filter
-Securities and Exchange Commission,Network Operations Branch,www-test.sec.gov,Redirect
-Securities and Exchange Commission,Network Operations Branch,xbrl.sec.gov,"Filter,Redirect"
+Securities and Exchange Commission,,omms.sec.gov,Filter
+Securities and Exchange Commission,,onlineforms-bravo.edgarfiling.sec.gov,Filter
+Securities and Exchange Commission,,onlineforms.edgarfiling.sec.gov,Filter
+Securities and Exchange Commission,,penny.edgarcompany.sec.gov,"Filter,Redirect"
+Securities and Exchange Commission,,portal.edgarfiling.sec.gov,Filter
+Securities and Exchange Commission,,reports.adviserinfo.sec.gov,"Filter,Status Code"
+Securities and Exchange Commission,,rule19d1.sec.gov,Filter
+Securities and Exchange Commission,,rule19d1stg.sec.gov,"Filter,Redirect"
+Securities and Exchange Commission,,sec.gov,Filter
+Securities and Exchange Commission,,secsearch.sec.gov,Filter
+Securities and Exchange Commission,,stage.edgarfiling.sec.gov,Redirect
+Securities and Exchange Commission,,stage.filermanagement.edgarfiling.sec.gov,Redirect
+Securities and Exchange Commission,,stage.onlineforms.edgarfiling.sec.gov,Redirect
+Securities and Exchange Commission,,stage.portal.edgarfiling.sec.gov,Redirect
+Securities and Exchange Commission,,tcr.sec.gov,"Filter,Redirect"
+Securities and Exchange Commission,,tts.sec.gov,Filter
+Securities and Exchange Commission,,tts2.sec.gov,"Filter,Redirect"
+Securities and Exchange Commission,,wft.sec.gov,Filter
+Securities and Exchange Commission,,www-test.sec.gov,Redirect
+Securities and Exchange Commission,,xbrl.sec.gov,"Filter,Redirect"
 Selective Service System,,dmcvpn.sss.gov,Filter
 Selective Service System,,ecm-pro-web.sss.gov,Filter
 Selective Service System,,hqvpn.sss.gov,Filter
