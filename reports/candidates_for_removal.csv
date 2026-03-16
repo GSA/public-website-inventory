@@ -196,7 +196,6 @@ agency,bureau,initial_domain,reason
 ,,sm-webtools.usps.com,"Filter,Redirect"
 ,,sotocano.armymwr.com,Filter
 ,,special.usps.com,Filter
-,,ssmap.usps.com,Filter
 ,,stage-poboxes.usps.com,Redirect
 ,,stewarthunter.armymwr.com,Filter
 ,,store.usps.com,Filter
@@ -4129,7 +4128,6 @@ Department of Defense,Army,hnc.usace.army.mil,Filter
 Department of Defense,Army,home.army.mil,Filter
 Department of Defense,Army,housing.army.mil,Filter
 Department of Defense,Army,hqda.etms2.army.mil,Filter
-Department of Defense,Army,hr.ippsa.army.mil,"Filter,Redirect"
 Department of Defense,Army,hrc.army.mil,"Filter,Status Code"
 Department of Defense,Army,hrcapps.army.mil,Filter
 Department of Defense,Army,idco.dmdc.osd.mil,Filter
@@ -12086,7 +12084,6 @@ Department of Health and Human Services,"National Cancer Institute, NIH",cbiopor
 Department of Health and Human Services,"National Cancer Institute, NIH",ccbr.ccr.cancer.gov,"Filter,Redirect"
 Department of Health and Human Services,"National Cancer Institute, NIH",ccct.cancer.gov,"Filter,Redirect"
 Department of Health and Human Services,"National Cancer Institute, NIH",ccdi.cancer.gov,Filter
-Department of Health and Human Services,"National Cancer Institute, NIH",ccg-cms.cancer.gov,"Filter,Redirect"
 Department of Health and Human Services,"National Cancer Institute, NIH",ccgdata.cancer.gov,Filter
 Department of Health and Human Services,"National Cancer Institute, NIH",ccr.cancer.gov,Filter
 Department of Health and Human Services,"National Cancer Institute, NIH",ccr2.cancer.gov,"Filter,Status Code"
@@ -14534,7 +14531,6 @@ Department of Health and Human Services,"Office of the National Coordinator, Off
 Department of Health and Human Services,"Office of the National Coordinator, Office of the Secretary",site.healthit.gov,Filter
 Department of Health and Human Services,Office of the Secretary of Health and Human Services,405d.hhs.gov,Filter
 Department of Health and Human Services,Office of the Secretary of Health and Human Services,508.hhs.gov,"Filter,Redirect,Status Code"
-Department of Health and Human Services,Office of the Secretary of Health and Human Services,a1enr101cm138.hhs.gov,Filter
 Department of Health and Human Services,Office of the Secretary of Health and Human Services,aasis.omha.hhs.gov,Filter
 Department of Health and Human Services,Office of the Secretary of Health and Human Services,accelerate-server.hhs.gov,Filter
 Department of Health and Human Services,Office of the Secretary of Health and Human Services,accelerate.hhs.gov,Filter
@@ -14716,7 +14712,6 @@ Department of Health and Human Services,Office of the Secretary of Health and Hu
 Department of Health and Human Services,Office of the Secretary of Health and Human Services,fplspiv.acf.hhs.gov,Filter
 Department of Health and Human Services,Office of the Secretary of Health and Human Services,fplstest.acf.hhs.gov,"Filter,Status Code"
 Department of Health and Human Services,Office of the Secretary of Health and Human Services,fysbdms.acf.hhs.gov,Filter
-Department of Health and Human Services,Office of the Secretary of Health and Human Services,gal.hhs.gov,Filter
 Department of Health and Human Services,Office of the Secretary of Health and Human Services,geohealth.hhs.gov,Filter
 Department of Health and Human Services,Office of the Secretary of Health and Human Services,gis.hhs.gov,Filter
 Department of Health and Human Services,Office of the Secretary of Health and Human Services,gitlab.accelerate.hhs.gov,Filter
@@ -20644,7 +20639,6 @@ Department of the Treasury,Financial Crimes Enforcement Network,fincen.gov,Filte
 Department of the Treasury,Financial Crimes Enforcement Network,fincenid.fincen.gov,Filter
 Department of the Treasury,Financial Crimes Enforcement Network,fiportal.fincen.gov,"Filter,Redirect"
 Department of the Treasury,Financial Crimes Enforcement Network,hqmivsp.fincen.gov,Filter
-Department of the Treasury,Financial Crimes Enforcement Network,iam.fincen.gov,"Filter,Status Code"
 Department of the Treasury,Financial Crimes Enforcement Network,msb.gov,Filter
 Department of the Treasury,Financial Crimes Enforcement Network,scremote.fincen.gov,Filter
 Department of the Treasury,Financial Crimes Enforcement Network,securemail.bsa.fincen.gov,Filter
@@ -22263,7 +22257,6 @@ General Services Administration,Office of GSA IT,d2d.gsa.gov,Filter
 General Services Administration,Office of GSA IT,debits.fas.gsa.gov,Filter
 General Services Administration,Office of GSA IT,debitsb.fas.gsa.gov,Filter
 General Services Administration,Office of GSA IT,dev20.d2d.gsa.gov,Filter
-General Services Administration,Office of GSA IT,devfcs.acquisition.gov,Filter
 General Services Administration,Office of GSA IT,devicepki.idmanagement.gov,"Filter,Redirect"
 General Services Administration,Office of GSA IT,dhsadvantage.gsa.gov,Filter
 General Services Administration,Office of GSA IT,digitalcorps.gsa.gov,Filter
@@ -22662,7 +22655,6 @@ National Aeronautics and Space Administration,NASA Office of the Chief Informati
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,aiaa-dpw.larc.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,ails.arc.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,airbornescience.jpl.nasa.gov,"Filter,Redirect"
-National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,airs-cms.jpl.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,airsl0.gesdisc.eosdis.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,airsl1.gesdisc.eosdis.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,airsl2.gesdisc.eosdis.nasa.gov,Filter
@@ -23331,7 +23323,6 @@ National Aeronautics and Space Administration,NASA Office of the Chief Informati
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,gs671-vso.nascom.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,gs671-vso1.nascom.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,gs674-ccmcftp.ccmc.gsfc.nasa.gov,Filter
-National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,gs674-iswaweb1.ccmc.gsfc.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,gs674-ono.ndc.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,gs674-sep.ccmc.gsfc.nasa.gov,"Filter,Redirect"
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,gs674-webtools.ccmc.gsfc.nasa.gov,Filter
@@ -24083,7 +24074,6 @@ National Aeronautics and Space Administration,NASA Office of the Chief Informati
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,secopcogtest.dev.cloud.earthdata.nasa.gov,Status Code
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,section508.nasa.gov,"Filter,Redirect"
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,securefs.nssc.nasa.gov,Filter
-National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,sed-admin.gsfc.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,sed.gsfc.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,sedupdate.gsfc.nasa.gov,"Filter,Status Code"
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,sedvme.gsfc.nasa.gov,"Filter,Redirect"
