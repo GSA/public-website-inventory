@@ -194,7 +194,6 @@ agency,bureau,initial_domain,reason
 ,,sm-webtools.usps.com,Filter
 ,,sotocano.armymwr.com,Filter
 ,,special.usps.com,"Filter,Redirect"
-,,ssmap.usps.com,Filter
 ,,stage-poboxes.usps.com,Redirect
 ,,stewarthunter.armymwr.com,Filter
 ,,store.usps.com,Filter
@@ -1355,7 +1354,6 @@ Department of Commerce,Bureau of the Census,dataferrett.census.gov,Filter
 Department of Commerce,Bureau of the Census,datamapper.geo.census.gov,Filter
 Department of Commerce,Bureau of the Census,datavis.census.gov,Filter
 Department of Commerce,Bureau of the Census,disasters.census.gov,"Filter,Redirect"
-Department of Commerce,Bureau of the Census,ditd-app058.compute.csp1.census.gov,Filter
 Department of Commerce,Bureau of the Census,econhelp.census.gov,"Filter,Redirect"
 Department of Commerce,Bureau of the Census,embargo.data.census.gov,"Filter,Redirect"
 Department of Commerce,Bureau of the Census,facatas.census.gov,Filter
@@ -2009,7 +2007,6 @@ Department of Commerce,National Oceanic and Atmospheric Administration,nesdisia.
 Department of Commerce,National Oceanic and Atmospheric Administration,nettest.boulder.noaa.gov,Filter
 Department of Commerce,National Oceanic and Atmospheric Administration,ngdc.noaa.gov,"Filter,Redirect"
 Department of Commerce,National Oceanic and Atmospheric Administration,ngs.l.noaa.gov,Filter
-Department of Commerce,National Oceanic and Atmospheric Administration,nhc-vm-nhcweb01.nhc.noaa.gov,Filter
 Department of Commerce,National Oceanic and Atmospheric Administration,nhc-vm-www02.nhc.noaa.gov,Filter
 Department of Commerce,National Oceanic and Atmospheric Administration,nhc.nhc.noaa.gov,"Filter,Redirect"
 Department of Commerce,National Oceanic and Atmospheric Administration,nhc.woc.noaa.gov,Filter
@@ -2617,7 +2614,6 @@ Department of Defense,,cvnxx.mil,Filter
 Department of Defense,,cw-environment.erdc.dren.mil,"Filter,Status Code"
 Department of Defense,,cyber.mil,Filter
 Department of Defense,,cybercom.mil,Filter
-Department of Defense,,cyberworkforce.dow.afpims.mil,Filter
 Department of Defense,,daac.hpc.mil,Filter
 Department of Defense,,dacipad.whs.mil,Filter
 Department of Defense,,dadmstest.dod.mil,Filter
@@ -8435,7 +8431,6 @@ Department of Energy,National Renewable Energy Laboratory,wind.nrel.gov,"Filter,
 Department of Energy,National Renewable Energy Laboratory,windnew.nrel.gov,"Filter,Redirect"
 Department of Energy,National Renewable Energy Laboratory,wrdb.nlr.gov,Filter
 Department of Energy,National Renewable Energy Laboratory,wrdb.nrel.gov,"Filter,Redirect"
-Department of Energy,National Renewable Energy Laboratory,www2.nrel.gov,Redirect
 Department of Energy,National Renewable Energy Laboratory,ysi.ml.nrel.gov,"Filter,Redirect"
 Department of Energy,National Renewable Energy Laboratory,yubikey-gw-ext.nrel.gov,"Filter,Status Code"
 Department of Energy,National Renewable Energy Laboratory,yubikey.nrel.gov,Filter
@@ -16763,7 +16758,6 @@ Department of Labor,Bureau of Labor Statistics,idcftbbsorigin.bls.gov,Filter
 Department of Labor,Bureau of Labor Statistics,idcftoews.bls.gov,Filter
 Department of Labor,Bureau of Labor Statistics,idcfutil.psb.bls.gov,Filter
 Department of Labor,Bureau of Labor Statistics,joltsdata.bls.gov,Filter
-Department of Labor,Bureau of Labor Statistics,joltsdatad.bls.gov,Filter
 Department of Labor,Bureau of Labor Statistics,joltsdataorigin1.bls.gov,"Filter,Redirect"
 Department of Labor,Bureau of Labor Statistics,joltsdatat.bls.gov,Filter
 Department of Labor,Bureau of Labor Statistics,remoteaccess.bls.gov,Filter
@@ -21613,6 +21607,7 @@ Federal Election Commission,,efilingapps.fec.gov,"Filter,Status Code"
 Federal Election Commission,,efoservices.fec.gov,Filter
 Federal Election Commission,,eqs.fec.gov,"Filter,Redirect"
 Federal Election Commission,,fec.gov,Filter
+Federal Election Commission,,fecload-update.fec.gov,Filter
 Federal Election Commission,,fecnotify.fec.gov,Filter
 Federal Election Commission,,rem03.fec.gov,Filter
 Federal Election Commission,,saos.fec.gov,"Filter,Redirect"
@@ -23631,7 +23626,6 @@ National Aeronautics and Space Administration,NASA Office of the Chief Informati
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,lisa.gsfc.nasa.gov,"Filter,Redirect"
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,lists.hq.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,lists.nasa.gov,Filter
-National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,lmse-d.larc.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,locrwg.larc.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,login.ezproxy.maptis.ndc.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,loirp.arc.nasa.gov,Filter
