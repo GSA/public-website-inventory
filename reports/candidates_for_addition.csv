@@ -184,6 +184,7 @@ Department of Commerce,Bureau of the Census,onthemap.ces.census.gov
 Department of Commerce,International Trade Administration,steel.trade.gov
 Department of Commerce,National Institute of Standards and Technology,covid19-registry.nist.gov
 Department of Commerce,National Institute of Standards and Technology,nist.time.gov
+Department of Commerce,National Institute of Standards and Technology,rpki-monitor.nist.gov
 Department of Commerce,National Institute of Standards and Technology,sbd.nist.gov
 Department of Commerce,National Institute of Standards and Technology,ssis.nist.gov
 Department of Commerce,National Institute of Standards and Technology,strbase-b.nist.gov
@@ -284,7 +285,6 @@ Department of Defense,Army,gulflink.fhpr.osd.mil
 Department of Defense,Army,gulflink.osd.mil
 Department of Defense,Army,home.army.mil
 Department of Defense,Army,iwrlibrary.sec.usace.army.mil
-Department of Defense,Army,madsciblog.t2com.army.mil
 Department of Defense,Army,milgears.osd.mil
 Department of Defense,Army,ndclibrary.sec.usace.army.mil
 Department of Defense,Army,odin.t2com.army.mil
@@ -322,6 +322,7 @@ Department of Education,Office of the Chief Information Officer,eddataexpress.ed
 Department of Education,Office of the Chief Information Officer,edfacts.communities.ed.gov
 Department of Education,Office of the Chief Information Officer,eric.ed.gov
 Department of Education,Office of the Chief Information Officer,ies.ed.gov
+Department of Education,Office of the Chief Information Officer,impactaid.ed.gov
 Department of Education,Office of the Chief Information Officer,nagb.gov
 Department of Education,Office of the Chief Information Officer,nceo.communities.ed.gov
 Department of Education,Office of the Chief Information Officer,nces.ed.gov
@@ -734,21 +735,19 @@ Department of Energy,Pacific Northwest National Laboratory,windvalt.pnnl.gov
 Department of Energy,Portsmouth/Paducah Project Office,eic.ports.pppo.gov
 Department of Energy,Sandia National Laboratories,anywhere.sandia.gov
 Department of Energy,Sandia National Laboratories,autonomy.sandia.gov
-Department of Energy,Sandia National Laboratories,banyan.sandia.gov
 Department of Energy,Sandia National Laboratories,casa.sandia.gov
 Department of Energy,Sandia National Laboratories,clean-air.sandia.gov
 Department of Energy,Sandia National Laboratories,crf.sandia.gov
 Department of Energy,Sandia National Laboratories,cross-sim.sandia.gov
 Department of Energy,Sandia National Laboratories,energy.sandia.gov
 Department of Energy,Sandia National Laboratories,fluidflowvisualization.sandia.gov
-Department of Energy,Sandia National Laboratories,hpc.sandia.gov
 Department of Energy,Sandia National Laboratories,ip.sandia.gov
+Department of Energy,Sandia National Laboratories,lsimaging.sandia.gov
 Department of Energy,Sandia National Laboratories,modsimtools.sandia.gov
 Department of Energy,Sandia National Laboratories,mykonos.sandia.gov
 Department of Energy,Sandia National Laboratories,neuroscience.sandia.gov
 Department of Energy,Sandia National Laboratories,newsreleases.sandia.gov
 Department of Energy,Sandia National Laboratories,nsr-chip.sandia.gov
-Department of Energy,Sandia National Laboratories,opencsp.sandia.gov
 Department of Energy,Sandia National Laboratories,prastandards.sandia.gov
 Department of Energy,Sandia National Laboratories,qpl.sandia.gov
 Department of Energy,Sandia National Laboratories,s3c.sandia.gov
@@ -756,7 +755,6 @@ Department of Energy,Sandia National Laboratories,sandia.gov
 Department of Energy,Sandia National Laboratories,sarape.sandia.gov
 Department of Energy,Sandia National Laboratories,snlweather.sandia.gov
 Department of Energy,Sandia National Laboratories,suns.sandia.gov
-Department of Energy,Sandia National Laboratories,thunderbirdhacks.sandia.gov
 Department of Energy,Sandia National Laboratories,tracktable.sandia.gov
 Department of Energy,Sandia National Laboratories,ttr.sandia.gov
 Department of Energy,Sandia National Laboratories,umbra.sandia.gov
@@ -843,7 +841,6 @@ Department of Health and Human Services,Centers for Disease Control and Preventi
 Department of Health and Human Services,Centers for Disease Control and Prevention,phlipstage.cdc.gov
 Department of Health and Human Services,Centers for Disease Control and Prevention,places.cdc.gov
 Department of Health and Human Services,Centers for Disease Control and Prevention,reach.cdc.gov
-Department of Health and Human Services,Centers for Disease Control and Prevention,reportstream.cdc.gov
 Department of Health and Human Services,Centers for Disease Control and Prevention,selectagents.gov
 Department of Health and Human Services,Centers for Disease Control and Prevention,simplereport.gov
 Department of Health and Human Services,Centers for Disease Control and Prevention,snapshot2024.atsdr.cdc.gov
@@ -907,7 +904,6 @@ Department of Health and Human Services,Centers for Medicare and Medicaid Servic
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,mdctsedsval.cms.gov
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,medicaid.gov
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,medicare.gov
-Department of Health and Human Services,Centers for Medicare and Medicaid Services,openpayments-system.cms.gov
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,openpayments.system.cms.gov
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,openpaymentsdata.cms.gov
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,pecosai.portal.cms.gov
@@ -1208,6 +1204,7 @@ Department of Health and Human Services,National Institutes of Health,id.nlm.nih
 Department of Health and Human Services,National Institutes of Health,id.wip.nlm.nih.gov
 Department of Health and Human Services,National Institutes of Health,ids.nhlbi.nih.gov
 Department of Health and Human Services,National Institutes of Health,imagej.nih.gov
+Department of Health and Human Services,National Institutes of Health,imagic.nlm.nih.gov
 Department of Health and Human Services,National Institutes of Health,imagwiki.nibib.nih.gov
 Department of Health and Human Services,National Institutes of Health,immport.niaid.nih.gov
 Department of Health and Human Services,National Institutes of Health,indexcat-us-east-1.awsprod.nlm.nih.gov
@@ -1393,7 +1390,6 @@ Department of Health and Human Services,National Institutes of Health,zfish.nich
 Department of Health and Human Services,"National Library of Medicine, NIH",clinicaltrials.gov
 Department of Health and Human Services,"National Library of Medicine, NIH",docline.gov
 Department of Health and Human Services,"National Library of Medicine, NIH",magazine-local.medlineplus.gov
-Department of Health and Human Services,"National Library of Medicine, NIH",magazine.medlineplus.gov
 Department of Health and Human Services,"National Library of Medicine, NIH",medlineplus.gov
 Department of Health and Human Services,"National Library of Medicine, NIH",prs-beta.clinicaltrials.gov
 Department of Health and Human Services,"National Library of Medicine, NIH",prstest.clinicaltrials.gov
@@ -1489,7 +1485,7 @@ Department of Homeland Security,U.S. Immigration and Customs Enforcement,cebonds
 Department of Homeland Security,United States Coast Guard,testdeveloper.nvmc.uscg.gov
 Department of Homeland Security,United States Coast Guard,testdhssans.nvmc.uscg.gov
 Department of Homeland Security,United States Coast Guard,testnvmc.nvmc.uscg.gov
-Department of Housing and Urban Development,Assistant Secretary for Public Affairs,ctsportal.hud.gov
+Department of Housing and Urban Development,,ctsportal.hud.gov
 Department of Justice,,acis.eoir.justice.gov
 Department of Justice,,civilrights.justice.gov
 Department of Justice,,ereg.eoir.justice.gov
@@ -2218,6 +2214,7 @@ Department of the Interior,United States Geological Survey,earthquake.usgs.gov
 Department of the Interior,United States Geological Survey,egscbeowulf.er.usgs.gov
 Department of the Interior,United States Geological Survey,escweb.wr.usgs.gov
 Department of the Interior,United States Geological Survey,fdp.astrogeology.usgs.gov
+Department of the Interior,United States Geological Survey,geo-nsdi.er.usgs.gov
 Department of the Interior,United States Geological Survey,gis.usgs.gov
 Department of the Interior,United States Geological Survey,gis1.usgs.gov
 Department of the Interior,United States Geological Survey,glovis-cloud.usgs.gov
@@ -2230,7 +2227,6 @@ Department of the Interior,United States Geological Survey,libraryguides.usgs.go
 Department of the Interior,United States Geological Survey,maps-beta.usgs.gov
 Department of the Interior,United States Geological Survey,maps.usgs.gov
 Department of the Interior,United States Geological Survey,mids.er.usgs.gov
-Department of the Interior,United States Geological Survey,mrdata.usgs.gov
 Department of the Interior,United States Geological Survey,my.usgs.gov
 Department of the Interior,United States Geological Survey,nas.er.usgs.gov
 Department of the Interior,United States Geological Survey,natweb.resolve.usgs.gov
@@ -2250,14 +2246,15 @@ Department of the Interior,United States Geological Survey,nwis.waterservices.us
 Department of the Interior,United States Geological Survey,pdsimage2.wr.usgs.gov
 Department of the Interior,United States Geological Survey,pgm-documentation-planetary-geologic-mapping-e09b117c9a4e1810f7.code-pages.usgs.gov
 Department of the Interior,United States Geological Survey,planetary-sdi.astrogeology.usgs.gov
-Department of the Interior,United States Geological Survey,planetarymaps.usgs.gov
 Department of the Interior,United States Geological Survey,planetarynames.wr.usgs.gov
 Department of the Interior,United States Geological Survey,postfiredebrisflow.usgs.gov
 Department of the Interior,United States Geological Survey,psdi.astrogeology.usgs.gov
 Department of the Interior,United States Geological Survey,pubs.usgs.gov
 Department of the Interior,United States Geological Survey,qsb.usgs.gov
+Department of the Interior,United States Geological Survey,rockyweb.usgs.gov
 Department of the Interior,United States Geological Survey,sflthredds.er.usgs.gov
 Department of the Interior,United States Geological Survey,sicarius.wr.usgs.gov
+Department of the Interior,United States Geological Survey,siren.fort.usgs.gov
 Department of the Interior,United States Geological Survey,stac.astrogeology.usgs.gov
 Department of the Interior,United States Geological Survey,stellwagen.er.usgs.gov
 Department of the Interior,United States Geological Survey,store.usgs.gov
@@ -2266,6 +2263,7 @@ Department of the Interior,United States Geological Survey,topobuilder.nationalm
 Department of the Interior,United States Geological Survey,vhptools.usgs.gov
 Department of the Interior,United States Geological Survey,volcview.wr.usgs.gov
 Department of the Interior,United States Geological Survey,vsc-ash.wr.usgs.gov
+Department of the Interior,United States Geological Survey,warcservices.usgs.gov
 Department of the Interior,United States Geological Survey,waterdata.usgs.gov
 Department of the Interior,United States Geological Survey,waterservices.usgs.gov
 Department of the Interior,United States Geological Survey,wlci.gov
@@ -2282,6 +2280,7 @@ Department of the Treasury,Bureau of the Fiscal Service,patriotbonds.gov
 Department of the Treasury,Bureau of the Fiscal Service,pay.gov
 Department of the Treasury,Bureau of the Fiscal Service,qat.usaspending.gov
 Department of the Treasury,Bureau of the Fiscal Service,savingsbond.gov
+Department of the Treasury,Bureau of the Fiscal Service,savingsbondwizard.gov
 Department of the Treasury,Bureau of the Fiscal Service,taaps.gov
 Department of the Treasury,Bureau of the Fiscal Service,treasuryauctions.gov
 Department of the Treasury,Bureau of the Fiscal Service,treasurydirect.gov
@@ -2300,6 +2299,7 @@ Department of the Treasury,Department of the Treasury - DO,orsuat.ofac.treas.gov
 Department of the Treasury,Department of the Treasury - DO,pki.treas.gov
 Department of the Treasury,Department of the Treasury - DO,sanctionslist.ofac.treas.gov
 Department of the Treasury,Department of the Treasury - OCIO,appointment.treasury.gov
+Department of the Treasury,Department of the Treasury - OCIO,arc.fiscal.treasury.gov
 Department of the Treasury,Department of the Treasury - OCIO,devpki.treasury.gov
 Department of the Treasury,Department of the Treasury - OCIO,ffb.treasury.gov
 Department of the Treasury,Department of the Treasury - OCIO,fiscal.treasury.gov
@@ -2399,7 +2399,6 @@ Environmental Protection Agency,,geopub.epa.gov
 Environmental Protection Agency,,ghgreporting.epa.gov
 Environmental Protection Agency,,gpdashboard.epa.gov
 Environmental Protection Agency,,guideme.epa.gov
-Environmental Protection Agency,,hawc.epa.gov
 Environmental Protection Agency,,hero.epa.gov
 Environmental Protection Agency,,heronext.epa.gov
 Environmental Protection Agency,,iaspub.epa.gov
@@ -2417,7 +2416,6 @@ Environmental Protection Agency,,nepis.epa.gov
 Environmental Protection Agency,,node2.epa.gov
 Environmental Protection Agency,,nrt.response.epa.gov
 Environmental Protection Agency,,oasext.epa.gov
-Environmental Protection Agency,,oaspub.epa.gov
 Environmental Protection Agency,,ofmext.epa.gov
 Environmental Protection Agency,,ofmextwam.epa.gov
 Environmental Protection Agency,,ofmpub.epa.gov
@@ -2617,7 +2615,6 @@ General Services Administration,Office of GSA IT,networx-billing-pricer.eos.gsa.
 General Services Administration,Office of GSA IT,networx-public-pricer.eos.gsa.gov
 General Services Administration,Office of GSA IT,oes.gsa.gov
 General Services Administration,Office of GSA IT,open.gsa.gov
-General Services Administration,Office of GSA IT,qafcs.fai.gov
 General Services Administration,Office of GSA IT,realpropertyprofile.gov
 General Services Administration,Office of GSA IT,reginfo.gov
 General Services Administration,Office of GSA IT,ret.gsa.gov
@@ -2828,6 +2825,7 @@ National Labor Relations Board,,citenet.nlrb.gov
 National Labor Relations Board,,nlrb.gov
 National Mediation Board,,knowledgestore.nmb.gov
 National Mediation Board,,nmb.gov
+National Science Foundation,,honorary-awards.nsf.gov
 National Science Foundation,,iucrc.nsf.gov
 National Science Foundation,,ncses.nsf.gov
 National Science Foundation,,ncsesdata.nsf.gov
@@ -2843,6 +2841,7 @@ Nuclear Regulatory Commission,,ebilling.nrc-gateway.gov
 Nuclear Regulatory Commission,,feedback.nrc.gov
 Nuclear Regulatory Commission,,nrc.gov
 Nuclear Regulatory Commission,,oighotline.nrc-gateway.gov
+Nuclear Regulatory Commission,,publicwebcms.nrc-gateway.gov
 Nuclear Regulatory Commission,,video.nrc.gov
 Occupational Safety and Health Review Commission,,oshrc.gov
 Office of Government Ethics,,oge.gov
@@ -2859,7 +2858,6 @@ Office of Personnel Management,,armycivilianservice.usajobs.gov
 Office of Personnel Management,,armymwrcareers.usajobs.gov
 Office of Personnel Management,,armynafciviliancareers.usajobs.gov
 Office of Personnel Management,,arpa-h-careers.usajobs.gov
-Office of Personnel Management,,arscareers.usajobs.gov
 Office of Personnel Management,,atec.usajobs.gov
 Office of Personnel Management,,atf.usajobs.gov
 Office of Personnel Management,,attorney.usajobs.gov
@@ -2907,7 +2905,6 @@ Office of Personnel Management,,dhs.usajobs.gov
 Office of Personnel Management,,dhscs.usajobs.gov
 Office of Personnel Management,,dla.usajobs.gov
 Office of Personnel Management,,doc.usajobs.gov
-Office of Personnel Management,,dodea-ed-aides.usajobs.gov
 Office of Personnel Management,,dodea-subs.usajobs.gov
 Office of Personnel Management,,dodea.usajobs.gov
 Office of Personnel Management,,doe.usajobs.gov
@@ -2967,7 +2964,6 @@ Office of Personnel Management,,ice.usajobs.gov
 Office of Personnel Management,,ihscphsofficers.usajobs.gov
 Office of Personnel Management,,informationtechnology.usajobs.gov
 Office of Personnel Management,,intel.usajobs.gov
-Office of Personnel Management,,intelligencecareers.usajobs.gov
 Office of Personnel Management,,intern.usajobs.gov
 Office of Personnel Management,,irs.usajobs.gov
 Office of Personnel Management,,itmanagement.usajobs.gov
@@ -3038,6 +3034,7 @@ Office of Personnel Management,,ssaichicago.usajobs.gov
 Office of Personnel Management,,ssaidallas.usajobs.gov
 Office of Personnel Management,,ssaidenver.usajobs.gov
 Office of Personnel Management,,ssaikansascity.usajobs.gov
+Office of Personnel Management,,ssainewyork.usajobs.gov
 Office of Personnel Management,,ssaiphiladelphia.usajobs.gov
 Office of Personnel Management,,ssaisanfrancisco.usajobs.gov
 Office of Personnel Management,,ssaiseattle.usajobs.gov
@@ -3052,7 +3049,6 @@ Office of Personnel Management,,treasury-occ.usajobs.gov
 Office of Personnel Management,,treasury.usajobs.gov
 Office of Personnel Management,,treasuryhq.usajobs.gov
 Office of Personnel Management,,usaccess.usalearning.gov
-Office of Personnel Management,,usace.usajobs.gov
 Office of Personnel Management,,usaceportland.usajobs.gov
 Office of Personnel Management,,usacestpaul.usajobs.gov
 Office of Personnel Management,,usajobs.gov
@@ -3069,6 +3065,7 @@ Office of Personnel Management,,usda-students.usajobs.gov
 Office of Personnel Management,,usda-veterans.usajobs.gov
 Office of Personnel Management,,usda.usajobs.gov
 Office of Personnel Management,,usff.usajobs.gov
+Office of Personnel Management,,usgs.usajobs.gov
 Office of Personnel Management,,usms.usajobs.gov
 Office of Personnel Management,,uspp.usajobs.gov
 Office of Personnel Management,,uspto.usajobs.gov
