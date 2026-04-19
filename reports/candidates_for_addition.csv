@@ -189,7 +189,6 @@ Department of Commerce,National Institute of Standards and Technology,rpki-monit
 Department of Commerce,National Institute of Standards and Technology,sbd.nist.gov
 Department of Commerce,National Institute of Standards and Technology,ssis.nist.gov
 Department of Commerce,National Institute of Standards and Technology,strbase-b.nist.gov
-Department of Commerce,National Institute of Standards and Technology,timegov.nist.gov
 Department of Commerce,National Oceanic and Atmospheric Administration,arboretum.atdd.noaa.gov
 Department of Commerce,National Oceanic and Atmospheric Administration,cbwofs.vlab.noaa.gov
 Department of Commerce,National Oceanic and Atmospheric Administration,cms-www-goesr.woc.noaa.gov
@@ -751,14 +750,12 @@ Department of Energy,Sandia National Laboratories,far-qc.sandia.gov
 Department of Energy,Sandia National Laboratories,getscot.sandia.gov
 Department of Energy,Sandia National Laboratories,jastoolbox.sandia.gov
 Department of Energy,Sandia National Laboratories,lsimaging.sandia.gov
+Department of Energy,Sandia National Laboratories,opencsp.sandia.gov
 Department of Energy,Sandia National Laboratories,overqc.sandia.gov
 Department of Energy,Sandia National Laboratories,powerapi.sandia.gov
 Department of Energy,Sandia National Laboratories,pvpmc.sandia.gov
-Department of Energy,Sandia National Laboratories,sandia.gov
-Department of Energy,Sandia National Laboratories,sarape.sandia.gov
-Department of Energy,Sandia National Laboratories,suns.sandia.gov
+Department of Energy,Sandia National Laboratories,rol.sandia.gov
 Department of Energy,Sandia National Laboratories,tracktable.sandia.gov
-Department of Energy,Sandia National Laboratories,umbra.sandia.gov
 Department of Energy,Sandia National Laboratories,voroclust.sandia.gov
 Department of Energy,Sandia National Laboratories,vorocrust.sandia.gov
 Department of Energy,Sandia National Laboratories,xraytoolkit.sandia.gov
@@ -897,7 +894,6 @@ Department of Health and Human Services,Centers for Medicare and Medicaid Servic
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,espanol.insurekidsnow.gov
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,eus.cms.gov
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,finder.healthcare.gov
-Department of Health and Human Services,Centers for Medicare and Medicaid Services,harp.cms.gov
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,impl.webpricer.cms.gov
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,impl.webpricer.mps.cms.gov
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,insurekidsnow.gov
@@ -1214,6 +1210,7 @@ Department of Health and Human Services,National Institutes of Health,ice.ntp.ni
 Department of Health and Human Services,National Institutes of Health,icmr.nhlbi.nih.gov
 Department of Health and Human Services,National Institutes of Health,ids.nhlbi.nih.gov
 Department of Health and Human Services,National Institutes of Health,imagej.nih.gov
+Department of Health and Human Services,National Institutes of Health,imagic.nlm.nih.gov
 Department of Health and Human Services,National Institutes of Health,imagwiki.nibib.nih.gov
 Department of Health and Human Services,National Institutes of Health,immport.niaid.nih.gov
 Department of Health and Human Services,National Institutes of Health,indexcat-us-east-1.awsprod.nlm.nih.gov
@@ -1397,6 +1394,7 @@ Department of Health and Human Services,National Institutes of Health,zfish.nich
 Department of Health and Human Services,"National Library of Medicine, NIH",clinicaltrials.gov
 Department of Health and Human Services,"National Library of Medicine, NIH",docline.gov
 Department of Health and Human Services,"National Library of Medicine, NIH",magazine-local.medlineplus.gov
+Department of Health and Human Services,"National Library of Medicine, NIH",magazine.medlineplus.gov
 Department of Health and Human Services,"National Library of Medicine, NIH",medlineplus.gov
 Department of Health and Human Services,"National Library of Medicine, NIH",prs-beta.clinicaltrials.gov
 Department of Health and Human Services,"National Library of Medicine, NIH",prstest.clinicaltrials.gov
@@ -1405,7 +1403,6 @@ Department of Health and Human Services,"Office of Disease Prevention and Health
 Department of Health and Human Services,"Office of Disease Prevention and Health Promotion, Office of the Secretary",odphp.health.gov
 Department of Health and Human Services,"Office of Public Health and Science, Office on Women's Health",espanol.womenshealth.gov
 Department of Health and Human Services,"Office of Public Health and Science, Office on Women's Health",womenshealth.gov
-Department of Health and Human Services,Office of the Assistant Secretary for Health,ahead.hiv.gov
 Department of Health and Human Services,Office of the Assistant Secretary for Health,locator.hiv.gov
 Department of Health and Human Services,"Office of the National Coordinator, Office of the Secretary",oncprojectracking.healthit.gov
 Department of Health and Human Services,"Office of the National Coordinator, Office of the Secretary",playbook.healthit.gov
@@ -1489,7 +1486,6 @@ Department of Homeland Security,U.S. Customs and Border Protection,helpspanish.c
 Department of Homeland Security,U.S. Customs and Border Protection,labs.cbp.gov
 Department of Homeland Security,U.S. Immigration and Customs Enforcement,cebonds.ice.gov
 Department of Homeland Security,United States Coast Guard,testdeveloper.nvmc.uscg.gov
-Department of Homeland Security,United States Coast Guard,testdhssans.nvmc.uscg.gov
 Department of Homeland Security,United States Coast Guard,testenoad.nvmc.uscg.gov
 Department of Homeland Security,United States Coast Guard,testnvmc.nvmc.uscg.gov
 Department of Housing and Urban Development,,ctsportal.hud.gov
@@ -1842,7 +1838,6 @@ Department of State,Bureau of Global Public Affairs,2021-2025.state.gov
 Department of State,Bureau of Global Public Affairs,adoption.state.gov
 Department of State,Bureau of Global Public Affairs,adoptions.state.gov
 Department of State,Bureau of Global Public Affairs,ae.usembassy.gov
-Department of State,Bureau of Global Public Affairs,af.usembassy.gov
 Department of State,Bureau of Global Public Affairs,al.usembassy.gov
 Department of State,Bureau of Global Public Affairs,allowances.state.gov
 Department of State,Bureau of Global Public Affairs,alumni.state.gov
@@ -1850,7 +1845,6 @@ Department of State,Bureau of Global Public Affairs,am.usembassy.gov
 Department of State,Bureau of Global Public Affairs,americanenglish.state.gov
 Department of State,Bureau of Global Public Affairs,americanspaces.state.gov
 Department of State,Bureau of Global Public Affairs,ao.usembassy.gov
-Department of State,Bureau of Global Public Affairs,ar.usembassy.gov
 Department of State,Bureau of Global Public Affairs,archive-share.america.gov
 Department of State,Bureau of Global Public Affairs,art.state.gov
 Department of State,Bureau of Global Public Affairs,asean.usmission.gov
@@ -1859,19 +1853,15 @@ Department of State,Bureau of Global Public Affairs,au.usembassy.gov
 Department of State,Bureau of Global Public Affairs,az.usembassy.gov
 Department of State,Bureau of Global Public Affairs,ba.usembassy.gov
 Department of State,Bureau of Global Public Affairs,bb.usembassy.gov
-Department of State,Bureau of Global Public Affairs,bd.usembassy.gov
 Department of State,Bureau of Global Public Affairs,be.usembassy.gov
-Department of State,Bureau of Global Public Affairs,bf.usembassy.gov
 Department of State,Bureau of Global Public Affairs,bg.usembassy.gov
 Department of State,Bureau of Global Public Affairs,bh.usembassy.gov
 Department of State,Bureau of Global Public Affairs,bi.usembassy.gov
 Department of State,Bureau of Global Public Affairs,bj.usembassy.gov
 Department of State,Bureau of Global Public Affairs,bm.usconsulate.gov
 Department of State,Bureau of Global Public Affairs,bn.usembassy.gov
-Department of State,Bureau of Global Public Affairs,bo.usembassy.gov
 Department of State,Bureau of Global Public Affairs,br.usembassy.gov
 Department of State,Bureau of Global Public Affairs,bs.usembassy.gov
-Department of State,Bureau of Global Public Affairs,bw.usembassy.gov
 Department of State,Bureau of Global Public Affairs,by.usembassy.gov
 Department of State,Bureau of Global Public Affairs,bz.usembassy.gov
 Department of State,Bureau of Global Public Affairs,ca.usembassy.gov
@@ -1885,7 +1875,6 @@ Department of State,Bureau of Global Public Affairs,ci.usembassy.gov
 Department of State,Bureau of Global Public Affairs,cl.usembassy.gov
 Department of State,Bureau of Global Public Affairs,cm.usembassy.gov
 Department of State,Bureau of Global Public Affairs,co.usembassy.gov
-Department of State,Bureau of Global Public Affairs,cr.usembassy.gov
 Department of State,Bureau of Global Public Affairs,csm.state.gov
 Department of State,Bureau of Global Public Affairs,cu.usembassy.gov
 Department of State,Bureau of Global Public Affairs,cv.usembassy.gov
@@ -1898,7 +1887,6 @@ Department of State,Bureau of Global Public Affairs,dj.usembassy.gov
 Department of State,Bureau of Global Public Affairs,dk.usembassy.gov
 Department of State,Bureau of Global Public Affairs,do.usembassy.gov
 Department of State,Bureau of Global Public Affairs,dz.usembassy.gov
-Department of State,Bureau of Global Public Affairs,ec.usembassy.gov
 Department of State,Bureau of Global Public Affairs,educationusa.state.gov
 Department of State,Bureau of Global Public Affairs,ee.usembassy.gov
 Department of State,Bureau of Global Public Affairs,eg.usembassy.gov
@@ -1907,35 +1895,30 @@ Department of State,Bureau of Global Public Affairs,es.usembassy.gov
 Department of State,Bureau of Global Public Affairs,et.usembassy.gov
 Department of State,Bureau of Global Public Affairs,exchanges.state.gov
 Department of State,Bureau of Global Public Affairs,fam.state.gov
-Department of State,Bureau of Global Public Affairs,fi.usembassy.gov
 Department of State,Bureau of Global Public Affairs,fj.usembassy.gov
 Department of State,Bureau of Global Public Affairs,fm.usembassy.gov
 Department of State,Bureau of Global Public Affairs,foia.state.gov
 Department of State,Bureau of Global Public Affairs,fr.usembassy.gov
 Department of State,Bureau of Global Public Affairs,ga.usembassy.gov
 Department of State,Bureau of Global Public Affairs,ge.usembassy.gov
-Department of State,Bureau of Global Public Affairs,geneva.usmission.gov
 Department of State,Bureau of Global Public Affairs,gh.usembassy.gov
 Department of State,Bureau of Global Public Affairs,gm.usembassy.gov
 Department of State,Bureau of Global Public Affairs,gn.usembassy.gov
 Department of State,Bureau of Global Public Affairs,gq.usembassy.gov
 Department of State,Bureau of Global Public Affairs,gr.usembassy.gov
 Department of State,Bureau of Global Public Affairs,gt.usembassy.gov
-Department of State,Bureau of Global Public Affairs,gw.usmission.gov
 Department of State,Bureau of Global Public Affairs,gy.usembassy.gov
 Department of State,Bureau of Global Public Affairs,history.state.gov
 Department of State,Bureau of Global Public Affairs,hk.usconsulate.gov
 Department of State,Bureau of Global Public Affairs,hn.usembassy.gov
 Department of State,Bureau of Global Public Affairs,hr.usembassy.gov
 Department of State,Bureau of Global Public Affairs,ht.usembassy.gov
-Department of State,Bureau of Global Public Affairs,hu.usembassy.gov
 Department of State,Bureau of Global Public Affairs,iafdb.travel.state.gov
 Department of State,Bureau of Global Public Affairs,icao.usmission.gov
 Department of State,Bureau of Global Public Affairs,id.usembassy.gov
 Department of State,Bureau of Global Public Affairs,ie.usembassy.gov
 Department of State,Bureau of Global Public Affairs,il.usembassy.gov
 Department of State,Bureau of Global Public Affairs,in.usembassy.gov
-Department of State,Bureau of Global Public Affairs,iq.usembassy.gov
 Department of State,Bureau of Global Public Affairs,ir.usembassy.gov
 Department of State,Bureau of Global Public Affairs,is.usembassy.gov
 Department of State,Bureau of Global Public Affairs,it.usembassy.gov
@@ -1978,8 +1961,6 @@ Department of State,Bureau of Global Public Affairs,mx.usembassy.gov
 Department of State,Bureau of Global Public Affairs,my.usembassy.gov
 Department of State,Bureau of Global Public Affairs,mz.usembassy.gov
 Department of State,Bureau of Global Public Affairs,na.usembassy.gov
-Department of State,Bureau of Global Public Affairs,nato.usmission.gov
-Department of State,Bureau of Global Public Affairs,ne.usembassy.gov
 Department of State,Bureau of Global Public Affairs,ng.usembassy.gov
 Department of State,Bureau of Global Public Affairs,ni.usembassy.gov
 Department of State,Bureau of Global Public Affairs,nl.usembassy.gov
@@ -2018,7 +1999,6 @@ Department of State,Bureau of Global Public Affairs,share.america.gov
 Department of State,Bureau of Global Public Affairs,si.usembassy.gov
 Department of State,Bureau of Global Public Affairs,sk.usembassy.gov
 Department of State,Bureau of Global Public Affairs,sl.usembassy.gov
-Department of State,Bureau of Global Public Affairs,sm.usmission.gov
 Department of State,Bureau of Global Public Affairs,sn.usembassy.gov
 Department of State,Bureau of Global Public Affairs,so.usembassy.gov
 Department of State,Bureau of Global Public Affairs,spanmag.state.gov
@@ -2032,9 +2012,7 @@ Department of State,Bureau of Global Public Affairs,sz.usembassy.gov
 Department of State,Bureau of Global Public Affairs,td.usembassy.gov
 Department of State,Bureau of Global Public Affairs,tg.usembassy.gov
 Department of State,Bureau of Global Public Affairs,th.usembassy.gov
-Department of State,Bureau of Global Public Affairs,tj.usembassy.gov
 Department of State,Bureau of Global Public Affairs,tl.usembassy.gov
-Department of State,Bureau of Global Public Affairs,tm.usembassy.gov
 Department of State,Bureau of Global Public Affairs,tn.usembassy.gov
 Department of State,Bureau of Global Public Affairs,to.usembassy.gov
 Department of State,Bureau of Global Public Affairs,tr.usembassy.gov
@@ -2043,7 +2021,6 @@ Department of State,Bureau of Global Public Affairs,tz.usembassy.gov
 Department of State,Bureau of Global Public Affairs,ua.usembassy.gov
 Department of State,Bureau of Global Public Affairs,ug.usembassy.gov
 Department of State,Bureau of Global Public Affairs,uk.usembassy.gov
-Department of State,Bureau of Global Public Affairs,usau.usmission.gov
 Department of State,Bureau of Global Public Affairs,useu.usmission.gov
 Department of State,Bureau of Global Public Affairs,usoas.usmission.gov
 Department of State,Bureau of Global Public Affairs,usoecd.usmission.gov
@@ -2084,6 +2061,7 @@ Department of Veterans Affairs,"Office of Information and Technology, IT Operati
 Department of Veterans Affairs,"Office of Information and Technology, IT Operations and Services (ITOPS)",aptcenter.research.va.gov
 Department of Veterans Affairs,"Office of Information and Technology, IT Operations and Services (ITOPS)",avreap.research.va.gov
 Department of Veterans Affairs,"Office of Information and Technology, IT Operations and Services (ITOPS)",benefits.va.gov
+Department of Veterans Affairs,"Office of Information and Technology, IT Operations and Services (ITOPS)",brrc.research.va.gov
 Department of Veterans Affairs,"Office of Information and Technology, IT Operations and Services (ITOPS)",cadre.research.va.gov
 Department of Veterans Affairs,"Office of Information and Technology, IT Operations and Services (ITOPS)",cancer.va.gov
 Department of Veterans Affairs,"Office of Information and Technology, IT Operations and Services (ITOPS)",caregiver.va.gov
@@ -2213,7 +2191,6 @@ Department of the Interior,Office of Surface Mining Reclamation and Enforcement,
 Department of the Interior,Office of Surface Mining Reclamation and Enforcement,osmre.gov
 Department of the Interior,USGS-NWRC,jem.gov
 Department of the Interior,United States Fish and Wildlife Service,apps.fws.gov
-Department of the Interior,United States Fish and Wildlife Service,fws.gov
 Department of the Interior,United States Fish and Wildlife Service,ipac.ecosphere.fws.gov
 Department of the Interior,United States Fish and Wildlife Service,rivers.gov
 Department of the Interior,United States Geological Survey,answers.usgs.gov
@@ -2249,6 +2226,7 @@ Department of the Interior,United States Geological Survey,libraryguides.usgs.go
 Department of the Interior,United States Geological Survey,maps-beta.usgs.gov
 Department of the Interior,United States Geological Survey,maps.usgs.gov
 Department of the Interior,United States Geological Survey,mids.er.usgs.gov
+Department of the Interior,United States Geological Survey,mrdata.usgs.gov
 Department of the Interior,United States Geological Survey,my.usgs.gov
 Department of the Interior,United States Geological Survey,nas.er.usgs.gov
 Department of the Interior,United States Geological Survey,natweb.resolve.usgs.gov
@@ -2267,6 +2245,7 @@ Department of the Interior,United States Geological Survey,nwis.waterservices.us
 Department of the Interior,United States Geological Survey,pdsimage2.wr.usgs.gov
 Department of the Interior,United States Geological Survey,pgm-documentation-planetary-geologic-mapping-e09b117c9a4e1810f7.code-pages.usgs.gov
 Department of the Interior,United States Geological Survey,planetary-sdi.astrogeology.usgs.gov
+Department of the Interior,United States Geological Survey,planetarymaps.usgs.gov
 Department of the Interior,United States Geological Survey,planetarynames.wr.usgs.gov
 Department of the Interior,United States Geological Survey,postfiredebrisflow.usgs.gov
 Department of the Interior,United States Geological Survey,psdi.astrogeology.usgs.gov
@@ -2411,6 +2390,7 @@ Environmental Protection Agency,,geopub.epa.gov
 Environmental Protection Agency,,ghgreporting.epa.gov
 Environmental Protection Agency,,gpdashboard.epa.gov
 Environmental Protection Agency,,guideme.epa.gov
+Environmental Protection Agency,,hawc.epa.gov
 Environmental Protection Agency,,hero.epa.gov
 Environmental Protection Agency,,heronetnext.epa.gov
 Environmental Protection Agency,,heronext.epa.gov
@@ -2427,6 +2407,7 @@ Environmental Protection Agency,,nepis.epa.gov
 Environmental Protection Agency,,node2.epa.gov
 Environmental Protection Agency,,nrt.response.epa.gov
 Environmental Protection Agency,,oasext.epa.gov
+Environmental Protection Agency,,oaspub.epa.gov
 Environmental Protection Agency,,ofmext.epa.gov
 Environmental Protection Agency,,ofmextwam.epa.gov
 Environmental Protection Agency,,ofmpub.epa.gov
@@ -2618,7 +2599,6 @@ General Services Administration,Office of GSA IT,idmanagement.gov
 General Services Administration,Office of GSA IT,itvmo.gsa.gov
 General Services Administration,Office of GSA IT,leasing.gsa.gov
 General Services Administration,Office of GSA IT,login.acquisition.gov
-General Services Administration,Office of GSA IT,login.fai.gov
 General Services Administration,Office of GSA IT,mcm.fas.gsa.gov
 General Services Administration,Office of GSA IT,mobile.reginfo.gov
 General Services Administration,Office of GSA IT,ncportal.fas.gsa.gov
@@ -2626,7 +2606,6 @@ General Services Administration,Office of GSA IT,networx-billing-pricer.eos.gsa.
 General Services Administration,Office of GSA IT,networx-public-pricer.eos.gsa.gov
 General Services Administration,Office of GSA IT,oes.gsa.gov
 General Services Administration,Office of GSA IT,open.gsa.gov
-General Services Administration,Office of GSA IT,qafcs.fai.gov
 General Services Administration,Office of GSA IT,realpropertyprofile.gov
 General Services Administration,Office of GSA IT,reginfo.gov
 General Services Administration,Office of GSA IT,ret.gsa.gov
@@ -2716,7 +2695,6 @@ National Aeronautics and Space Administration,NASA Office of the Chief Informati
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,prod.nais.nasa.gov
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,push1.jsc.nasa.gov
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,rapweb.jpl.nasa.gov
-National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,reason-prod.larc.nasa.gov
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,remus.jpl.nasa.gov
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,satcorps.larc.nasa.gov
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,sfa.ird.appdat.jsc.nasa.gov
@@ -2858,6 +2836,7 @@ Office of Personnel Management,,armycivilianservice.usajobs.gov
 Office of Personnel Management,,armymwrcareers.usajobs.gov
 Office of Personnel Management,,armynafciviliancareers.usajobs.gov
 Office of Personnel Management,,arpa-h-careers.usajobs.gov
+Office of Personnel Management,,arscareers.usajobs.gov
 Office of Personnel Management,,atec.usajobs.gov
 Office of Personnel Management,,atf.usajobs.gov
 Office of Personnel Management,,attorney.usajobs.gov
@@ -2904,6 +2883,7 @@ Office of Personnel Management,,dhs.usajobs.gov
 Office of Personnel Management,,dhscs.usajobs.gov
 Office of Personnel Management,,dla.usajobs.gov
 Office of Personnel Management,,doc.usajobs.gov
+Office of Personnel Management,,dodea-ed-aides.usajobs.gov
 Office of Personnel Management,,dodea-subs.usajobs.gov
 Office of Personnel Management,,dodea.usajobs.gov
 Office of Personnel Management,,doe.usajobs.gov
@@ -3048,6 +3028,7 @@ Office of Personnel Management,,treasury-occ.usajobs.gov
 Office of Personnel Management,,treasury.usajobs.gov
 Office of Personnel Management,,treasuryhq.usajobs.gov
 Office of Personnel Management,,usaccess.usalearning.gov
+Office of Personnel Management,,usace.usajobs.gov
 Office of Personnel Management,,usaceportland.usajobs.gov
 Office of Personnel Management,,usacestpaul.usajobs.gov
 Office of Personnel Management,,usajobs.gov
