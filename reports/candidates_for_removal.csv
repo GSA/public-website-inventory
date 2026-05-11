@@ -511,6 +511,7 @@ Department of Agriculture,,alf-integ.fns.usda.gov,"Filter,Redirect"
 Department of Agriculture,,alf-preprod.fns.usda.gov,Redirect
 Department of Agriculture,,alf-uat.fns.usda.gov,Redirect
 Department of Agriculture,,alf.fns.usda.gov,"Filter,Redirect"
+Department of Agriculture,,ama.gov,Filter
 Department of Agriculture,,ams.ewaps.usda.gov,Filter
 Department of Agriculture,,ams.prod.usda.gov,"Filter,Status Code"
 Department of Agriculture,,ams.usda.gov,"Filter,Status Code"
@@ -995,6 +996,7 @@ Department of Agriculture,,public.rma.usda.gov,Filter
 Department of Agriculture,,public01.rma.usda.gov,Filter
 Department of Agriculture,,pubmai.sc.egov.usda.gov,Filter
 Department of Agriculture,,pvpo.ams.usda.gov,Filter
+Department of Agriculture,,qab.ama.gov,"Filter,Redirect"
 Department of Agriculture,,quickstats.nass.usda.gov,"Filter,Status Code"
 Department of Agriculture,,quickstatsbeta.nass.usda.gov,Filter
 Department of Agriculture,,ras-east.glb-ras.usda.gov,"Filter,Redirect"
@@ -10303,6 +10305,7 @@ Department of Energy,Western Area Power Administration,t.mail.wapa.gov,Filter
 Department of Energy,Western Area Power Administration,vtc.wapa.gov,"Filter,Status Code"
 Department of Energy,Western Area Power Administration,wapa.gov,Filter
 Department of Energy,Western Area Power Administration,ww3.wapa.gov,"Filter,Status Code"
+Department of Health and Human Services,,fosteringthefuture.gov,"Filter,Status Code"
 Department of Health and Human Services,,getactive.gov,Filter
 Department of Health and Human Services,,hhsoig.gov,Filter
 Department of Health and Human Services,,reproductivehealthservices.gov,Filter
@@ -10825,7 +10828,6 @@ Department of Health and Human Services,Centers for Disease Control and Preventi
 Department of Health and Human Services,Centers for Disease Control and Prevention,phinvads.cdc.gov,Filter
 Department of Health and Human Services,Centers for Disease Control and Prevention,phlip.cdc.gov,Filter
 Department of Health and Human Services,Centers for Disease Control and Prevention,phlip2dev.philab.cdc.gov,Filter
-Department of Health and Human Services,Centers for Disease Control and Prevention,phlipstage.cdc.gov,Filter
 Department of Health and Human Services,Centers for Disease Control and Prevention,pids-stg.cdc.gov,Redirect
 Department of Health and Human Services,Centers for Disease Control and Prevention,pids.cdc.gov,"Filter,Redirect"
 Department of Health and Human Services,Centers for Disease Control and Prevention,places.cdc.gov,Filter
@@ -11741,7 +11743,6 @@ Department of Health and Human Services,Food and Drug Administration,poca.fda.go
 Department of Health and Human Services,Food and Drug Administration,precision.fda.gov,Filter
 Department of Health and Human Services,Food and Drug Administration,purplebooksearch.fda.gov,Filter
 Department of Health and Human Services,Food and Drug Administration,remote.fda.gov,Redirect
-Department of Health and Human Services,Food and Drug Administration,safetyreporting-mig.fda.gov,Filter
 Department of Health and Human Services,Food and Drug Administration,safetyreporting.fda.gov,Filter
 Department of Health and Human Services,Food and Drug Administration,search.fda.gov,Filter
 Department of Health and Human Services,Food and Drug Administration,smarthubdruidapc.fda.gov,Filter
@@ -12869,7 +12870,6 @@ Department of Health and Human Services,National Institutes of Health,devtestdom
 Department of Health and Human Services,National Institutes of Health,devtestdomain2.nih.gov,"Filter,Status Code"
 Department of Health and Human Services,National Institutes of Health,devtestdomain3.nih.gov,"Filter,Status Code"
 Department of Health and Human Services,National Institutes of Health,devtestdomain4.nih.gov,"Filter,Status Code"
-Department of Health and Human Services,National Institutes of Health,devtestdomain6.nih.gov,Filter
 Department of Health and Human Services,National Institutes of Health,dietarysupplementdatabase.usda.nih.gov,"Filter,Status Code"
 Department of Health and Human Services,National Institutes of Health,diffusion.lobos.nih.gov,Filter
 Department of Health and Human Services,National Institutes of Health,digirepo.nlm.nih.gov,Filter
@@ -20223,7 +20223,6 @@ Department of the Treasury,Bureau of Engraving and Printing,eyenote.gov,"Filter,
 Department of the Treasury,Bureau of Engraving and Printing,moneyfactory.gov,"Filter,Redirect"
 Department of the Treasury,Bureau of Engraving and Printing,moneyfactorystore.gov,"Filter,Redirect,Status Code"
 Department of the Treasury,Bureau of the Fiscal Service,acc.treasurydirect.gov,Filter
-Department of the Treasury,Bureau of the Fiscal Service,ama.gov,Filter
 Department of the Treasury,Bureau of the Fiscal Service,api.usaspending.gov,Filter
 Department of the Treasury,Bureau of the Fiscal Service,asap.gov,"Filter,Redirect"
 Department of the Treasury,Bureau of the Fiscal Service,bfem.gov,Filter
@@ -20277,7 +20276,6 @@ Department of the Treasury,Bureau of the Fiscal Service,pay.gov,Filter
 Department of the Treasury,Bureau of the Fiscal Service,pressrelease.treasuryauction.gov,Filter
 Department of the Treasury,Bureau of the Fiscal Service,pressreleaseqa.treasuryauction.gov,Filter
 Department of the Treasury,Bureau of the Fiscal Service,qa.treaslockbox.gov,Redirect
-Department of the Treasury,Bureau of the Fiscal Service,qab.ama.gov,"Filter,Redirect"
 Department of the Treasury,Bureau of the Fiscal Service,qac.treaslockbox.gov,"Filter,Redirect"
 Department of the Treasury,Bureau of the Fiscal Service,qacur.tcs.pay.gov,Filter
 Department of the Treasury,Bureau of the Fiscal Service,qadev.tcs.pay.gov,Filter
@@ -20518,7 +20516,6 @@ Department of the Treasury,Financial Crimes Enforcement Network,fincen.gov,Filte
 Department of the Treasury,Financial Crimes Enforcement Network,fincenid.fincen.gov,Filter
 Department of the Treasury,Financial Crimes Enforcement Network,fiportal.fincen.gov,"Filter,Redirect"
 Department of the Treasury,Financial Crimes Enforcement Network,hqmivsp.fincen.gov,Filter
-Department of the Treasury,Financial Crimes Enforcement Network,iam.fincen.gov,"Filter,Status Code"
 Department of the Treasury,Financial Crimes Enforcement Network,msb.gov,Filter
 Department of the Treasury,Financial Crimes Enforcement Network,scremote.fincen.gov,Filter
 Department of the Treasury,Financial Crimes Enforcement Network,securemail.bsa.fincen.gov,Filter
@@ -21185,7 +21182,6 @@ Executive Office of the President,White House Office,earlycareers.gov,Filter
 Executive Office of the President,White House Office,events.whitehouse.gov,"Filter,Status Code"
 Executive Office of the President,White House Office,explore.gov,"Filter,Redirect"
 Executive Office of the President,White House Office,fellows.whitehouse.gov,Filter
-Executive Office of the President,White House Office,fosteringthefuture.gov,"Filter,Status Code"
 Executive Office of the President,White House Office,fosteringthefuturetogether.gov,"Filter,Redirect"
 Executive Office of the President,White House Office,freedom.gov,Filter
 Executive Office of the President,White House Office,greathealthcare.gov,"Filter,Redirect"
