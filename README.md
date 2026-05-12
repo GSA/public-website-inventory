@@ -70,7 +70,7 @@ Each agency is required to host and keep up to date their public website invento
 - Furthermore, `www.` should not be included for any website.  https://www.x.gov should be represented as `x.gov` and https://www.x.y.gov should be represented as `x.y.gov` in the Website field.  
 - The `agency` (i.e., top-tier entity) and `bureau` (i.e., second-tier entity) names, spelling, and capitalization should be standardized.
 - The `office` (i.e., third-tier entity) field is optional and should express which office or sub-bureau component operates a website. Names, spelling, and capitalization should be standardized.
-- The inventory file should be kept up to date with what is currently live on the public internet.  Planned but not yet live sites should not be included.  Sites that are scheduled for but have not yet been decomissioned should remain.  When sites go live or are turned off, they should then be added or removed from the inventory file.
+- The inventory file should be kept up to date with what is currently live on the public internet.  Planned but not yet live sites should not be included.  Sites that are scheduled for but have not yet been decommissioned should remain.  When sites go live or are turned off, they should then be added or removed from the inventory file.
 - agency.gov/websites.csv can redirect to a final URL, but the file must resolve when https://agency.gov/websites.csv is loaded into a browser.  
 
 This model is [similar to other reporting requirements](https://github.com/GSA/site-scanning/issues/1104) and attempts to be straightforward for agencies to manage however works best for them.  
@@ -91,5 +91,5 @@ This inventory is overseen by the [Site Scanning program](https://digital.gov/si
 - This inventory provides another important service, answering not just which agency but also which bureau and potentially office administers which website.  The [.gov registry that is published by CISA](https://github.com/cisagov/dotgov-data/blob/main/current-federal.csv) can only provide that information for an entire base domain and does not have fidelity at the subdomain level.  
 
 ## Helpful Links
-- [Website inventory file made interative via Flat GitHub](https://flatgithub.com/GSA/public-website-inventory/blob/main/us-gov-public-website-inventory.csv)
+- [Website inventory file made interactive via Flat GitHub](https://flatgithub.com/GSA/public-website-inventory/blob/main/us-gov-public-website-inventory.csv)
 - [Website inventory file via GitHub.dev](https://github.dev/GSA/public-website-inventory/blob/main/us-gov-public-website-inventory.csv)
