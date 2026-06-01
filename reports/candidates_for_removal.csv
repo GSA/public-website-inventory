@@ -2,7 +2,6 @@ agency,bureau,initial_domain,reason
 ,,aberdeen.armymwr.com,Filter
 ,,about.usps.com,Filter
 ,,academy.armymwr.com,Filter
-,,amps-mobi.usps.com,Filter
 ,,anniston.armymwr.com,Filter
 ,,ansbach.armymwr.com,Filter
 ,,aphill.armymwr.com,Filter
@@ -664,7 +663,6 @@ Department of Agriculture,,fas.usda.gov,"Filter,Status Code"
 Department of Agriculture,,fasrp.sc.egov.usda.gov,Filter
 Department of Agriculture,,fasusdagov.stg.platform.usda.gov,Status Code
 Department of Agriculture,,fatracker.sc.egov.usda.gov,Filter
-Department of Agriculture,,fdc-node1.nal.usda.gov,Filter
 Department of Agriculture,,fdc.nal.usda.gov,Filter
 Department of Agriculture,,fedsfeedfamilies.ocio.usda.gov,Filter
 Department of Agriculture,,feline.pw.usda.gov,Filter
@@ -2823,7 +2821,6 @@ Department of Defense,,lfsapps.mceits.usmc.mil,"Filter,Status Code"
 Department of Defense,,littlerock.tricare.mil,"Filter,Status Code"
 Department of Defense,,lms.jten.mil,Filter
 Department of Defense,,login-legacy.dla.mil,Filter
-Department of Defense,,login.amps1.dla.mil,Filter
 Department of Defense,,login.dso.mil,Filter
 Department of Defense,,login.dtic.mil,"Filter,Status Code"
 Department of Defense,,losangeles.tricare.mil,"Filter,Status Code"
@@ -10919,7 +10916,6 @@ Department of Health and Human Services,Centers for Medicare and Medicaid Servic
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,testpe1.ses.api.healthcare.gov,Filter
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,testrailent.cms.gov,Filter
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,testrailentdev.cms.gov,Filter
-Department of Health and Human Services,Centers for Medicare and Medicaid Services,tra-impl.cloud.cms.gov,Filter
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,tra.cloud.cms.gov,Filter
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,training-iqies.cms.gov,Filter
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,training.eacms.cms.gov,"Filter,Status Code"
@@ -12228,7 +12224,6 @@ Department of Health and Human Services,National Institutes of Health,esbl.nhlbi
 Department of Health and Human Services,National Institutes of Health,espanol.nichd.nih.gov,Filter
 Department of Health and Human Services,National Institutes of Health,espanol.ninds.nih.gov,"Filter,Status Code"
 Department of Health and Human Services,National Institutes of Health,espanol.smokefree.nci.nih.gov,Filter
-Department of Health and Human Services,National Institutes of Health,espanolauthor.nichd.nih.gov,Filter
 Department of Health and Human Services,National Institutes of Health,esps.nccih.nih.gov,"Filter,Redirect"
 Department of Health and Human Services,National Institutes of Health,espstudy.ctss.nih.gov,Filter
 Department of Health and Human Services,National Institutes of Health,ethics.od.nih.gov,"Filter,Status Code"
@@ -15243,7 +15238,6 @@ Department of Justice,Office of Justice Programs,namus.nij.ojp.gov,Filter
 Department of Justice,Office of Justice Programs,nationalgangcenter.ojp.gov,Filter
 Department of Justice,Office of Justice Programs,navajo.nsopw.gov,Filter
 Department of Justice,Office of Justice Programs,nc-cherokee.nsopw.gov,Filter
-Department of Justice,Office of Justice Programs,nccherokee.nsopw.gov,"Filter,Status Code"
 Department of Justice,Office of Justice Programs,ncirc.bja.ojp.gov,Filter
 Department of Justice,Office of Justice Programs,ncvs.bjs.ojp.gov,Filter
 Department of Justice,Office of Justice Programs,nezperce.nsopw.gov,Filter
@@ -15313,7 +15307,6 @@ Department of Justice,Office of Justice Programs,search.nij.gov,Filter
 Department of Justice,Office of Justice Programs,seminolenation.nsopw.gov,Filter
 Department of Justice,Office of Justice Programs,separation.training.nij.gov,Filter
 Department of Justice,Office of Justice Programs,shoalwaterbay.nsopw.gov,Filter
-Department of Justice,Office of Justice Programs,shoshonepaiute.nsopw.gov,"Filter,Status Code"
 Department of Justice,Office of Justice Programs,smart.gov,"Filter,Redirect"
 Department of Justice,Office of Justice Programs,smart.ojp.gov,Filter
 Department of Justice,Office of Justice Programs,spi-data.bjs.ojp.gov,Filter
@@ -15528,7 +15521,6 @@ Department of Labor,,flag.dol.gov,Filter
 Department of Labor,,foreignlaborcert.doleta.gov,Filter
 Department of Labor,,goodjobs.gov,"Filter,Redirect,Status Code"
 Department of Labor,,gw.oig.dol.gov,"Filter,Status Code"
-Department of Labor,,gw3.oig.dol.gov,Filter
 Department of Labor,,hirevets.gov,Filter
 Department of Labor,,jobcorps.doleta.gov,"Filter,Redirect"
 Department of Labor,,jobs.dol.gov,Filter
@@ -22073,7 +22065,6 @@ National Aeronautics and Space Administration,NASA Office of the Chief Informati
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,history.nasa.gov,"Filter,Redirect"
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,historycollection.ird.appdat.jsc.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,historycollection.jsc.nasa.gov,"Filter,Redirect"
-National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,hitide.profile.podaac.earthdatacloud.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,horizons.jpl.nasa.gov,"Filter,Redirect"
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,hoscopp2.hosc.msfc.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,hoscopp2ms.hosc.msfc.nasa.gov,Filter
@@ -22518,7 +22509,6 @@ National Aeronautics and Space Administration,NASA Office of the Chief Informati
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,oltaris.larc.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,olympics.gsfc.nasa.gov,"Filter,Redirect,Status Code"
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,omisips1.omisips.eosdis.nasa.gov,Filter
-National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,omniweb1.sci.gsfc.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,omps.gesdisc.eosdis.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,ono.ccmc.gsfc.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,onsight.jpl.nasa.gov,Filter
@@ -22707,7 +22697,6 @@ National Aeronautics and Space Administration,NASA Office of the Chief Informati
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,secopcogtest.dev.cloud.earthdata.nasa.gov,Status Code
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,section508.nasa.gov,"Filter,Redirect"
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,securefs.nssc.nasa.gov,Filter
-National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,sed-admin.gsfc.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,sed.gsfc.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,sedupdate.gsfc.nasa.gov,"Filter,Status Code"
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,sedvme.gsfc.nasa.gov,"Filter,Redirect"
