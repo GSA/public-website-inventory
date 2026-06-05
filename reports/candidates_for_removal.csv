@@ -41,7 +41,7 @@ agency,bureau,initial_domain,reason
 ,,connect.tva.com,"Redirect,Status Code"
 ,,connection.tva.com,"Filter,Redirect,Status Code"
 ,,connections.tva.com,"Filter,Redirect,Status Code"
-,,content.armymwr.com,Status Code
+,,content.armymwr.com,"Filter,Status Code"
 ,,crsg-training.tva.com,Filter
 ,,crsg.tva.com,"Filter,Redirect"
 ,,ctrportal.tva.com,"Filter,Redirect"
@@ -261,7 +261,7 @@ Board of Governors of the Federal Reserve,,chunnel.frb.gov,Filter
 Board of Governors of the Federal Reserve,,federalreserveconsumerhelp.gov,Filter
 Board of Governors of the Federal Reserve,,fedezfile.gov,Filter
 Board of Governors of the Federal Reserve,,fedpartnership.gov,Filter
-Board of Governors of the Federal Reserve,,forms.federalreserveconsumerhelp.gov,Status Code
+Board of Governors of the Federal Reserve,,forms.federalreserveconsumerhelp.gov,"Filter,Status Code"
 Board of Governors of the Federal Reserve,,frb.gov,Filter
 Board of Governors of the Federal Reserve,,funnel.frb.gov,Filter
 Board of Governors of the Federal Reserve,,nies.frb.gov,Filter
@@ -283,6 +283,7 @@ Board of Governors of the Federal Reserve,Federal Financial Institutions Examina
 Board of Governors of the Federal Reserve,Federal Financial Institutions Examination Council,geomapt.ffiec.gov,"Filter,Status Code"
 Board of Governors of the Federal Reserve,Federal Financial Institutions Examination Council,industryoutreach.ffiec.gov,"Filter,Status Code"
 Board of Governors of the Federal Reserve,Federal Financial Institutions Examination Council,ithandbook.ffiec.gov,"Filter,Status Code"
+Board of Governors of the Federal Reserve,Federal Financial Institutions Examination Council,test.cdr.ffiec.gov,Status Code
 Board of Governors of the Federal Reserve,Federal Financial Institutions Examination Council,wwwc.ffiec.gov,Status Code
 Board of Governors of the Federal Reserve,Federal Financial Institutions Examination Council,wwwt.ffiec.gov,Status Code
 Board of Governors of the Federal Reserve,Federal Reserve Bank,federalreserve.gov,Filter
@@ -305,7 +306,7 @@ Board of Governors of the Federal Reserve,The Financial and Banking Information 
 Central Intelligence Agency,,cia.gov,"Filter,Status Code"
 Central Intelligence Agency,,dave-oh.opensource.gov,Filter
 Central Intelligence Agency,,dave-rs.opensource.gov,Filter
-Central Intelligence Agency,,enterpriseregistration.opensource.gov,Status Code
+Central Intelligence Agency,,enterpriseregistration.opensource.gov,"Filter,Status Code"
 Central Intelligence Agency,,foia.ucia.gov,Filter
 Central Intelligence Agency,,geos.opensource.gov,Filter
 Central Intelligence Agency,,m.opensource.gov,Filter
@@ -334,18 +335,18 @@ Commodity Futures Trading Commission,,whistleblower.gov,Filter
 Consumer Financial Protection Bureau,,aovpn.cfpb.gov,Filter
 Consumer Financial Protection Bureau,,api.cfpb.gov,Redirect
 Consumer Financial Protection Bureau,,api.consumerfinance.gov,"Filter,Redirect"
-Consumer Financial Protection Bureau,,bcfp.gov,Status Code
+Consumer Financial Protection Bureau,,bcfp.gov,"Filter,Status Code"
 Consumer Financial Protection Bureau,,beta.cfpb.gov,"Filter,Redirect"
 Consumer Financial Protection Bureau,,beta.consumerfinance.gov,"Filter,Redirect"
 Consumer Financial Protection Bureau,,bomgar.cfpb.gov,Filter
-Consumer Financial Protection Bureau,,cfpa.gov,Status Code
+Consumer Financial Protection Bureau,,cfpa.gov,"Filter,Status Code"
 Consumer Financial Protection Bureau,,cfpb.gov,"Filter,Redirect"
 Consumer Financial Protection Bureau,,complaint.consumerfinance.gov,Filter
-Consumer Financial Protection Bureau,,consumerbureau.gov,Status Code
+Consumer Financial Protection Bureau,,consumerbureau.gov,"Filter,Status Code"
 Consumer Financial Protection Bureau,,consumerfinance.gov,Filter
-Consumer Financial Protection Bureau,,consumerfinancial.gov,Status Code
-Consumer Financial Protection Bureau,,consumerfinancialprotectionbureau.gov,Status Code
-Consumer Financial Protection Bureau,,consumerprotectionbureau.gov,Status Code
+Consumer Financial Protection Bureau,,consumerfinancial.gov,"Filter,Status Code"
+Consumer Financial Protection Bureau,,consumerfinancialprotectionbureau.gov,"Filter,Status Code"
+Consumer Financial Protection Bureau,,consumerprotectionbureau.gov,"Filter,Status Code"
 Consumer Financial Protection Bureau,,ctljss.cfpb.gov,"Filter,Status Code"
 Consumer Financial Protection Bureau,,data.consumerfinance.gov,"Filter,Redirect"
 Consumer Financial Protection Bureau,,devvpn1.cfpb.gov,Filter
@@ -358,7 +359,7 @@ Consumer Financial Protection Bureau,,files.consumerfinance.gov,Status Code
 Consumer Financial Protection Bureau,,help.consumerfinance.gov,Filter
 Consumer Financial Protection Bureau,,hmdahelp.consumerfinance.gov,Filter
 Consumer Financial Protection Bureau,,login.extranet.cfpb.gov,Filter
-Consumer Financial Protection Bureau,,mimm.gov,Status Code
+Consumer Financial Protection Bureau,,mimm.gov,"Filter,Status Code"
 Consumer Financial Protection Bureau,,mobile.cfpb.gov,Filter
 Consumer Financial Protection Bureau,,portal.consumerfinance.gov,Filter
 Consumer Financial Protection Bureau,,reginquiries.consumerfinance.gov,Filter
@@ -560,8 +561,8 @@ Department of Agriculture,,cognos.aphis.usda.gov,Filter
 Department of Agriculture,,cognosprod.aphis.usda.gov,Filter
 Department of Agriculture,,cognosuat.aphis.usda.gov,Filter
 Department of Agriculture,,cowebtest01.aphis.usda.gov,Filter
-Department of Agriculture,,cowebtest02.aphis.usda.gov,Filter
-Department of Agriculture,,cpdes.sc.egov.usda.gov,"Filter,Status Code"
+Department of Agriculture,,cowebtest02.aphis.usda.gov,"Filter,Status Code"
+Department of Agriculture,,cpdes.sc.egov.usda.gov,Filter
 Department of Agriculture,,cps.sc.egov.usda.gov,Filter
 Department of Agriculture,,cris.nifa.usda.gov,Filter
 Department of Agriculture,,csr.sc.egov.usda.gov,"Filter,Redirect"
@@ -756,7 +757,7 @@ Department of Agriculture,,intranet.usda.gov,Status Code
 Department of Agriculture,,ipad.fas.usda.gov,"Filter,Status Code"
 Department of Agriculture,,ipat.sc.egov.usda.gov,Filter
 Department of Agriculture,,iphis.aphis.edc.usda.gov,Filter
-Department of Agriculture,,iphis.aphis.usda.gov,"Filter,Redirect"
+Department of Agriculture,,iphis.aphis.usda.gov,Filter
 Department of Agriculture,,iphisdev.aphis.edc.usda.gov,Filter
 Department of Agriculture,,iphisuat1.aphis.edc.usda.gov,Filter
 Department of Agriculture,,iqcs.nwcg.gov,Filter
@@ -773,7 +774,7 @@ Department of Agriculture,,la.nrcs.usda.gov,Filter
 Department of Agriculture,,landcare.nrcs.usda.gov,Filter
 Department of Agriculture,,lat.fpac.usda.gov,Filter
 Department of Agriculture,,lawgs-training.aphis.usda.gov,"Filter,Status Code"
-Department of Agriculture,,lawgs.aphis.usda.gov,"Filter,Status Code"
+Department of Agriculture,,lawgs.aphis.usda.gov,Filter
 Department of Agriculture,,lbk.ars.usda.gov,Filter
 Department of Agriculture,,leadpaint.cert.sc.egov.usda.gov,Filter
 Department of Agriculture,,leadpaint.sc.egov.usda.gov,Filter
@@ -1170,7 +1171,7 @@ Department of Agriculture,Agricultural Research Service,ars-grin.gov,"Filter,Sta
 Department of Agriculture,Agricultural Research Service,hrsl.arsusda.gov,Filter
 Department of Agriculture,Agricultural Research Service,hydrolab.arsusda.gov,Filter
 Department of Agriculture,Agricultural Research Service,invasivespeciesinfo.gov,Filter
-Department of Agriculture,Agricultural Research Service,itap.gov,"Filter,Redirect"
+Department of Agriculture,Agricultural Research Service,itap.gov,Filter
 Department of Agriculture,Agricultural Research Service,lcacommons.gov,Filter
 Department of Agriculture,Agricultural Research Service,npgsweb.ars-grin.gov,Filter
 Department of Agriculture,Agricultural Research Service,nt.ars-grin.gov,Filter
@@ -1198,7 +1199,7 @@ Department of Agriculture,Office of Chief Information Officer,connect.gov,Filter
 Department of Agriculture,Office of Communications,farmers.gov,Filter
 Department of Agriculture,Office of Communications,nutrition.gov,Filter
 Department of Agriculture,Office of Communications,productofusa.gov,Filter
-Department of Agriculture,Office of Communications,screwworm.gov,Filter
+Department of Agriculture,Office of Communications,screwworm.gov,"Filter,Redirect"
 Department of Agriculture,Office of Communications,search.farmers.gov,"Filter,Status Code"
 Department of Agriculture,Rural Development,biopreferred.gov,Filter
 Department of Agriculture,Rural Development,rural.gov,"Filter,Status Code"
@@ -1361,7 +1362,7 @@ Department of Commerce,International Trade Administration,aicenter.gov,Filter
 Department of Commerce,International Trade Administration,aiexports.gov,Filter
 Department of Commerce,International Trade Administration,api.trade.gov,"Filter,Redirect"
 Department of Commerce,International Trade Administration,blog.trade.gov,"Filter,Redirect"
-Department of Commerce,International Trade Administration,enterpriseregistration.trade.gov,Status Code
+Department of Commerce,International Trade Administration,enterpriseregistration.trade.gov,"Filter,Status Code"
 Department of Commerce,International Trade Administration,global-business-navigator-chatbot.trade.gov,"Filter,Status Code"
 Department of Commerce,International Trade Administration,ngn.trade.gov,Filter
 Department of Commerce,International Trade Administration,ngntest.trade.gov,Filter
@@ -1405,7 +1406,7 @@ Department of Commerce,National Institute of Standards and Technology,cftt.nist.
 Department of Commerce,National Institute of Standards and Technology,charpy.nist.gov,"Filter,Redirect"
 Department of Commerce,National Institute of Standards and Technology,checklists.nist.gov,"Filter,Redirect"
 Department of Commerce,National Institute of Standards and Technology,chips.gov,"Filter,Redirect"
-Department of Commerce,National Institute of Standards and Technology,cnst-training.nist.gov,Filter
+Department of Commerce,National Institute of Standards and Technology,cnst-training.nist.gov,"Filter,Status Code"
 Department of Commerce,National Institute of Standards and Technology,covid19-registry.nist.gov,Filter
 Department of Commerce,National Institute of Standards and Technology,cryogenics.nist.gov,"Filter,Redirect"
 Department of Commerce,National Institute of Standards and Technology,cryptik.nist.gov,Filter
@@ -1472,7 +1473,7 @@ Department of Commerce,National Institute of Standards and Technology,nsrl.nist.
 Department of Commerce,National Institute of Standards and Technology,nvd-admin.nist.gov,Filter
 Department of Commerce,National Institute of Standards and Technology,nvpn.nccoe.nist.gov,"Filter,Status Code"
 Department of Commerce,National Institute of Standards and Technology,nwspmw.its.bldrdoc.gov,"Filter,Status Code"
-Department of Commerce,National Institute of Standards and Technology,opendata.nist.gov,Status Code
+Department of Commerce,National Institute of Standards and Technology,opendata.nist.gov,"Filter,Status Code"
 Department of Commerce,National Institute of Standards and Technology,patapsco.nist.gov,Filter
 Department of Commerce,National Institute of Standards and Technology,peptide.nist.gov,"Filter,Redirect"
 Department of Commerce,National Institute of Standards and Technology,perfloc.nist.gov,"Filter,Redirect"
@@ -1523,7 +1524,7 @@ Department of Commerce,National Institute of Standards and Technology,time.ct.ni
 Department of Commerce,National Institute of Standards and Technology,time.glb.nist.gov,Filter
 Department of Commerce,National Institute of Standards and Technology,time.nist.gov,Filter
 Department of Commerce,National Institute of Standards and Technology,timegov.boulder.nist.gov,"Filter,Status Code"
-Department of Commerce,National Institute of Standards and Technology,timegov.nist.gov,Filter
+Department of Commerce,National Institute of Standards and Technology,timegov.nist.gov,"Filter,Status Code"
 Department of Commerce,National Institute of Standards and Technology,token.nccoe.nist.gov,"Filter,Status Code"
 Department of Commerce,National Institute of Standards and Technology,trc-tools.boulder.nist.gov,Filter
 Department of Commerce,National Institute of Standards and Technology,tsapps-d.nist.gov,Filter
@@ -1565,7 +1566,7 @@ Department of Commerce,National Oceanic and Atmospheric Administration,amberjack
 Department of Commerce,National Oceanic and Atmospheric Administration,amberjackm.nmfs.noaa.gov,Filter
 Department of Commerce,National Oceanic and Atmospheric Administration,apec.noaa.gov,Filter
 Department of Commerce,National Oceanic and Atmospheric Administration,api-afsc.fisheries.noaa.gov,Filter
-Department of Commerce,National Oceanic and Atmospheric Administration,api.tidesandcurrents.noaa.gov,Status Code
+Department of Commerce,National Oceanic and Atmospheric Administration,api.tidesandcurrents.noaa.gov,"Filter,Status Code"
 Department of Commerce,National Oceanic and Atmospheric Administration,api.water.noaa.gov,"Filter,Status Code"
 Department of Commerce,National Oceanic and Atmospheric Administration,apps-nefsc.fisheries.noaa.gov,"Filter,Status Code"
 Department of Commerce,National Oceanic and Atmospheric Administration,apps-st.fisheries.noaa.gov,"Filter,Status Code"
@@ -1640,6 +1641,7 @@ Department of Commerce,National Oceanic and Atmospheric Administration,code.nesd
 Department of Commerce,National Oceanic and Atmospheric Administration,collaborate2.coast.noaa.gov,Filter
 Department of Commerce,National Oceanic and Atmospheric Administration,comet.nefsc.noaa.gov,"Filter,Status Code"
 Department of Commerce,National Oceanic and Atmospheric Administration,confluence.co-ops.nos.noaa.gov,Filter
+Department of Commerce,National Oceanic and Atmospheric Administration,content-drupal.climate.gov,Status Code
 Department of Commerce,National Oceanic and Atmospheric Administration,content.buoybay.noaa.gov,Filter
 Department of Commerce,National Oceanic and Atmospheric Administration,cooper.noaa.gov,"Filter,Redirect"
 Department of Commerce,National Oceanic and Atmospheric Administration,cope.ctc.nwave.noaa.gov,"Filter,Redirect"
@@ -1829,7 +1831,7 @@ Department of Commerce,National Oceanic and Atmospheric Administration,inside.om
 Department of Commerce,National Oceanic and Atmospheric Administration,internals.coast.noaa.gov,Filter
 Department of Commerce,National Oceanic and Atmospheric Administration,international.noaa.gov,Filter
 Department of Commerce,National Oceanic and Atmospheric Administration,intranet.noaa.gov,Status Code
-Department of Commerce,National Oceanic and Atmospheric Administration,intranet.orr.noaa.gov,Redirect
+Department of Commerce,National Oceanic and Atmospheric Administration,intranet.orr.noaa.gov,"Redirect,Status Code"
 Department of Commerce,National Oceanic and Atmospheric Administration,inwsqa.ncep.noaa.gov,Filter
 Department of Commerce,National Oceanic and Atmospheric Administration,iris.ncep.noaa.gov,"Filter,Redirect"
 Department of Commerce,National Oceanic and Atmospheric Administration,irisqa.ncep.noaa.gov,"Filter,Redirect"
@@ -1896,7 +1898,7 @@ Department of Commerce,National Oceanic and Atmospheric Administration,mars.rdc.
 Department of Commerce,National Oceanic and Atmospheric Administration,marsbo.rdc.noaa.gov,Filter
 Department of Commerce,National Oceanic and Atmospheric Administration,mastdev.nauticalcharts.noaa.gov,Filter
 Department of Commerce,National Oceanic and Atmospheric Administration,mdl.nws.noaa.gov,Filter
-Department of Commerce,National Oceanic and Atmospheric Administration,media.fisheries.noaa.gov,Status Code
+Department of Commerce,National Oceanic and Atmospheric Administration,media.fisheries.noaa.gov,"Filter,Status Code"
 Department of Commerce,National Oceanic and Atmospheric Administration,merrittnam.atdd.noaa.gov,Filter
 Department of Commerce,National Oceanic and Atmospheric Administration,mi.nefsc.noaa.gov,Filter
 Department of Commerce,National Oceanic and Atmospheric Administration,midatlantic-mdc.diver.orr.noaa.gov,"Filter,Redirect"
@@ -2037,6 +2039,7 @@ Department of Commerce,National Oceanic and Atmospheric Administration,preview.c
 Department of Commerce,National Oceanic and Atmospheric Administration,preview.water.noaa.gov,Status Code
 Department of Commerce,National Oceanic and Atmospheric Administration,prh.noaa.gov,Filter
 Department of Commerce,National Oceanic and Atmospheric Administration,prod-01-alb-www-oe.woc.noaa.gov,Redirect
+Department of Commerce,National Oceanic and Atmospheric Administration,prod-01-asg-www-climate.woc.noaa.gov,Status Code
 Department of Commerce,National Oceanic and Atmospheric Administration,prod-east-spc.woc.noaa.gov,Status Code
 Department of Commerce,National Oceanic and Atmospheric Administration,prod-erma-ui.orr.noaa.gov,Filter
 Department of Commerce,National Oceanic and Atmospheric Administration,prod-esi-api.orr.noaa.gov,Filter
@@ -2166,7 +2169,6 @@ Department of Commerce,National Oceanic and Atmospheric Administration,tmp.fishe
 Department of Commerce,National Oceanic and Atmospheric Administration,trident-test.fisheries.noaa.gov,Redirect
 Department of Commerce,National Oceanic and Atmospheric Administration,trident.fisheries.noaa.gov,Filter
 Department of Commerce,National Oceanic and Atmospheric Administration,uas.noaa.gov,Filter
-Department of Commerce,National Oceanic and Atmospheric Administration,uat.cmist.noaa.gov,Status Code
 Department of Commerce,National Oceanic and Atmospheric Administration,ufs.epic.noaa.gov,Filter
 Department of Commerce,National Oceanic and Atmospheric Administration,upwell.pfeg.noaa.gov,Filter
 Department of Commerce,National Oceanic and Atmospheric Administration,usnicweb2.espc.nesdis.noaa.gov,Filter
@@ -2175,6 +2177,7 @@ Department of Commerce,National Oceanic and Atmospheric Administration,uxsrto.re
 Department of Commerce,National Oceanic and Atmospheric Administration,verification.nws.noaa.gov,Filter
 Department of Commerce,National Oceanic and Atmospheric Administration,veritas.nws.noaa.gov,Filter
 Department of Commerce,National Oceanic and Atmospheric Administration,vhs.services.nesdis.noaa.gov,Filter
+Department of Commerce,National Oceanic and Atmospheric Administration,viewer-api.weather.noaa.gov,Filter
 Department of Commerce,National Oceanic and Atmospheric Administration,vlab-dev.noaa.gov,Redirect
 Department of Commerce,National Oceanic and Atmospheric Administration,vmsmaps.nmfs.noaa.gov,"Filter,Status Code"
 Department of Commerce,National Oceanic and Atmospheric Administration,volunteer.noaa.gov,Filter
@@ -2224,7 +2227,7 @@ Department of Commerce,National Telecommunications and Information Administratio
 Department of Commerce,National Telecommunications and Information Administration,beta.firstnet.gov,"Filter,Status Code"
 Department of Commerce,National Telecommunications and Information Administration,bvpn001g.firstnet.gov,Filter
 Department of Commerce,National Telecommunications and Information Administration,dvpn001g.firstnet.gov,Filter
-Department of Commerce,National Telecommunications and Information Administration,enterpriseregistration.firstnet.gov,Status Code
+Department of Commerce,National Telecommunications and Information Administration,enterpriseregistration.firstnet.gov,"Filter,Status Code"
 Department of Commerce,National Telecommunications and Information Administration,fs.firstnet.gov,"Filter,Status Code"
 Department of Commerce,National Telecommunications and Information Administration,ntiacsd.ntia.gov,"Filter,Status Code"
 Department of Commerce,National Telecommunications and Information Administration,ntiaotiant2.ntia.gov,"Filter,Status Code"
@@ -2236,8 +2239,8 @@ Department of Commerce,U.S. Patent and Trademark Office,10millionpatents.uspto.g
 Department of Commerce,U.S. Patent and Trademark Office,a-eais-sft1.uspto.gov,Filter
 Department of Commerce,U.S. Patent and Trademark Office,a-eais-sft2.uspto.gov,Filter
 Department of Commerce,U.S. Patent and Trademark Office,account.uspto.gov,Filter
-Department of Commerce,U.S. Patent and Trademark Office,api.uspto.gov,Status Code
-Department of Commerce,U.S. Patent and Trademark Office,apigwiamext.uspto.gov,Status Code
+Department of Commerce,U.S. Patent and Trademark Office,api.uspto.gov,"Filter,Status Code"
+Department of Commerce,U.S. Patent and Trademark Office,apigwiamext.uspto.gov,"Filter,Status Code"
 Department of Commerce,U.S. Patent and Trademark Office,assignment-api.uspto.gov,Filter
 Department of Commerce,U.S. Patent and Trademark Office,assignmentcenter.uspto.gov,Filter
 Department of Commerce,U.S. Patent and Trademark Office,assignments.uspto.gov,Filter
@@ -2902,7 +2905,7 @@ Department of Defense,,mmt.usmc.mil,Filter
 Department of Defense,,mobcop.aoc.army.pentagon.mil,Filter
 Department of Defense,,mobile.health.mil,Filter
 Department of Defense,,modelstm1web.manpower.usmc.mil,Filter
-Department of Defense,,mol.tfs.usmc.mil,Filter
+Department of Defense,,mol.tfs.usmc.mil,"Filter,Redirect"
 Department of Defense,,mol.usmc.mil,Filter
 Department of Defense,,moncrief.tricare.mil,"Filter,Status Code"
 Department of Defense,,moody.tricare.mil,"Filter,Status Code"
@@ -3018,7 +3021,7 @@ Department of Defense,,planmydeployment.militaryonesource.mil,"Filter,Status Cod
 Department of Defense,,planmydeployment.pre.militaryonesource.mil,"Filter,Status Code"
 Department of Defense,,planmymove.militaryonesource.mil,"Filter,Status Code"
 Department of Defense,,planmymove.pre.militaryonesource.mil,"Filter,Status Code"
-Department of Defense,,planning.erdc.dren.mil,"Filter,Status Code"
+Department of Defense,,planning.erdc.dren.mil,Filter
 Department of Defense,,policy.war.gov,"Filter,Status Code"
 Department of Defense,,pope.tricare.mil,"Filter,Status Code"
 Department of Defense,,portal.apps.isitdown.mil,Filter
@@ -3648,7 +3651,7 @@ Department of Defense,Air Force,laughlin.af.mil,Filter
 Department of Defense,Air Force,lawg.cap.gov,Filter
 Department of Defense,Air Force,learningprofessionals.af.mil,Filter
 Department of Defense,Air Force,leave.af.mil,"Filter,Redirect"
-Department of Defense,Air Force,leesburg.vawg.cap.gov,"Filter,Redirect"
+Department of Defense,Air Force,leesburg.vawg.cap.gov,Filter
 Department of Defense,Air Force,level2.cap.gov,"Filter,Status Code"
 Department of Defense,Air Force,lig.nywg.cap.gov,"Filter,Status Code"
 Department of Defense,Air Force,lists.ner.cap.gov,Filter
@@ -4673,7 +4676,7 @@ Department of Defense,Navy,c7f.navy.mil,Filter
 Department of Defense,Navy,ca.usff.navy.mil,Filter
 Department of Defense,Navy,cadpad.navair.navy.mil,Filter
 Department of Defense,Navy,camis.nre.navy.mil,Filter
-Department of Defense,Navy,catch.ncis.navy.mil,Filter
+Department of Defense,Navy,catch.ncis.navy.mil,"Filter,Status Code"
 Department of Defense,Navy,cats.abl.navsea.navy.mil,Filter
 Department of Defense,Navy,cbrd.navy.mil,Filter
 Department of Defense,Navy,ccsg15.navy.mil,Filter
@@ -5179,7 +5182,7 @@ Department of Defense,Navy,webappspdms.nrl.navy.mil,Filter
 Department of Defense,Navy,webisis.nmci.navy.mil,Filter
 Department of Defense,Navy,webjedmics.navair.navy.mil,Filter
 Department of Defense,Navy,weblog.navy.mil,"Filter,Status Code"
-Department of Defense,Navy,webmail16.ncis.navy.mil,"Filter,Redirect"
+Department of Defense,Navy,webmail16.ncis.navy.mil,Filter
 Department of Defense,Navy,webotf.ahf.nmci.navy.mil,Filter
 Department of Defense,Navy,webserd.lakehurst.navy.mil,Filter
 Department of Defense,Navy,websteam.cnrc.navy.mil,"Filter,Status Code"
@@ -5250,7 +5253,7 @@ Department of Education,Office of the Chief Information Officer,app-test4-dcc.ed
 Department of Education,Office of the Chief Information Officer,app-test5-dcc.ed.gov,Status Code
 Department of Education,Office of the Chief Information Officer,apps.naep.ed.gov,"Filter,Redirect"
 Department of Education,Office of the Chief Information Officer,arts.ed.gov,Filter
-Department of Education,Office of the Chief Information Officer,awsfinancialaidtoolkit.ed.gov,"Filter,Redirect"
+Department of Education,Office of the Chief Information Officer,awsfinancialaidtoolkit.ed.gov,Filter
 Department of Education,Office of the Chief Information Officer,bellaward.nationalblueribbonschools.ed.gov,Filter
 Department of Education,Office of the Chief Information Officer,bestpracticesclearinghouse.ed.gov,Filter
 Department of Education,Office of the Chief Information Officer,blog.ed.gov,"Filter,Redirect"
@@ -5305,7 +5308,7 @@ Department of Education,Office of the Chief Information Officer,experimentalsite
 Department of Education,Office of the Chief Information Officer,ezaudit.ed.gov,Filter
 Department of Education,Office of the Chief Information Officer,faaaccess.ed.gov,Filter
 Department of Education,Office of the Chief Information Officer,feedback.edpartner.ed.gov,"Filter,Redirect"
-Department of Education,Office of the Chief Information Officer,financialaidtoolkit.ed.gov,"Filter,Redirect"
+Department of Education,Office of the Chief Information Officer,financialaidtoolkit.ed.gov,Filter
 Department of Education,Office of the Chief Information Officer,foiaxpress.pal.ed.gov,Filter
 Department of Education,Office of the Chief Information Officer,foreignfundinghighered.gov,Filter
 Department of Education,Office of the Chief Information Officer,fp.ed.gov,Filter
@@ -5315,7 +5318,7 @@ Department of Education,Office of the Chief Information Officer,fsa-remote.ed.go
 Department of Education,Office of the Chief Information Officer,fsacitrixweb-piv.ed.gov,Filter
 Department of Education,Office of the Chief Information Officer,fsacitrixweb.ed.gov,Filter
 Department of Education,Office of the Chief Information Officer,fsaconferences.ed.gov,"Filter,Redirect"
-Department of Education,Office of the Chief Information Officer,fsaesb.ed.gov,Status Code
+Department of Education,Office of the Chief Information Officer,fsaesb.ed.gov,"Filter,Status Code"
 Department of Education,Office of the Chief Information Officer,fsapartners.ed.gov,Filter
 Department of Education,Office of the Chief Information Officer,fsaregistration.ed.gov,Filter
 Department of Education,Office of the Chief Information Officer,fsatraining.ed.gov,"Filter,Status Code"
@@ -5337,6 +5340,7 @@ Department of Education,Office of the Chief Information Officer,ies.ed.gov,Filte
 Department of Education,Office of the Chief Information Officer,iesreview.ed.gov,Filter
 Department of Education,Office of the Chief Information Officer,ifap.ed.gov,"Filter,Redirect"
 Department of Education,Office of the Chief Information Officer,ifapmedia.ed.gov,"Filter,Redirect"
+Department of Education,Office of the Chief Information Officer,impactaid.ed.gov,Filter
 Department of Education,Office of the Chief Information Officer,iris.ed.gov,"Filter,Status Code"
 Department of Education,Office of the Chief Information Officer,itacsfsawebenroll.ed.gov,Filter
 Department of Education,Office of the Chief Information Officer,liaison.nationalblueribbonschools.ed.gov,Filter
@@ -5416,7 +5420,7 @@ Department of Education,Office of the Chief Information Officer,test.msix.ed.gov
 Department of Education,Office of the Chief Information Officer,test21apr.ed.gov,Filter
 Department of Education,Office of the Chief Information Officer,testbellaward.nationalblueribbonschools.ed.gov,Filter
 Department of Education,Office of the Chief Information Officer,testcape.nationalblueribbonschools.ed.gov,Filter
-Department of Education,Office of the Chief Information Officer,testfsaesb.ed.gov,Status Code
+Department of Education,Office of the Chief Information Officer,testfsaesb.ed.gov,"Filter,Status Code"
 Department of Education,Office of the Chief Information Officer,testgearup.ed.gov,Filter
 Department of Education,Office of the Chief Information Officer,testhepis.ed.gov,Filter
 Department of Education,Office of the Chief Information Officer,testliaison.nationalblueribbonschools.ed.gov,Filter
@@ -5490,6 +5494,7 @@ Department of Energy,Argonne National Laboratory,atct.anl.gov,"Filter,Status Cod
 Department of Energy,Argonne National Laboratory,atlaswww.hep.anl.gov,Status Code
 Department of Energy,Argonne National Laboratory,atmos.anl.gov,Filter
 Department of Energy,Argonne National Laboratory,aurora.alcf.anl.gov,Filter
+Department of Energy,Argonne National Laboratory,awe.metagenomics.anl.gov,Filter
 Department of Energy,Argonne National Laboratory,bcda.xray.aps.anl.gov,"Filter,Status Code"
 Department of Energy,Argonne National Laboratory,beam.aps.anl.gov,"Filter,Status Code"
 Department of Energy,Argonne National Laboratory,beehive1.mcs.anl.gov,Filter
@@ -5765,6 +5770,7 @@ Department of Energy,Argonne National Laboratory,sequencing.bio.anl.gov,"Filter,
 Department of Energy,Argonne National Laboratory,ser.aps.anl.gov,Filter
 Department of Energy,Argonne National Laboratory,servicenow.anl.gov,"Filter,Redirect"
 Department of Energy,Argonne National Laboratory,sg.bio.anl.gov,"Filter,Status Code"
+Department of Energy,Argonne National Laboratory,shock-mgrast.metagenomics.anl.gov,Filter
 Department of Energy,Argonne National Laboratory,sigma.mcs.anl.gov,"Filter,Status Code"
 Department of Energy,Argonne National Laboratory,skr.nsis.anl.gov,"Filter,Status Code"
 Department of Energy,Argonne National Laboratory,small-angle.aps.anl.gov,"Filter,Status Code"
@@ -5859,9 +5865,9 @@ Department of Energy,Battelle Pacific Northwest National Laboratory,iop.archive.
 Department of Energy,Battelle Pacific Northwest National Laboratory,keycloak.svcs.arm.gov,Filter
 Department of Energy,Battelle Pacific Northwest National Laboratory,ops.sgp.arm.gov,Filter
 Department of Energy,Battelle Pacific Northwest National Laboratory,opsweb-sgpc1.sgp.arm.gov,Filter
-Department of Energy,Battelle Pacific Northwest National Laboratory,oss.arm.gov,Status Code
+Department of Energy,Battelle Pacific Northwest National Laboratory,oss.arm.gov,"Filter,Status Code"
 Department of Energy,Battelle Pacific Northwest National Laboratory,pcm.arm.gov,Filter
-Department of Energy,Battelle Pacific Northwest National Laboratory,plot.dmf.arm.gov,"Filter,Status Code"
+Department of Energy,Battelle Pacific Northwest National Laboratory,plot.dmf.arm.gov,"Filter,Redirect,Status Code"
 Department of Energy,Battelle Pacific Northwest National Laboratory,rainier.arm.gov,Filter
 Department of Energy,Battelle Pacific Northwest National Laboratory,sso.arm.gov,"Filter,Status Code"
 Department of Energy,Battelle Pacific Northwest National Laboratory,task.arm.gov,Filter
@@ -5948,7 +5954,7 @@ Department of Energy,Brookhaven National Laboratory,dtn.sdcc.bnl.gov,"Filter,Sta
 Department of Energy,Brookhaven National Laboratory,dtn01.sdcc.bnl.gov,"Filter,Status Code"
 Department of Energy,Brookhaven National Laboratory,dtn03.sdcc.bnl.gov,"Filter,Status Code"
 Department of Energy,Brookhaven National Laboratory,dune.bnl.gov,Filter
-Department of Energy,Brookhaven National Laboratory,enterpriseregistration.bnl.gov,Status Code
+Department of Energy,Brookhaven National Laboratory,enterpriseregistration.bnl.gov,"Filter,Status Code"
 Department of Energy,Brookhaven National Laboratory,epics.nsls2.bnl.gov,"Filter,Status Code"
 Department of Energy,Brookhaven National Laboratory,erhic.docdb.bnl.gov,Filter
 Department of Energy,Brookhaven National Laboratory,errors.bnl.gov,"Filter,Status Code"
@@ -6044,7 +6050,7 @@ Department of Energy,Fermi National Accelerator Laboratory,admd.fnal.gov,"Filter
 Department of Energy,Fermi National Accelerator Laboratory,adms.fnal.gov,"Filter,Status Code"
 Department of Energy,Fermi National Accelerator Laboratory,admscad.fnal.gov,"Filter,Status Code"
 Department of Energy,Fermi National Accelerator Laboratory,adwww.fnal.gov,Redirect
-Department of Energy,Fermi National Accelerator Laboratory,ai-atwork.fnal.gov,"Filter,Redirect"
+Department of Energy,Fermi National Accelerator Laboratory,ai-atwork.fnal.gov,Filter
 Department of Energy,Fermi National Accelerator Laboratory,ai-coding.fnal.gov,"Filter,Status Code"
 Department of Energy,Fermi National Accelerator Laboratory,annie-docdb.fnal.gov,"Filter,Status Code"
 Department of Energy,Fermi National Accelerator Laboratory,annie.fnal.gov,Filter
@@ -6073,7 +6079,7 @@ Department of Energy,Fermi National Accelerator Laboratory,cdv-listserv.fnal.gov
 Department of Energy,Fermi National Accelerator Laboratory,chablis.fnal.gov,"Filter,Redirect"
 Department of Energy,Fermi National Accelerator Laboratory,codeload.ghe-pip2.fnal.gov,Filter
 Department of Energy,Fermi National Accelerator Laboratory,communication.fnal.gov,"Filter,Redirect"
-Department of Energy,Fermi National Accelerator Laboratory,compass.fnal.gov,Filter
+Department of Energy,Fermi National Accelerator Laboratory,compass.fnal.gov,"Filter,Redirect"
 Department of Energy,Fermi National Accelerator Laboratory,computing.fnal.gov,Filter
 Department of Energy,Fermi National Accelerator Laboratory,conferences.fnal.gov,Filter
 Department of Energy,Fermi National Accelerator Laboratory,connie-docdb.fnal.gov,"Filter,Status Code"
@@ -6135,7 +6141,7 @@ Department of Energy,Fermi National Accelerator Laboratory,fnapx1.fnal.gov,"Filt
 Department of Energy,Fermi National Accelerator Laboratory,fndca.fnal.gov,Filter
 Department of Energy,Fermi National Accelerator Laboratory,fnkits.fnal.gov,"Filter,Redirect"
 Department of Energy,Fermi National Accelerator Laboratory,fop.fnal.gov,"Filter,Status Code"
-Department of Energy,Fermi National Accelerator Laboratory,fpd.fnal.gov,Filter
+Department of Energy,Fermi National Accelerator Laboratory,fpd.fnal.gov,"Filter,Redirect"
 Department of Energy,Fermi National Accelerator Laboratory,fspa.fnal.gov,Filter
 Department of Energy,Fermi National Accelerator Laboratory,ftbf.fnal.gov,Filter
 Department of Energy,Fermi National Accelerator Laboratory,ftl.fnal.gov,"Filter,Redirect,Status Code"
@@ -6424,7 +6430,6 @@ Department of Energy,Fermi National Accelerator Laboratory,www-off-axis.fnal.gov
 Department of Energy,Fermi National Accelerator Laboratory,www-org.fnal.gov,"Redirect,Status Code"
 Department of Energy,Fermi National Accelerator Laboratory,www-ppd.fnal.gov,Status Code
 Department of Energy,Fermi National Accelerator Laboratory,www-radiate.fnal.gov,Redirect
-Department of Energy,Fermi National Accelerator Laboratory,www-rhvd.fnal.gov,Status Code
 Department of Energy,Fermi National Accelerator Laboratory,www-root.fnal.gov,Status Code
 Department of Energy,Fermi National Accelerator Laboratory,www-runco.fnal.gov,"Redirect,Status Code"
 Department of Energy,Fermi National Accelerator Laboratory,www-sciboone.fnal.gov,Status Code
@@ -6443,7 +6448,7 @@ Department of Energy,Hanford Mission Integration Solutions,chprc.hanford.gov,Fil
 Department of Energy,Hanford Mission Integration Solutions,cms.hanford.gov,Status Code
 Department of Energy,Hanford Mission Integration Solutions,cpcco.hanford.gov,Filter
 Department of Energy,Hanford Mission Integration Solutions,ehs.hanford.gov,"Filter,Status Code"
-Department of Energy,Hanford Mission Integration Solutions,enterpriseregistration.rl.gov,Status Code
+Department of Energy,Hanford Mission Integration Solutions,enterpriseregistration.rl.gov,"Filter,Status Code"
 Department of Energy,Hanford Mission Integration Solutions,hammer.hanford.gov,Filter
 Department of Energy,Hanford Mission Integration Solutions,hanford.gov,Filter
 Department of Energy,Hanford Mission Integration Solutions,higrv.hanford.gov,Filter
@@ -6622,6 +6627,8 @@ Department of Energy,Lawrence Berkeley National Laboratory,boss2013.lbl.gov,Filt
 Department of Energy,Lawrence Berkeley National Laboratory,boss2014.lbl.gov,Filter
 Department of Energy,Lawrence Berkeley National Laboratory,bosshog.lbl.gov,Filter
 Department of Energy,Lawrence Berkeley National Laboratory,bouchardlab.lbl.gov,Filter
+Department of Energy,Lawrence Berkeley National Laboratory,bpd-api.lbl.gov,Filter
+Department of Energy,Lawrence Berkeley National Laboratory,bpd-labs-api.lbl.gov,Filter
 Department of Energy,Lawrence Berkeley National Laboratory,bpd.lbl.gov,Filter
 Department of Energy,Lawrence Berkeley National Laboratory,brangaene.lbl.gov,Filter
 Department of Energy,Lawrence Berkeley National Laboratory,brass.lbl.gov,Filter
@@ -7333,7 +7340,7 @@ Department of Energy,Lawrence Livermore National Laboratory,cgsr.llnl.gov,Filter
 Department of Energy,Lawrence Livermore National Laboratory,climate.llnl.gov,Filter
 Department of Energy,Lawrence Livermore National Laboratory,cmec.llnl.gov,Filter
 Department of Energy,Lawrence Livermore National Laboratory,cmip-pcmdi.llnl.gov,"Filter,Redirect"
-Department of Energy,Lawrence Livermore National Laboratory,cmip-publications.llnl.gov,"Filter,Status Code"
+Department of Energy,Lawrence Livermore National Laboratory,cmip-publications.llnl.gov,Filter
 Department of Energy,Lawrence Livermore National Laboratory,cmor.llnl.gov,Filter
 Department of Energy,Lawrence Livermore National Laboratory,cmweb-beta.llnl.gov,Filter
 Department of Energy,Lawrence Livermore National Laboratory,cmweb.llnl.gov,Filter
@@ -7413,7 +7420,6 @@ Department of Energy,Lawrence Livermore National Laboratory,gdo154.llnl.gov,Filt
 Department of Energy,Lawrence Livermore National Laboratory,gdo155.llnl.gov,Filter
 Department of Energy,Lawrence Livermore National Laboratory,gdo156.llnl.gov,Filter
 Department of Energy,Lawrence Livermore National Laboratory,gdo160.llnl.gov,Filter
-Department of Energy,Lawrence Livermore National Laboratory,gdo163.llnl.gov,Filter
 Department of Energy,Lawrence Livermore National Laboratory,gdo165.llnl.gov,Filter
 Department of Energy,Lawrence Livermore National Laboratory,gdo167.llnl.gov,Filter
 Department of Energy,Lawrence Livermore National Laboratory,gdo168.llnl.gov,Filter
@@ -7461,7 +7467,6 @@ Department of Energy,Lawrence Livermore National Laboratory,lattalg.llnl.gov,Fil
 Department of Energy,Lawrence Livermore National Laboratory,lattice.llnl.gov,Filter
 Department of Energy,Lawrence Livermore National Laboratory,lc-idm.llnl.gov,Filter
 Department of Energy,Lawrence Livermore National Laboratory,lc.llnl.gov,Filter
-Department of Energy,Lawrence Livermore National Laboratory,lcpages.llnl.gov,Filter
 Department of Energy,Lawrence Livermore National Laboratory,ldrd-annual.llnl.gov,Filter
 Department of Energy,Lawrence Livermore National Laboratory,leaf.llnl.gov,Filter
 Department of Energy,Lawrence Livermore National Laboratory,library.llnl.gov,Filter
@@ -7502,7 +7507,7 @@ Department of Energy,Lawrence Livermore National Laboratory,nexo.llnl.gov,Filter
 Department of Energy,Lawrence Livermore National Laboratory,ngms.llnl.gov,Filter
 Department of Energy,Lawrence Livermore National Laboratory,nif-dliuserguide.llnl.gov,Filter
 Department of Energy,Lawrence Livermore National Laboratory,nifuserguide.llnl.gov,Filter
-Department of Energy,Lawrence Livermore National Laboratory,nmar.llnl.gov,Status Code
+Department of Energy,Lawrence Livermore National Laboratory,nmar.llnl.gov,"Filter,Status Code"
 Department of Energy,Lawrence Livermore National Laboratory,nnpss2015.llnl.gov,"Filter,Redirect"
 Department of Energy,Lawrence Livermore National Laboratory,nssc.llnl.gov,"Filter,Redirect,Status Code"
 Department of Energy,Lawrence Livermore National Laboratory,nuc-hazard-zones-beta.llnl.gov,Filter
@@ -8023,7 +8028,7 @@ Department of Energy,National Renewable Energy Laboratory,reopt.nrel.gov,Filter
 Department of Energy,National Renewable Energy Laboratory,research-hub.nlr.gov,Filter
 Department of Energy,National Renewable Energy Laboratory,research-hub.nrel.gov,Filter
 Department of Energy,National Renewable Energy Laboratory,rredc.nrel.gov,Filter
-Department of Energy,National Renewable Energy Laboratory,sam.nlr.gov,"Filter,Status Code"
+Department of Energy,National Renewable Energy Laboratory,sam.nlr.gov,Filter
 Department of Energy,National Renewable Energy Laboratory,sam.nrel.gov,Filter
 Department of Energy,National Renewable Energy Laboratory,search4.nlr.gov,Filter
 Department of Energy,National Renewable Energy Laboratory,search4.nrel.gov,Filter
@@ -8360,8 +8365,8 @@ Department of Energy,Oak Ridge National Laboratory,nsddupload.ornl.gov,Filter
 Department of Energy,Oak Ridge National Laboratory,nucastrodata2.ornl.gov,Filter
 Department of Energy,Oak Ridge National Laboratory,nysact.ornl.gov,Filter
 Department of Energy,Oak Ridge National Laboratory,oakridgereservationhunts.ornl.gov,Filter
-Department of Energy,Oak Ridge National Laboratory,oauth-openshift.apps.marble.ccs.ornl.gov,Status Code
-Department of Energy,Oak Ridge National Laboratory,oauth-openshift.apps.onyx.ccs.ornl.gov,Status Code
+Department of Energy,Oak Ridge National Laboratory,oauth-openshift.apps.marble.ccs.ornl.gov,"Filter,Status Code"
+Department of Energy,Oak Ridge National Laboratory,oauth-openshift.apps.onyx.ccs.ornl.gov,"Filter,Status Code"
 Department of Energy,Oak Ridge National Laboratory,oclcproxy.ornl.gov,Filter
 Department of Energy,Oak Ridge National Laboratory,olcf.ornl.gov,Filter
 Department of Energy,Oak Ridge National Laboratory,olivine-external-vip.ccs.ornl.gov,Status Code
@@ -8385,7 +8390,7 @@ Department of Energy,Oak Ridge National Laboratory,pabloseleson.ornl.gov,Filter
 Department of Energy,Oak Ridge National Laboratory,pace.ornl.gov,Filter
 Department of Energy,Oak Ridge National Laboratory,pace1.ornl.gov,Filter
 Department of Energy,Oak Ridge National Laboratory,pace2.ornl.gov,Filter
-Department of Energy,Oak Ridge National Laboratory,pacefs.ornl.gov,Status Code
+Department of Energy,Oak Ridge National Laboratory,pacefs.ornl.gov,"Filter,Status Code"
 Department of Energy,Oak Ridge National Laboratory,pdt.ornl.gov,Filter
 Department of Energy,Oak Ridge National Laboratory,peemrc-qa.ornl.gov,Redirect
 Department of Energy,Oak Ridge National Laboratory,peemrc.ornl.gov,"Filter,Redirect"
@@ -8532,7 +8537,7 @@ Department of Energy,Oak Ridge National Laboratory,webeoc01.dmz.ornl.gov,Filter
 Department of Energy,Oak Ridge National Laboratory,webeoc02.dmz.ornl.gov,Filter
 Department of Energy,Oak Ridge National Laboratory,webmap.ornl.gov,Filter
 Department of Energy,Oak Ridge National Laboratory,webqa.ornl.gov,"Filter,Redirect"
-Department of Energy,Oak Ridge National Laboratory,webtragis.ornl.gov,Filter
+Department of Energy,Oak Ridge National Laboratory,webtragis.ornl.gov,"Filter,Status Code"
 Department of Energy,Oak Ridge National Laboratory,wic.ornl.gov,Filter
 Department of Energy,Oak Ridge National Laboratory,wri-fot-qa.ornl.gov,Redirect
 Department of Energy,Oak Ridge National Laboratory,wstamp.ornl.gov,Filter
@@ -8648,7 +8653,7 @@ Department of Energy,Office of the Chief Information Officer,cyberfire.energy.go
 Department of Energy,Office of the Chief Information Officer,damal.doe.gov,Filter
 Department of Energy,Office of the Chief Information Officer,dart.loanprograms.energy.gov,Filter
 Department of Energy,Office of the Chief Information Officer,data.doe.gov,Filter
-Department of Energy,Office of the Chief Information Officer,data.hss.doe.gov,Status Code
+Department of Energy,Office of the Chief Information Officer,data.hss.doe.gov,"Filter,Status Code"
 Department of Energy,Office of the Chief Information Officer,desktop.vdi.doe.gov,Filter
 Department of Energy,Office of the Chief Information Officer,devra.kcnsc.doe.gov,Filter
 Department of Energy,Office of the Chief Information Officer,directives.doe.gov,"Filter,Redirect"
@@ -8868,7 +8873,7 @@ Department of Energy,Office of the Chief Information Officer,resources.y12.doe.g
 Department of Energy,Office of the Chief Information Officer,responseline.doe.gov,Filter
 Department of Energy,Office of the Chief Information Officer,rpsc.energy.gov,Filter
 Department of Energy,Office of the Chief Information Officer,rsadesktop.science.energy.gov,Filter
-Department of Energy,Office of the Chief Information Officer,sandboxtest.doe.gov,Status Code
+Department of Energy,Office of the Chief Information Officer,sandboxtest.doe.gov,"Filter,Status Code"
 Department of Energy,Office of the Chief Information Officer,sbirsurvey.science.energy.gov,Filter
 Department of Energy,Office of the Chief Information Officer,sbis.doe.gov,"Filter,Status Code"
 Department of Energy,Office of the Chief Information Officer,science.doe.gov,Filter
@@ -9368,7 +9373,7 @@ Department of Energy,Sandia National Laboratories,as234snlntz.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,as481snlntz.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,as86mobile.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,asa-forum.sandia.gov,Filter
-Department of Energy,Sandia National Laboratories,assist.sandia.gov,"Filter,Redirect"
+Department of Energy,Sandia National Laboratories,assist.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,autocomplete.web.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,autocomplete.webdev.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,autocomplete.webqual.sandia.gov,Filter
@@ -9379,7 +9384,7 @@ Department of Energy,Sandia National Laboratories,banyan.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,bioinformatics.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,biosecurity.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,ca.sandia.gov,Filter
-Department of Energy,Sandia National Laboratories,camp.sandia.gov,"Filter,Redirect"
+Department of Energy,Sandia National Laboratories,camp.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,casa.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,cda.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,cdn.sandia.gov,Redirect
@@ -9434,7 +9439,7 @@ Department of Energy,Sandia National Laboratories,eri.ca.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,erp.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,esc.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,esh-common.sandia.gov,Filter
-Department of Energy,Sandia National Laboratories,esh.sandia.gov,"Filter,Redirect"
+Department of Energy,Sandia National Laboratories,esh.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,eshdashboard.sandia.gov,"Filter,Redirect"
 Department of Energy,Sandia National Laboratories,executiveprotocol-d.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,executiveprotocol-q.sandia.gov,Filter
@@ -9451,7 +9456,7 @@ Department of Energy,Sandia National Laboratories,getscot.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,getsocial.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,gms-artifactory.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,gpords.web.sandia.gov,Filter
-Department of Energy,Sandia National Laboratories,gpweb.sandia.gov,Filter
+Department of Energy,Sandia National Laboratories,gpweb.sandia.gov,"Filter,Redirect"
 Department of Energy,Sandia National Laboratories,grafana.sandia.gov,"Filter,Redirect"
 Department of Energy,Sandia National Laboratories,granta-mi.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,gtam-web.sandia.gov,Filter
@@ -9465,15 +9470,15 @@ Department of Energy,Sandia National Laboratories,hrfaq.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,hrprod.sandia.gov,"Filter,Redirect"
 Department of Energy,Sandia National Laboratories,hrss.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,icet.sandia.gov,Filter
-Department of Energy,Sandia National Laboratories,ick.sandia.gov,"Filter,Redirect"
-Department of Energy,Sandia National Laboratories,idart.sandia.gov,Filter
+Department of Energy,Sandia National Laboratories,ick.sandia.gov,Filter
+Department of Energy,Sandia National Laboratories,idart.sandia.gov,"Filter,Redirect"
 Department of Energy,Sandia National Laboratories,ifsaconf.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,iis-media-ecn.sandia.gov,"Filter,Redirect"
 Department of Energy,Sandia National Laboratories,imap.sandia.gov,Filter
-Department of Energy,Sandia National Laboratories,imr.sandia.gov,"Filter,Status Code"
+Department of Energy,Sandia National Laboratories,imr.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,info-ng.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,info.sandia.gov,Filter
-Department of Energy,Sandia National Laboratories,infod-ng.sandia.gov,Filter
+Department of Energy,Sandia National Laboratories,infod-ng.sandia.gov,"Filter,Redirect"
 Department of Energy,Sandia National Laboratories,infod.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,infoexchange.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,infoq-ng.sandia.gov,"Filter,Redirect"
@@ -9510,11 +9515,11 @@ Department of Energy,Sandia National Laboratories,maxmobilequal.sandia.gov,Filte
 Department of Energy,Sandia National Laboratories,melcor.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,melcorwiki.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,melzilla.sandia.gov,Filter
-Department of Energy,Sandia National Laboratories,mems.sandia.gov,"Filter,Redirect"
+Department of Energy,Sandia National Laboratories,mems.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,met-eoc.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,mmr.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,modsimtools.sandia.gov,Filter
-Department of Energy,Sandia National Laboratories,moveitmobile-d.sandia.gov,"Filter,Redirect"
+Department of Energy,Sandia National Laboratories,moveitmobile-d.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,moveitmobile-q.sandia.gov,"Filter,Redirect"
 Department of Energy,Sandia National Laboratories,moveitmobile.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,mstc-ar-p.sandia.gov,Filter
@@ -9524,10 +9529,10 @@ Department of Energy,Sandia National Laboratories,myit.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,mykonos.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,mysite.sandia.gov,"Filter,Redirect"
 Department of Energy,Sandia National Laboratories,netlib.sandia.gov,Filter
-Department of Energy,Sandia National Laboratories,networkdisconnect.sandia.gov,"Filter,Redirect"
+Department of Energy,Sandia National Laboratories,networkdisconnect.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,neuroscience.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,newsreleases.sandia.gov,Filter
-Department of Energy,Sandia National Laboratories,nick.sandia.gov,"Filter,Redirect"
+Department of Energy,Sandia National Laboratories,nick.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,nirp.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,nisac-apps.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,nisac-viz.sandia.gov,Filter
@@ -9566,7 +9571,6 @@ Department of Energy,Sandia National Laboratories,prastandards.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,prep.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,prod-ng.sandia.gov,"Filter,Redirect"
 Department of Energy,Sandia National Laboratories,prod-qual.sandia.gov,Filter
-Department of Energy,Sandia National Laboratories,prod.sandia.gov,Redirect
 Department of Energy,Sandia National Laboratories,prodtools.sandia.gov,"Filter,Redirect"
 Department of Energy,Sandia National Laboratories,proof.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,public.ca.sandia.gov,Filter
@@ -9592,9 +9596,9 @@ Department of Energy,Sandia National Laboratories,safetyawareness.sandia.gov,"Fi
 Department of Energy,Sandia National Laboratories,safetyzone.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,sahp10542.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,sahp10543.sandia.gov,Filter
-Department of Energy,Sandia National Laboratories,saltmine.sandia.gov,Filter
+Department of Energy,Sandia National Laboratories,saltmine.sandia.gov,"Filter,Redirect"
 Department of Energy,Sandia National Laboratories,saltmineapi.sandia.gov,"Filter,Redirect"
-Department of Energy,Sandia National Laboratories,sams.sandia.gov,Filter
+Department of Energy,Sandia National Laboratories,sams.sandia.gov,"Filter,Redirect"
 Department of Energy,Sandia National Laboratories,samsapi.sandia.gov,"Filter,Redirect"
 Department of Energy,Sandia National Laboratories,samsapidev.sandia.gov,"Filter,Status Code"
 Department of Energy,Sandia National Laboratories,samsapiqual.sandia.gov,Filter
@@ -9608,15 +9612,15 @@ Department of Energy,Sandia National Laboratories,sccmexternal.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,scot-qual.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,scot.sandia.gov,"Filter,Redirect"
 Department of Energy,Sandia National Laboratories,sdn.sandia.gov,"Filter,Redirect"
-Department of Energy,Sandia National Laboratories,search.sandia.gov,Filter
+Department of Energy,Sandia National Laboratories,search.sandia.gov,"Filter,Redirect"
 Department of Energy,Sandia National Laboratories,sems-atlassian-srn.sandia.gov,"Filter,Redirect"
-Department of Energy,Sandia National Laboratories,servicedesk.sandia.gov,Filter
+Department of Energy,Sandia National Laboratories,servicedesk.sandia.gov,"Filter,Redirect"
 Department of Energy,Sandia National Laboratories,sgtt.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,share-ng.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,sierradist.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,silentthunder.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,slipsimulator.sandia.gov,Filter
-Department of Energy,Sandia National Laboratories,smo.sandia.gov,"Filter,Redirect"
+Department of Energy,Sandia National Laboratories,smo.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,smtps.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,snl-wiki.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,snlweather.sandia.gov,Filter
@@ -9634,7 +9638,7 @@ Department of Energy,Sandia National Laboratories,swcrc.sandia.gov,"Filter,Redir
 Department of Energy,Sandia National Laboratories,symantec.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,teamforge.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,techweb.sandia.gov,Filter
-Department of Energy,Sandia National Laboratories,tedsprod.sandia.gov,"Filter,Redirect"
+Department of Energy,Sandia National Laboratories,tedsprod.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,thunderbirdhacks.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,tlrm.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,tlrmqual.sandia.gov,"Filter,Redirect"
@@ -9647,14 +9651,13 @@ Department of Energy,Sandia National Laboratories,university.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,usability.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,ux.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,vanguard.sandia.gov,Filter
-Department of Energy,Sandia National Laboratories,vast.sandia.gov,"Filter,Redirect"
+Department of Energy,Sandia National Laboratories,vast.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,vdv.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,voroclust.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,vorocrust.sandia.gov,Filter
-Department of Energy,Sandia National Laboratories,wastewater.sandia.gov,Filter
+Department of Energy,Sandia National Laboratories,wastewater.sandia.gov,"Filter,Redirect"
 Department of Energy,Sandia National Laboratories,waterpower.sandia.gov,Filter
 Department of Energy,Sandia National Laboratories,webcars.sandia.gov,"Filter,Redirect"
-Department of Energy,Sandia National Laboratories,webmail.ca.sandia.gov,Redirect
 Department of Energy,Sandia National Laboratories,webprod.sandia.gov,"Filter,Redirect"
 Department of Energy,Sandia National Laboratories,windpower.sandia.gov,"Filter,Redirect"
 Department of Energy,Sandia National Laboratories,worksafe.sandia.gov,Filter
@@ -9725,11 +9728,11 @@ Department of Health and Human Services,,hhsoig.gov,Filter
 Department of Health and Human Services,,pep-lza.aws.hhsoig.gov,Filter
 Department of Health and Human Services,,reproductivehealthservices.gov,Filter
 Department of Health and Human Services,Administration for Children and Families,acf-main-content-staging.acf.gov,Status Code
-Department of Health and Human Services,Administration for Children and Families,acf-main-pre-prod.acf.gov,Status Code
+Department of Health and Human Services,Administration for Children and Families,acf-main-pre-prod.acf.gov,"Filter,Status Code"
 Department of Health and Human Services,Administration for Children and Families,acf.gov,"Filter,Status Code"
 Department of Health and Human Services,Administration for Children and Families,am.grantsolutions.gov,"Filter,Redirect"
 Department of Health and Human Services,Administration for Children and Families,api.childwelfare.gov,Filter
-Department of Health and Human Services,Administration for Children and Families,api.grantsolutions.gov,Status Code
+Department of Health and Human Services,Administration for Children and Families,api.grantsolutions.gov,"Filter,Status Code"
 Department of Health and Human Services,Administration for Children and Families,appdynamics.grantsolutions.gov,"Filter,Status Code"
 Department of Health and Human Services,Administration for Children and Families,arm.grantsolutions.gov,"Filter,Redirect"
 Department of Health and Human Services,Administration for Children and Families,armdemo.grantsolutions.gov,Filter
@@ -9743,7 +9746,7 @@ Department of Health and Human Services,Administration for Children and Families
 Department of Health and Human Services,Administration for Children and Families,capacity.childwelfare.gov,"Filter,Redirect"
 Department of Health and Human Services,Administration for Children and Families,cdc-home.grantsolutions.gov,"Filter,Status Code"
 Department of Health and Human Services,Administration for Children and Families,cdc.grantsolutions.gov,"Filter,Status Code"
-Department of Health and Human Services,Administration for Children and Families,childcare-pre-prod.acf.gov,Status Code
+Department of Health and Human Services,Administration for Children and Families,childcare-pre-prod.acf.gov,"Filter,Status Code"
 Department of Health and Human Services,Administration for Children and Families,childcare.acf.gov,"Filter,Status Code"
 Department of Health and Human Services,Administration for Children and Families,childcare.gov,"Filter,Status Code"
 Department of Health and Human Services,Administration for Children and Families,childwelfare.gov,Filter
@@ -9781,13 +9784,13 @@ Department of Health and Human Services,Administration for Children and Families
 Department of Health and Human Services,Administration for Children and Families,liheapch.acf.gov,Filter
 Department of Health and Human Services,Administration for Children and Families,liheappm.acf.gov,Filter
 Department of Health and Human Services,Administration for Children and Families,mgm.grantsolutions.gov,Filter
-Department of Health and Human Services,Administration for Children and Families,ncsacw-pre-prod.acf.gov,Status Code
+Department of Health and Human Services,Administration for Children and Families,ncsacw-pre-prod.acf.gov,"Filter,Status Code"
 Department of Health and Human Services,Administration for Children and Families,ncsacw-ta.acf.gov,"Filter,Status Code"
 Department of Health and Human Services,Administration for Children and Families,ncsacw-test-static.acf.gov,Status Code
 Department of Health and Human Services,Administration for Children and Families,ncsacw.acf.gov,Filter
 Department of Health and Human Services,Administration for Children and Families,ncwcia.childwelfare.gov,Filter
 Department of Health and Human Services,Administration for Children and Families,nexus.grantsolutions.gov,Filter
-Department of Health and Human Services,Administration for Children and Families,occms-pre-prod.acf.gov,Status Code
+Department of Health and Human Services,Administration for Children and Families,occms-pre-prod.acf.gov,"Filter,Status Code"
 Department of Health and Human Services,Administration for Children and Families,ohswebprod.grantsolutions.gov,"Filter,Redirect"
 Department of Health and Human Services,Administration for Children and Families,oldc.grantsolutions.gov,"Filter,Status Code"
 Department of Health and Human Services,Administration for Children and Families,oldcdemo.grantsolutions.gov,Filter
@@ -9909,6 +9912,7 @@ Department of Health and Human Services,Agency for Healthcare Research and Quali
 Department of Health and Human Services,Agency for Healthcare Research and Quality,ce.effectivehealthcare.ahrq.gov,"Filter,Status Code"
 Department of Health and Human Services,Agency for Healthcare Research and Quality,cma.ahrq.gov,"Filter,Redirect"
 Department of Health and Human Services,Agency for Healthcare Research and Quality,cmatest.ahrq.gov,"Filter,Redirect"
+Department of Health and Human Services,Agency for Healthcare Research and Quality,cmext.ahrq.gov,Filter
 Department of Health and Human Services,Agency for Healthcare Research and Quality,cpsi.ahrq.gov,"Filter,Status Code"
 Department of Health and Human Services,Agency for Healthcare Research and Quality,dam.ahrq.gov,Filter
 Department of Health and Human Services,Agency for Healthcare Research and Quality,datatools.ahrq.gov,Filter
@@ -9917,6 +9921,7 @@ Department of Health and Human Services,Agency for Healthcare Research and Quali
 Department of Health and Human Services,Agency for Healthcare Research and Quality,digital9stg.ahrq.gov,Filter
 Department of Health and Human Services,Agency for Healthcare Research and Quality,distributor.hcup-us.ahrq.gov,"Filter,Redirect"
 Department of Health and Human Services,Agency for Healthcare Research and Quality,docs.ahrq.gov,Filter
+Department of Health and Human Services,Agency for Healthcare Research and Quality,docstest.ahrq.gov,Filter
 Department of Health and Human Services,Agency for Healthcare Research and Quality,ecareplan.ahrq.gov,"Filter,Status Code"
 Department of Health and Human Services,Agency for Healthcare Research and Quality,effectivehealthcare-admin.ahrq.gov,"Filter,Redirect"
 Department of Health and Human Services,Agency for Healthcare Research and Quality,effectivehealthcare.ahrq.gov,"Filter,Status Code"
@@ -9926,6 +9931,7 @@ Department of Health and Human Services,Agency for Healthcare Research and Quali
 Department of Health and Human Services,Agency for Healthcare Research and Quality,epc-src.ahrq.gov,Filter
 Department of Health and Human Services,Agency for Healthcare Research and Quality,epc-srctest.ahrq.gov,Filter
 Department of Health and Human Services,Agency for Healthcare Research and Quality,epss.ahrq.gov,"Filter,Redirect"
+Department of Health and Human Services,Agency for Healthcare Research and Quality,epssdata.ahrq.gov,Filter
 Department of Health and Human Services,Agency for Healthcare Research and Quality,evidence.ahrq.gov,Filter
 Department of Health and Human Services,Agency for Healthcare Research and Quality,extranet.ahrq.gov,"Filter,Redirect"
 Department of Health and Human Services,Agency for Healthcare Research and Quality,filecloud.ahrq.gov,Filter
@@ -9951,7 +9957,7 @@ Department of Health and Human Services,Agency for Healthcare Research and Quali
 Department of Health and Human Services,Agency for Healthcare Research and Quality,mobile.ahrq.gov,Filter
 Department of Health and Human Services,Agency for Healthcare Research and Quality,monahrq.ahrq.gov,"Filter,Status Code"
 Department of Health and Human Services,Agency for Healthcare Research and Quality,nhqrnet.ahrq.gov,"Filter,Redirect"
-Department of Health and Human Services,Agency for Healthcare Research and Quality,nm.ahrq.gov,Status Code
+Department of Health and Human Services,Agency for Healthcare Research and Quality,nm.ahrq.gov,"Filter,Status Code"
 Department of Health and Human Services,Agency for Healthcare Research and Quality,ocdashboard.ahrq.gov,Filter
 Department of Health and Human Services,Agency for Healthcare Research and Quality,patientregistry.ahrq.gov,"Filter,Status Code"
 Department of Health and Human Services,Agency for Healthcare Research and Quality,pbrn.ahrq.gov,"Filter,Status Code"
@@ -10045,7 +10051,7 @@ Department of Health and Human Services,Centers for Disease Control and Preventi
 Department of Health and Human Services,Centers for Disease Control and Prevention,chinese.cdc.gov,"Filter,Redirect"
 Department of Health and Human Services,Centers for Disease Control and Prevention,chronicdata.cdc.gov,Filter
 Department of Health and Human Services,Centers for Disease Control and Prevention,citgo-piv.cdc.gov,Filter
-Department of Health and Human Services,Centers for Disease Control and Prevention,citgo.cdc.gov,Filter
+Department of Health and Human Services,Centers for Disease Control and Prevention,citgo.cdc.gov,"Filter,Redirect"
 Department of Health and Human Services,Centers for Disease Control and Prevention,citgotest.cdc.gov,Filter
 Department of Health and Human Services,Centers for Disease Control and Prevention,cl21vcse1.cdc.gov,Filter
 Department of Health and Human Services,Centers for Disease Control and Prevention,cl21vcse1.vtc.cdc.gov,Filter
@@ -10257,6 +10263,7 @@ Department of Health and Human Services,Centers for Disease Control and Preventi
 Department of Health and Human Services,Centers for Disease Control and Prevention,t.cdc.gov,"Filter,Redirect"
 Department of Health and Human Services,Centers for Disease Control and Prevention,tceols.cdc.gov,"Filter,Redirect"
 Department of Health and Human Services,Centers for Disease Control and Prevention,techlab.cdc.gov,Filter
+Department of Health and Human Services,Centers for Disease Control and Prevention,test-vaccinecodeset.cdc.gov,Status Code
 Department of Health and Human Services,Centers for Disease Control and Prevention,testinglocator.cdc.gov,Filter
 Department of Health and Human Services,Centers for Disease Control and Prevention,testinglocatordev.cdc.gov,Filter
 Department of Health and Human Services,Centers for Disease Control and Prevention,testinglocatoruat.cdc.gov,Filter
@@ -10316,23 +10323,23 @@ Department of Health and Human Services,Centers for Disease Control and Preventi
 Department of Health and Human Services,Centers for Disease Control and Prevention,yrbs-analysis.cdc.gov,Filter
 Department of Health and Human Services,Centers for Disease Control and Prevention,yrbs-explorer.services.cdc.gov,Filter
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,1115publiccomments.medicaid.gov,Filter
-Department of Health and Human Services,Centers for Medicare and Medicaid Services,4innovation-api.cms.gov,Status Code
+Department of Health and Human Services,Centers for Medicare and Medicaid Services,4innovation-api.cms.gov,"Filter,Status Code"
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,4innovation-dev-api.cms.gov,Status Code
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,4innovation-dev.cms.gov,Status Code
-Department of Health and Human Services,Centers for Medicare and Medicaid Services,4innovation-impl-api.cms.gov,Status Code
-Department of Health and Human Services,Centers for Medicare and Medicaid Services,4innovation-impl-uploads.cms.gov,Status Code
+Department of Health and Human Services,Centers for Medicare and Medicaid Services,4innovation-impl-api.cms.gov,"Filter,Status Code"
+Department of Health and Human Services,Centers for Medicare and Medicaid Services,4innovation-impl-uploads.cms.gov,"Filter,Status Code"
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,4innovation-impl.cms.gov,Filter
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,4innovation-impl2.cms.gov,Filter
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,4innovation-test-api.cms.gov,Status Code
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,4innovation-test-uploads.cms.gov,Status Code
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,4innovation-test.cms.gov,Status Code
-Department of Health and Human Services,Centers for Medicare and Medicaid Services,4innovation-velocity-api.cms.gov,Status Code
+Department of Health and Human Services,Centers for Medicare and Medicaid Services,4innovation-velocity-api.cms.gov,"Filter,Status Code"
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,4innovation.cms.gov,Filter
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,ab2d.cms.gov,Filter
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,aca.api.healthcare.gov,"Filter,Status Code"
-Department of Health and Human Services,Centers for Medicare and Medicaid Services,acoms-api.cms.gov,Status Code
+Department of Health and Human Services,Centers for Medicare and Medicaid Services,acoms-api.cms.gov,"Filter,Status Code"
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,acoms-dev.cms.gov,Status Code
-Department of Health and Human Services,Centers for Medicare and Medicaid Services,acoms-impl-api.cms.gov,Status Code
+Department of Health and Human Services,Centers for Medicare and Medicaid Services,acoms-impl-api.cms.gov,"Filter,Status Code"
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,acoms-impl.cms.gov,Filter
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,acoms-test.cms.gov,Status Code
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,acoms.cms.gov,Filter
@@ -10348,7 +10355,7 @@ Department of Health and Human Services,Centers for Medicare and Medicaid Servic
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,api.finder.healthcare.gov,Status Code
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,api.finder.imp.healthcare.gov,Status Code
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,api.finder.test.healthcare.gov,Status Code
-Department of Health and Human Services,Centers for Medicare and Medicaid Services,api.medicare.gov,Status Code
+Department of Health and Human Services,Centers for Medicare and Medicaid Services,api.medicare.gov,"Filter,Status Code"
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,app.innovation.cms.gov,"Filter,Status Code"
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,app1.innovation.cms.gov,"Filter,Status Code"
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,app2.innovation.cms.gov,"Filter,Status Code"
@@ -10512,7 +10519,7 @@ Department of Health and Human Services,Centers for Medicare and Medicaid Servic
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,go.medicare.gov,"Filter,Redirect"
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,harp.cms.gov,Filter
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,hc.gov,Filter
-Department of Health and Human Services,Centers for Medicare and Medicaid Services,hcms-apigateway.cms.gov,Status Code
+Department of Health and Human Services,Centers for Medicare and Medicaid Services,hcms-apigateway.cms.gov,"Filter,Status Code"
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,healthcare.gov,Filter
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,hedispld.cms.gov,Filter
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,heimdall-lite.cms.gov,Filter
@@ -10540,7 +10547,7 @@ Department of Health and Human Services,Centers for Medicare and Medicaid Servic
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,hpt-impl.cms.gov,Filter
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,hpt.cms.gov,Filter
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,hqr.cms.gov,Filter
-Department of Health and Human Services,Centers for Medicare and Medicaid Services,hub.cms.gov,Status Code
+Department of Health and Human Services,Centers for Medicare and Medicaid Services,hub.cms.gov,"Filter,Status Code"
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,idm.cms.gov,Filter
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,idp.idm.cms.gov,Status Code
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,ies.api.healthcare.gov,Filter
@@ -10551,7 +10558,7 @@ Department of Health and Human Services,Centers for Medicare and Medicaid Servic
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,imp-t.healthcare.gov,Filter
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,imp.address.api.healthcare.gov,"Filter,Status Code"
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,imp.cms.gov,"Filter,Status Code"
-Department of Health and Human Services,Centers for Medicare and Medicaid Services,imp.cqr.cms.gov,Status Code
+Department of Health and Human Services,Centers for Medicare and Medicaid Services,imp.cqr.cms.gov,"Filter,Status Code"
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,imp.cuidadodesalud.gov,"Filter,Status Code"
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,imp.data.cms.gov,"Filter,Status Code"
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,imp.data.healthcare.gov,"Filter,Status Code"
@@ -10599,15 +10606,15 @@ Department of Health and Human Services,Centers for Medicare and Medicaid Servic
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,imp3.healthcare.gov,"Filter,Status Code"
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,imp3.medicare.gov,"Filter,Status Code"
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,impi.mlms.cms.gov,Filter
-Department of Health and Human Services,Centers for Medicare and Medicaid Services,impl-hcms-apigateway.cms.gov,Status Code
+Department of Health and Human Services,Centers for Medicare and Medicaid Services,impl-hcms-apigateway.cms.gov,"Filter,Status Code"
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,impl-pds.webpricer.cms.gov,"Filter,Status Code"
-Department of Health and Human Services,Centers for Medicare and Medicaid Services,impl-qualitynet.cms.gov,"Filter,Status Code"
+Department of Health and Human Services,Centers for Medicare and Medicaid Services,impl-qualitynet.cms.gov,Filter
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,impl.dashboard.healthcare.gov,"Filter,Status Code"
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,impl.easi.cms.gov,Filter
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,impl.eft.feps.cms.gov,Filter
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,impl.harp.cms.gov,Filter
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,impl.home.idm.cms.gov,"Filter,Redirect"
-Department of Health and Human Services,Centers for Medicare and Medicaid Services,impl.hub.cms.gov,Status Code
+Department of Health and Human Services,Centers for Medicare and Medicaid Services,impl.hub.cms.gov,"Filter,Status Code"
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,impl.idp.idm.cms.gov,Filter
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,impl.mcr.api.healthcare.gov,"Filter,Status Code"
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,impl.qnettestrail.cms.gov,Filter
@@ -10650,8 +10657,8 @@ Department of Health and Human Services,Centers for Medicare and Medicaid Servic
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,jiraentimpl.cms.gov,"Filter,Redirect"
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,lifeline-auth-val.cms.gov,Filter
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,lifeline-auth.cms.gov,Filter
-Department of Health and Human Services,Centers for Medicare and Medicaid Services,lifeline-val.cms.gov,Status Code
-Department of Health and Human Services,Centers for Medicare and Medicaid Services,lifeline.cms.gov,Status Code
+Department of Health and Human Services,Centers for Medicare and Medicaid Services,lifeline-val.cms.gov,"Filter,Status Code"
+Department of Health and Human Services,Centers for Medicare and Medicaid Services,lifeline.cms.gov,"Filter,Status Code"
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,load.medicare.gov,Filter
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,localcoverage.cms.gov,"Filter,Redirect"
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,localhelp.dev.healthcare.gov,Status Code
@@ -10666,7 +10673,7 @@ Department of Health and Human Services,Centers for Medicare and Medicaid Servic
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,m.insurekidsnow.gov,Filter
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,macpro.cms.gov,"Filter,Redirect"
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,macprodev1.cms.gov,Filter
-Department of Health and Human Services,Centers for Medicare and Medicaid Services,macprotest0.cms.gov,"Filter,Redirect"
+Department of Health and Human Services,Centers for Medicare and Medicaid Services,macprotest0.cms.gov,Filter
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,macprotest1.cms.gov,Filter
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,macproval0.cms.gov,"Filter,Redirect"
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,macproval1.cms.gov,Filter
@@ -10926,7 +10933,7 @@ Department of Health and Human Services,Food and Drug Administration,accessdata.
 Department of Health and Human Services,Food and Drug Administration,adc-vpngw-01.fda.gov,Filter
 Department of Health and Human Services,Food and Drug Administration,agwaterassessment.fda.gov,Filter
 Department of Health and Human Services,Food and Drug Administration,animaldrugsatfda.fda.gov,Filter
-Department of Health and Human Services,Food and Drug Administration,api-datadashboard.fda.gov,Status Code
+Department of Health and Human Services,Food and Drug Administration,api-datadashboard.fda.gov,"Filter,Status Code"
 Department of Health and Human Services,Food and Drug Administration,api-datadashboard.preprod.fda.gov,Status Code
 Department of Health and Human Services,Food and Drug Administration,api.fda.gov,Status Code
 Department of Health and Human Services,Food and Drug Administration,appian-dsc.fda.gov,Filter
@@ -10946,6 +10953,9 @@ Department of Health and Human Services,Food and Drug Administration,collaborati
 Department of Health and Human Services,Food and Drug Administration,collaborationcqauth1.fda.gov,"Filter,Status Code"
 Department of Health and Human Services,Food and Drug Administration,collaborationcqpub1.fda.gov,"Filter,Status Code"
 Department of Health and Human Services,Food and Drug Administration,contact.fda.gov,"Filter,Redirect"
+Department of Health and Human Services,Food and Drug Administration,ctpesubmissions.fda.gov,Filter
+Department of Health and Human Services,Food and Drug Administration,ctpportal-ng.fda.gov,Filter
+Department of Health and Human Services,Food and Drug Administration,ctpportal.fda.gov,Filter
 Department of Health and Human Services,Food and Drug Administration,datadashboard-mig.fda.gov,"Filter,Status Code"
 Department of Health and Human Services,Food and Drug Administration,datadashboard.fda.gov,Filter
 Department of Health and Human Services,Food and Drug Administration,developer.fda.gov,"Filter,Status Code"
@@ -10968,7 +10978,7 @@ Department of Health and Human Services,Food and Drug Administration,ext-idm.fda
 Department of Health and Human Services,Food and Drug Administration,external-api-esgng-uat.preprod.fda.gov,Status Code
 Department of Health and Human Services,Food and Drug Administration,faers2-validator.preprod.fda.gov,Status Code
 Department of Health and Human Services,Food and Drug Administration,fda.gov,"Filter,Status Code"
-Department of Health and Human Services,Food and Drug Administration,fdagateway.fda.gov,Status Code
+Department of Health and Human Services,Food and Drug Administration,fdagateway.fda.gov,"Filter,Status Code"
 Department of Health and Human Services,Food and Drug Administration,fdatrackdashboard.fda.gov,"Filter,Status Code"
 Department of Health and Human Services,Food and Drug Administration,fis.fda.gov,Filter
 Department of Health and Human Services,Food and Drug Administration,fissweb.fda.gov,"Filter,Status Code"
@@ -11025,7 +11035,7 @@ Department of Health and Human Services,Food and Drug Administration,orautest.fd
 Department of Health and Human Services,Food and Drug Administration,poca-public.fda.gov,Filter
 Department of Health and Human Services,Food and Drug Administration,poca.fda.gov,Filter
 Department of Health and Human Services,Food and Drug Administration,precision.fda.gov,Filter
-Department of Health and Human Services,Food and Drug Administration,purplebooksearch.fda.gov,"Filter,Status Code"
+Department of Health and Human Services,Food and Drug Administration,purplebooksearch.fda.gov,Filter
 Department of Health and Human Services,Food and Drug Administration,remote.fda.gov,Redirect
 Department of Health and Human Services,Food and Drug Administration,safetyreporting.fda.gov,Filter
 Department of Health and Human Services,Food and Drug Administration,search.fda.gov,Filter
@@ -11035,6 +11045,7 @@ Department of Health and Human Services,Food and Drug Administration,ssoextpp.fd
 Department of Health and Human Services,Food and Drug Administration,therealcost.gov,"Filter,Redirect"
 Department of Health and Human Services,Food and Drug Administration,thisfreelife.gov,"Filter,Redirect"
 Department of Health and Human Services,Food and Drug Administration,timp-ccid.fda.gov,Filter
+Department of Health and Human Services,Food and Drug Administration,timp-tims.preprod.fda.gov,Status Code
 Department of Health and Human Services,Food and Drug Administration,timp-via.fda.gov,"Filter,Redirect"
 Department of Health and Human Services,Food and Drug Administration,timsimtamobile.fda.gov,Filter
 Department of Health and Human Services,Food and Drug Administration,timsimtamobiletrain.fda.gov,Filter
@@ -11185,7 +11196,7 @@ Department of Health and Human Services,Indian Health Service,fbes.ihs.gov,Filte
 Department of Health and Human Services,Indian Health Service,hqansp01.ihs.gov,Filter
 Department of Health and Human Services,Indian Health Service,hsp.ihs.gov,Filter
 Department of Health and Human Services,Indian Health Service,ihs.gov,Filter
-Department of Health and Human Services,Indian Health Service,ihs4dhapim.ihs.gov,Status Code
+Department of Health and Human Services,Indian Health Service,ihs4dhapim.ihs.gov,"Filter,Status Code"
 Department of Health and Human Services,Indian Health Service,ihsabqexpe1.ihs.gov,Filter
 Department of Health and Human Services,Indian Health Service,ihsrckexpe1.ihs.gov,Filter
 Department of Health and Human Services,Indian Health Service,join.ihs.gov,Filter
@@ -11213,7 +11224,6 @@ Department of Health and Human Services,"National Cancer Institute, NIH",60plus.
 Department of Health and Human Services,"National Cancer Institute, NIH",abcs-cds.cancer.gov,Filter
 Department of Health and Human Services,"National Cancer Institute, NIH",abcsr-cds.cancer.gov,Filter
 Department of Health and Human Services,"National Cancer Institute, NIH",aboutnci.cancer.gov,"Filter,Redirect"
-Department of Health and Human Services,"National Cancer Institute, NIH",act24-stage.cancer.gov,Status Code
 Department of Health and Human Services,"National Cancer Institute, NIH",act24.cancer.gov,Filter
 Department of Health and Human Services,"National Cancer Institute, NIH",advocacy.cancer.gov,"Filter,Redirect,Status Code"
 Department of Health and Human Services,"National Cancer Institute, NIH",aids.cancer.gov,"Filter,Redirect"
@@ -11223,7 +11233,7 @@ Department of Health and Human Services,"National Cancer Institute, NIH",antibod
 Department of Health and Human Services,"National Cancer Institute, NIH",api.gdc.cancer.gov,Status Code
 Department of Health and Human Services,"National Cancer Institute, NIH",api.seer.cancer.gov,Filter
 Department of Health and Human Services,"National Cancer Institute, NIH",applications.cpfp.cancer.gov,"Filter,Redirect"
-Department of Health and Human Services,"National Cancer Institute, NIH",applications.prevention.cancer.gov,Filter
+Department of Health and Human Services,"National Cancer Institute, NIH",applications.prevention.cancer.gov,"Filter,Redirect"
 Department of Health and Human Services,"National Cancer Institute, NIH",appliedresearch.cancer.gov,"Filter,Redirect"
 Department of Health and Human Services,"National Cancer Institute, NIH",appshare.cancer.gov,Filter
 Department of Health and Human Services,"National Cancer Institute, NIH",assays.cancer.gov,"Filter,Redirect"
@@ -11250,7 +11260,7 @@ Department of Health and Human Services,"National Cancer Institute, NIH",cananol
 Department of Health and Human Services,"National Cancer Institute, NIH",cancer.gov,Filter
 Department of Health and Human Services,"National Cancer Institute, NIH",cancercenters.cancer.gov,Filter
 Department of Health and Human Services,"National Cancer Institute, NIH",cancercontrol.cancer.gov,Filter
-Department of Health and Human Services,"National Cancer Institute, NIH",cancercontrolplanet.cancer.gov,Filter
+Department of Health and Human Services,"National Cancer Institute, NIH",cancercontrolplanet.cancer.gov,"Filter,Redirect"
 Department of Health and Human Services,"National Cancer Institute, NIH",cancerinfo.cancer.gov,"Filter,Redirect"
 Department of Health and Human Services,"National Cancer Institute, NIH",cancerinformation.cancer.gov,"Filter,Redirect"
 Department of Health and Human Services,"National Cancer Institute, NIH",cancernet.cancer.gov,"Filter,Redirect"
@@ -11275,8 +11285,8 @@ Department of Health and Human Services,"National Cancer Institute, NIH",cellsig
 Department of Health and Human Services,"National Cancer Institute, NIH",cervical.cancer.gov,"Filter,Redirect"
 Department of Health and Human Services,"National Cancer Institute, NIH",cessationtoolkit.cancer.gov,"Filter,Redirect"
 Department of Health and Human Services,"National Cancer Institute, NIH",cgb.cancer.gov,"Filter,Redirect"
-Department of Health and Human Services,"National Cancer Institute, NIH",cgems.cancer.gov,Filter
-Department of Health and Human Services,"National Cancer Institute, NIH",chernobyl.cancer.gov,Filter
+Department of Health and Human Services,"National Cancer Institute, NIH",cgems.cancer.gov,"Filter,Redirect"
+Department of Health and Human Services,"National Cancer Institute, NIH",chernobyl.cancer.gov,"Filter,Redirect,Status Code"
 Department of Health and Human Services,"National Cancer Institute, NIH",chornobyl.cancer.gov,"Filter,Redirect,Status Code"
 Department of Health and Human Services,"National Cancer Institute, NIH",chornobyltissuebank.cancer.gov,Filter
 Department of Health and Human Services,"National Cancer Institute, NIH",chtn.cancer.gov,Filter
@@ -11306,7 +11316,7 @@ Department of Health and Human Services,"National Cancer Institute, NIH",contact
 Department of Health and Human Services,"National Cancer Institute, NIH",cop.cancer.gov,"Filter,Redirect,Status Code"
 Department of Health and Human Services,"National Cancer Institute, NIH",correlogo.cancer.gov,Filter
 Department of Health and Human Services,"National Cancer Institute, NIH",costprojections.cancer.gov,"Filter,Status Code"
-Department of Health and Human Services,"National Cancer Institute, NIH",cpfp.cancer.gov,Filter
+Department of Health and Human Services,"National Cancer Institute, NIH",cpfp.cancer.gov,"Filter,Redirect"
 Department of Health and Human Services,"National Cancer Institute, NIH",cprosite.ccr.cancer.gov,Filter
 Department of Health and Human Services,"National Cancer Institute, NIH",cptac3.cancer.gov,Filter
 Department of Health and Human Services,"National Cancer Institute, NIH",cptr.cancer.gov,"Filter,Redirect"
@@ -11317,7 +11327,7 @@ Department of Health and Human Services,"National Cancer Institute, NIH",crtp.cc
 Department of Health and Human Services,"National Cancer Institute, NIH",cryosparc.cancer.gov,Filter
 Department of Health and Human Services,"National Cancer Institute, NIH",cssi.cancer.gov,"Filter,Redirect"
 Department of Health and Human Services,"National Cancer Institute, NIH",ctep.cancer.gov,"Filter,Redirect"
-Department of Health and Human Services,"National Cancer Institute, NIH",ctrandomization.cancer.gov,Filter
+Department of Health and Human Services,"National Cancer Institute, NIH",ctrandomization.cancer.gov,"Filter,Redirect"
 Department of Health and Human Services,"National Cancer Institute, NIH",ctsproxy-test.cancer.gov,Status Code
 Department of Health and Human Services,"National Cancer Institute, NIH",ctsu-uat.cancer.gov,Status Code
 Department of Health and Human Services,"National Cancer Institute, NIH",ctsu-unit.cancer.gov,"Filter,Status Code"
@@ -11513,7 +11523,7 @@ Department of Health and Human Services,"National Cancer Institute, NIH",pinkboo
 Department of Health and Human Services,"National Cancer Institute, NIH",pins.ccr.cancer.gov,Filter
 Department of Health and Human Services,"National Cancer Institute, NIH",plan.cancer.gov,"Filter,Redirect"
 Department of Health and Human Services,"National Cancer Institute, NIH",plco.cancer.gov,"Filter,Redirect,Status Code"
-Department of Health and Human Services,"National Cancer Institute, NIH",popmodels.cancercontrol.cancer.gov,Filter
+Department of Health and Human Services,"National Cancer Institute, NIH",popmodels.cancercontrol.cancer.gov,"Filter,Redirect"
 Department of Health and Human Services,"National Cancer Institute, NIH",populationsciences.datacommons.cancer.gov,Filter
 Department of Health and Human Services,"National Cancer Institute, NIH",portal.awg.gdc.cancer.gov,"Filter,Status Code"
 Department of Health and Human Services,"National Cancer Institute, NIH",portal.gdc.cancer.gov,Filter
@@ -11707,7 +11717,7 @@ Department of Health and Human Services,National Institutes of Health,api-evsres
 Department of Health and Human Services,National Institutes of Health,api.ncbi.nlm.nih.gov,Status Code
 Department of Health and Human Services,National Institutes of Health,api.ods.od.nih.gov,"Filter,Status Code"
 Department of Health and Human Services,National Institutes of Health,api.reporter.nih.gov,Filter
-Department of Health and Human Services,National Institutes of Health,api.sb.biodatacatalyst.nhlbi.nih.gov,Status Code
+Department of Health and Human Services,National Institutes of Health,api.sb.biodatacatalyst.nhlbi.nih.gov,"Filter,Status Code"
 Department of Health and Human Services,National Institutes of Health,apis.niaaa.nih.gov,Filter
 Department of Health and Human Services,National Institutes of Health,apisstaging.niaaa.nih.gov,Filter
 Department of Health and Human Services,National Institutes of Health,apps.era.nih.gov,Filter
@@ -11729,7 +11739,6 @@ Department of Health and Human Services,National Institutes of Health,art.csr.ni
 Department of Health and Human Services,National Institutes of Health,artifactory-prod.wip.ncbi.nlm.nih.gov,"Filter,Redirect"
 Department of Health and Human Services,National Institutes of Health,artifactory.niaid.nih.gov,Filter
 Department of Health and Human Services,National Institutes of Health,arusha.nhgri.nih.gov,"Filter,Redirect"
-Department of Health and Human Services,National Institutes of Health,asa24-stage.nih.gov,Status Code
 Department of Health and Human Services,National Institutes of Health,asa24.nci.nih.gov,"Filter,Status Code"
 Department of Health and Human Services,National Institutes of Health,asa24.nih.gov,Filter
 Department of Health and Human Services,National Institutes of Health,ascend-dm.ctss.nih.gov,Filter
@@ -11862,7 +11871,7 @@ Department of Health and Human Services,National Institutes of Health,cdebrowser
 Department of Health and Human Services,National Institutes of Health,cdecurate.nci.nih.gov,"Filter,Redirect"
 Department of Health and Human Services,National Institutes of Health,cdiscvalidation.niaid.nih.gov,Filter
 Department of Health and Human Services,National Institutes of Health,cdndev.ncbi.nlm.nih.gov,Filter
-Department of Health and Human Services,National Institutes of Health,cdp.nci.nih.gov,"Filter,Redirect,Status Code"
+Department of Health and Human Services,National Institutes of Health,cdp.nci.nih.gov,Filter
 Department of Health and Human Services,National Institutes of Health,cdrns.nih.gov,Filter
 Department of Health and Human Services,National Institutes of Health,ceal.nih.gov,Filter
 Department of Health and Human Services,National Institutes of Health,ceb.nlm.nih.gov,"Filter,Redirect"
@@ -12382,10 +12391,12 @@ Department of Health and Human Services,National Institutes of Health,idsstage.n
 Department of Health and Human Services,National Institutes of Health,ihm.nlm.nih.gov,"Filter,Redirect"
 Department of Health and Human Services,National Institutes of Health,ii-public2.nlm.nih.gov,Filter
 Department of Health and Human Services,National Institutes of Health,ii.nlm.nih.gov,Filter
+Department of Health and Human Services,National Institutes of Health,iiif.nlm.nih.gov,Filter
 Department of Health and Human Services,National Institutes of Health,imacs.niehs.nih.gov,Filter
 Department of Health and Human Services,National Institutes of Health,imagej.nih.gov,Filter
 Department of Health and Human Services,National Institutes of Health,images.nigms.nih.gov,Filter
 Department of Health and Human Services,National Institutes of Health,images.nimh.nih.gov,Filter
+Department of Health and Human Services,National Institutes of Health,imagic.nlm.nih.gov,Filter
 Department of Health and Human Services,National Institutes of Health,imaging.nci.nih.gov,"Filter,Redirect,Status Code"
 Department of Health and Human Services,National Institutes of Health,imagingtherapy.nibib.nih.gov,Filter
 Department of Health and Human Services,National Institutes of Health,imagwiki.nibib.nih.gov,Filter
@@ -12822,7 +12833,7 @@ Department of Health and Human Services,National Institutes of Health,olao.od.ni
 Department of Health and Human Services,National Institutes of Health,olaw.nih.gov,"Filter,Redirect"
 Department of Health and Human Services,National Institutes of Health,om.od.nih.gov,Filter
 Department of Health and Human Services,National Institutes of Health,oma.od.nih.gov,"Filter,Redirect"
-Department of Health and Human Services,National Institutes of Health,oma1.od.nih.gov,Filter
+Department of Health and Human Services,National Institutes of Health,oma1.od.nih.gov,"Filter,Redirect"
 Department of Health and Human Services,National Institutes of Health,omb-clearance.nci.nih.gov,Filter
 Department of Health and Human Services,National Institutes of Health,ombuds.nih.gov,"Filter,Status Code"
 Department of Health and Human Services,National Institutes of Health,ombudsman.nih.gov,"Filter,Status Code"
@@ -12993,7 +13004,7 @@ Department of Health and Human Services,National Institutes of Health,reporter.n
 Department of Health and Human Services,National Institutes of Health,repository.niddk.nih.gov,"Filter,Status Code"
 Department of Health and Human Services,National Institutes of Health,research.nhgri.nih.gov,Filter
 Department of Health and Human Services,National Institutes of Health,research.ninds.nih.gov,"Filter,Status Code"
-Department of Health and Human Services,National Institutes of Health,researchethics.od.nih.gov,"Filter,Redirect"
+Department of Health and Human Services,National Institutes of Health,researchethics.od.nih.gov,Filter
 Department of Health and Human Services,National Institutes of Health,researchfestival.nih.gov,Filter
 Department of Health and Human Services,National Institutes of Health,researchmethodsresources.nih.gov,"Filter,Status Code"
 Department of Health and Human Services,National Institutes of Health,researchstudies.nida.nih.gov,Filter
@@ -13021,7 +13032,7 @@ Department of Health and Human Services,National Institutes of Health,rxterms.nl
 Department of Health and Human Services,National Institutes of Health,s10reports.od.nih.gov,"Filter,Status Code"
 Department of Health and Human Services,National Institutes of Health,safetosleep.nichd.nih.gov,Filter
 Department of Health and Human Services,National Institutes of Health,safety.nichd.nih.gov,Filter
-Department of Health and Human Services,National Institutes of Health,safetyprofiler-ctep.nci.nih.gov,Status Code
+Department of Health and Human Services,National Institutes of Health,safetyprofiler-ctep.nci.nih.gov,"Filter,Status Code"
 Department of Health and Human Services,National Institutes of Health,safetyscreening.ctss.nih.gov,Filter
 Department of Health and Human Services,National Institutes of Health,saliva.nidcr.nih.gov,Filter
 Department of Health and Human Services,National Institutes of Health,salud.nih.gov,"Filter,Status Code"
@@ -13210,7 +13221,6 @@ Department of Health and Human Services,National Institutes of Health,techfinder
 Department of Health and Human Services,National Institutes of Health,techtransfer.nih.gov,Filter
 Department of Health and Human Services,National Institutes of Health,tenuretrack.nih.gov,Filter
 Department of Health and Human Services,National Institutes of Health,terra.biodatacatalyst.nhlbi.nih.gov,Filter
-Department of Health and Human Services,National Institutes of Health,test-nbdc-biobank.nida.nih.gov,Status Code
 Department of Health and Human Services,National Institutes of Health,test.ncbi.nlm.nih.gov,Status Code
 Department of Health and Human Services,National Institutes of Health,test.nihms.nih.gov,Status Code
 Department of Health and Human Services,National Institutes of Health,testdomain.nih.gov,Status Code
@@ -13258,12 +13268,12 @@ Department of Health and Human Services,National Institutes of Health,unifiedeve
 Department of Health and Human Services,National Institutes of Health,userregistration.nci.nih.gov,"Filter,Redirect"
 Department of Health and Human Services,National Institutes of Health,usrds-adr.niddk.nih.gov,Filter
 Department of Health and Human Services,National Institutes of Health,uts-green.nlm.nih.gov,Filter
-Department of Health and Human Services,National Institutes of Health,uts-ws.nlm.nih.gov,Status Code
+Department of Health and Human Services,National Institutes of Health,uts-ws.nlm.nih.gov,"Filter,Status Code"
 Department of Health and Human Services,National Institutes of Health,uts.awsint.nlm.nih.gov,Filter
 Department of Health and Human Services,National Institutes of Health,uts.awsprod.nlm.nih.gov,Filter
 Department of Health and Human Services,National Institutes of Health,uts.awsqa.nlm.nih.gov,Filter
 Department of Health and Human Services,National Institutes of Health,uts.nlm.nih.gov,Filter
-Department of Health and Human Services,National Institutes of Health,utslogin.nlm.nih.gov,Status Code
+Department of Health and Human Services,National Institutes of Health,utslogin.nlm.nih.gov,"Filter,Status Code"
 Department of Health and Human Services,National Institutes of Health,uud.ncbi.nlm.nih.gov,"Filter,Status Code"
 Department of Health and Human Services,National Institutes of Health,uvo.nichd.nih.gov,"Filter,Redirect"
 Department of Health and Human Services,National Institutes of Health,vac.niaid.nih.gov,Filter
@@ -13439,7 +13449,7 @@ Department of Health and Human Services,Office of the Assistant Secretary for He
 Department of Health and Human Services,Office of the Assistant Secretary for Health,familyplanning.gov,"Filter,Redirect"
 Department of Health and Human Services,Office of the Assistant Secretary for Health,files.hiv.gov,Status Code
 Department of Health and Human Services,Office of the Assistant Secretary for Health,hiv.gov,Filter
-Department of Health and Human Services,Office of the Assistant Secretary for Health,locator-api.hiv.gov,Status Code
+Department of Health and Human Services,Office of the Assistant Secretary for Health,locator-api.hiv.gov,"Filter,Status Code"
 Department of Health and Human Services,Office of the Assistant Secretary for Health,locator.hiv.gov,Filter
 Department of Health and Human Services,Office of the Assistant Secretary for Health,positivespin.hiv.gov,Filter
 Department of Health and Human Services,Office of the Assistant Secretary for Health,readysetprep.hiv.gov,Filter
@@ -13638,8 +13648,8 @@ Department of Health and Human Services,Office of the Secretary of Health and Hu
 Department of Health and Human Services,Office of the Secretary of Health and Human Services,empowerprogram.hhs.gov,Filter
 Department of Health and Human Services,Office of the Secretary of Health and Human Services,enterpriseenrollment.hhs.gov,"Filter,Redirect"
 Department of Health and Human Services,Office of the Secretary of Health and Human Services,enterpriseenrollment.partners.aspr.hhs.gov,"Filter,Redirect"
-Department of Health and Human Services,Office of the Secretary of Health and Human Services,enterpriseregistration.hhs.gov,Status Code
-Department of Health and Human Services,Office of the Secretary of Health and Human Services,enterpriseregistration.partners.aspr.hhs.gov,Status Code
+Department of Health and Human Services,Office of the Secretary of Health and Human Services,enterpriseregistration.hhs.gov,"Filter,Status Code"
+Department of Health and Human Services,Office of the Secretary of Health and Human Services,enterpriseregistration.partners.aspr.hhs.gov,"Filter,Status Code"
 Department of Health and Human Services,Office of the Secretary of Health and Human Services,epublication.fda.hhs.gov,Filter
 Department of Health and Human Services,Office of the Secretary of Health and Human Services,esmdval.cms.hhs.gov,Filter
 Department of Health and Human Services,Office of the Secretary of Health and Human Services,espanol.foodsafety.gov,"Filter,Status Code"
@@ -13887,6 +13897,7 @@ Department of Health and Human Services,Office of the Secretary of Health and Hu
 Department of Health and Human Services,Office of the Secretary of Health and Human Services,swift.aspr.hhs.gov,Filter
 Department of Health and Human Services,Office of the Secretary of Health and Human Services,syndication.hhs.gov,"Filter,Redirect,Status Code"
 Department of Health and Human Services,Office of the Secretary of Health and Human Services,syndicationadmin.digitalmedia.hhs.gov,Filter
+Department of Health and Human Services,Office of the Secretary of Health and Human Services,tagcloud.digitalmedia.hhs.gov,Filter
 Department of Health and Human Services,Office of the Secretary of Health and Human Services,taggs.hhs.gov,Filter
 Department of Health and Human Services,Office of the Secretary of Health and Human Services,tanfdata.acf.hhs.gov,Filter
 Department of Health and Human Services,Office of the Secretary of Health and Human Services,tech.hhs.gov,Filter
@@ -13900,6 +13911,7 @@ Department of Health and Human Services,Office of the Secretary of Health and Hu
 Department of Health and Human Services,Office of the Secretary of Health and Human Services,thinkculturalhealth-qc.thinkculturalhealth.hhs.gov,"Filter,Status Code"
 Department of Health and Human Services,Office of the Secretary of Health and Human Services,thinkculturalhealth.hhs.gov,Filter
 Department of Health and Human Services,Office of the Secretary of Health and Human Services,thisfreelife.betobaccofree.hhs.gov,"Filter,Redirect"
+Department of Health and Human Services,Office of the Secretary of Health and Human Services,tiny.hhs.gov,Filter
 Department of Health and Human Services,Office of the Secretary of Health and Human Services,tinyurl.digitalmedia.hhs.gov,Filter
 Department of Health and Human Services,Office of the Secretary of Health and Human Services,tips.oig.hhs.gov,Filter
 Department of Health and Human Services,Office of the Secretary of Health and Human Services,tppevidencereview.aspe.hhs.gov,"Filter,Status Code"
@@ -14001,11 +14013,11 @@ Department of Health and Human Services,Substance Abuse and Mental Health Servic
 Department of Health and Human Services,Substance Abuse and Mental Health Services Administration,988crisissystemshelp.samhsa.gov,Filter
 Department of Health and Human Services,Substance Abuse and Mental Health Services Administration,aha.gov,Filter
 Department of Health and Human Services,Substance Abuse and Mental Health Services Administration,bgas.samhsa.gov,Filter
-Department of Health and Human Services,Substance Abuse and Mental Health Services Administration,blog.samhsa.gov,"Filter,Redirect,Status Code"
+Department of Health and Human Services,Substance Abuse and Mental Health Services Administration,blog.samhsa.gov,"Filter,Redirect"
 Department of Health and Human Services,Substance Abuse and Mental Health Services Administration,brss-tacs-decision-tool.samhsa.gov,"Filter,Redirect,Status Code"
 Department of Health and Human Services,Substance Abuse and Mental Health Services Administration,buprenorphine.samhsa.gov,"Filter,Redirect,Status Code"
 Department of Health and Human Services,Substance Abuse and Mental Health Services Administration,contactcenter.samhsa.gov,Filter
-Department of Health and Human Services,Substance Abuse and Mental Health Services Administration,cspdc.samhsa.gov,"Filter,Status Code"
+Department of Health and Human Services,Substance Abuse and Mental Health Services Administration,cspdc.samhsa.gov,Filter
 Department of Health and Human Services,Substance Abuse and Mental Health Services Administration,dasis2.samhsa.gov,Filter
 Department of Health and Human Services,Substance Abuse and Mental Health Services Administration,dasis3.samhsa.gov,Filter
 Department of Health and Human Services,Substance Abuse and Mental Health Services Administration,dasis9.samhsa.gov,Filter
@@ -14016,14 +14028,14 @@ Department of Health and Human Services,Substance Abuse and Mental Health Servic
 Department of Health and Human Services,Substance Abuse and Mental Health Services Administration,docsite.samhsa.gov,Filter
 Department of Health and Human Services,Substance Abuse and Mental Health Services Administration,dpt.samhsa.gov,"Filter,Redirect,Status Code"
 Department of Health and Human Services,Substance Abuse and Mental Health Services Administration,dpt2.samhsa.gov,"Filter,Redirect"
-Department of Health and Human Services,Substance Abuse and Mental Health Services Administration,encuentraapoyo.gov,"Filter,Redirect"
+Department of Health and Human Services,Substance Abuse and Mental Health Services Administration,encuentraapoyo.gov,"Filter,Redirect,Status Code"
 Department of Health and Human Services,Substance Abuse and Mental Health Services Administration,espanol.mentalhealth.gov,"Filter,Status Code"
 Department of Health and Human Services,Substance Abuse and Mental Health Services Administration,externallinks.samhsa.gov,"Filter,Status Code"
 Department of Health and Human Services,Substance Abuse and Mental Health Services Administration,filecloud.samhsa.gov,Filter
 Department of Health and Human Services,Substance Abuse and Mental Health Services Administration,findsupport.gov,"Filter,Redirect,Status Code"
 Department of Health and Human Services,Substance Abuse and Mental Health Services Administration,findtreatment.gov,Filter
 Department of Health and Human Services,Substance Abuse and Mental Health Services Administration,findtreatment.samhsa.gov,"Filter,Redirect"
-Department of Health and Human Services,Substance Abuse and Mental Health Services Administration,gainscenter.samhsa.gov,"Filter,Redirect,Status Code"
+Department of Health and Human Services,Substance Abuse and Mental Health Services Administration,gainscenter.samhsa.gov,"Filter,Redirect"
 Department of Health and Human Services,Substance Abuse and Mental Health Services Administration,info.nsumhss.samhsa.gov,Filter
 Department of Health and Human Services,Substance Abuse and Mental Health Services Administration,knowledge.samhsa.gov,"Filter,Redirect,Status Code"
 Department of Health and Human Services,Substance Abuse and Mental Health Services Administration,library.samhsa.gov,"Filter,Status Code"
@@ -14036,10 +14048,10 @@ Department of Health and Human Services,Substance Abuse and Mental Health Servic
 Department of Health and Human Services,Substance Abuse and Mental Health Services Administration,newsletter.samhsa.gov,"Filter,Redirect"
 Department of Health and Human Services,Substance Abuse and Mental Health Services Administration,nrepp-learning.samhsa.gov,Filter
 Department of Health and Human Services,Substance Abuse and Mental Health Services Administration,oas.samhsa.gov,"Filter,Redirect,Status Code"
-Department of Health and Human Services,Substance Abuse and Mental Health Services Administration,otp-extranet.samhsa.gov,"Filter,Status Code"
+Department of Health and Human Services,Substance Abuse and Mental Health Services Administration,otp-extranet.samhsa.gov,Filter
 Department of Health and Human Services,Substance Abuse and Mental Health Services Administration,pathpdx-learning.samhsa.gov,"Filter,Status Code"
 Department of Health and Human Services,Substance Abuse and Mental Health Services Administration,pathpdx.samhsa.gov,"Filter,Status Code"
-Department of Health and Human Services,Substance Abuse and Mental Health Services Administration,pdas.samhsa.gov,"Filter,Redirect"
+Department of Health and Human Services,Substance Abuse and Mental Health Services Administration,pdas.samhsa.gov,"Filter,Status Code"
 Department of Health and Human Services,Substance Abuse and Mental Health Services Administration,pepc.samhsa.gov,"Filter,Status Code"
 Department of Health and Human Services,Substance Abuse and Mental Health Services Administration,rdas.samhsa.gov,"Filter,Status Code"
 Department of Health and Human Services,Substance Abuse and Mental Health Services Administration,recoverymonth.gov,"Filter,Redirect"
@@ -14049,12 +14061,12 @@ Department of Health and Human Services,Substance Abuse and Mental Health Servic
 Department of Health and Human Services,Substance Abuse and Mental Health Services Administration,soarworks.samhsa.gov,"Filter,Status Code"
 Department of Health and Human Services,Substance Abuse and Mental Health Services Administration,spars-cmhs.samhsa.gov,"Filter,Redirect"
 Department of Health and Human Services,Substance Abuse and Mental Health Services Administration,spars-csap.samhsa.gov,"Filter,Status Code"
-Department of Health and Human Services,Substance Abuse and Mental Health Services Administration,spars-csat.samhsa.gov,"Filter,Status Code"
+Department of Health and Human Services,Substance Abuse and Mental Health Services Administration,spars-csat.samhsa.gov,"Filter,Redirect"
 Department of Health and Human Services,Substance Abuse and Mental Health Services Administration,spars-lc.samhsa.gov,"Filter,Status Code"
 Department of Health and Human Services,Substance Abuse and Mental Health Services Administration,spars-rpt.samhsa.gov,"Filter,Redirect"
 Department of Health and Human Services,Substance Abuse and Mental Health Services Administration,spars-signin.samhsa.gov,Filter
 Department of Health and Human Services,Substance Abuse and Mental Health Services Administration,spars-sts.samhsa.gov,"Filter,Status Code"
-Department of Health and Human Services,Substance Abuse and Mental Health Services Administration,spars-ta.samhsa.gov,"Filter,Redirect"
+Department of Health and Human Services,Substance Abuse and Mental Health Services Administration,spars-ta.samhsa.gov,"Filter,Status Code"
 Department of Health and Human Services,Substance Abuse and Mental Health Services Administration,spars-upload-csat.samhsa.gov,"Filter,Status Code"
 Department of Health and Human Services,Substance Abuse and Mental Health Services Administration,spars.samhsa.gov,Filter
 Department of Health and Human Services,Substance Abuse and Mental Health Services Administration,staging.ncsacw.samhsa.gov,Status Code
@@ -14218,7 +14230,7 @@ Department of Homeland Security,Federal Emergency Management Agency,pivot.fema.g
 Department of Homeland Security,Federal Emergency Management Agency,portal.fema.gov,Filter
 Department of Homeland Security,Federal Emergency Management Agency,prd-hazards.msc.fema.gov,"Filter,Redirect"
 Department of Homeland Security,Federal Emergency Management Agency,prd-mapview.msc.fema.gov,"Filter,Status Code"
-Department of Homeland Security,Federal Emergency Management Agency,prd-msc.msc.fema.gov,"Filter,Status Code"
+Department of Homeland Security,Federal Emergency Management Agency,prd-msc.msc.fema.gov,Filter
 Department of Homeland Security,Federal Emergency Management Agency,preview.disasterassistance.gov,Status Code
 Department of Homeland Security,Federal Emergency Management Agency,preview.fema.gov,Redirect
 Department of Homeland Security,Federal Emergency Management Agency,pwtracker.msc.fema.gov,Filter
@@ -14233,7 +14245,6 @@ Department of Homeland Security,Federal Emergency Management Agency,staging.fema
 Department of Homeland Security,Federal Emergency Management Agency,tableau.nfipdirect.fema.gov,Filter
 Department of Homeland Security,Federal Emergency Management Agency,tdl.apps.fema.gov,Status Code
 Department of Homeland Security,Federal Emergency Management Agency,tdl.egateway.fema.gov,Status Code
-Department of Homeland Security,Federal Emergency Management Agency,tdl.gis.fema.gov,Status Code
 Department of Homeland Security,Federal Emergency Management Agency,tdl.integration.fema.gov,Status Code
 Department of Homeland Security,Federal Emergency Management Agency,tdl.isource.fema.gov,Status Code
 Department of Homeland Security,Federal Emergency Management Agency,tdl.lscms-wm.fema.gov,Redirect
@@ -14275,7 +14286,7 @@ Department of Homeland Security,Management Directorate,apps.tsa.dhs.gov,"Filter,
 Department of Homeland Security,Management Directorate,appstore.tsa.dhs.gov,Filter
 Department of Homeland Security,Management Directorate,arthur.tsa.dhs.gov,Filter
 Department of Homeland Security,Management Directorate,awtunnel.uscis.dhs.gov,Filter
-Department of Homeland Security,Management Directorate,baa.dhs.gov,Status Code
+Department of Homeland Security,Management Directorate,baa.dhs.gov,"Filter,Status Code"
 Department of Homeland Security,Management Directorate,beta.movement.niem.gov,Filter
 Department of Homeland Security,Management Directorate,beta.ready.gov,"Filter,Status Code"
 Department of Homeland Security,Management Directorate,bigpipe.cbp.dhs.gov,"Filter,Status Code"
@@ -14384,7 +14395,7 @@ Department of Homeland Security,Management Directorate,gemini22.dhs.gov,Filter
 Department of Homeland Security,Management Directorate,genealogy.uscis.dhs.gov,Filter
 Department of Homeland Security,Management Directorate,geo-dev.dtect.dhs.gov,Status Code
 Department of Homeland Security,Management Directorate,gii.dhs.gov,Filter
-Department of Homeland Security,Management Directorate,giitest.dhs.gov,Filter
+Department of Homeland Security,Management Directorate,giitest.dhs.gov,"Filter,Redirect"
 Department of Homeland Security,Management Directorate,grant.tsa.dhs.gov,"Filter,Redirect"
 Department of Homeland Security,Management Directorate,hayes.tsa.dhs.gov,Filter
 Department of Homeland Security,Management Directorate,hcptst.dhs.gov,Filter
@@ -14444,7 +14455,7 @@ Department of Homeland Security,Management Directorate,ocsp.dimc.dhs.gov,Filter
 Department of Homeland Security,Management Directorate,ohcppbeorientation.tsa.dhs.gov,Filter
 Department of Homeland Security,Management Directorate,ohcrheasp.tsa.dhs.gov,Filter
 Department of Homeland Security,Management Directorate,ohcrheast.tsa.dhs.gov,Filter
-Department of Homeland Security,Management Directorate,oip.dhs.gov,Status Code
+Department of Homeland Security,Management Directorate,oip.dhs.gov,"Filter,Status Code"
 Department of Homeland Security,Management Directorate,owa2016.st.dhs.gov,Filter
 Department of Homeland Security,Management Directorate,pager.uscis.dhs.gov,Filter
 Department of Homeland Security,Management Directorate,pciims.dhs.gov,Filter
@@ -14470,7 +14481,7 @@ Department of Homeland Security,Management Directorate,rules.ncats.cyber.dhs.gov
 Department of Homeland Security,Management Directorate,rulings.cbp.dhs.gov,Filter
 Department of Homeland Security,Management Directorate,saml.tsa.dhs.gov,Filter
 Department of Homeland Security,Management Directorate,sass.fletc.dhs.gov,Filter
-Department of Homeland Security,Management Directorate,sbir.dhs.gov,Status Code
+Department of Homeland Security,Management Directorate,sbir.dhs.gov,"Filter,Status Code"
 Department of Homeland Security,Management Directorate,scitech.dhs.gov,"Filter,Redirect"
 Department of Homeland Security,Management Directorate,search.dhs.gov,Filter
 Department of Homeland Security,Management Directorate,seg.dhs.gov,Filter
@@ -14493,7 +14504,7 @@ Department of Homeland Security,Management Directorate,share7.dhs.gov,Filter
 Department of Homeland Security,Management Directorate,share8.dhs.gov,Filter
 Department of Homeland Security,Management Directorate,sharedservices.dhs.gov,"Filter,Status Code"
 Department of Homeland Security,Management Directorate,snow-pub.dhs.gov,"Filter,Status Code"
-Department of Homeland Security,Management Directorate,ss.tvc.tsa.dhs.gov,Status Code
+Department of Homeland Security,Management Directorate,ss.tvc.tsa.dhs.gov,"Filter,Status Code"
 Department of Homeland Security,Management Directorate,stage-cdp.ctas.dhs.gov,Status Code
 Department of Homeland Security,Management Directorate,staging-dhsprecheck.dhs.gov,Status Code
 Department of Homeland Security,Management Directorate,staging-hotline.oig.dhs.gov,Status Code
@@ -14509,7 +14520,7 @@ Department of Homeland Security,Management Directorate,staging1.dhs.gov,Status C
 Department of Homeland Security,Management Directorate,stconnect.st.dhs.gov,Filter
 Department of Homeland Security,Management Directorate,stvdi.st.dhs.gov,Filter
 Department of Homeland Security,Management Directorate,surveys.fletc.dhs.gov,Filter
-Department of Homeland Security,Management Directorate,svip.dhs.gov,Status Code
+Department of Homeland Security,Management Directorate,svip.dhs.gov,"Filter,Status Code"
 Department of Homeland Security,Management Directorate,svip.st.dhs.gov,Filter
 Department of Homeland Security,Management Directorate,team.eshare.tsa.dhs.gov,Filter
 Department of Homeland Security,Management Directorate,test-cdp.ctas.dhs.gov,Status Code
@@ -14731,7 +14742,6 @@ Department of Housing and Urban Development,Government National Mortgage Associa
 Department of Housing and Urban Development,Government National Mortgage Association,jira.ginniemae.gov,Filter
 Department of Housing and Urban Development,Government National Mortgage Association,login.ginniemae.gov,Filter
 Department of Housing and Urban Development,Government National Mortgage Association,my.uat.ginniemae.gov,Status Code
-Department of Housing and Urban Development,Government National Mortgage Association,my8.uat.ginniemae.gov,Status Code
 Department of Housing and Urban Development,Government National Mortgage Association,portal.ginniemae.gov,"Filter,Redirect"
 Department of Housing and Urban Development,Government National Mortgage Association,rgnmeepvpn001.ginniemae.gov,Filter
 Department of Housing and Urban Development,Government National Mortgage Association,structuredginniemaes.ginniemae.gov,Filter
@@ -14947,12 +14957,12 @@ Department of Justice,Federal Bureau of Investigation,cincinnati.fbi.gov,"Filter
 Department of Justice,Federal Bureau of Investigation,cjis.gov,"Filter,Status Code"
 Department of Justice,Federal Bureau of Investigation,cleveland.fbi.gov,"Filter,Redirect,Status Code"
 Department of Justice,Federal Bureau of Investigation,codis.fbi.gov,Filter
-Department of Justice,Federal Bureau of Investigation,colect.ucr.cjis.gov,Status Code
+Department of Justice,Federal Bureau of Investigation,colect.ucr.cjis.gov,"Filter,Status Code"
 Department of Justice,Federal Bureau of Investigation,columbia.fbi.gov,"Filter,Redirect,Status Code"
 Department of Justice,Federal Bureau of Investigation,csdb-ndcac.fbi.gov,"Filter,Redirect"
 Department of Justice,Federal Bureau of Investigation,cve.fbi.gov,"Filter,Status Code"
 Department of Justice,Federal Bureau of Investigation,dallas.fbi.gov,"Filter,Redirect,Status Code"
-Department of Justice,Federal Bureau of Investigation,dashboard.ucr.cjis.gov,Status Code
+Department of Justice,Federal Bureau of Investigation,dashboard.ucr.cjis.gov,"Filter,Status Code"
 Department of Justice,Federal Bureau of Investigation,delivery.fbi.gov,"Filter,Status Code"
 Department of Justice,Federal Bureau of Investigation,denver.fbi.gov,"Filter,Redirect,Status Code"
 Department of Justice,Federal Bureau of Investigation,detroit.fbi.gov,"Filter,Redirect,Status Code"
@@ -14989,8 +14999,8 @@ Department of Justice,Federal Bureau of Investigation,leb.fbi.gov,"Filter,Status
 Department of Justice,Federal Bureau of Investigation,leep-ndcac.fbi.gov,"Filter,Redirect"
 Department of Justice,Federal Bureau of Investigation,leo.cjis.gov,Filter
 Department of Justice,Federal Bureau of Investigation,leo.gov,Filter
-Department of Justice,Federal Bureau of Investigation,leoka.ucr.cjis.gov,Status Code
-Department of Justice,Federal Bureau of Investigation,lesdc.ucr.cjis.gov,Status Code
+Department of Justice,Federal Bureau of Investigation,leoka.ucr.cjis.gov,"Filter,Status Code"
+Department of Justice,Federal Bureau of Investigation,lesdc.ucr.cjis.gov,"Filter,Status Code"
 Department of Justice,Federal Bureau of Investigation,littlerock.fbi.gov,"Filter,Redirect,Status Code"
 Department of Justice,Federal Bureau of Investigation,login-ndcac.fbi.gov,"Filter,Status Code"
 Department of Justice,Federal Bureau of Investigation,losangeles.fbi.gov,"Filter,Redirect,Status Code"
@@ -15372,8 +15382,8 @@ Department of Justice,RCFL,rcfl.gov,Filter
 Department of Justice,RCFL,review.rcfl.gov,"Filter,Redirect"
 Department of Justice,Terrorist Screening Center,gems.tsc.gov,Filter
 Department of Justice,Terrorist Screening Center,tsc.gov,"Filter,Status Code"
-Department of Justice,U.S Immigration and Customs Enforcement,iprcenter.gov,Filter
-Department of Justice,"U.S. Department of Justice, BI, Domestic Security Alliance Council (DSAC)",dsac.gov,Filter
+Department of Justice,U.S Immigration and Customs Enforcement,iprcenter.gov,"Filter,Status Code"
+Department of Justice,"U.S. Department of Justice, BI, Domestic Security Alliance Council (DSAC)",dsac.gov,"Filter,Status Code"
 Department of Justice,"U.S. Department of Justice, BI, Domestic Security Alliance Council (DSAC)",kms.dsac.gov,Filter
 Department of Justice,"U.S. Department of Justice, BI, Domestic Security Alliance Council (DSAC)",portal.dsac.gov,"Filter,Redirect"
 Department of Justice,"U.S. Department of Justice, U. S. NATIONAL CENTRAL BUREAU of INTERPOL (INTERPOL)",interpol.gov,"Filter,Redirect"
@@ -15420,7 +15430,7 @@ Department of Labor,,ddp-edit.osha.gov,Filter
 Department of Labor,,ddp-preview.osha.gov,Filter
 Department of Labor,,debstfs.dol.gov,Filter
 Department of Labor,,debstrn.dol.gov,Filter
-Department of Labor,,debsvpn.dol.gov,Status Code
+Department of Labor,,debsvpn.dol.gov,"Filter,Status Code"
 Department of Labor,,deeoic.dol.gov,Filter
 Department of Labor,,dev-perm.flag.dol.gov,Status Code
 Department of Labor,,developer.dol.gov,Filter
@@ -15449,7 +15459,7 @@ Department of Labor,,egov.msha.gov,Filter
 Department of Labor,,egrantsreporting.doleta.gov,Filter
 Department of Labor,,elaws.dol.gov,"Filter,Redirect"
 Department of Labor,,employer.gov,Filter
-Department of Labor,,endpoint.efast.dol.gov,Status Code
+Department of Labor,,endpoint.efast.dol.gov,"Filter,Status Code"
 Department of Labor,,enforcedata.dol.gov,"Filter,Redirect"
 Department of Labor,,enfxfr.dol.gov,"Filter,Redirect"
 Department of Labor,,etareports.doleta.gov,Filter
@@ -15653,7 +15663,7 @@ Department of Labor,Employment and Training Administration,delawarevalley.jobcor
 Department of Labor,Employment and Training Administration,denison.jobcorps.gov,Filter
 Department of Labor,Employment and Training Administration,detroit.jobcorps.gov,Filter
 Department of Labor,Employment and Training Administration,earlecclements.jobcorps.gov,"Filter,Status Code"
-Department of Labor,Employment and Training Administration,edison.jobcorps.gov,"Filter,Status Code"
+Department of Labor,Employment and Training Administration,edison.jobcorps.gov,Filter
 Department of Labor,Employment and Training Administration,enrollmenthelp.jobcorps.gov,"Filter,Status Code"
 Department of Labor,Employment and Training Administration,excelsiorsprings.jobcorps.gov,Filter
 Department of Labor,Employment and Training Administration,exeter.jobcorps.gov,Filter
@@ -15695,7 +15705,7 @@ Department of Labor,Employment and Training Administration,losangeles.jobcorps.g
 Department of Labor,Employment and Training Administration,lyndonbjohnson.jobcorps.gov,Filter
 Department of Labor,Employment and Training Administration,maui.jobcorps.gov,Filter
 Department of Labor,Employment and Training Administration,miami.jobcorps.gov,"Filter,Status Code"
-Department of Labor,Employment and Training Administration,mifuturo.jobcorps.gov,"Filter,Redirect"
+Department of Labor,Employment and Training Administration,mifuturo.jobcorps.gov,"Filter,Redirect,Status Code"
 Department of Labor,Employment and Training Administration,milwaukee.jobcorps.gov,Filter
 Department of Labor,Employment and Training Administration,mingo.jobcorps.gov,"Filter,Status Code"
 Department of Labor,Employment and Training Administration,mississippi.jobcorps.gov,"Filter,Status Code"
@@ -15750,7 +15760,7 @@ Department of Labor,Employment and Training Administration,whitneymyoung.jobcorp
 Department of Labor,Employment and Training Administration,wilmington.jobcorps.gov,Filter
 Department of Labor,Employment and Training Administration,windriver.jobcorps.gov,Filter
 Department of Labor,Employment and Training Administration,wolfcreek.jobcorps.gov,"Filter,Status Code"
-Department of Labor,Employment and Training Administration,woodland.jobcorps.gov,Filter
+Department of Labor,Employment and Training Administration,woodland.jobcorps.gov,"Filter,Status Code"
 Department of Labor,Employment and Training Administration,woodstock.jobcorps.gov,Filter
 Department of Labor,Mine Safety and Health Administration,mshastanddown.gov,"Filter,Redirect,Status Code"
 Department of Labor,Office of the Assistant Secretary for Administration and Management,workcenter.gov,Filter
@@ -15856,6 +15866,7 @@ Department of State,Bureau of Global Public Affairs,americanspaces.admin-america
 Department of State,Bureau of Global Public Affairs,americanspaces.state.gov,Filter
 Department of State,Bureau of Global Public Affairs,amspaces.state.gov,"Filter,Redirect"
 Department of State,Bureau of Global Public Affairs,amview.japan.usembassy.gov,Filter
+Department of State,Bureau of Global Public Affairs,analytics.america.gov,Filter
 Department of State,Bureau of Global Public Affairs,ao.edit.usembassy.gov,Filter
 Department of State,Bureau of Global Public Affairs,ao.usembassy.gov,Filter
 Department of State,Bureau of Global Public Affairs,aoprals.state.gov,"Filter,Redirect"
@@ -15934,6 +15945,7 @@ Department of State,Bureau of Global Public Affairs,calist.state.gov,Filter
 Department of State,Bureau of Global Public Affairs,campususa.edit.america.gov,Filter
 Department of State,Bureau of Global Public Affairs,caprovservice.state.gov,"Filter,Redirect,Status Code"
 Department of State,Bureau of Global Public Affairs,careers.state.gov,Filter
+Department of State,Bureau of Global Public Affairs,caservices.state.gov,Filter
 Department of State,Bureau of Global Public Affairs,cd.edit.usembassy.gov,Filter
 Department of State,Bureau of Global Public Affairs,cd.usembassy.gov,Filter
 Department of State,Bureau of Global Public Affairs,ceac.state.gov,Filter
@@ -16035,7 +16047,7 @@ Department of State,Bureau of Global Public Affairs,es.usembassy.gov,Filter
 Department of State,Bureau of Global Public Affairs,eshop.state.gov,Filter
 Department of State,Bureau of Global Public Affairs,et.edit.usembassy.gov,Filter
 Department of State,Bureau of Global Public Affairs,et.usembassy.gov,Filter
-Department of State,Bureau of Global Public Affairs,eum.state.gov,Status Code
+Department of State,Bureau of Global Public Affairs,eum.state.gov,"Filter,Status Code"
 Department of State,Bureau of Global Public Affairs,evisaforms.state.gov,Filter
 Department of State,Bureau of Global Public Affairs,ew-gd2.state.gov,"Filter,Status Code"
 Department of State,Bureau of Global Public Affairs,ewgo.state.gov,Filter
@@ -16524,7 +16536,7 @@ Department of Transportation,,bridge.flhd.fhwa.dot.gov,Filter
 Department of Transportation,,bts.dot.gov,Filter
 Department of Transportation,,cbi.nhtsa.dot.gov,"Filter,Redirect"
 Department of Transportation,,cbiuser.nhtsa.dot.gov,"Filter,Redirect"
-Department of Transportation,,cbiuserapi.nhtsa.dot.gov,Status Code
+Department of Transportation,,cbiuserapi.nhtsa.dot.gov,"Filter,Status Code"
 Department of Transportation,,cdan.dot.gov,Filter
 Department of Transportation,,cdlis.dot.gov,Filter
 Department of Transportation,,chat.seavision.volpe.dot.gov,Filter
@@ -16670,7 +16682,7 @@ Department of Transportation,,nhthsaf5b-m.nhtsa.dot.gov,Filter
 Department of Transportation,,nhtsa.dot.gov,"Filter,Status Code"
 Department of Transportation,,nitscurrent.cdan.dot.gov,"Filter,Redirect"
 Department of Transportation,,nitsprev.cdan.dot.gov,"Filter,Redirect"
-Department of Transportation,,nm.dot.gov,Status Code
+Department of Transportation,,nm.dot.gov,"Filter,Status Code"
 Department of Transportation,,npms.phmsa.dot.gov,Filter
 Department of Transportation,,nrd-internal-portal.nhtsa.dot.gov,Filter
 Department of Transportation,,nrd-portal.nhtsa.dot.gov,"Filter,Redirect"
@@ -16738,7 +16750,7 @@ Department of Transportation,,sra.volpe.dot.gov,"Filter,Status Code"
 Department of Transportation,,sso.cdan.dot.gov,Filter
 Department of Transportation,,stag.seavision.volpe.dot.gov,Filter
 Department of Transportation,,stage-nrd-static.nhtsa.dot.gov,Status Code
-Department of Transportation,,stage.fra.dot.gov,Filter
+Department of Transportation,,stage.fra.dot.gov,"Filter,Status Code"
 Department of Transportation,,standards.its.dot.gov,Filter
 Department of Transportation,,strap.nhtsa.dot.gov,Filter
 Department of Transportation,,sustainablehighways.dot.gov,Filter
@@ -16769,7 +16781,7 @@ Department of Transportation,,vdidr-15.dot.gov,Filter
 Department of Transportation,,vdidr-16.dot.gov,Filter
 Department of Transportation,,vdidr-17.dot.gov,Filter
 Department of Transportation,,vesselhistory.marad.dot.gov,Filter
-Department of Transportation,,vista-api.nhtsa.dot.gov,Status Code
+Department of Transportation,,vista-api.nhtsa.dot.gov,"Filter,Status Code"
 Department of Transportation,,vista.nhtsa.dot.gov,Filter
 Department of Transportation,,volpe.dot.gov,Filter
 Department of Transportation,,volpedb1.volpe.dot.gov,Filter
@@ -16866,7 +16878,7 @@ Department of Transportation,Federal Aviation Administration,einvoicedr.esc.gov,
 Department of Transportation,Federal Aviation Administration,elms.faa.gov,Filter
 Department of Transportation,Federal Aviation Administration,enasr.faa.gov,"Filter,Status Code"
 Department of Transportation,Federal Aviation Administration,enasrapi.faa.gov,"Filter,Status Code"
-Department of Transportation,Federal Aviation Administration,enterpriseregistration.faa.gov,Status Code
+Department of Transportation,Federal Aviation Administration,enterpriseregistration.faa.gov,"Filter,Status Code"
 Department of Transportation,Federal Aviation Administration,equis.tc.faa.gov,Filter
 Department of Transportation,Federal Aviation Administration,es3idm.esc.gov,"Filter,Status Code"
 Department of Transportation,Federal Aviation Administration,esc.gov,Filter
@@ -17021,6 +17033,7 @@ Department of Transportation,National Highway Traffic Safety Administration,port
 Department of Transportation,National Highway Traffic Safety Administration,resourcecenter.911.gov,"Filter,Redirect,Status Code"
 Department of Transportation,National Highway Traffic Safety Administration,safercar.gov,"Filter,Status Code"
 Department of Transportation,National Highway Traffic Safety Administration,safertruck.gov,"Filter,Status Code"
+Department of Transportation,National Highway Traffic Safety Administration,static.nhtsa.gov,Filter
 Department of Transportation,National Highway Traffic Safety Administration,stg-dredata.nhtsa.gov,Filter
 Department of Transportation,National Highway Traffic Safety Administration,stg-nstrc.nhtsa.gov,Filter
 Department of Transportation,National Highway Traffic Safety Administration,stnw.nhtsa.gov,"Filter,Status Code"
@@ -17147,7 +17160,7 @@ Department of Veterans Affairs,"Office of Information and Technology, IT Operati
 Department of Veterans Affairs,"Office of Information and Technology, IT Operations and Services (ITOPS)",csp.va.gov,Filter
 Department of Veterans Affairs,"Office of Information and Technology, IT Operations and Services (ITOPS)",dailyburialschedule.cem.va.gov,Filter
 Department of Veterans Affairs,"Office of Information and Technology, IT Operations and Services (ITOPS)",danville.va.gov,Filter
-Department of Veterans Affairs,"Office of Information and Technology, IT Operations and Services (ITOPS)",das-sqa.va.gov,Status Code
+Department of Veterans Affairs,"Office of Information and Technology, IT Operations and Services (ITOPS)",das-sqa.va.gov,"Filter,Status Code"
 Department of Veterans Affairs,"Office of Information and Technology, IT Operations and Services (ITOPS)",das-test.va.gov,Status Code
 Department of Veterans Affairs,"Office of Information and Technology, IT Operations and Services (ITOPS)",data.va.gov,Filter
 Department of Veterans Affairs,"Office of Information and Technology, IT Operations and Services (ITOPS)",dayton.va.gov,Filter
@@ -17247,7 +17260,7 @@ Department of Veterans Affairs,"Office of Information and Technology, IT Operati
 Department of Veterans Affairs,"Office of Information and Technology, IT Operations and Services (ITOPS)",losangeles.va.gov,Filter
 Department of Veterans Affairs,"Office of Information and Technology, IT Operations and Services (ITOPS)",louisville.va.gov,Filter
 Department of Veterans Affairs,"Office of Information and Technology, IT Operations and Services (ITOPS)",lovell.fhcc.va.gov,Filter
-Department of Veterans Affairs,"Office of Information and Technology, IT Operations and Services (ITOPS)",m.va.gov,"Filter,Redirect"
+Department of Veterans Affairs,"Office of Information and Technology, IT Operations and Services (ITOPS)",m.va.gov,Filter
 Department of Veterans Affairs,"Office of Information and Technology, IT Operations and Services (ITOPS)",madison.va.gov,Filter
 Department of Veterans Affairs,"Office of Information and Technology, IT Operations and Services (ITOPS)",maine.va.gov,Filter
 Department of Veterans Affairs,"Office of Information and Technology, IT Operations and Services (ITOPS)",manchester.va.gov,Filter
@@ -17626,7 +17639,7 @@ Department of Veterans Affairs,"Office of Information and Technology, IT Operati
 Department of Veterans Affairs,"Office of Information and Technology, IT Operations and Services (ITOPS)",section508.va.gov,"Filter,Redirect"
 Department of Veterans Affairs,"Office of Information and Technology, IT Operations and Services (ITOPS)",sep.va.gov,Filter
 Department of Veterans Affairs,"Office of Information and Technology, IT Operations and Services (ITOPS)",seps.va.gov,Filter
-Department of Veterans Affairs,"Office of Information and Technology, IT Operations and Services (ITOPS)",services.eauth.va.gov,Status Code
+Department of Veterans Affairs,"Office of Information and Technology, IT Operations and Services (ITOPS)",services.eauth.va.gov,"Filter,Status Code"
 Department of Veterans Affairs,"Office of Information and Technology, IT Operations and Services (ITOPS)",sheridan.va.gov,Filter
 Department of Veterans Affairs,"Office of Information and Technology, IT Operations and Services (ITOPS)",shopvcs.va.gov,"Filter,Redirect"
 Department of Veterans Affairs,"Office of Information and Technology, IT Operations and Services (ITOPS)",shreveport.va.gov,Filter
@@ -17843,7 +17856,7 @@ Department of the Interior,Bureau of Land Management,ocris.blm.gov,Filter
 Department of the Interior,Bureau of Land Management,opac.blm.gov,Filter
 Department of the Interior,Bureau of Land Management,oregontrail.blm.gov,Filter
 Department of the Interior,Bureau of Land Management,payp.blm.gov,Filter
-Department of the Interior,Bureau of Land Management,permits.blm.gov,Filter
+Department of the Interior,Bureau of Land Management,permits.blm.gov,"Filter,Status Code"
 Department of the Interior,Bureau of Land Management,permitstraining.blm.gov,"Filter,Status Code"
 Department of the Interior,Bureau of Land Management,phd.blm.gov,Filter
 Department of the Interior,Bureau of Land Management,publicroom.blm.gov,Filter
@@ -18943,6 +18956,7 @@ Department of the Interior,United States Geological Survey,sciencebase.usgs.gov,
 Department of the Interior,United States Geological Survey,sd.water.usgs.gov,"Filter,Redirect,Status Code"
 Department of the Interior,United States Geological Survey,sd.waterdata.usgs.gov,"Filter,Status Code"
 Department of the Interior,United States Geological Survey,sergeo.usgs.gov,Filter
+Department of the Interior,United States Geological Survey,services.isis.astrogeology.usgs.gov,Filter
 Department of the Interior,United States Geological Survey,sfbay.wr.usgs.gov,Filter
 Department of the Interior,United States Geological Survey,sfgeo.wr.usgs.gov,"Filter,Redirect,Status Code"
 Department of the Interior,United States Geological Survey,sflthredds.er.usgs.gov,Filter
@@ -19120,7 +19134,7 @@ Department of the Treasury,Bureau of the Fiscal Service,acc.treasurydirect.gov,F
 Department of the Treasury,Bureau of the Fiscal Service,api.usaspending.gov,Filter
 Department of the Treasury,Bureau of the Fiscal Service,asap.gov,"Filter,Redirect"
 Department of the Treasury,Bureau of the Fiscal Service,bfem.gov,Filter
-Department of the Treasury,Bureau of the Fiscal Service,bondpro.gov,"Filter,Redirect"
+Department of the Treasury,Bureau of the Fiscal Service,bondpro.gov,Filter
 Department of the Treasury,Bureau of the Fiscal Service,bp.eftps.gov,"Filter,Status Code"
 Department of the Treasury,Bureau of the Fiscal Service,broker-api.usaspending.gov,Filter
 Department of the Treasury,Bureau of the Fiscal Service,broker.usaspending.gov,Filter
@@ -19143,7 +19157,7 @@ Department of the Treasury,Bureau of the Fiscal Service,eaglecash.gov,"Filter,Re
 Department of the Treasury,Bureau of the Fiscal Service,eftps.gov,Filter
 Department of the Treasury,Bureau of the Fiscal Service,eroc.pkilogin1.its.gov,Filter
 Department of the Treasury,Bureau of the Fiscal Service,eta-find.gov,Filter
-Department of the Treasury,Bureau of the Fiscal Service,federalinvestments.gov,Filter
+Department of the Treasury,Bureau of the Fiscal Service,federalinvestments.gov,"Filter,Redirect"
 Department of the Treasury,Bureau of the Fiscal Service,fedinvest.gov,"Filter,Redirect"
 Department of the Treasury,Bureau of the Fiscal Service,files-broker-nonprod.usaspending.gov,"Filter,Status Code"
 Department of the Treasury,Bureau of the Fiscal Service,files-broker.usaspending.gov,"Filter,Status Code"
@@ -19246,7 +19260,7 @@ Department of the Treasury,Department of the Treasury - DO,disclosure.ofac.treas
 Department of the Treasury,Department of the Treasury - DO,donotpay.treas.gov,"Filter,Redirect"
 Department of the Treasury,Department of the Treasury - DO,irsoversightboard.treas.gov,"Filter,Redirect"
 Department of the Treasury,Department of the Treasury - DO,licensing.ofac.treas.gov,"Filter,Redirect"
-Department of the Treasury,Department of the Treasury - DO,licensinguat.ofac.treas.gov,"Filter,Status Code"
+Department of the Treasury,Department of the Treasury - DO,licensinguat.ofac.treas.gov,"Filter,Redirect"
 Department of the Treasury,Department of the Treasury - DO,mgmtaz-ssl.tnet.treas.gov,Filter
 Department of the Treasury,Department of the Treasury - DO,mgmtva-ssl.tnet.treas.gov,Filter
 Department of the Treasury,Department of the Treasury - DO,occ.treas.gov,Filter
@@ -19276,7 +19290,7 @@ Department of the Treasury,Department of the Treasury - DO,treas.gov,"Filter,Red
 Department of the Treasury,Department of the Treasury - DO,tripclaims.treas.gov,Filter
 Department of the Treasury,Department of the Treasury - DO,tripclaimsdemo.treas.gov,Filter
 Department of the Treasury,Department of the Treasury - DO,tsra.ofac.treas.gov,"Filter,Redirect"
-Department of the Treasury,Department of the Treasury - DO,tsrauat.ofac.treas.gov,"Filter,Status Code"
+Department of the Treasury,Department of the Treasury - DO,tsrauat.ofac.treas.gov,"Filter,Redirect"
 Department of the Treasury,Department of the Treasury - DO,wc.treas.gov,"Filter,Redirect"
 Department of the Treasury,Department of the Treasury - OCIO,acc.fiscal.treasury.gov,Filter
 Department of the Treasury,Department of the Treasury - OCIO,appointment.treasury.gov,Filter
@@ -19657,7 +19671,7 @@ Environmental Protection Agency,,cobra.epa.gov,Filter
 Environmental Protection Agency,,comptox.epa.gov,"Filter,Redirect"
 Environmental Protection Agency,,confluence.epa.gov,"Filter,Redirect"
 Environmental Protection Agency,,council.epa.gov,Filter
-Environmental Protection Agency,,cpard.epa.gov,"Filter,Redirect"
+Environmental Protection Agency,,cpard.epa.gov,Filter
 Environmental Protection Agency,,cpardpub.epa.gov,Filter
 Environmental Protection Agency,,cumulis.epa.gov,"Filter,Status Code"
 Environmental Protection Agency,,cumulus.epa.gov,Filter
@@ -19856,7 +19870,7 @@ Environmental Protection Agency,,rtp-piv-evdi.epa.gov,Filter
 Environmental Protection Agency,,sab.epa.gov,Filter
 Environmental Protection Agency,,scribenet.response.epa.gov,Filter
 Environmental Protection Agency,,sdwis.epa.gov,Filter
-Environmental Protection Agency,,seagull.epa.gov,"Filter,Redirect"
+Environmental Protection Agency,,seagull.epa.gov,Filter
 Environmental Protection Agency,,search.energystar.gov,"Filter,Status Code"
 Environmental Protection Agency,,search.epa.gov,Filter
 Environmental Protection Agency,,seatool.epa.gov,Filter
@@ -20083,8 +20097,8 @@ Export-Import Bank of the United States,,digitalarchives.exim.gov,Filter
 Export-Import Bank of the United States,,elms.exim.gov,Filter
 Export-Import Bank of the United States,,elmsdstest.exim.gov,Filter
 Export-Import Bank of the United States,,elmstest.exim.gov,Filter
-Export-Import Bank of the United States,,enterpriseregistration.bankhq.exim.gov,Status Code
-Export-Import Bank of the United States,,enterpriseregistration.exim.gov,Status Code
+Export-Import Bank of the United States,,enterpriseregistration.bankhq.exim.gov,"Filter,Status Code"
+Export-Import Bank of the United States,,enterpriseregistration.exim.gov,"Filter,Status Code"
 Export-Import Bank of the United States,,eoltest.exim.gov,Filter
 Export-Import Bank of the United States,,exim.gov,Filter
 Export-Import Bank of the United States,,eximonline.exim.gov,Filter
@@ -20095,7 +20109,7 @@ Export-Import Bank of the United States,,search.exim.gov,Filter
 Farm Credit Administration,,apps.fca.gov,"Filter,Redirect"
 Farm Credit Administration,,enterpriseenrollment.fca.gov,"Filter,Redirect"
 Farm Credit Administration,,fca.gov,Filter
-Farm Credit Administration,,mclvpn.fca.gov,Filter
+Farm Credit Administration,,mclvpn.fca.gov,"Filter,Status Code"
 Farm Credit Administration,,meeting.fca.gov,Filter
 Farm Credit Administration,,owa13.fca.gov,Filter
 Farm Credit Administration,,reports.fca.gov,Filter
@@ -20138,7 +20152,7 @@ Federal Communications Commission,,dcvdi.fcc.gov,Filter
 Federal Communications Commission,,dirs.fcc.gov,Filter
 Federal Communications Commission,,docs.fcc.gov,"Filter,Status Code"
 Federal Communications Commission,,ecfsapi-prototype.fcc.gov,Filter
-Federal Communications Commission,,ecfsapi.fcc.gov,Status Code
+Federal Communications Commission,,ecfsapi.fcc.gov,"Filter,Status Code"
 Federal Communications Commission,,enterpriseefiling.fcc.gov,Filter
 Federal Communications Commission,,esupport.fcc.gov,"Filter,Redirect"
 Federal Communications Commission,,fcc.gov,Filter
@@ -20191,7 +20205,7 @@ Federal Deposit Insurance Corporation,,crapes.fdic.gov,Filter
 Federal Deposit Insurance Corporation,,dpsx-d.fdic.gov,"Filter,Status Code"
 Federal Deposit Insurance Corporation,,edie-d.fdic.gov,Filter
 Federal Deposit Insurance Corporation,,edie-q.fdic.gov,"Filter,Status Code"
-Federal Deposit Insurance Corporation,,edie-s.fdic.gov,"Filter,Status Code"
+Federal Deposit Insurance Corporation,,edie-s.fdic.gov,Filter
 Federal Deposit Insurance Corporation,,edie.fdic.gov,Filter
 Federal Deposit Insurance Corporation,,efr-vas.fdic.gov,Filter
 Federal Deposit Insurance Corporation,,efr.fdic.gov,Filter
@@ -20285,6 +20299,7 @@ Federal Election Commission,,efilingapps.fec.gov,"Filter,Status Code"
 Federal Election Commission,,efoservices.fec.gov,Filter
 Federal Election Commission,,eqs.fec.gov,"Filter,Redirect"
 Federal Election Commission,,fec.gov,Filter
+Federal Election Commission,,fecload-update.fec.gov,Filter
 Federal Election Commission,,fecnotify.fec.gov,Filter
 Federal Election Commission,,rem03.fec.gov,Filter
 Federal Election Commission,,saos.fec.gov,"Filter,Redirect"
@@ -20346,14 +20361,14 @@ Federal Housing Finance Agency,,va056.fhfa.gov,Filter
 Federal Housing Finance Agency,,vavpn.fhfa.gov,"Filter,Status Code"
 Federal Housing Finance Agency,,work.fhfa.gov,"Filter,Redirect"
 Federal Labor Relations Authority,,efile.flra.gov,Filter
-Federal Labor Relations Authority,,enterpriseregistration.flra.gov,Status Code
+Federal Labor Relations Authority,,enterpriseregistration.flra.gov,"Filter,Status Code"
 Federal Labor Relations Authority,,flra.gov,Filter
 Federal Maritime Commission,,fmc.gov,Filter
 Federal Maritime Commission,,fmc2.fmc.gov,Filter
 Federal Maritime Commission,,servcon.fmc.gov,Filter
 Federal Maritime Commission,,stage.fmc.gov,Status Code
 Federal Maritime Commission,,www2.fmc.gov,Status Code
-Federal Mediation and Conciliation Service,,adr.gov,Status Code
+Federal Mediation and Conciliation Service,,adr.gov,"Filter,Status Code"
 Federal Mediation and Conciliation Service,,ccms.fmcs.gov,"Filter,Redirect"
 Federal Mediation and Conciliation Service,,fmcs.gov,Filter
 Federal Mediation and Conciliation Service,,search.adr.gov,Filter
@@ -20387,7 +20402,7 @@ Federal Trade Commission,,business.ftc.gov,"Filter,Status Code"
 Federal Trade Commission,,complaints.donotcall.gov,Filter
 Federal Trade Commission,,consumer.ftc.gov,"Filter,Status Code"
 Federal Trade Commission,,consumer.gov,"Filter,Status Code"
-Federal Trade Commission,,consumersentinel.gov,Filter
+Federal Trade Commission,,consumersentinel.gov,"Filter,Status Code"
 Federal Trade Commission,,consumidor.ftc.gov,"Filter,Status Code"
 Federal Trade Commission,,consumidor.gov,"Filter,Status Code"
 Federal Trade Commission,,dnchelp.donotcall.gov,"Filter,Status Code"
@@ -20419,6 +20434,7 @@ Federal Trade Commission,,sites.robocall.ftc.gov,Filter
 Federal Trade Commission,,subscribe.ftc.gov,Filter
 Federal Trade Commission,,takeitdown.ftc.gov,Filter
 Federal Trade Commission,,telemarketing.donotcall.gov,Filter
+Federal Trade Commission,,video.ftc.gov,Filter
 General Services Administration,,benefits.gov,"Filter,Redirect"
 General Services Administration,,cdo.gov,"Filter,Redirect"
 General Services Administration,,fcsm.gov,"Filter,Redirect"
@@ -20554,6 +20570,7 @@ General Services Administration,Federal Acquisition Service,cpars.gov,Filter
 General Services Administration,Federal Acquisition Service,crime-data-explorer-beta.fr.cloud.gov,"Filter,Status Code"
 General Services Administration,Federal Acquisition Service,crime-data-explorer-noe.fr.cloud.gov,"Filter,Status Code"
 General Services Administration,Federal Acquisition Service,crime-data-explorer.fr.cloud.gov,"Filter,Status Code"
+General Services Administration,Federal Acquisition Service,dap.digitalgov.gov,Filter
 General Services Administration,Federal Acquisition Service,dashboard.int.identitysandbox.gov,"Filter,Redirect"
 General Services Administration,Federal Acquisition Service,dashboard.ursula.identitysandbox.gov,"Filter,Redirect"
 General Services Administration,Federal Acquisition Service,data.gov,Filter
@@ -20737,7 +20754,6 @@ General Services Administration,Federal Acquisition Service,idp.mdl.identitysand
 General Services Administration,Federal Acquisition Service,idp.mrrtesting.identitysandbox.gov,Status Code
 General Services Administration,Federal Acquisition Service,idp.solipet.identitysandbox.gov,Status Code
 General Services Administration,Federal Acquisition Service,idp.tspencer.identitysandbox.gov,Status Code
-General Services Administration,Federal Acquisition Service,idp.vcholkar.identitysandbox.gov,Status Code
 General Services Administration,Federal Acquisition Service,info.gov,Filter
 General Services Administration,Federal Acquisition Service,innovation-toolkit-prototype.18f.gov,Filter
 General Services Administration,Federal Acquisition Service,innovation.gov,Filter
@@ -21243,10 +21259,10 @@ Inter-American Foundation,,testgrants.iaf.gov,Filter
 International Trade Commission,,certauth.sts.usitc.gov,Filter
 International Trade Commission,,dataweb.usitc.gov,Filter
 International Trade Commission,,dropbox.usitc.gov,"Filter,Redirect,Status Code"
-International Trade Commission,,edis.usitc.gov,Filter
-International Trade Commission,,enterpriseregistration.usitc.gov,Status Code
+International Trade Commission,,edis.usitc.gov,"Filter,Status Code"
+International Trade Commission,,enterpriseregistration.usitc.gov,"Filter,Status Code"
 International Trade Commission,,hqvpn.usitc.gov,Filter
-International Trade Commission,,hts.usitc.gov,Filter
+International Trade Commission,,hts.usitc.gov,"Filter,Status Code"
 International Trade Commission,,ids.usitc.gov,Filter
 International Trade Commission,,itcvpn.usitc.gov,Filter
 International Trade Commission,,mtbps.usitc.gov,"Filter,Redirect"
@@ -21376,7 +21392,7 @@ National Aeronautics and Space Administration,NASA Office of the Chief Informati
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,api.gesdisc.uat.earthdata.nasa.gov,Status Code
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,api.ghrc.earthdata.nasa.gov,"Filter,Status Code"
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,api.ghrc.uat.earthdata.nasa.gov,Status Code
-National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,api.giovanni.earthdata.nasa.gov,Status Code
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,api.giovanni.earthdata.nasa.gov,"Filter,Status Code"
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,api.giovanni.uat.earthdata.nasa.gov,Status Code
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,api.laadsdaac.earthdatacloud.nasa.gov,"Filter,Status Code"
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,api.laadsdaac.sit.earthdatacloud.nasa.gov,Status Code
@@ -21390,7 +21406,7 @@ National Aeronautics and Space Administration,NASA Office of the Chief Informati
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,api.nsidc.uat.earthdatacloud.nasa.gov,Status Code
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,api.ornldaac.earthdata.nasa.gov,"Filter,Status Code"
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,api.ornldaac.uat.earthdata.nasa.gov,Status Code
-National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,api.prosams.nasa.gov,Status Code
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,api.prosams.nasa.gov,"Filter,Status Code"
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,api.search.sit.earthdatacloud.nasa.gov,Status Code
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,api.uat.lpdaac.earthdata.nasa.gov,Status Code
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,api.urs.eosdis.nasa.gov,Filter
@@ -21401,7 +21417,7 @@ National Aeronautics and Space Administration,NASA Office of the Chief Informati
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,appeears.sdbx-2.earthdatacloud.nasa.gov,"Filter,Status Code"
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,appeears.sdbx-3.earthdatacloud.nasa.gov,"Filter,Status Code"
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,appeears.uat.earthdatacloud.nasa.gov,Status Code
-National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,apps.test.nasa.gov,Redirect
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,apps.test.nasa.gov,Status Code
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,aqua.gsfc.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,arcgis.asdc.larc.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,archive.podaac.earthdata.nasa.gov,Filter
@@ -21472,7 +21488,7 @@ National Aeronautics and Space Administration,NASA Office of the Chief Informati
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,bugs.uat.earthdata.nasa.gov,Redirect
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,builds.worldwind.arc.nasa.gov,"Filter,Redirect"
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,c-ras.cdscc.nasa.gov,"Filter,Status Code"
-National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,c3.nasa.gov,"Filter,Redirect"
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,c3.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,cad4nasa.gsfc.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,caib1.nasa.gov,"Filter,Redirect"
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,cain.larc.nasa.gov,Filter
@@ -21494,7 +21510,7 @@ National Aeronautics and Space Administration,NASA Office of the Chief Informati
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,cddis.gsfc.nasa.gov,"Filter,Redirect"
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,cds-cv.nccs.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,cds.gsfc.nasa.gov,"Filter,Redirect"
-National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,cds.nccs.nasa.gov,Filter
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,cds.nccs.nasa.gov,"Filter,Redirect,Status Code"
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,cdsweb.gsfc.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,ceh.nasa.gov,"Filter,Redirect,Status Code"
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,center.arc.nasa.gov,"Filter,Redirect"
@@ -21636,7 +21652,7 @@ National Aeronautics and Space Administration,NASA Office of the Chief Informati
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,data.ornldaac.uat.earthdata.nasa.gov,Status Code
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,data.worldwind.arc.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,dataserver.nccs.nasa.gov,Filter
-National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,dataserver3.nccs.nasa.gov,Filter
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,dataserver3.nccs.nasa.gov,"Filter,Redirect"
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,dawn.jpl.nasa.gov,"Filter,Redirect"
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,dbmeeting.sci.gsfc.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,dcms-ws.nasa.gov,Filter
@@ -21809,7 +21825,7 @@ National Aeronautics and Space Administration,NASA Office of the Chief Informati
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,fs-sewp-avi-lb-pz.sewp.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,ftools.gsfc.nasa.gov,"Filter,Redirect"
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,ftpbrowser.gsfc.nasa.gov,Redirect
-National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,fts.podaac.earthdata.nasa.gov,Status Code
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,fts.podaac.earthdata.nasa.gov,"Filter,Status Code"
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,fts.podaac.sit.earthdata.nasa.gov,Status Code
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,fts.podaac.uat.earthdata.nasa.gov,Status Code
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,fusionftp.gsfc.nasa.gov,Filter
@@ -21823,7 +21839,7 @@ National Aeronautics and Space Administration,NASA Office of the Chief Informati
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,gammaray.msfc.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,gcc.satcorps.smce.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,gcd.larc.nasa.gov,"Filter,Redirect"
-National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,gcdc.gsfc.nasa.gov,Filter
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,gcdc.gsfc.nasa.gov,"Filter,Redirect"
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,gcmd.gcmd.eosdis.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,gcmdidn.gcmd.eosdis.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,gcmdidn.gsfc.nasa.gov,Filter
@@ -21844,6 +21860,10 @@ National Aeronautics and Space Administration,NASA Office of the Chief Informati
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,ghrc.nsstc.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,ghrc.uat.earthdata.nasa.gov,Status Code
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,ghrsst.jpl.nasa.gov,Filter
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,gibs-a.earthdata.nasa.gov,Filter
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,gibs-b.earthdata.nasa.gov,Filter
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,gibs-c.earthdata.nasa.gov,Filter
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,gibs.earthdata.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,gimms.gsfc.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,giovanni.earthdata.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,gipsy-oasis.jpl.nasa.gov,Filter
@@ -21857,6 +21877,10 @@ National Aeronautics and Space Administration,NASA Office of the Chief Informati
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,gisx.ndc.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,git.earthdata.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,git.smce.nasa.gov,Filter
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,gitc-a.earthdata.nasa.gov,Filter
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,gitc-b.earthdata.nasa.gov,Filter
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,gitc-c.earthdata.nasa.gov,Filter
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,gitc.earthdata.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,gitlab-system-hooks.shared-services.staging.appdat.jsc.nasa.gov,Status Code
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,gitlab.modaps.eosdis.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,gitlab.smce.nasa.gov,Filter
@@ -21936,7 +21960,7 @@ National Aeronautics and Space Administration,NASA Office of the Chief Informati
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,gs6133avdc1.gsfc.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,gs614-avdc1-pz.gsfc.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,gs614-avdc1.gsfc.nasa.gov,Filter
-National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,gs614-hyperion-pz.gsfc.nasa.gov,"Filter,Redirect"
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,gs614-hyperion-pz.gsfc.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,gs615-icesat-pz.gsfc.nasa.gov,"Filter,Status Code"
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,gs615-icesat2scf-pz.gsfc.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,gs6151-isfops3.gsfc.nasa.gov,Filter
@@ -21946,7 +21970,7 @@ National Aeronautics and Space Administration,NASA Office of the Chief Informati
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,gs66-vdclambda.ndc.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,gs671-sdo5.nascom.nasa.gov,"Filter,Redirect"
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,gs671-sdo8.nascom.nasa.gov,"Filter,Redirect"
-National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,gs671-stereodata.nascom.nasa.gov,Filter
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,gs671-stereodata.nascom.nasa.gov,"Filter,Redirect"
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,gs671-umbra.nascom.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,gs671-vso.nascom.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,gs671-vso1.nascom.nasa.gov,Filter
@@ -21981,7 +22005,7 @@ National Aeronautics and Space Administration,NASA Office of the Chief Informati
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,hcmsuag06.hosc.msfc.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,healpix.jpl.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,hefd.nasa.gov,"Filter,Redirect"
-National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,heliophysics.gsfc.nasa.gov,"Filter,Redirect"
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,heliophysics.gsfc.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,helm.gsfc.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,hera.gsfc.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,herschel.jpl.nasa.gov,Filter
@@ -22037,6 +22061,7 @@ National Aeronautics and Space Administration,NASA Office of the Chief Informati
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,icp.giss.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,id.nasa.gov,"Filter,Redirect"
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,id.support.nasa.gov,"Filter,Redirect"
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,id.test.nasa.gov,Status Code
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,idc.nasa.gov,"Filter,Redirect"
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,idfs.earthdatacloud.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,idfs.sit.earthdatacloud.nasa.gov,Status Code
@@ -22045,7 +22070,7 @@ National Aeronautics and Space Administration,NASA Office of the Chief Informati
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,ilrs.cddis.eosdis.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,imagecache.jpl.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,images-admin.nasa.gov,"Filter,Redirect"
-National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,images-assets.nasa.gov,Status Code
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,images-assets.nasa.gov,"Filter,Status Code"
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,images.ksc.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,images.prosams.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,imagescience.jsc.nasa.gov,Filter
@@ -22207,14 +22232,14 @@ National Aeronautics and Space Administration,NASA Office of the Chief Informati
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,mail02.ndc.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,management-dashboard.staging.aetc.appdat.jsc.nasa.gov,Status Code
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,map.nasa.gov,Filter
-National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,map1.vis.earthdata.nasa.gov,Redirect
-National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,map1a.vis.earthdata.nasa.gov,Redirect
-National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,map1b.vis.earthdata.nasa.gov,Redirect
-National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,map1c.vis.earthdata.nasa.gov,Redirect
-National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,map2.vis.earthdata.nasa.gov,Redirect
-National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,map2a.vis.earthdata.nasa.gov,Redirect
-National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,map2b.vis.earthdata.nasa.gov,Redirect
-National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,map2c.vis.earthdata.nasa.gov,Redirect
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,map1.vis.earthdata.nasa.gov,"Filter,Redirect"
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,map1a.vis.earthdata.nasa.gov,"Filter,Redirect"
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,map1b.vis.earthdata.nasa.gov,"Filter,Redirect"
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,map1c.vis.earthdata.nasa.gov,"Filter,Redirect"
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,map2.vis.earthdata.nasa.gov,"Filter,Redirect"
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,map2a.vis.earthdata.nasa.gov,"Filter,Redirect"
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,map2b.vis.earthdata.nasa.gov,"Filter,Redirect"
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,map2c.vis.earthdata.nasa.gov,"Filter,Redirect"
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,maps.jpl.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,maptis.ndc.nasa.gov,"Filter,Redirect"
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,mars.jpl.nasa.gov,"Filter,Redirect"
@@ -22578,7 +22603,7 @@ National Aeronautics and Space Administration,NASA Office of the Chief Informati
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,s6validate.podaac.uat.earthdata.nasa.gov,Status Code
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,sa.oighelp.hq.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,sage.larc.nasa.gov,"Filter,Redirect"
-National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,saint.nasa.gov,"Filter,Status Code"
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,saint.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,sandbox-backend.ngap.uat.earthdata.nasa.gov,Status Code
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,sandbox-dist.ngap.uat.earthdata.nasa.gov,Status Code
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,sandbox.science.gsfc.nasa.gov,Status Code
@@ -22610,8 +22635,8 @@ National Aeronautics and Space Administration,NASA Office of the Chief Informati
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,sdmc.jpl.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,sdo5.nascom.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,sdo6.nascom.nasa.gov,Filter
-National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,sdo7.nascom.nasa.gov,Filter
-National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,sdo8.nascom.nasa.gov,Filter
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,sdo7.nascom.nasa.gov,"Filter,Redirect"
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,sdo8.nascom.nasa.gov,"Filter,Redirect"
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,seal.nascom.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,sealevel.earthdata.nasa.gov,"Filter,Redirect"
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,sealevel.sit.earthdata.nasa.gov,Redirect
@@ -22620,7 +22645,7 @@ National Aeronautics and Space Administration,NASA Office of the Chief Informati
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,search.nasa.gov,"Filter,Redirect"
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,search.sit.earthdata.nasa.gov,Status Code
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,search.staging.shared-services.appdat.jsc.nasa.gov,Status Code
-National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,searchprodapi-1167262027.auto.earthdatacloud.nasa.gov,Status Code
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,searchprodapi-1167262027.auto.earthdatacloud.nasa.gov,"Filter,Status Code"
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,secopcogtest.dev.cloud.earthdata.nasa.gov,Status Code
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,section508.nasa.gov,"Filter,Redirect"
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,securefs.nssc.nasa.gov,Filter
@@ -22639,8 +22664,8 @@ National Aeronautics and Space Administration,NASA Office of the Chief Informati
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,services.podaac.earthdata.nasa.gov,"Filter,Status Code"
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,ses.gsfc.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,sesi.gsfc.nasa.gov,Filter
-National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,sewp-avi-lb-pz.sewp.nasa.gov,"Filter,Status Code"
-National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,sewp1-1-pz.sewp.nasa.gov,"Filter,Status Code"
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,sewp-avi-lb-pz.sewp.nasa.gov,Filter
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,sewp1-1-pz.sewp.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,sewp1-2-pz.sewp.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,sfa.ird.appdat.jsc.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,sfa.nasa.gov,"Filter,Redirect"
@@ -22676,6 +22701,7 @@ National Aeronautics and Space Administration,NASA Office of the Chief Informati
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,slsvvpub1sp.hosc.msfc.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,slsvvpub2.hosc.msfc.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,smap.nasa.gov,Filter
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,smap.test.nasa.gov,Status Code
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,smap4all.jpl.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,smartlabs.gsfc.nasa.gov,"Filter,Redirect"
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,smartskies.nasa.gov,"Filter,Redirect"
@@ -22720,7 +22746,7 @@ National Aeronautics and Space Administration,NASA Office of the Chief Informati
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,spidernaut.jsc.nasa.gov,"Filter,Redirect"
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,spl.gsfc.nasa.gov,"Filter,Redirect"
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,spl.gsfc.nasa.gov@gpl.gsfc.nasa.gov,"Filter,Redirect"
-National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,spo.gsfc.nasa.gov,"Filter,Redirect"
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,spo.gsfc.nasa.gov,"Filter,Status Code"
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,sports.larc.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,spotthestation-preprod.hqmce.nasa.gov,Status Code
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,spotthestation.nasa.gov,"Filter,Redirect"
@@ -22751,7 +22777,7 @@ National Aeronautics and Space Administration,NASA Office of the Chief Informati
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,stereo-lit.nascom.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,stereo.nascom.nasa.gov,"Filter,Redirect"
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,stereodata.nascom.nasa.gov,"Filter,Redirect"
-National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,stereoftp.nascom.nasa.gov,Filter
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,stereoftp.nascom.nasa.gov,"Filter,Redirect"
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,stmd.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,strategicplan.jsc.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,studentprograms.jpl.nasa.gov,"Filter,Redirect,Status Code"
@@ -22760,7 +22786,7 @@ National Aeronautics and Space Administration,NASA Office of the Chief Informati
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,superzoom.gsfc.nasa.gov,"Filter,Redirect,Status Code"
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,supplychain.gsfc.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,support.earthdata.nasa.gov,"Filter,Status Code"
-National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,support.sewp.nasa.gov,"Filter,Redirect"
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,support.sewp.nasa.gov,"Filter,Status Code"
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,support.sit.earthdata.nasa.gov,Status Code
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,survey.ndc.nasa.gov,"Filter,Redirect"
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,svcp.jpl.nasa.gov,"Filter,Status Code"
@@ -22909,6 +22935,7 @@ National Aeronautics and Space Administration,NASA Office of the Chief Informati
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,worldwind47.arc.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,wrm.jpl.nasa.gov,Filter
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,www-691.gsfc.nasa.gov,Redirect
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,www-avi-lb-pz.sewp.nasa.gov,Status Code
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,www-istp.gsfc.nasa.gov,Redirect
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,www-misr.jpl.nasa.gov,Redirect
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,www-staging.nasa.gov,Redirect
@@ -22931,7 +22958,7 @@ National Aeronautics and Space Administration,NASA Science Data Systems Branch,d
 National Aeronautics and Space Administration,NASA Science Data Systems Branch,datasearchstaging.globe.gov,Filter
 National Aeronautics and Space Administration,NASA Science Data Systems Branch,datasearchstagingnew.globe.gov,Filter
 National Aeronautics and Space Administration,NASA Science Data Systems Branch,dev72.globe.gov,Filter
-National Aeronautics and Space Administration,NASA Science Data Systems Branch,devnew2.globe.gov,Filter
+National Aeronautics and Space Administration,NASA Science Data Systems Branch,devnew2.globe.gov,"Filter,Redirect"
 National Aeronautics and Space Administration,NASA Science Data Systems Branch,observerdev.globe.gov,"Filter,Status Code"
 National Aeronautics and Space Administration,NASA Science Data Systems Branch,observerstaging.globe.gov,Filter
 National Aeronautics and Space Administration,NASA Science Data Systems Branch,observerstagingnew.globe.gov,Filter
@@ -23249,10 +23276,10 @@ National Transportation Safety Board,,my.ntsb.gov,Filter
 National Transportation Safety Board,,ntsb.gov,Filter
 National Transportation Safety Board,,support.ntsb.gov,Filter
 Northern Border Regional Commission,,nbrc.gov,Filter
-Nuclear Regulatory Commission,,adams-api.nrc.gov,Status Code
+Nuclear Regulatory Commission,,adams-api.nrc.gov,"Filter,Status Code"
 Nuclear Regulatory Commission,,adams.nrc.gov,"Filter,Status Code"
 Nuclear Regulatory Commission,,adamspublic.nrc.gov,"Filter,Status Code"
-Nuclear Regulatory Commission,,adamswebsearch2.nrc.gov,"Redirect,Status Code"
+Nuclear Regulatory Commission,,adamswebsearch2.nrc.gov,"Filter,Redirect,Status Code"
 Nuclear Regulatory Commission,,autodiscover.nrc.gov,Status Code
 Nuclear Regulatory Commission,,drmpmm.nrc.gov,"Filter,Status Code"
 Nuclear Regulatory Commission,,ebilling.nrc-gateway.gov,Filter
@@ -24065,7 +24092,7 @@ Securities and Exchange Commission,,edgarfiling-bravo.edgarfiling.sec.gov,Filter
 Securities and Exchange Commission,,edgarfiling.sec.gov,Filter
 Securities and Exchange Commission,,efap.sec.gov,Filter
 Securities and Exchange Commission,,efoia-pal.sec.gov,"Filter,Redirect"
-Securities and Exchange Commission,,enterpriseregistration.sec.gov,Status Code
+Securities and Exchange Commission,,enterpriseregistration.sec.gov,"Filter,Status Code"
 Securities and Exchange Commission,,filermanagement.edgarfiling.sec.gov,Filter
 Securities and Exchange Commission,,files.adviserinfo.sec.gov,Redirect
 Securities and Exchange Commission,,go.sec.gov,Filter
@@ -24075,7 +24102,7 @@ Securities and Exchange Commission,,onlineforms-bravo.edgarfiling.sec.gov,Filter
 Securities and Exchange Commission,,onlineforms.edgarfiling.sec.gov,Filter
 Securities and Exchange Commission,,penny.edgarcompany.sec.gov,"Filter,Redirect,Status Code"
 Securities and Exchange Commission,,portal.edgarfiling.sec.gov,Filter
-Securities and Exchange Commission,,reports.adviserinfo.sec.gov,Status Code
+Securities and Exchange Commission,,reports.adviserinfo.sec.gov,"Filter,Status Code"
 Securities and Exchange Commission,,rule19d1.sec.gov,Filter
 Securities and Exchange Commission,,rule19d1stg.sec.gov,"Filter,Redirect,Status Code"
 Securities and Exchange Commission,,sec.gov,"Filter,Status Code"
@@ -24150,7 +24177,6 @@ Small Business Administration,,sbir.gov,Filter
 Small Business Administration,,search.certifications.sba.gov,Filter
 Small Business Administration,,sft.sba.gov,Filter
 Small Business Administration,,staging.sba.gov,Status Code
-Small Business Administration,,stg.certify.sba.gov,Status Code
 Small Business Administration,,svograntportal.sba.gov,Filter
 Small Business Administration,,ulp.alpha1.lending.sba.gov,Filter
 Small Business Administration,,ulp.omega.lending.sba.gov,Filter
@@ -24165,13 +24191,13 @@ Social Security Administration,,blog.ssa.gov,"Filter,Redirect"
 Social Security Administration,,choosework.ssa.gov,Filter
 Social Security Administration,,edata.ssa.gov,"Filter,Redirect"
 Social Security Administration,,eme.ssa.gov,"Filter,Redirect"
-Social Security Administration,,etews.ssa.gov,Status Code
+Social Security Administration,,etews.ssa.gov,"Filter,Status Code"
 Social Security Administration,,faq-es.ssa.gov,"Filter,Redirect"
 Social Security Administration,,faq.ssa.gov,"Filter,Redirect"
 Social Security Administration,,foia.ssa.gov,Filter
 Social Security Administration,,hspd12.ssa.gov,"Filter,Redirect,Status Code"
 Social Security Administration,,inform.ba.ssa.gov,Filter
-Social Security Administration,,intws.ssa.gov,Status Code
+Social Security Administration,,intws.ssa.gov,"Filter,Status Code"
 Social Security Administration,,links.ssa.gov,"Filter,Status Code"
 Social Security Administration,,myaccount.socialsecurity.gov,"Filter,Redirect"
 Social Security Administration,,myaccount.ssa.gov,"Filter,Redirect"
@@ -24194,10 +24220,10 @@ Social Security Administration,,socialsecurity.gov,"Filter,Redirect"
 Social Security Administration,,ssa.gov,Filter
 Social Security Administration,,ssavpn.ssa.gov,Filter
 Social Security Administration,,status.ssa.gov,Filter
-Social Security Administration,,valapi.ssa.gov,Status Code
-Social Security Administration,,valws.ssa.gov,Status Code
-Social Security Administration,,ws.ssa.gov,Status Code
-Social Security Administration,,ws2.ssa.gov,Status Code
+Social Security Administration,,valapi.ssa.gov,"Filter,Status Code"
+Social Security Administration,,valws.ssa.gov,"Filter,Status Code"
+Social Security Administration,,ws.ssa.gov,"Filter,Status Code"
+Social Security Administration,,ws2.ssa.gov,"Filter,Status Code"
 Social Security Administration,,wwwtest.ssa.gov,Redirect
 Social Security Administration,,yourtickettowork.ssa.gov,Filter
 Social Security Advisory Board,,ssab.gov,Filter
@@ -24323,6 +24349,7 @@ Tennessee Valley Authority,,todaya.tva.gov,"Filter,Redirect"
 Tennessee Valley Authority,,training.tva.gov,"Filter,Redirect"
 Tennessee Valley Authority,,tva.gov,"Filter,Redirect,Status Code"
 Tennessee Valley Authority,,tvaoig.gov,Filter
+Tennessee Valley Authority,,tvaoigmfst1.tvaoig.gov,Filter
 Tennessee Valley Authority,,tvaoigvcse.tvaoig.gov,Filter
 Tennessee Valley Authority,,tvaregulatory.tva.gov,Filter
 Tennessee Valley Authority,,uaaa.tva.gov,Filter
@@ -24423,7 +24450,7 @@ United States Postal Service,,dbservicessm.usps.gov,"Filter,Status Code"
 United States Postal Service,,eaganras.usps.gov,Filter
 United States Postal Service,,ehome.uspis.gov,"Filter,Status Code"
 United States Postal Service,,elra-ext.usps.gov,Filter
-United States Postal Service,,enterpriseregistration.uspsoig.gov,Status Code
+United States Postal Service,,enterpriseregistration.uspsoig.gov,"Filter,Status Code"
 United States Postal Service,,eopf.usps.gov,"Filter,Redirect"
 United States Postal Service,,epf-cat.usps.gov,Filter
 United States Postal Service,,epf.usps.gov,Filter
