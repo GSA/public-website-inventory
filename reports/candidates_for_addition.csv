@@ -191,7 +191,6 @@ Department of Commerce,National Oceanic and Atmospheric Administration,content.b
 Department of Commerce,National Oceanic and Atmospheric Administration,creek.atdd.noaa.gov
 Department of Commerce,National Oceanic and Atmospheric Administration,data.aev.class.noaa.gov
 Department of Commerce,National Oceanic and Atmospheric Administration,data.class.noaa.gov
-Department of Commerce,National Oceanic and Atmospheric Administration,data.ngdc.noaa.gov
 Department of Commerce,National Oceanic and Atmospheric Administration,devgis.charttools.noaa.gov
 Department of Commerce,National Oceanic and Atmospheric Administration,esi.orr.noaa.gov
 Department of Commerce,National Oceanic and Atmospheric Administration,esrl-intranet.boulder.noaa.gov
@@ -769,7 +768,6 @@ Department of Energy,Pacific Northwest National Laboratory,socrates.pnnl.gov
 Department of Energy,Pacific Northwest National Laboratory,transmission-library.pnnl.gov
 Department of Energy,Pacific Northwest National Laboratory,windvalt.pnnl.gov
 Department of Energy,Portsmouth/Paducah Project Office,eic.ports.pppo.gov
-Department of Energy,Sandia National Laboratories,anywhere.sandia.gov
 Department of Energy,Sandia National Laboratories,autonomy.sandia.gov
 Department of Energy,Sandia National Laboratories,casa.sandia.gov
 Department of Energy,Sandia National Laboratories,crf.sandia.gov
@@ -782,10 +780,10 @@ Department of Energy,Sandia National Laboratories,energy.sandia.gov
 Department of Energy,Sandia National Laboratories,gadras.sandia.gov
 Department of Energy,Sandia National Laboratories,hpc.sandia.gov
 Department of Energy,Sandia National Laboratories,hr.sandia.gov
+Department of Energy,Sandia National Laboratories,jastoolbox.sandia.gov
 Department of Energy,Sandia National Laboratories,ktf.sandia.gov
 Department of Energy,Sandia National Laboratories,ldesconsortium.sandia.gov
 Department of Energy,Sandia National Laboratories,lsimaging.sandia.gov
-Department of Energy,Sandia National Laboratories,maccs.sandia.gov
 Department of Energy,Sandia National Laboratories,modsimtoolsdownloads.sandia.gov
 Department of Energy,Sandia National Laboratories,mykonos.sandia.gov
 Department of Energy,Sandia National Laboratories,newsreleases.sandia.gov
@@ -804,8 +802,9 @@ Department of Energy,Sandia National Laboratories,snlweather.sandia.gov
 Department of Energy,Sandia National Laboratories,suns.sandia.gov
 Department of Energy,Sandia National Laboratories,thunderbirdhacks.sandia.gov
 Department of Energy,Sandia National Laboratories,tracktable.sandia.gov
+Department of Energy,Sandia National Laboratories,umbra.sandia.gov
 Department of Energy,Sandia National Laboratories,voroclust.sandia.gov
-Department of Energy,Sandia National Laboratories,xyce.sandia.gov
+Department of Energy,Sandia National Laboratories,vorocrust.sandia.gov
 Department of Energy,Savannah River National Lab,srnl.gov
 Department of Energy,Savannah River Nuclear Solutions (SRNS),public.srs.gov
 Department of Energy,Western Area Power Administration,wapa.gov
@@ -1096,6 +1095,7 @@ Department of Health and Human Services,"National Cancer Institute, NIH",scatlas
 Department of Health and Human Services,"National Cancer Institute, NIH",sclccelllines.cancer.gov
 Department of Health and Human Services,"National Cancer Institute, NIH",seer.cancer.gov
 Department of Health and Human Services,"National Cancer Institute, NIH",shared.semantics.cancer.gov
+Department of Health and Human Services,"National Cancer Institute, NIH",smokefree.gov
 Department of Health and Human Services,"National Cancer Institute, NIH",specimens.cancer.gov
 Department of Health and Human Services,"National Cancer Institute, NIH",spitr.ccr.cancer.gov
 Department of Health and Human Services,"National Cancer Institute, NIH",statecancerprofiles.cancer.gov
@@ -1234,6 +1234,7 @@ Department of Health and Human Services,National Institutes of Health,id.nlm.nih
 Department of Health and Human Services,National Institutes of Health,id.wip.nlm.nih.gov
 Department of Health and Human Services,National Institutes of Health,ids.nhlbi.nih.gov
 Department of Health and Human Services,National Institutes of Health,imagej.nih.gov
+Department of Health and Human Services,National Institutes of Health,imagic.nlm.nih.gov
 Department of Health and Human Services,National Institutes of Health,imagwiki.nibib.nih.gov
 Department of Health and Human Services,National Institutes of Health,immport.niaid.nih.gov
 Department of Health and Human Services,National Institutes of Health,indexcat.nlm.nih.gov
@@ -1484,7 +1485,6 @@ Department of Justice,,join.justice.gov
 Department of Justice,,justice.gov
 Department of Justice,,oig.justice.gov
 Department of Justice,"Bureau of Alcohol, Tobacco, Firearms, and Explosives",learnatf.gov
-Department of Justice,"Bureau of Alcohol, Tobacco, Firearms, and Explosives",regulations.atf.gov
 Department of Justice,Civil Rights Division,ada.gov
 Department of Justice,Civil Rights Division,archive.ada.gov
 Department of Justice,"Department of Justice, National Institute of Corrections",beta.nicic.gov
@@ -1728,7 +1728,6 @@ Department of Labor,Employment and Training Administration,brunswick.jobcorps.go
 Department of Labor,Employment and Training Administration,centennial.jobcorps.gov
 Department of Labor,Employment and Training Administration,cleveland.jobcorps.gov
 Department of Labor,Employment and Training Administration,columbiabasin.jobcorps.gov
-Department of Labor,Employment and Training Administration,curlew.jobcorps.gov
 Department of Labor,Employment and Training Administration,dayton.jobcorps.gov
 Department of Labor,Employment and Training Administration,earlecclements.jobcorps.gov
 Department of Labor,Employment and Training Administration,exeter.jobcorps.gov
@@ -2146,7 +2145,6 @@ Department of the Interior,United States Geological Survey,beta.sciencebase.gov
 Department of the Interior,United States Geological Survey,cmgds.er.usgs.gov
 Department of the Interior,United States Geological Survey,cmgds.marine.usgs.gov
 Department of the Interior,United States Geological Survey,cotuit.er.usgs.gov
-Department of the Interior,United States Geological Survey,cvo-valve.wr.usgs.gov
 Department of the Interior,United States Geological Survey,dashboard.waterdata.usgs.gov
 Department of the Interior,United States Geological Survey,data.usgs.gov
 Department of the Interior,United States Geological Survey,e4ftl01.cr.usgs.gov
@@ -2157,7 +2155,6 @@ Department of the Interior,United States Geological Survey,fdp.astrogeology.usgs
 Department of the Interior,United States Geological Survey,geo-nsdi.er.usgs.gov
 Department of the Interior,United States Geological Survey,gis-beta.usgs.gov
 Department of the Interior,United States Geological Survey,gis.usgs.gov
-Department of the Interior,United States Geological Survey,gis1.usgs.gov
 Department of the Interior,United States Geological Survey,glovis-cloud.usgs.gov
 Department of the Interior,United States Geological Survey,isis.astrogeology.usgs.gov
 Department of the Interior,United States Geological Survey,labs.waterdata.usgs.gov
@@ -2550,7 +2547,6 @@ General Services Administration,Office of GSA IT,train2.rocis.gov
 General Services Administration,Office of GSA IT,training.reginfo.gov
 General Services Administration,Office of GSA IT,training.rocis.gov
 General Services Administration,Office of GSA IT,training.smartpay.gsa.gov
-General Services Administration,Office of GSA IT,travel.reporting.gov
 General Services Administration,Office of GSA IT,tscportal.fas.gsa.gov
 General Services Administration,Office of GSA IT,tts.gsa.gov
 General Services Administration,Office of GSA IT,usdaadvantage.gsa.gov
@@ -2594,7 +2590,6 @@ National Aeronautics and Space Administration,NASA Office of the Chief Informati
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,gipsy-oasis.jpl.nasa.gov
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,git.earthdata.nasa.gov
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,gs618-glam1.gsfc.nasa.gov
-National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,gs618-glihtl1.ndc.nasa.gov
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,gs66-vdclambda.ndc.nasa.gov
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,gs671-umbra.nascom.nasa.gov
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,gs674-ccmcftp.ccmc.gsfc.nasa.gov
