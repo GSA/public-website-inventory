@@ -94,6 +94,7 @@ agency,bureau,initial_domain
 ,,wiesbaden.armymwr.com
 ,,yuma.armymwr.com
 ,,zama.armymwr.com
+,,zh-store.usps.com
 ,,zh.usps.com
 Access Board,,beta.access-board.gov
 Access Board,,ictbaseline.access-board.gov
@@ -134,7 +135,6 @@ Department of Agriculture,,famauth.wildfire.gov
 Department of Agriculture,,farmtoschoolcensus.fns.usda.gov
 Department of Agriculture,,fdc.nal.usda.gov
 Department of Agriculture,,foodbuyingguide.fns.usda.gov
-Department of Agriculture,,fs.usda.gov
 Department of Agriculture,,fsa.usda.gov
 Department of Agriculture,,fungi.ars.usda.gov
 Department of Agriculture,,geodata-prod.nal.usda.gov
@@ -756,6 +756,7 @@ Department of Energy,Sandia National Laboratories,cross-sim.sandia.gov
 Department of Energy,Sandia National Laboratories,dakota.sandia.gov
 Department of Energy,Sandia National Laboratories,dante.sandia.gov
 Department of Energy,Sandia National Laboratories,doepeerreview.sandia.gov
+Department of Energy,Sandia National Laboratories,energy.sandia.gov
 Department of Energy,Sandia National Laboratories,gadras.sandia.gov
 Department of Energy,Sandia National Laboratories,hpc.sandia.gov
 Department of Energy,Sandia National Laboratories,hr.sandia.gov
@@ -777,6 +778,8 @@ Department of Energy,Sandia National Laboratories,sarape.sandia.gov
 Department of Energy,Sandia National Laboratories,snlweather.sandia.gov
 Department of Energy,Sandia National Laboratories,suns.sandia.gov
 Department of Energy,Sandia National Laboratories,tracktable.sandia.gov
+Department of Energy,Sandia National Laboratories,ttr.sandia.gov
+Department of Energy,Sandia National Laboratories,umbra.sandia.gov
 Department of Energy,Sandia National Laboratories,xraytoolkit.sandia.gov
 Department of Energy,Sandia National Laboratories,xyce.sandia.gov
 Department of Energy,Savannah River National Lab,srnl.gov
@@ -860,7 +863,6 @@ Department of Health and Human Services,Centers for Disease Control and Preventi
 Department of Health and Human Services,Centers for Disease Control and Prevention,phinvads.cdc.gov
 Department of Health and Human Services,Centers for Disease Control and Prevention,phlip.cdc.gov
 Department of Health and Human Services,Centers for Disease Control and Prevention,phlipstage.cdc.gov
-Department of Health and Human Services,Centers for Disease Control and Prevention,places.cdc.gov
 Department of Health and Human Services,Centers for Disease Control and Prevention,profiles-explorer.cdc.gov
 Department of Health and Human Services,Centers for Disease Control and Prevention,reach.cdc.gov
 Department of Health and Human Services,Centers for Disease Control and Prevention,selectagents.gov
@@ -931,7 +933,6 @@ Department of Health and Human Services,Centers for Medicare and Medicaid Servic
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,medicare.gov
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,medicarerebates.helpdesk.cms.gov
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,mtf.helpdesk.cms.gov
-Department of Health and Human Services,Centers for Medicare and Medicaid Services,openpayments-system.cms.gov
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,openpayments.system.cms.gov
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,openpaymentsdata.cms.gov
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,pecosai.portal.cms.gov
@@ -1208,6 +1209,7 @@ Department of Health and Human Services,National Institutes of Health,icmr.nhlbi
 Department of Health and Human Services,National Institutes of Health,id.nlm.nih.gov
 Department of Health and Human Services,National Institutes of Health,id.wip.nlm.nih.gov
 Department of Health and Human Services,National Institutes of Health,imagej.nih.gov
+Department of Health and Human Services,National Institutes of Health,imagic.nlm.nih.gov
 Department of Health and Human Services,National Institutes of Health,imagwiki.nibib.nih.gov
 Department of Health and Human Services,National Institutes of Health,immport.niaid.nih.gov
 Department of Health and Human Services,National Institutes of Health,indexcat.nlm.nih.gov
@@ -1227,6 +1229,7 @@ Department of Health and Human Services,National Institutes of Health,learn.wip.
 Department of Health and Human Services,National Institutes of Health,learningcenter.niaid.nih.gov
 Department of Health and Human Services,National Institutes of Health,lhc-maintenance.nlm.nih.gov
 Department of Health and Human Services,National Institutes of Health,lhncbc-portal.lhcaws-prod-pub.nlm.nih.gov
+Department of Health and Human Services,National Institutes of Health,lhncbc.nlm.nih.gov
 Department of Health and Human Services,National Institutes of Health,magpie.nlm.nih.gov
 Department of Health and Human Services,National Institutes of Health,mainweb.awsprod.nlm.nih.gov
 Department of Health and Human Services,National Institutes of Health,manticore.niehs.nih.gov
@@ -1298,7 +1301,6 @@ Department of Health and Human Services,National Institutes of Health,pivauthtes
 Department of Health and Human Services,National Institutes of Health,pivauthtest.nih.gov
 Department of Health and Human Services,National Institutes of Health,pmc-d.ncbi.nlm.nih.gov
 Department of Health and Human Services,National Institutes of Health,pmc.ncbi.nlm.nih.gov
-Department of Health and Human Services,National Institutes of Health,policymanual.nih.gov
 Department of Health and Human Services,National Institutes of Health,powerapps.nhlbi.nih.gov
 Department of Health and Human Services,National Institutes of Health,prevention.nih.gov
 Department of Health and Human Services,National Institutes of Health,preview.ncbi.nlm.nih.gov
@@ -1379,6 +1381,7 @@ Department of Health and Human Services,"Office of Disease Prevention and Health
 Department of Health and Human Services,"Office of Disease Prevention and Health Promotion, Office of the Secretary",odphp.health.gov
 Department of Health and Human Services,"Office of Public Health and Science, Office on Women's Health",espanol.womenshealth.gov
 Department of Health and Human Services,"Office of Public Health and Science, Office on Women's Health",womenshealth.gov
+Department of Health and Human Services,Office of the Assistant Secretary for Health,ahead.hiv.gov
 Department of Health and Human Services,Office of the Assistant Secretary for Health,clinicalinfo.hiv.gov
 Department of Health and Human Services,Office of the Assistant Secretary for Health,locator.hiv.gov
 Department of Health and Human Services,"Office of the National Coordinator, Office of the Secretary",oncprojectracking.healthit.gov
@@ -1411,7 +1414,6 @@ Department of Health and Human Services,Program Support Center,dcp.psc.gov
 Department of Health and Human Services,Program Support Center,example.hhsops.gov
 Department of Health and Human Services,Substance Abuse and Mental Health Services Administration,datatools.samhsa.gov
 Department of Health and Human Services,Substance Abuse and Mental Health Services Administration,findtreatment.gov
-Department of Health and Human Services,Substance Abuse and Mental Health Services Administration,samhsa.gov
 Department of Homeland Security,Citizenship and Immigration Services,citizenshipgrants.uscis.gov
 Department of Homeland Security,Citizenship and Immigration Services,developer.uscis.gov
 Department of Homeland Security,Citizenship and Immigration Services,myaccount.uscis.gov
@@ -1712,6 +1714,7 @@ Department of Labor,Employment and Training Administration,bamberg.jobcorps.gov
 Department of Labor,Employment and Training Administration,benjaminlhooks.jobcorps.gov
 Department of Labor,Employment and Training Administration,blueridge.jobcorps.gov
 Department of Labor,Employment and Training Administration,boxelder.jobcorps.gov
+Department of Labor,Employment and Training Administration,brooklyn.jobcorps.gov
 Department of Labor,Employment and Training Administration,brunswick.jobcorps.gov
 Department of Labor,Employment and Training Administration,carldperkins.jobcorps.gov
 Department of Labor,Employment and Training Administration,cascades.jobcorps.gov
@@ -1765,11 +1768,13 @@ Department of Labor,Employment and Training Administration,northlands.jobcorps.g
 Department of Labor,Employment and Training Administration,northtexas.jobcorps.gov
 Department of Labor,Employment and Training Administration,oconaluftee.jobcorps.gov
 Department of Labor,Employment and Training Administration,olddominion.jobcorps.gov
+Department of Labor,Employment and Training Administration,oneonta.jobcorps.gov
 Department of Labor,Employment and Training Administration,ottumwa.jobcorps.gov
 Department of Labor,Employment and Training Administration,paulsimonchicago.jobcorps.gov
 Department of Labor,Employment and Training Administration,penobscot.jobcorps.gov
 Department of Labor,Employment and Training Administration,philadelphia.jobcorps.gov
 Department of Labor,Employment and Training Administration,phoenix.jobcorps.gov
+Department of Labor,Employment and Training Administration,pineknot.jobcorps.gov
 Department of Labor,Employment and Training Administration,pinellascounty.jobcorps.gov
 Department of Labor,Employment and Training Administration,pineridge.jobcorps.gov
 Department of Labor,Employment and Training Administration,pivot.jobcorps.gov
@@ -2114,6 +2119,7 @@ Department of Veterans Affairs,"Office of Information and Technology, IT Operati
 Department of Veterans Affairs,"Office of Information and Technology, IT Operations and Services (ITOPS)",sci.va.gov
 Department of Veterans Affairs,"Office of Information and Technology, IT Operations and Services (ITOPS)",seattle.eric.research.va.gov
 Department of Veterans Affairs,"Office of Information and Technology, IT Operations and Services (ITOPS)",seattledenvercoin.research.va.gov
+Department of Veterans Affairs,"Office of Information and Technology, IT Operations and Services (ITOPS)",socialwork.va.gov
 Department of Veterans Affairs,"Office of Information and Technology, IT Operations and Services (ITOPS)",stroke.cindrr.research.va.gov
 Department of Veterans Affairs,"Office of Information and Technology, IT Operations and Services (ITOPS)",telehealth.va.gov
 Department of Veterans Affairs,"Office of Information and Technology, IT Operations and Services (ITOPS)",va.gov
@@ -2629,6 +2635,7 @@ National Aeronautics and Space Administration,NASA Office of the Chief Informati
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,hera.gsfc.nasa.gov
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,ilrs.cddis.eosdis.nasa.gov
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,lance4.modaps.eosdis.nasa.gov
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,lasco6.nascom.nasa.gov
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,ldcm-cal.gsfc.nasa.gov
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,lhea.gsfc.nasa.gov
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,lightning.nsstc.nasa.gov
@@ -2829,7 +2836,6 @@ Office of Personnel Management,,dowea-ed-aides.usajobs.gov
 Office of Personnel Management,,dowea-subs.usajobs.gov
 Office of Personnel Management,,dowea.usajobs.gov
 Office of Personnel Management,,drc-usadata.opm.gov
-Office of Personnel Management,,dsscareers.usajobs.gov
 Office of Personnel Management,,earlycareer.usajobs.gov
 Office of Personnel Management,,economist.usajobs.gov
 Office of Personnel Management,,eeoccareers.usajobs.gov
@@ -2992,7 +2998,6 @@ Public Buildings Reform Board,,pbrb.gov
 Railroad Retirement Board,,rrb.gov
 Small Business Administration,,certify.sba.gov
 Small Business Administration,,developer.sba.gov
-Small Business Administration,,dlap.sigma.lending.sba.gov
 Small Business Administration,,lending.sba.gov
 Small Business Administration,,my.sba.gov
 Small Business Administration,,sba.gov
