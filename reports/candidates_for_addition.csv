@@ -95,6 +95,7 @@ agency,bureau,initial_domain
 ,,wiesbaden.armymwr.com
 ,,yuma.armymwr.com
 ,,zama.armymwr.com
+,,zh-store.usps.com
 ,,zh.usps.com
 Access Board,,beta.access-board.gov
 Access Board,,ictbaseline.access-board.gov
@@ -755,14 +756,12 @@ Department of Energy,Pacific Northwest National Laboratory,transmission-library.
 Department of Energy,Pacific Northwest National Laboratory,windvalt.pnnl.gov
 Department of Energy,Portsmouth/Paducah Project Office,eic.ports.pppo.gov
 Department of Energy,Sandia National Laboratories,charon.sandia.gov
-Department of Energy,Sandia National Laboratories,clean-air.sandia.gov
 Department of Energy,Sandia National Laboratories,doepeerreview.sandia.gov
 Department of Energy,Sandia National Laboratories,ecn.sandia.gov
 Department of Energy,Sandia National Laboratories,energy.sandia.gov
 Department of Energy,Sandia National Laboratories,ip.sandia.gov
 Department of Energy,Sandia National Laboratories,jastoolbox.sandia.gov
 Department of Energy,Sandia National Laboratories,modsimtoolsdownloads.sandia.gov
-Department of Energy,Sandia National Laboratories,mykonos.sandia.gov
 Department of Energy,Sandia National Laboratories,nirp.sandia.gov
 Department of Energy,Sandia National Laboratories,opencsp.sandia.gov
 Department of Energy,Sandia National Laboratories,overqc.sandia.gov
@@ -776,7 +775,7 @@ Department of Energy,Sandia National Laboratories,rtc.sandia.gov
 Department of Energy,Sandia National Laboratories,s3c.sandia.gov
 Department of Energy,Sandia National Laboratories,sandia.gov
 Department of Energy,Sandia National Laboratories,tracktable.sandia.gov
-Department of Energy,Sandia National Laboratories,ttr.sandia.gov
+Department of Energy,Sandia National Laboratories,umbra.sandia.gov
 Department of Energy,Sandia National Laboratories,xraise.sandia.gov
 Department of Energy,Sandia National Laboratories,xraytoolkit.sandia.gov
 Department of Energy,Savannah River National Lab,srnl.gov
@@ -837,8 +836,10 @@ Department of Health and Human Services,Centers for Disease Control and Preventi
 Department of Health and Human Services,Centers for Disease Control and Prevention,finddoxypep.cdc.gov
 Department of Health and Human Services,Centers for Disease Control and Prevention,fundingprofiles.cdc.gov
 Department of Health and Human Services,Centers for Disease Control and Prevention,gettested.cdc.gov
+Department of Health and Human Services,Centers for Disease Control and Prevention,heart-stroke-atlas.cdc.gov
 Department of Health and Human Services,Centers for Disease Control and Prevention,hehr.cdc.gov
 Department of Health and Human Services,Centers for Disease Control and Prevention,hivrisk.cdc.gov
+Department of Health and Human Services,Centers for Disease Control and Prevention,icd10cmtool.cdc.gov
 Department of Health and Human Services,Centers for Disease Control and Prevention,int-ddt-vehss.cdc.gov
 Department of Health and Human Services,Centers for Disease Control and Prevention,jobs-origin.cdc.gov
 Department of Health and Human Services,Centers for Disease Control and Prevention,jobs.cdc.gov
@@ -864,7 +865,6 @@ Department of Health and Human Services,Centers for Disease Control and Preventi
 Department of Health and Human Services,Centers for Disease Control and Prevention,profiles-explorer.cdc.gov
 Department of Health and Human Services,Centers for Disease Control and Prevention,reach.cdc.gov
 Department of Health and Human Services,Centers for Disease Control and Prevention,selectagents.gov
-Department of Health and Human Services,Centers for Disease Control and Prevention,shi.cdc.gov
 Department of Health and Human Services,Centers for Disease Control and Prevention,simplereport.gov
 Department of Health and Human Services,Centers for Disease Control and Prevention,snapshot2024.atsdr.cdc.gov
 Department of Health and Human Services,Centers for Disease Control and Prevention,snapshot2024atsdr.cdc.gov
@@ -873,10 +873,10 @@ Department of Health and Human Services,Centers for Disease Control and Preventi
 Department of Health and Human Services,Centers for Disease Control and Prevention,tools.cdc.gov
 Department of Health and Human Services,Centers for Disease Control and Prevention,training.simplereport.gov
 Department of Health and Human Services,Centers for Disease Control and Prevention,vaccines.gov
-Department of Health and Human Services,Centers for Disease Control and Prevention,vaxvizapp.cdc.gov
 Department of Health and Human Services,Centers for Disease Control and Prevention,vetoviolence.cdc.gov
 Department of Health and Human Services,Centers for Disease Control and Prevention,wisqars-viz.cdc.gov
 Department of Health and Human Services,Centers for Disease Control and Prevention,wisqars-viz.glb.cdc.gov
+Department of Health and Human Services,Centers for Disease Control and Prevention,wisqars.cdc.gov
 Department of Health and Human Services,Centers for Disease Control and Prevention,wisqars.glb.cdc.gov
 Department of Health and Human Services,Centers for Disease Control and Prevention,wonder.cdc.gov
 Department of Health and Human Services,Centers for Disease Control and Prevention,yourdiabetescompass.cdc.gov
@@ -1071,6 +1071,7 @@ Department of Health and Human Services,"National Cancer Institute, NIH",sbir.ca
 Department of Health and Human Services,"National Cancer Institute, NIH",scatlaslc.ccr.cancer.gov
 Department of Health and Human Services,"National Cancer Institute, NIH",sclccelllines.cancer.gov
 Department of Health and Human Services,"National Cancer Institute, NIH",seer.cancer.gov
+Department of Health and Human Services,"National Cancer Institute, NIH",shared.semantics.cancer.gov
 Department of Health and Human Services,"National Cancer Institute, NIH",sip.evs.cancer.gov
 Department of Health and Human Services,"National Cancer Institute, NIH",smokefree.gov
 Department of Health and Human Services,"National Cancer Institute, NIH",specimens.cancer.gov
@@ -1086,6 +1087,7 @@ Department of Health and Human Services,"National Cancer Institute, NIH",tp53.ca
 Department of Health and Human Services,"National Cancer Institute, NIH",trainatnci.cancer.gov
 Department of Health and Human Services,"National Cancer Institute, NIH",training.seer.cancer.gov
 Department of Health and Human Services,"National Cancer Institute, NIH",veterans.smokefree.gov
+Department of Health and Human Services,National Center for Advancing Translational Sciences,tox21.gov
 Department of Health and Human Services,"National Institute on Alcohol Abuse and Alcoholism, NIH",collegedrinkingprevention.gov
 Department of Health and Human Services,National Institutes of Health,3d.nih.gov
 Department of Health and Human Services,National Institutes of Health,accessgudid.nlm.nih.gov
@@ -1177,7 +1179,6 @@ Department of Health and Human Services,National Institutes of Health,findingaid
 Department of Health and Human Services,National Institutes of Health,fitbir-demo.cit.nih.gov
 Department of Health and Human Services,National Institutes of Health,fitbir.nih.gov
 Department of Health and Human Services,National Institutes of Health,fmrif.nimh.nih.gov
-Department of Health and Human Services,National Institutes of Health,formbuilder.nlm.nih.gov
 Department of Health and Human Services,National Institutes of Health,gap.tbportals.niaid.nih.gov
 Department of Health and Human Services,National Institutes of Health,gbm-biodp-prod-sg.ha.nci.nih.gov
 Department of Health and Human Services,National Institutes of Health,gbm-biodp.nci.nih.gov
@@ -1211,7 +1212,6 @@ Department of Health and Human Services,National Institutes of Health,indexcat.n
 Department of Health and Human Services,National Institutes of Health,indexcat.wip.nlm.nih.gov
 Department of Health and Human Services,National Institutes of Health,irbo.nih.gov
 Department of Health and Human Services,National Institutes of Health,irp.nida.nih.gov
-Department of Health and Human Services,National Institutes of Health,irpseminar.nlm.nih.gov
 Department of Health and Human Services,National Institutes of Health,irpseminar.wip.nlm.nih.gov
 Department of Health and Human Services,National Institutes of Health,jats.nlm.nih.gov
 Department of Health and Human Services,National Institutes of Health,joinastudy.niehs.nih.gov
@@ -2420,6 +2420,7 @@ Federal Deposit Insurance Corporation,,crapes-d.fdic.gov
 Federal Deposit Insurance Corporation,,crapes.fdic.gov
 Federal Deposit Insurance Corporation,,edie.fdic.gov
 Federal Deposit Insurance Corporation,,fdic.gov
+Federal Deposit Insurance Corporation,,household-survey-s.fdic.gov
 Federal Deposit Insurance Corporation,,ofia.gov
 Federal Deposit Insurance Corporation,,playmoneysmart.fdic.gov
 Federal Deposit Insurance Corporation,,qbpgraphbook.fdic.gov
@@ -2621,6 +2622,7 @@ National Aeronautics and Space Administration,NASA Office of the Chief Informati
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,gs674-sep.ccmc.gsfc.nasa.gov
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,hera.gsfc.nasa.gov
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,ilrs.cddis.eosdis.nasa.gov
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,lasco6.nascom.nasa.gov
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,ldcm-cal.gsfc.nasa.gov
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,lhea.gsfc.nasa.gov
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,lightning.nsstc.nasa.gov
@@ -2768,7 +2770,6 @@ Office of Personnel Management,,arpa-h-careers.usajobs.gov
 Office of Personnel Management,,arscareers.usajobs.gov
 Office of Personnel Management,,atec.usajobs.gov
 Office of Personnel Management,,atf.usajobs.gov
-Office of Personnel Management,,attorney.usajobs.gov
 Office of Personnel Management,,auditing.usajobs.gov
 Office of Personnel Management,,bamc.usajobs.gov
 Office of Personnel Management,,benefeds.gov
@@ -2905,7 +2906,6 @@ Office of Personnel Management,,nurse.usajobs.gov
 Office of Personnel Management,,nuwckeyport.usajobs.gov
 Office of Personnel Management,,obocareers.usajobs.gov
 Office of Personnel Management,,opm.gov
-Office of Personnel Management,,opm.usajobs.gov
 Office of Personnel Management,,opmoig.usajobs.gov
 Office of Personnel Management,,oshacareers.usajobs.gov
 Office of Personnel Management,,othercyber.usajobs.gov
@@ -2938,7 +2938,6 @@ Office of Personnel Management,,ssaidallas.usajobs.gov
 Office of Personnel Management,,ssaidenver.usajobs.gov
 Office of Personnel Management,,ssaiheadquarters.usajobs.gov
 Office of Personnel Management,,ssaikansascity.usajobs.gov
-Office of Personnel Management,,ssainewyork.usajobs.gov
 Office of Personnel Management,,ssaiphiladelphia.usajobs.gov
 Office of Personnel Management,,ssaisanfrancisco.usajobs.gov
 Office of Personnel Management,,ssaiseattle.usajobs.gov
@@ -2951,7 +2950,6 @@ Office of Personnel Management,,techearlycareer.usajobs.gov
 Office of Personnel Management,,tfi.usajobs.gov
 Office of Personnel Management,,treasury-occ.usajobs.gov
 Office of Personnel Management,,treasury.usajobs.gov
-Office of Personnel Management,,treasuryhq.usajobs.gov
 Office of Personnel Management,,usaccess.usalearning.gov
 Office of Personnel Management,,usace.usajobs.gov
 Office of Personnel Management,,usaceportland.usajobs.gov
@@ -2992,6 +2990,7 @@ Public Buildings Reform Board,,pbrb.gov
 Railroad Retirement Board,,rrb.gov
 Small Business Administration,,certify.sba.gov
 Small Business Administration,,developer.sba.gov
+Small Business Administration,,dlap.sigma.lending.sba.gov
 Small Business Administration,,legacy.sba.gov
 Small Business Administration,,lending.sba.gov
 Small Business Administration,,sba.gov
