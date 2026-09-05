@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: '0 8 * * *'
 
+permissions:
+  contents: write
+
 jobs:
   report-generation:
     name: Checkout, Build and Run
