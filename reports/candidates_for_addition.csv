@@ -27,7 +27,6 @@ agency,bureau,initial_domain
 ,,drum.armymwr.com
 ,,dugway.armymwr.com
 ,,eddm.usps.com
-,,es-store.usps.com
 ,,es.usps.com
 ,,faq.usps.com
 ,,fast-tem.usps.com
@@ -163,7 +162,6 @@ Department of Agriculture,,snaped.fna.usda.gov
 Department of Agriculture,,uatpstrainingtracker.fns.usda.gov
 Department of Agriculture,,usbiotechnologyregulation.mrp.usda.gov
 Department of Agriculture,,wicworks.fna.usda.gov
-Department of Agriculture,,wicworks.fns.usda.gov
 Department of Agriculture,Agricultural Research Service,invasivespeciesinfo.gov
 Department of Agriculture,Agricultural Research Service,npgsweb.ars-grin.gov
 Department of Agriculture,Forest Service,forestsandrangelands.gov
@@ -793,6 +791,7 @@ Department of Energy,Pacific Northwest National Laboratory,transmission-library.
 Department of Energy,Pacific Northwest National Laboratory,windvalt.pnnl.gov
 Department of Energy,Portsmouth/Paducah Project Office,eic.ports.pppo.gov
 Department of Energy,Sandia National Laboratories,autonomy.sandia.gov
+Department of Energy,Sandia National Laboratories,clean-air.sandia.gov
 Department of Energy,Sandia National Laboratories,ecn.sandia.gov
 Department of Energy,Sandia National Laboratories,energy.sandia.gov
 Department of Energy,Sandia National Laboratories,far-qc.sandia.gov
@@ -804,7 +803,6 @@ Department of Energy,Sandia National Laboratories,ktf.sandia.gov
 Department of Energy,Sandia National Laboratories,maccs.sandia.gov
 Department of Energy,Sandia National Laboratories,modsimtools.sandia.gov
 Department of Energy,Sandia National Laboratories,modsimtoolsdownloads.sandia.gov
-Department of Energy,Sandia National Laboratories,mykonos.sandia.gov
 Department of Energy,Sandia National Laboratories,neuroscience.sandia.gov
 Department of Energy,Sandia National Laboratories,nirp.sandia.gov
 Department of Energy,Sandia National Laboratories,nsr-chip.sandia.gov
@@ -822,11 +820,10 @@ Department of Energy,Sandia National Laboratories,snlweather.sandia.gov
 Department of Energy,Sandia National Laboratories,storms.sandia.gov
 Department of Energy,Sandia National Laboratories,thunderbirdhacks.sandia.gov
 Department of Energy,Sandia National Laboratories,tracktable.sandia.gov
-Department of Energy,Sandia National Laboratories,ttr.sandia.gov
+Department of Energy,Sandia National Laboratories,umbra.sandia.gov
 Department of Energy,Sandia National Laboratories,xraise.sandia.gov
 Department of Energy,Sandia National Laboratories,xraytoolkit.sandia.gov
 Department of Energy,Sandia National Laboratories,xtk-recon.sandia.gov
-Department of Energy,Sandia National Laboratories,xyce.sandia.gov
 Department of Energy,Savannah River National Lab,srnl.gov
 Department of Energy,Savannah River Nuclear Solutions (SRNS),public.srs.gov
 Department of Energy,Western Area Power Administration,wapa.gov
@@ -909,6 +906,7 @@ Department of Health and Human Services,Centers for Disease Control and Preventi
 Department of Health and Human Services,Centers for Disease Control and Prevention,profiles-explorer.cdc.gov
 Department of Health and Human Services,Centers for Disease Control and Prevention,reach.cdc.gov
 Department of Health and Human Services,Centers for Disease Control and Prevention,selectagents.gov
+Department of Health and Human Services,Centers for Disease Control and Prevention,shi.cdc.gov
 Department of Health and Human Services,Centers for Disease Control and Prevention,simplereport.gov
 Department of Health and Human Services,Centers for Disease Control and Prevention,snapshot2024.atsdr.cdc.gov
 Department of Health and Human Services,Centers for Disease Control and Prevention,snapshot2024atsdr.cdc.gov
@@ -916,6 +914,7 @@ Department of Health and Human Services,Centers for Disease Control and Preventi
 Department of Health and Human Services,Centers for Disease Control and Prevention,tools-origin.cdc.gov
 Department of Health and Human Services,Centers for Disease Control and Prevention,tools.cdc.gov
 Department of Health and Human Services,Centers for Disease Control and Prevention,vaccines.gov
+Department of Health and Human Services,Centers for Disease Control and Prevention,vaxvizapp.cdc.gov
 Department of Health and Human Services,Centers for Disease Control and Prevention,vetoviolence.cdc.gov
 Department of Health and Human Services,Centers for Disease Control and Prevention,wisqars-viz.cdc.gov
 Department of Health and Human Services,Centers for Disease Control and Prevention,wisqars-viz.glb.cdc.gov
@@ -1050,6 +1049,7 @@ Department of Health and Human Services,"National Cancer Institute, NIH",dctd-pr
 Department of Health and Human Services,"National Cancer Institute, NIH",dctd.cancer.gov
 Department of Health and Human Services,"National Cancer Institute, NIH",designsystem.cancer.gov
 Department of Health and Human Services,"National Cancer Institute, NIH",docs.gdc.cancer.gov
+Department of Health and Human Services,"National Cancer Institute, NIH",ebccp.cancercontrol.cancer.gov
 Department of Health and Human Services,"National Cancer Institute, NIH",emblem.cancer.gov
 Department of Health and Human Services,"National Cancer Institute, NIH",epi.grants.cancer.gov
 Department of Health and Human Services,"National Cancer Institute, NIH",events.cancer.gov
@@ -1244,7 +1244,6 @@ Department of Health and Human Services,National Institutes of Health,green-uts-
 Department of Health and Human Services,National Institutes of Health,green-uts-us-east-1.awsprod.nlm.nih.gov
 Department of Health and Human Services,National Institutes of Health,green-uts-us-east-1.awsqa.nlm.nih.gov
 Department of Health and Human Services,National Institutes of Health,handls.nih.gov
-Department of Health and Human Services,National Institutes of Health,hcmi-searchable-catalog.nci.nih.gov
 Department of Health and Human Services,National Institutes of Health,hdpulse.nimhd.nih.gov
 Department of Health and Human Services,National Institutes of Health,helixweb.nih.gov
 Department of Health and Human Services,National Institutes of Health,hivinfo.nih.gov
@@ -1336,7 +1335,6 @@ Department of Health and Human Services,National Institutes of Health,opendata.n
 Department of Health and Human Services,National Institutes of Health,openi.nlm.nih.gov
 Department of Health and Human Services,National Institutes of Health,orip.nih.gov
 Department of Health and Human Services,National Institutes of Health,os1.cc.nih.gov
-Department of Health and Human Services,National Institutes of Health,outreachpro.nia.nih.gov
 Department of Health and Human Services,National Institutes of Health,oxcam.gpp.nih.gov
 Department of Health and Human Services,National Institutes of Health,pave.niaid.nih.gov
 Department of Health and Human Services,National Institutes of Health,pdbp.ninds.nih.gov
@@ -2744,6 +2742,8 @@ National Archives and Records Administration,,aotus.blogs.archives.gov
 National Archives and Records Administration,,aotus11.blogs.archives.gov
 National Archives and Records Administration,,archie.archives.gov
 National Archives and Records Administration,,archieai-pilot.archives.gov
+National Archives and Records Administration,,archives.gov
+National Archives and Records Administration,,bidenlibrary.gov
 National Archives and Records Administration,,bidenwhitehouse.archives.gov
 National Archives and Records Administration,,bush41library.gov
 National Archives and Records Administration,,catalog.archives.gov
