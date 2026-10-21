@@ -798,8 +798,6 @@ Department of Energy,Pacific Northwest National Laboratory,transmission-library.
 Department of Energy,Pacific Northwest National Laboratory,windvalt.pnnl.gov
 Department of Energy,Portsmouth/Paducah Project Office,eic.ports.pppo.gov
 Department of Energy,Sandia National Laboratories,anywhere.sandia.gov
-Department of Energy,Sandia National Laboratories,autonomy.sandia.gov
-Department of Energy,Sandia National Laboratories,clean-air.sandia.gov
 Department of Energy,Sandia National Laboratories,cubit.sandia.gov
 Department of Energy,Sandia National Laboratories,dante.sandia.gov
 Department of Energy,Sandia National Laboratories,doepeerreview.sandia.gov
@@ -807,9 +805,11 @@ Department of Energy,Sandia National Laboratories,energy.sandia.gov
 Department of Energy,Sandia National Laboratories,fluidflowvisualization.sandia.gov
 Department of Energy,Sandia National Laboratories,hpc.sandia.gov
 Department of Energy,Sandia National Laboratories,hr.sandia.gov
+Department of Energy,Sandia National Laboratories,ktf.sandia.gov
 Department of Energy,Sandia National Laboratories,ldesconsortium.sandia.gov
 Department of Energy,Sandia National Laboratories,lsimaging.sandia.gov
 Department of Energy,Sandia National Laboratories,maccs.sandia.gov
+Department of Energy,Sandia National Laboratories,mykonos.sandia.gov
 Department of Energy,Sandia National Laboratories,neuroscience.sandia.gov
 Department of Energy,Sandia National Laboratories,newsreleases.sandia.gov
 Department of Energy,Sandia National Laboratories,nirp.sandia.gov
@@ -822,10 +822,10 @@ Department of Energy,Sandia National Laboratories,sarape.sandia.gov
 Department of Energy,Sandia National Laboratories,snlweather.sandia.gov
 Department of Energy,Sandia National Laboratories,storms.sandia.gov
 Department of Energy,Sandia National Laboratories,thunderbirdhacks.sandia.gov
-Department of Energy,Sandia National Laboratories,ttr.sandia.gov
 Department of Energy,Sandia National Laboratories,vorocrust.sandia.gov
 Department of Energy,Sandia National Laboratories,xraise.sandia.gov
 Department of Energy,Sandia National Laboratories,xraytoolkit.sandia.gov
+Department of Energy,Sandia National Laboratories,xyce.sandia.gov
 Department of Energy,Savannah River National Lab,srnl.gov
 Department of Energy,Savannah River Nuclear Solutions (SRNS),public.srs.gov
 Department of Energy,Western Area Power Administration,wapa.gov
@@ -877,6 +877,7 @@ Department of Health and Human Services,Centers for Disease Control and Preventi
 Department of Health and Human Services,Centers for Disease Control and Prevention,ephtracking.glb.cdc.gov
 Department of Health and Human Services,Centers for Disease Control and Prevention,finddoxypep.cdc.gov
 Department of Health and Human Services,Centers for Disease Control and Prevention,fundingprofiles.cdc.gov
+Department of Health and Human Services,Centers for Disease Control and Prevention,gettested.cdc.gov
 Department of Health and Human Services,Centers for Disease Control and Prevention,heart-stroke-atlas.cdc.gov
 Department of Health and Human Services,Centers for Disease Control and Prevention,hehr.cdc.gov
 Department of Health and Human Services,Centers for Disease Control and Prevention,hivrisk.cdc.gov
@@ -902,7 +903,6 @@ Department of Health and Human Services,Centers for Disease Control and Preventi
 Department of Health and Human Services,Centers for Disease Control and Prevention,profiles-explorer.cdc.gov
 Department of Health and Human Services,Centers for Disease Control and Prevention,reach.cdc.gov
 Department of Health and Human Services,Centers for Disease Control and Prevention,selectagents.gov
-Department of Health and Human Services,Centers for Disease Control and Prevention,shi.cdc.gov
 Department of Health and Human Services,Centers for Disease Control and Prevention,simplereport.gov
 Department of Health and Human Services,Centers for Disease Control and Prevention,snapshot2024.atsdr.cdc.gov
 Department of Health and Human Services,Centers for Disease Control and Prevention,snapshot2024atsdr.cdc.gov
@@ -910,7 +910,6 @@ Department of Health and Human Services,Centers for Disease Control and Preventi
 Department of Health and Human Services,Centers for Disease Control and Prevention,tools-origin.cdc.gov
 Department of Health and Human Services,Centers for Disease Control and Prevention,tools.cdc.gov
 Department of Health and Human Services,Centers for Disease Control and Prevention,vaccines.gov
-Department of Health and Human Services,Centers for Disease Control and Prevention,vaxvizapp.cdc.gov
 Department of Health and Human Services,Centers for Disease Control and Prevention,vetoviolence.cdc.gov
 Department of Health and Human Services,Centers for Disease Control and Prevention,wisqars-viz.cdc.gov
 Department of Health and Human Services,Centers for Disease Control and Prevention,wisqars-viz.glb.cdc.gov
@@ -975,6 +974,7 @@ Department of Health and Human Services,Centers for Medicare and Medicaid Servic
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,prodpreview.eqrs.cms.gov
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,qpp.cms.gov
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,qtso.cms.gov
+Department of Health and Human Services,Centers for Medicare and Medicaid Services,security.cms.gov
 Department of Health and Human Services,Centers for Medicare and Medicaid Services,webpricer.mps.cms.gov
 Department of Health and Human Services,"Enterprise Information Technology, NIH",binkley2.ncifcrf.gov
 Department of Health and Human Services,"Enterprise Information Technology, NIH",fsswpl-rnast01p.ncifcrf.gov
@@ -1045,10 +1045,12 @@ Department of Health and Human Services,"National Cancer Institute, NIH",dctd-pr
 Department of Health and Human Services,"National Cancer Institute, NIH",dctd.cancer.gov
 Department of Health and Human Services,"National Cancer Institute, NIH",designsystem.cancer.gov
 Department of Health and Human Services,"National Cancer Institute, NIH",docs.gdc.cancer.gov
+Department of Health and Human Services,"National Cancer Institute, NIH",ebccp.cancercontrol.cancer.gov
 Department of Health and Human Services,"National Cancer Institute, NIH",emblem.cancer.gov
 Department of Health and Human Services,"National Cancer Institute, NIH",epi.grants.cancer.gov
 Department of Health and Human Services,"National Cancer Institute, NIH",events.cancer.gov
 Department of Health and Human Services,"National Cancer Institute, NIH",evsexplore.semantics.cancer.gov
+Department of Health and Human Services,"National Cancer Institute, NIH",exploregwas.cancer.gov
 Department of Health and Human Services,"National Cancer Institute, NIH",forgedb.cancer.gov
 Department of Health and Human Services,"National Cancer Institute, NIH",frederick.cancer.gov
 Department of Health and Human Services,"National Cancer Institute, NIH",fundedresearch.cancer.gov
@@ -1284,7 +1286,6 @@ Department of Health and Human Services,National Institutes of Health,megcore.ni
 Department of Health and Human Services,National Institutes of Health,meshb-prev.nlm.nih.gov
 Department of Health and Human Services,National Institutes of Health,meshb.nlm.nih.gov
 Department of Health and Human Services,National Institutes of Health,meshb.wip.nlm.nih.gov
-Department of Health and Human Services,National Institutes of Health,meshondemand.nlm.nih.gov
 Department of Health and Human Services,National Institutes of Health,metabolomics-sig.nih.gov
 Department of Health and Human Services,National Institutes of Health,mipav-prod.cit.nih.gov
 Department of Health and Human Services,National Institutes of Health,mipav.cit.nih.gov
@@ -1511,7 +1512,6 @@ Department of Justice,,join.justice.gov
 Department of Justice,,oig.justice.gov
 Department of Justice,,vcf.gov
 Department of Justice,"Bureau of Alcohol, Tobacco, Firearms, and Explosives",learnatf.gov
-Department of Justice,"Bureau of Alcohol, Tobacco, Firearms, and Explosives",regulations.atf.gov
 Department of Justice,Civil Rights Division,ada.gov
 Department of Justice,Civil Rights Division,archive.ada.gov
 Department of Justice,"Department of Justice, National Institute of Corrections",id.nicic.gov
@@ -1872,6 +1872,7 @@ Department of State,Bureau of Global Public Affairs,al.usembassy.gov
 Department of State,Bureau of Global Public Affairs,allowances.state.gov
 Department of State,Bureau of Global Public Affairs,alumni.state.gov
 Department of State,Bureau of Global Public Affairs,am.usembassy.gov
+Department of State,Bureau of Global Public Affairs,americanenglish.state.gov
 Department of State,Bureau of Global Public Affairs,americanspaces.state.gov
 Department of State,Bureau of Global Public Affairs,ao.usembassy.gov
 Department of State,Bureau of Global Public Affairs,ar.usembassy.gov
@@ -2136,7 +2137,6 @@ Department of Veterans Affairs,"Office of Information and Technology, IT Operati
 Department of Veterans Affairs,"Office of Information and Technology, IT Operations and Services (ITOPS)",hcsc.va.gov
 Department of Veterans Affairs,"Office of Information and Technology, IT Operations and Services (ITOPS)",healthquality.va.gov
 Department of Veterans Affairs,"Office of Information and Technology, IT Operations and Services (ITOPS)",hiv.va.gov
-Department of Veterans Affairs,"Office of Information and Technology, IT Operations and Services (ITOPS)",houston.hsrd.research.va.gov
 Department of Veterans Affairs,"Office of Information and Technology, IT Operations and Services (ITOPS)",innovation.va.gov
 Department of Veterans Affairs,"Office of Information and Technology, IT Operations and Services (ITOPS)",marketplace.va.gov
 Department of Veterans Affairs,"Office of Information and Technology, IT Operations and Services (ITOPS)",mentalhealth.va.gov
@@ -2222,6 +2222,7 @@ Department of the Interior,National Park Service,volunteer.gov
 Department of the Interior,Office of Surface Mining Reclamation and Enforcement,amlis.osmre.gov
 Department of the Interior,Office of Surface Mining Reclamation and Enforcement,avss.osmre.gov
 Department of the Interior,Office of Surface Mining Reclamation and Enforcement,eamlis-training.osmre.gov
+Department of the Interior,Office of Surface Mining Reclamation and Enforcement,eamlis.osmre.gov
 Department of the Interior,Office of Surface Mining Reclamation and Enforcement,geomine.osmre.gov
 Department of the Interior,Office of Surface Mining Reclamation and Enforcement,mmr.osmre.gov
 Department of the Interior,Office of Surface Mining Reclamation and Enforcement,odocs.osmre.gov
@@ -2397,6 +2398,7 @@ Environmental Protection Agency,,fire.airnow.gov
 Environmental Protection Agency,,frtr.gov
 Environmental Protection Agency,,ghgreporting.epa.gov
 Environmental Protection Agency,,gpdashboard.epa.gov
+Environmental Protection Agency,,guideme.epa.gov
 Environmental Protection Agency,,hawc.epa.gov
 Environmental Protection Agency,,heronetnext.epa.gov
 Environmental Protection Agency,,humo.airnow.gov
@@ -2433,6 +2435,7 @@ Environmental Protection Agency,,sor-scc-api.epa.gov
 Environmental Protection Agency,,sor.epa.gov
 Environmental Protection Agency,,sustainability.gov
 Environmental Protection Agency,,swcweb.epa.gov
+Environmental Protection Agency,,tcots.epa.gov
 Environmental Protection Agency,,tdb.epa.gov
 Environmental Protection Agency,,termlookup.epa.gov
 Environmental Protection Agency,,tots.epa.gov
@@ -2681,6 +2684,7 @@ National Aeronautics and Space Administration,NASA Office of the Chief Informati
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,gs674-sep.ccmc.gsfc.nasa.gov
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,hera.gsfc.nasa.gov
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,ilrs.cddis.eosdis.nasa.gov
+National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,lasco6.nascom.nasa.gov
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,ldcm-cal.gsfc.nasa.gov
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,lhea.gsfc.nasa.gov
 National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,lightning.nsstc.nasa.gov
@@ -2830,7 +2834,6 @@ Office of Personnel Management,,armyacquisition.usajobs.gov
 Office of Personnel Management,,armychildcarejobs.usajobs.gov
 Office of Personnel Management,,armycivilianservice.usajobs.gov
 Office of Personnel Management,,armymwrcareers.usajobs.gov
-Office of Personnel Management,,armynafciviliancareers.usajobs.gov
 Office of Personnel Management,,arpa-h-careers.usajobs.gov
 Office of Personnel Management,,arscareers.usajobs.gov
 Office of Personnel Management,,atec.usajobs.gov
@@ -2895,6 +2898,7 @@ Office of Personnel Management,,dowea-htf.usajobs.gov
 Office of Personnel Management,,dowea-subs.usajobs.gov
 Office of Personnel Management,,dowea.usajobs.gov
 Office of Personnel Management,,drc-usadata.opm.gov
+Office of Personnel Management,,dsscareers.usajobs.gov
 Office of Personnel Management,,earlycareer.usajobs.gov
 Office of Personnel Management,,economist.usajobs.gov
 Office of Personnel Management,,eeoccareers.usajobs.gov
